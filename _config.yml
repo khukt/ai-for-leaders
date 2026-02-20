@@ -7,28 +7,18 @@ description: "An open-source executive guide to AI strategy, regulation, governa
 baseurl: "/AI-for-Leaders"
 url: "https://khukt.github.io"
 
-remote_theme: mmistakes/minimal-mistakes
-minimal_mistakes_skin: "dark"
-
-search: true
+remote_theme: just-the-docs/just-the-docs
+color_scheme: light
+search_enabled: true
 permalink: pretty
-
-plugins:
-  - jekyll-remote-theme
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-include-cache
 
 collections:
   book:
     output: true
     permalink: /book/:name/
 
-defaults:
-  - scope:
-      path: ""
-      type: book
-    values:
-      layout: single
-      sidebar:
-        nav: "book"
+just_the_docs:
+  collections:
+    book:
+      name: Book
+      nav_fold: true

@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: default
 title: "AI Governance"
 nav_order: 5
 ---

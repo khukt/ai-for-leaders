@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: default
 title: "AI Landscape"
 nav_order: 2
 ---
