@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: single
 title: "AI Regulation & Penalties"
 nav_order: 3
 ---

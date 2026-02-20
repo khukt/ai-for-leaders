@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: single
 title: "Preface"
 nav_order: 1
 ---

@@ -1,0 +1,11 @@
+book:
+  - title: "Preface"
+    url: /AI-for-Leaders/book/00-preface/
+  - title: "AI Landscape"
+    url: /AI-for-Leaders/book/01-ai-landscape/
+  - title: "AI Regulation & Penalties"
+    url: /AI-for-Leaders/book/02-ai-regulation/
+  - title: "AI Strategy"
+    url: /AI-for-Leaders/book/03-ai-strategy/
+  - title: "AI Governance"
+    url: /AI-for-Leaders/book/04-ai-governance/
