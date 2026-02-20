@@ -1,0 +1,24 @@
+title: "AI for Management Leaders"
+description: "An open-source executive guide to AI strategy, regulation, governance, and risk"
+
+# IMPORTANT:
+# If your site URL is https://USER.github.io/REPO then set:
+# baseurl: "/REPO"
+baseurl: ""
+url: ""
+
+remote_theme: just-the-docs/just-the-docs
+color_scheme: light
+search_enabled: true
+permalink: pretty
+
+collections:
+  book:
+    output: true
+    permalink: /book/:name/
+
+just_the_docs:
+  collections:
+    book:
+      name: Book
+      nav_fold: true
