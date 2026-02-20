@@ -1,0 +1,60 @@
+name: Generate PDF
+
+on:
+  push:
+    paths:
+      - '_book/**'
+      - '.github/workflows/generate-pdf.yml'
+  workflow_dispatch:
+
+jobs:
+  generate-pdf:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install pandoc and LaTeX
+        run: |
+          sudo apt-get update -q
+          sudo apt-get install -y pandoc texlive-latex-base texlive-latex-extra texlive-fonts-recommended
+
+      - name: Combine book chapters
+        run: |
+          python3 << 'EOF'
+          import re
+
+          files = [
+              '_book/00-preface.md',
+              '_book/01-ai-landscape.md',
+              '_book/02-ai-regulation.md',
+              '_book/03-ai-strategy.md',
+              '_book/04-ai-governance.md',
+          ]
+
+          combined = "---\ntitle: \"AI for Leaders\"\nauthor: \"AI for Leaders\"\n---\n\n"
+
+          for f in files:
+              with open(f) as fp:
+                  content = fp.read()
+              content = re.sub(r'^---\n.*?---\n', '', content, flags=re.DOTALL)
+              content = re.sub(r'\{\{[^}]+\}\}', '', content)
+              combined += content.strip() + "\n\n\\newpage\n\n"
+
+          with open('/tmp/book.md', 'w') as fp:
+              fp.write(combined)
+          EOF
+
+      - name: Generate PDF
+        run: |
+          pandoc /tmp/book.md -o assets/AI-for-Leaders.pdf --pdf-engine=pdflatex -V geometry:margin=1in
+
+      - name: Commit updated PDF
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/AI-for-Leaders.pdf
+          git diff --cached --quiet || (git commit -m "chore: regenerate AI-for-Leaders.pdf" && git push)

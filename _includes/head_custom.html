@@ -12,6 +12,7 @@
     color: #fff;
     border: none;
     border-radius: 10px;
+    text-decoration: none;
     font-size: 0.95rem;
     font-weight: 600;
     cursor: pointer;
@@ -25,12 +26,13 @@
 </style>
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-    var btn = document.createElement('button');
+    var btn = document.createElement('a');
     btn.id = 'pdf-download-btn';
-    btn.title = 'Print or save as PDF';
-    btn.setAttribute('aria-label', 'Download or print page as PDF');
+    btn.title = 'Download the book as PDF';
+    btn.setAttribute('aria-label', 'Download the book as PDF');
     btn.innerHTML = '&#11015; Download PDF';
-    btn.onclick = function () { window.print(); };
+    btn.href = '{{ site.baseurl }}/assets/AI-for-Leaders.pdf';
+    btn.download = 'AI-for-Leaders.pdf';
     document.body.appendChild(btn);
   });
 </script>
