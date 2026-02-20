@@ -24,7 +24,7 @@ nav_order: 1
         Start reading →
       </a>
       <span style="display:inline-block; margin-left:10px;">
-        <a href="https://github.com/" style="text-decoration:none;">View on GitHub</a>
+        <a href="https://github.com/khukt/AI-for-Leaders" style="text-decoration:none;">View on GitHub</a>
       </span>
     </p>
   </div>
@@ -49,8 +49,8 @@ nav_order: 1
 
 ## Recommended reading path
 
-1. **Preface**
-2. **AI Landscape**
-3. **AI Regulation & Penalties**
-4. **AI Strategy**
-5. **AI Governance**
+1. [**Preface**]({{ site.baseurl }}/book/00-preface/)
+2. [**AI Landscape**]({{ site.baseurl }}/book/01-ai-landscape/)
+3. [**AI Regulation & Penalties**]({{ site.baseurl }}/book/02-ai-regulation/)
+4. [**AI Strategy**]({{ site.baseurl }}/book/03-ai-strategy/)
+5. [**AI Governance**]({{ site.baseurl }}/book/04-ai-governance/)
