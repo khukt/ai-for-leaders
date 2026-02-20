@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: default
 title: "AI Strategy"
 nav_order: 4
 ---
