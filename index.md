@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "AI for Management Leaders"
+title: "AI for Leaders"
 nav_order: 1
 ---
 
