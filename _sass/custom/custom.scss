@@ -101,7 +101,12 @@
 
 .interactive-diagram__pretrain-flow {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  grid-template-columns:
+    minmax(14rem, 1fr)
+    auto
+    minmax(14rem, 1fr)
+    auto
+    minmax(14rem, 1fr);
   gap: 1rem;
   align-items: stretch;
   margin-bottom: 0.9rem;
@@ -109,6 +114,7 @@
 
 .interactive-diagram__column,
 .interactive-diagram__fact-card {
+  min-width: 0;
   border: 1px solid #d7dfeb;
   border-radius: 18px;
   background: rgba(255, 255, 255, 0.92);
@@ -151,12 +157,20 @@
   margin-bottom: 0.45rem;
   color: #12263f;
   font-size: 1.02rem;
+  white-space: normal;
+  word-break: normal;
+  overflow-wrap: normal;
+  hyphens: none;
 }
 
 .interactive-diagram__column p {
   margin: 0;
   color: #4b5c77;
   font-size: 0.96rem;
+  white-space: normal;
+  word-break: normal;
+  overflow-wrap: normal;
+  hyphens: none;
 }
 
 .interactive-diagram__node-label,
@@ -310,12 +324,20 @@
   display: block;
   margin-bottom: 0.3rem;
   color: #12263f;
+  white-space: normal;
+  word-break: normal;
+  overflow-wrap: normal;
+  hyphens: none;
 }
 
 .interactive-diagram__fact-card p {
   margin: 0;
   color: #42526b;
   font-size: 0.95rem;
+  white-space: normal;
+  word-break: normal;
+  overflow-wrap: normal;
+  hyphens: none;
 }
 
 .interactive-diagram__rule {
@@ -364,6 +386,8 @@
   }
 
   .interactive-diagram__flow-arrow {
+    min-height: 2rem;
     font-size: 1.5rem;
+    transform: rotate(90deg);
   }
 }
