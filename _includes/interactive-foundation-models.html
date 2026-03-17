@@ -2,108 +2,90 @@
   <div class="interactive-diagram__app" data-interactive-diagram="pretrained-model">
     <div class="interactive-diagram__intro">
       <p class="interactive-diagram__eyebrow">Interactive Figure</p>
-      <h4 class="interactive-diagram__title">What a pretrained model is, and how it gets adapted</h4>
+      <h4 class="interactive-diagram__title">Pretrained is a training stage, not a model family</h4>
       <p class="interactive-diagram__summary">
-        A pretrained model is a general-purpose model trained before your specific use case exists. Use the buttons to see how the same base model can then be adapted in different ways.
+        A pretrained model is a model trained first on broad data and then reused later for a narrower task. Pick an example to see how that applies across different model families.
       </p>
     </div>
 
-    <div class="interactive-diagram__controls" aria-label="Pretrained model adaptation options">
-      <button class="interactive-diagram__tab is-active" type="button" aria-pressed="true" data-diagram-tab="prompting">
-        Prompting
-      </button>
-      <button class="interactive-diagram__tab" type="button" aria-pressed="false" data-diagram-tab="rag">
-        RAG
-      </button>
-      <button class="interactive-diagram__tab" type="button" aria-pressed="false" data-diagram-tab="finetuning">
-        Fine-tuning
-      </button>
-    </div>
-
-    <div class="interactive-diagram__pretrain-flow" aria-label="How pretraining works">
+    <div class="interactive-diagram__pretrain-flow" aria-label="Pretraining pipeline">
       <div class="interactive-diagram__column interactive-diagram__column--data">
         <span class="interactive-diagram__node-label">Stage 1</span>
-        <strong>Pretraining data</strong>
-        <p>Broad data teaches general patterns before your organisation-specific task is defined.</p>
-        <div class="interactive-diagram__chips">
-          <span class="interactive-diagram__chip">Text</span>
-          <span class="interactive-diagram__chip">Code</span>
-          <span class="interactive-diagram__chip">Images</span>
-          <span class="interactive-diagram__chip">Audio</span>
-          <span class="interactive-diagram__chip">Documents</span>
-        </div>
+        <div class="interactive-diagram__icon-badge" data-diagram-data-icon aria-hidden="true"></div>
+        <strong>Broad training data</strong>
+        <p data-diagram-data-copy>Large text collections are used to teach general language patterns.</p>
       </div>
 
       <div class="interactive-diagram__flow-arrow" aria-hidden="true">→</div>
 
       <div class="interactive-diagram__column interactive-diagram__column--model">
         <span class="interactive-diagram__node-label">Stage 2</span>
-        <strong>Pretrained model</strong>
-        <p>This is the base model. It is already trained, but it is still general-purpose rather than specific to your workflow.</p>
-        <div class="interactive-diagram__model-core">
-          <strong>Base model</strong>
-          <p>Trained in advance on broad data.</p>
-        </div>
+        <div class="interactive-diagram__icon-badge" data-diagram-model-icon aria-hidden="true"></div>
+        <strong data-diagram-model-name>Pretrained BERT model</strong>
+        <p data-diagram-model-copy>The model has already learned reusable patterns before your specific downstream task begins.</p>
+      </div>
+
+      <div class="interactive-diagram__flow-arrow" aria-hidden="true">→</div>
+
+      <div class="interactive-diagram__column interactive-diagram__column--adapted">
+        <span class="interactive-diagram__node-label">Stage 3</span>
+        <div class="interactive-diagram__icon-badge" data-diagram-task-icon aria-hidden="true"></div>
+        <strong data-diagram-task-name>Fine-tuned for classification or question answering</strong>
+        <p data-diagram-task-copy>The pretrained model is adapted for a narrower task after the initial training stage.</p>
       </div>
     </div>
 
     <div class="interactive-diagram__transition-note">
-      The base model above does not change when you switch options below. What changes is how that pretrained model gets adapted for use.
+      Same idea across different model families: train first on broad data, then adapt for the real task.
     </div>
 
-    <div class="interactive-diagram__adaptation-card" aria-live="polite">
-      <div class="interactive-diagram__adaptation-header">
-        <span class="interactive-diagram__node-label">Stage 3</span>
-        <strong data-diagram-method>Prompting</strong>
-      </div>
-      <p class="interactive-diagram__adaptation-summary" data-diagram-bridge>Use the same pretrained model, but guide it with instructions and workflow rules.</p>
-
-      <div class="interactive-diagram__adaptation-grid">
-        <div class="interactive-diagram__support">
-          <span class="interactive-diagram__support-title" data-diagram-support-title>What gets added</span>
-          <p data-diagram-support-copy>Prompts, templates, and guardrails. The model itself is not retrained.</p>
-        </div>
-
-        <div class="interactive-diagram__result">
-          <span class="interactive-diagram__result-label">Business use</span>
-          <strong data-diagram-output-title>Drafting assistant</strong>
-          <p data-diagram-output-copy>Useful when you want the base model to respond in a more directed way.</p>
-        </div>
-      </div>
+    <div class="interactive-diagram__controls" aria-label="Pretrained model examples">
+      <button class="interactive-diagram__tab is-active" type="button" aria-pressed="true" data-diagram-tab="bert">
+        BERT
+      </button>
+      <button class="interactive-diagram__tab" type="button" aria-pressed="false" data-diagram-tab="resnet">
+        ResNet
+      </button>
+      <button class="interactive-diagram__tab" type="button" aria-pressed="false" data-diagram-tab="yolo">
+        YOLO
+      </button>
     </div>
 
     <div class="interactive-diagram__facts">
       <div class="interactive-diagram__fact-card">
-        <span class="interactive-diagram__fact-label">Keyword</span>
-        <strong data-diagram-keyword>Prompting</strong>
-        <p data-diagram-keyword-copy>Giving instructions to the pretrained model without changing the model itself.</p>
+        <span class="interactive-diagram__fact-label">Architecture</span>
+        <div class="interactive-diagram__mini-icon-row">
+          <span class="interactive-diagram__mini-icon" data-diagram-architecture-icon aria-hidden="true"></span>
+        </div>
+        <strong data-diagram-architecture>Transformer encoder</strong>
+        <p data-diagram-architecture-copy>One model family used in language systems.</p>
       </div>
 
       <div class="interactive-diagram__fact-card">
-        <span class="interactive-diagram__fact-label">What changes</span>
-        <p data-diagram-change>The instructions and surrounding workflow change, but the base model stays the same.</p>
+        <span class="interactive-diagram__fact-label">Pretrained on</span>
+        <p data-diagram-pretrained-on>Broad text corpora to learn general language representations.</p>
       </div>
 
       <div class="interactive-diagram__fact-card">
-        <span class="interactive-diagram__fact-label">What stays the same</span>
-        <p data-diagram-constant>The pretrained model remains the same general-purpose model trained beforehand.</p>
+        <span class="interactive-diagram__fact-label">Typical adaptation</span>
+        <p data-diagram-adaptation>Fine-tune the model for tasks like sentiment analysis, classification, or question answering.</p>
       </div>
 
       <div class="interactive-diagram__fact-card">
-        <span class="interactive-diagram__fact-label">Decision hint</span>
-        <p data-diagram-decision>Use this when you mainly need clearer instructions, not new company knowledge or changed model behaviour.</p>
+        <span class="interactive-diagram__fact-label">Foundation model?</span>
+        <p data-diagram-foundation>Yes, in the sense that it is a broadly trained reusable base model for many NLP tasks.</p>
       </div>
     </div>
 
     <p class="interactive-diagram__rule" data-diagram-rule>
-      Rule of thumb: if you are only changing the instructions, you are still using the same pretrained model.
+      Key idea: BERT, ResNet, and YOLO can all be pretrained. "Pretrained" describes when and how the model was trained, not which architecture family it belongs to.
     </p>
   </div>
 
   <div class="interactive-diagram__fallback">
     <img src="{{ site.baseurl }}/assets/images/foundation-to-specialized-models.svg" alt="Diagram showing the progression from foundation models to adapted and specialized business models">
     <p class="interactive-diagram__caption">
-      Figure: pretraining creates a general-purpose model first. Prompting, retrieval, and fine-tuning adapt that base model in different ways.
+      Figure: a pretrained model is trained first on broad data and then adapted for a narrower task. This idea applies across different model families, not only transformers.
     </p>
   </div>
 </div>
