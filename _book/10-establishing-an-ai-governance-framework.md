@@ -13,6 +13,23 @@ AI governance is the set of policies, processes, roles, and accountability struc
 
 It is not only a compliance exercise. It is a management discipline for allocating responsibility, making risk visible, and ensuring that AI systems remain aligned with legal obligations, business objectives, and human oversight.
 
+## Trustworthy AI as a Governance Standard
+
+For leadership teams, trustworthy AI is best understood as AI that an organisation can justify using in real decisions because it is lawful, well-governed, technically robust, and subject to meaningful human oversight.[1], [2], [11], [12]
+
+That definition matters because it shifts the conversation away from model performance alone. A system can be technically impressive and still be untrustworthy if people cannot challenge it, if ownership is unclear, or if deployment outruns governance.
+
+Across OECD, NIST, and European policy frameworks, the same practical checks appear repeatedly:[1], [2], [12]
+
+- **Reliable and robust**: the system performs consistently enough for the context and has known limits.
+- **Safe and controllable**: failures are less likely to cause harm and humans can intervene.
+- **Fair**: unjustified differences in outcomes are tested and monitored.
+- **Transparent**: people know when AI is being used and how important outputs can be traced or explained.
+- **Accountable**: ownership, review, and escalation responsibilities are clear.
+- **Well-governed data**: data quality, privacy, access, and lifecycle controls are treated as part of trustworthiness.
+
+This is a useful governance standard because it is broad enough for executives and specific enough for operating teams.
+
 ## Why Governance Fails
 
 Many organisations now have some form of AI governance on paper. Far fewer have governance that reliably changes behaviour. Common failure modes include:

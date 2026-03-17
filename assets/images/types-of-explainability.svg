@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+  <title id="title">Types of explainability in AI</title>
+  <desc id="desc">A diagram showing two dimensions of explainability: intrinsic versus post-hoc, and model-agnostic versus model-specific.</desc>
+  <rect width="1400" height="900" fill="#f5f7fb"/>
+
+  <text x="90" y="90" font-family="Arial, sans-serif" font-size="48" font-weight="700" fill="#22324b">Types of Explainability</text>
+  <text x="90" y="132" font-family="Arial, sans-serif" font-size="24" fill="#55657d">A simple executive view of how explainability methods differ by design and applicability.</text>
+
+  <rect x="90" y="210" width="1220" height="260" rx="28" fill="#ffffff" stroke="#c9d3e1" stroke-width="4"/>
+  <text x="700" y="270" font-family="Arial, sans-serif" font-size="38" font-weight="700" text-anchor="middle" fill="#25334b">Nature of Explanation</text>
+
+  <rect x="155" y="320" width="450" height="110" rx="22" fill="#20a6b3"/>
+  <text x="380" y="367" font-family="Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle" fill="#ffffff">Intrinsic</text>
+  <text x="380" y="404" font-family="Arial, sans-serif" font-size="22" text-anchor="middle" fill="#ffffff">More interpretable by design</text>
+
+  <rect x="790" y="320" width="455" height="110" rx="22" fill="#f2b632"/>
+  <text x="1017" y="367" font-family="Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle" fill="#ffffff">Post-hoc</text>
+  <text x="1017" y="404" font-family="Arial, sans-serif" font-size="22" text-anchor="middle" fill="#ffffff">Explanation added after training</text>
+
+  <rect x="90" y="520" width="1220" height="260" rx="28" fill="#ffffff" stroke="#c9d3e1" stroke-width="4"/>
+  <text x="700" y="580" font-family="Arial, sans-serif" font-size="38" font-weight="700" text-anchor="middle" fill="#25334b">Applicability</text>
+
+  <rect x="155" y="630" width="450" height="110" rx="22" fill="#3c7fa1"/>
+  <text x="380" y="677" font-family="Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle" fill="#ffffff">Model-agnostic</text>
+  <text x="380" y="714" font-family="Arial, sans-serif" font-size="22" text-anchor="middle" fill="#ffffff">Usable across many model types</text>
+
+  <rect x="790" y="630" width="455" height="110" rx="22" fill="#32323a"/>
+  <text x="1017" y="677" font-family="Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle" fill="#ffffff">Model-specific</text>
+  <text x="1017" y="714" font-family="Arial, sans-serif" font-size="22" text-anchor="middle" fill="#ffffff">Tied to a specific model family</text>
+</svg>

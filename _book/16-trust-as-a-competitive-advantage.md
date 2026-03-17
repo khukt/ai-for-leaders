@@ -30,6 +30,21 @@ For leadership teams, explainability supports trust in four ways:
 
 *Figure: explainability does not guarantee correctness, but it improves the ability of users, managers, auditors, and regulators to understand, challenge, and govern important outputs.*
 
+## Types of Explainability
+
+Leaders do not need every technical detail, but they do need a simple way to distinguish the main forms of explainability used in practice.
+
+- **Intrinsic explainability** refers to models that are more interpretable by design. Their logic is easier to inspect directly, which can support confidence and governance from the start.
+- **Post-hoc explainability** refers to explanation methods applied after training. These help people understand outputs from more complex systems, even when the model itself is not naturally transparent.
+- **Model-agnostic methods** can be applied across different model types. They are useful when organisations need a more flexible explanation approach across several systems.
+- **Model-specific methods** are tied to a particular model family or architecture. They can be more tailored, but they are not always portable across the AI estate.
+
+These categories matter because they shape what leaders can realistically expect from an explanation. Some methods help explain a model's overall behavior. Others help justify a single output. Some are easier to standardise across the organisation, while others are stronger only in narrow technical settings.
+
+![Diagram showing intrinsic versus post-hoc explainability and model-agnostic versus model-specific methods]({{ site.baseurl }}/assets/images/types-of-explainability.svg)
+
+*Figure: explainability methods differ by when explanation is produced and how broadly the method applies across model types.*
+
 ## Global and Local Explanations
 
 Leaders should also distinguish between two different kinds of explanation:

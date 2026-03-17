@@ -55,6 +55,16 @@ This bibliography consolidates the main external sources referenced across the b
 
 [10] Cybersecurity and Infrastructure Security Agency, “CISA Joins ACSC-led Guidance on How to Use AI Systems Securely,” Jan. 23, 2024. [Online]. Available: https://www.cisa.gov/news-events/alerts/2024/01/23/cisa-joins-acsc-led-guidance-how-use-ai-systems-securely. [Accessed: Mar. 17, 2026].
 
+## Trustworthy AI Governance and Practice
+
+### <a id="trustworthy-ai-explained-repo"></a>Trustworthy AI Explained Demo
+
+[11] K. Thu, “trustworthyAIexplained,” GitHub repository. [Online]. Available: https://github.com/khukt/trustworthyAIexplained. [Accessed: Mar. 17, 2026].
+
+### <a id="eu-hleg-ethics-guidelines"></a>EU High-Level Expert Group on AI
+
+[12] European Commission High-Level Expert Group on Artificial Intelligence, “Ethics Guidelines for Trustworthy AI,” Apr. 8, 2019. [Online]. Available: https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai. [Accessed: Mar. 17, 2026].
+
 ## Notes on Use
 
 - This book is written for leadership audiences and uses these materials as interpretive anchors rather than as a substitute for legal advice.

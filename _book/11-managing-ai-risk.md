@@ -17,6 +17,18 @@ AI risk management is not limited to technical model quality. Leaders must also 
 - **Opacity and explainability risk**: decisions that cannot be understood, challenged, or defended when outcomes are disputed
 - **Reputational risk**: customer harm, public backlash, media scrutiny, and board-level loss of confidence
 
+## How Small Failures Become Leadership Problems
+
+Many AI incidents begin as what appears to be a narrow technical issue. The leadership problem emerges when that issue is allowed to shape real decisions without enough control.[11]
+
+The escalation path is often predictable:
+
+1. The system is used outside its safe limits, or with weak data and weak oversight.
+2. Bad outputs influence operational, customer, or case-level decisions.
+3. The organisation absorbs the consequences through harm, complaints, delay, regulatory scrutiny, or loss of trust.
+
+This is why AI risk management cannot stop at model metrics. Leaders need to ask how an error travels through a workflow and who is expected to stop it.
+
 ## Security and Operational Risks in AI Systems
 
 Leaders increasingly need a practical threat view of AI systems, especially where models are connected to workflows, tools, data pipelines, or decision-support environments. The table below is an executive synthesis of recurring AI security and operational risks, drawing on OWASP's Top 10 for LLM and generative AI applications, the NIST Generative AI Profile, MITRE ATLAS, and multi-agency guidance on secure AI use and deployment.[3], [8], [9], [10]
@@ -35,6 +47,17 @@ Leaders increasingly need a practical threat view of AI systems, especially wher
 | **Model theft or reverse engineering** | Unauthorized access, extraction, or duplication of models or model behavior | Loss of proprietary algorithms, trade secrets, or competitive advantage |
 
 This table should not be treated as a substitute for a formal threat model. Its purpose is to help leadership teams recognize that AI risk is not only about abstract bias or general reputational harm. It also includes concrete security, operational, and dependency risks that become more serious when AI is embedded in production systems.
+
+## Four Recurring Failure Patterns
+
+Beyond adversarial and security threats, organisations repeatedly face a smaller set of recurring governance failures.[11]
+
+- **Historical bias repeated at scale**: past decisions are treated as neutral ground truth, and unfair patterns are reproduced faster.
+- **Stale data and silent drift**: conditions change, but the system keeps acting as if the world has stayed the same.
+- **Out-of-context deployment**: a model built for one population, workflow, or region is used in another where its assumptions no longer hold.
+- **No monitoring after launch**: performance deteriorates or error patterns grow, but no one has clear alerts, review rules, or ownership.
+
+The common thread is not that AI became unpredictable in some mysterious way. It is that weak assumptions, weak controls, and weak ownership allowed a manageable issue to become an institutional one.
 
 ## Explainable AI as a Risk Control
 
