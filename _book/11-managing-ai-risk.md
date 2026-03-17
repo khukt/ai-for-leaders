@@ -65,6 +65,31 @@ Explainability is not a guarantee of safety, but it can be a useful control. Whe
 
 The practical issue is not whether every model is fully interpretable. It is whether the organisation has enough explanation, review, and fallback capability for the level of risk involved.
 
+## From Risk Register to Incident Response
+
+Risk management is not complete when risks are listed and scored. NIST's AI RMF and the Generative AI Profile both imply a more practical standard: organisations need processes to monitor deployed systems, prioritize treatment, respond when thresholds are crossed, and learn from incidents rather than treating them as isolated surprises.[2], [3]
+
+For leadership teams, that means a material AI incident should already have an answer to five questions:
+
+- how will we detect that something is going wrong?
+- who has authority to pause, restrict, or escalate the system?
+- what fallback process is used while the issue is investigated?
+- who must be informed internally and externally?
+- how do we capture lessons so the same failure is less likely to recur?
+
+Many AI incidents are made worse not by the first error, but by delayed recognition, weak ownership, and uncertainty about who can act.
+
+## Risk Treatment Logic
+
+In practice, leadership teams should not treat every risk the same way. A useful operating distinction is:
+
+- **prevent**: risks that should be reduced before launch because the consequence is too high
+- **monitor**: risks that cannot be eliminated fully but can be observed with thresholds and review rules
+- **contain**: risks where fallback procedures, human intervention, or limited scope can stop broader harm
+- **avoid**: use cases where the combination of opacity, consequence, and weak controls makes deployment unjustified
+
+This helps prevent a common failure mode: treating "monitoring later" as a substitute for controls that were needed before deployment.
+
 ## Leadership Lens
 
 The key management challenge is not to eliminate all AI risk. It is to identify which risks matter for each use case, what controls are proportionate, and who is accountable when thresholds are breached.

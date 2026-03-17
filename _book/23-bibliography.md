@@ -137,6 +137,58 @@ This bibliography consolidates the main external sources referenced across the b
 
 [29] Cybersecurity and Infrastructure Security Agency, “AI Cybersecurity Collaboration Playbook,” Jan. 14, 2025. [Online]. Available: https://www.cisa.gov/resources-tools/resources/ai-cybersecurity-collaboration-playbook. [Accessed: Mar. 17, 2026].
 
+### <a id="oecd-ai-skills-labour-market"></a>OECD on AI and Changing Skill Demand
+
+[30] A. Green, “Artificial intelligence and the changing demand for skills in the labour market,” OECD Artificial Intelligence Papers, No. 14, OECD Publishing, Paris, Apr. 10, 2024. [Online]. Available: https://doi.org/10.1787/88684e36-en. [Accessed: Mar. 17, 2026].
+
+### <a id="oecd-ai-jobs-employment-outlook"></a>OECD Employment Outlook on AI and Jobs
+
+[31] OECD, “Artificial intelligence and jobs: No signs of slowing labour demand (yet),” in *OECD Employment Outlook 2023*, OECD Publishing, Paris, Jul. 11, 2023. [Online]. Available: https://www.oecd.org/en/publications/2023/07/oecd-employment-outlook-2023_904bcef3/full-report/artificial-intelligence-and-jobs-no-signs-of-slowing-labour-demand-yet_5aebe670.html. [Accessed: Mar. 17, 2026].
+
+### <a id="nist-ai-rmf-playbook"></a>NIST AI RMF Playbook
+
+[32] National Institute of Standards and Technology, “NIST AI RMF Playbook,” Feb. 6, 2025. [Online]. Available: https://www.nist.gov/itl/ai-risk-management-framework/nist-ai-rmf-playbook. [Accessed: Mar. 17, 2026].
+
+### <a id="oecd-data-sharing-ai"></a>OECD on Access to and Sharing of Data in the Age of AI
+
+[33] OECD, “Enhancing Access to and Sharing of Data in the Age of Artificial Intelligence,” OECD Policy Briefs, No. 13, Feb. 6, 2025. [Online]. Available: https://www.oecd.org/en/publications/enhancing-access-to-and-sharing-of-data-in-the-age-of-artificial-intelligence_23a70dca-en.html. [Accessed: Mar. 17, 2026].
+
+### <a id="uk-government-ai-playbook"></a>AI Playbook for the UK Government
+
+[34] Government Digital Service, “AI Playbook for the UK Government,” GOV.UK, Feb. 10, 2025. [Online]. Available: https://www.gov.uk/government/publications/ai-playbook-for-the-uk-government. [Accessed: Mar. 17, 2026].
+
+### <a id="uk-people-factor-ai"></a>The People Factor: A Human-Centred Approach to Scaling AI Tools
+
+[35] Government Communications Service, “The People Factor: A human-centred approach to scaling AI tools,” GOV.UK, Jun. 4, 2025. [Online]. Available: https://www.gov.uk/government/publications/a-human-centred-approach-to-scaling-and-de-risking-ai-tools/the-people-factor-a-human-centred-approach-to-scaling-ai-tools-html. [Accessed: Mar. 17, 2026].
+
+### <a id="oecd-ai-adoption-update-2026"></a>OECD Update on AI Use by Individuals and Firms
+
+[36] OECD, “AI use by individuals surges across the OECD as adoption by firms continues to expand,” Jan. 28, 2026. [Online]. Available: https://www.oecd.org/en/about/news/announcements/2026/01/ai-use-by-individuals-surges-across-the-oecd-as-adoption-by-firms-continues-to-expand.html. [Accessed: Mar. 17, 2026].
+
+### <a id="oecd-ai-productivity-g7"></a>OECD on AI Productivity Gains in G7 Economies
+
+[37] F. Filippucci, P. Gal, K. Laengle, and M. Schief, “Macroeconomic productivity gains from Artificial Intelligence in G7 economies,” OECD Artificial Intelligence Papers, No. 41, OECD Publishing, Paris, Jun. 30, 2025. [Online]. Available: https://doi.org/10.1787/a5319ab5-en. [Accessed: Mar. 17, 2026].
+
+### <a id="oecd-ai-trajectories-2030"></a>OECD on Possible AI Trajectories Through 2030
+
+[38] H. Hobbs, D. Docherty, L. Aranda, K. Perset, K. Sugimoto, and R. Kierzenkowski, “Exploring possible AI trajectories through 2030,” OECD Artificial Intelligence Papers, No. 55, OECD Publishing, Paris, Feb. 3, 2026. [Online]. Available: https://doi.org/10.1787/cb41117a-en. [Accessed: Mar. 17, 2026].
+
+### <a id="oecd-ai-incidents-media-2026"></a>OECD on AI Incidents and Hazards Reported by the Media
+
+[39] OECD, “Trends in AI incidents and hazards reported by the media,” OECD Artificial Intelligence Papers, No. 53, OECD Publishing, Paris, Feb. 10, 2026. [Online]. Available: https://doi.org/10.1787/4f5ff43c-en. [Accessed: Mar. 17, 2026].
+
+### <a id="oecd-agentic-ai-2026"></a>OECD on Agentic AI
+
+[40] OECD, “The agentic AI landscape and its conceptual foundations,” OECD Artificial Intelligence Papers, No. 56, OECD Publishing, Paris, Feb. 13, 2026. [Online]. Available: https://doi.org/10.1787/396cf758-en. [Accessed: Mar. 17, 2026].
+
+### <a id="white-house-ai-action-plan-2025"></a>White House AI Action Plan
+
+[41] The White House, “White House Unveils America’s AI Action Plan,” Jul. 23, 2025. [Online]. Available: https://www.whitehouse.gov/articles/2025/07/white-house-unveils-americas-ai-action-plan/. [Accessed: Mar. 17, 2026].
+
+### <a id="ec-navigating-ai-act-2026"></a>European Commission FAQ on Navigating the AI Act
+
+[42] European Commission, “Navigating the AI Act,” Shaping Europe’s digital future, 2026. [Online]. Available: https://digital-strategy.ec.europa.eu/en/faqs/navigating-ai-act. [Accessed: Mar. 17, 2026].
+
 ## Notes on Use
 
 - This book is written for leadership audiences and uses these materials as interpretive anchors rather than as a substitute for legal advice.

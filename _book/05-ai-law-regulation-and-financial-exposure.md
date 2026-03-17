@@ -28,7 +28,9 @@ The Act categorises AI systems by risk level:
 | **Limited / transparency risk** | Chatbots, deepfakes, some AI-generated public-facing content | Disclosure and transparency obligations |
 | **Minimal risk** | Spam filters, AI in video games | No specific requirements |
 
-The timetable is phased. Some prohibited-practice rules already apply, while other obligations for high-risk systems and general-purpose AI models phase in over time.[4], [5] The practical point for leaders is simple: waiting for “full implementation” is not a compliance strategy.
+The timetable is phased, and the dates matter. The AI Act entered into force on **August 1, 2024**. Prohibited practices and AI literacy obligations started to apply on **February 2, 2025**. Governance rules and obligations for general-purpose AI models became applicable on **August 2, 2025**. The Act becomes fully applicable on **August 2, 2026**, with some high-risk systems embedded in regulated products following a longer timetable to **August 2, 2027**.[4], [5], [42]
+
+The practical point for leaders is simple: waiting for "full implementation" is not a compliance strategy.
 
 **Penalties**: For the most serious violations, the AI Act provides for fines that can reach €35 million or 7% of worldwide annual turnover, depending on the category of breach.[4], [5]
 
@@ -52,7 +54,7 @@ In the United States and other jurisdictions, sector regulators may act even wit
 
 ### Comparative Jurisdictional Direction
 
-Leaders operating across multiple markets should expect regulatory divergence. The EU approach is more codified and risk-classification-driven. The United States is more fragmented and enforcement-led across agencies and sectors. Other jurisdictions, including China and several regional regulators, are developing their own governance models with different expectations around transparency, security, data use, and platform control.
+Leaders operating across multiple markets should expect regulatory divergence. The EU approach is more codified and risk-classification-driven. The United States remains more fragmented and executive- and enforcement-led across agencies and sectors, with the White House's *America's AI Action Plan*, released on **July 23, 2025**, framing federal priorities around innovation, infrastructure, and international diplomacy and security.[41] Other jurisdictions, including China and several regional regulators, are developing their own governance models with different expectations around transparency, security, data use, and platform control.
 
 For multinational organisations, the practical burden is rarely a single rulebook. It is the need to align products, controls, documentation, and vendor management across different legal environments.
 
@@ -86,6 +88,7 @@ For practical purposes, explainable AI in this chapter is about:
 - Which of our AI systems fall into regulated categories under applicable laws?
 - Do we have documentation that would satisfy a regulatory audit?
 - How do our vendor contracts address regulatory liability?
+- Are we tracking concrete compliance dates, or still treating regulation as a future issue?
 
 
 ---

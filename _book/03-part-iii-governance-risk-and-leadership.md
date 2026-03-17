@@ -7,7 +7,7 @@ has_children: true
 
 # Part III — AI Governance, Risk, and Leadership
 
-This part focuses on ownership, risk, compliance, and the organisational changes required to use AI responsibly at scale.
+This part focuses on ownership, risk, compliance, evidence, and the organisational changes required to use AI responsibly at scale. The central theme is that responsible AI is not achieved by policy language alone. It depends on operating controls, current documentation, credible escalation, and leadership that can redesign work rather than merely add tools.
 
 ## Chapters
 

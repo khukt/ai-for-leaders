@@ -110,6 +110,18 @@ Leaders do not need to master model architecture in detail. A brief awareness is
 
 *Figure: many organisations start with a general-purpose foundation model and then adapt, align, or constrain it for narrower business uses rather than building from scratch.*
 
+## From Copilots to Agents
+
+The landscape is also shifting from systems that mainly answer questions toward systems that can plan, use tools, and take multi-step actions on a user's behalf. OECD work published on February 13, 2026 describes this emerging field as **agentic AI** and notes that definitions vary, but the common pattern is greater autonomy in how systems pursue goals over time.[40]
+
+For leaders, the key issue is not whether the market calls a product a copilot, assistant, or agent. It is how much action autonomy the system is being given:
+
+- does it only suggest, draft, or retrieve?
+- does it trigger workflows, call tools, or make changes in connected systems?
+- does it act once, or does it continue over multiple steps with limited supervision?
+
+As systems move from answering to acting, the management problem changes. Accuracy still matters, but so do permissions, rollback, auditability, escalation, and the ability to interrupt the system before it creates operational or legal consequences.
+
 ## AI Is Also an Infrastructure Question
 
 Leaders should not treat AI as software alone. AI capability depends on compute, cloud infrastructure, storage, networking, and in some cases specialised hardware such as GPUs or other accelerators. That infrastructure affects what models can be run, how quickly they respond, how expensive they become at scale, and whether they can be deployed in the environments where the organisation actually needs them.
@@ -163,6 +175,7 @@ For leaders, explainability is not mainly a technical preference. It is a manage
 - Which AI capabilities are genuinely relevant to our industry and business model?
 - Where is AI already being used in our organisation, with or without central oversight?
 - What assumptions are our teams making about AI reliability that need to be tested?
+- Where are tools beginning to move from drafting and analysis into action-taking or semi-autonomous behaviour?
 
 
 ---

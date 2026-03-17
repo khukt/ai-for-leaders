@@ -9,61 +9,84 @@ nav_order: 4
 
 AI ambition without sequencing usually produces scattered pilots, duplicated tools, and weak accountability. A roadmap turns ambition into a practical investment path with clear priorities, dependencies, and measures of success.
 
-## Core Themes in This Chapter
+## A Roadmap Is a Portfolio, Not a List of Pilots
 
-- AI maturity levels
-- Phased implementation strategy
-- Investment prioritisation
-- Measuring business impact
+Many organisations say they have an AI roadmap when they actually have a collection of experiments. A real roadmap does more than name projects. It answers five questions:
 
-## A Three-Stage Roadmap
+- where will we focus first?
+- what enabling capabilities must exist before scale?
+- what evidence is required to move from experiment to operational use?
+- how will people adopt the tools in practice?
+- which investments are local, and which are strategic infrastructure?
 
-One of the clearest lessons from practical trustworthy-AI programs is that the order of adoption matters. Teams should constrain the task first, make the system governable next, and only then operate it as a managed capability at scale.[11]
+That distinction matters because AI value rarely arrives in a straight line. Some initiatives should remain small productivity tools. Some should become workflow systems. A few may justify treatment as strategic platforms or institutional capabilities.
 
-### Stage 1. Constrain the Use Case
+## A Three-Horizon View of AI Investment
 
-The first stage is to stop avoidable harm before the system becomes routine.
+Leaders should usually structure the roadmap across three horizons:
 
-- Set the approved purpose of the system in plain language, including the boundaries of acceptable use.
-- Establish operating thresholds, refusal conditions, and a safe fallback when confidence weakens.
-- Route unusual, high-consequence, or low-confidence cases to human review.
-- Confirm that the underlying data is sufficiently current and operationally fit.
+- **Horizon 1: Immediate productivity and support uses.** Low-friction tools that help people draft, search, summarise, or retrieve information inside defined boundaries.
+- **Horizon 2: Workflow redesign.** Systems that change how work is routed, reviewed, analysed, or escalated in a business process.
+- **Horizon 3: Strategic capability.** Platforms, sector-specific systems, or operating models that affect economics, service delivery, resilience, or market position.
 
-The key decision gate at this stage is simple: do not widen use until the system can fail safely and people can intervene.
+The purpose of the roadmap is not to force every use case into Horizon 3. It is to stop Horizon 1 activity from being mistaken for enterprise transformation, while ensuring that genuinely strategic opportunities get the enabling investment they need.
 
-### Stage 2. Make It Governable
+## Stage 1. Choose Where to Play
 
-The second stage is to turn ad hoc safeguards into repeatable operating rules.
+The first stage is strategic selection. Leadership teams should:
 
-- Assign one accountable owner and document how incidents or exceptions escalate.
-- Maintain a controlled record of versions, approvals, major decisions, and deviations.
-- Introduce repeatable review routines for performance, fairness where relevant, and documentation quality.
-- Clarify who is allowed to approve changes, temporary overrides, pauses, and rollback actions.
+- identify the workflows or decisions where AI could materially improve speed, quality, resilience, or cost
+- separate curiosity projects from institutionally important use cases
+- define what "good" looks like in measurable terms
+- reject use cases where AI is not meaningfully better than simpler alternatives
+- distinguish commodity tooling from capabilities that may become strategically important
 
-Scaling should require evidence and named accountability, not optimism.
+This is where the value thesis from Chapter 6 becomes a portfolio choice. A good roadmap does not start with dozens of equal-priority pilots. It starts with a disciplined view of where AI should and should not matter.
 
-### Stage 3. Operate and Improve
+## Stage 2. Build the Enabling Base
 
-The third stage is to treat AI as a live service rather than a one-time deployment.
+The second stage is capability building. Before scale, most organisations need some combination of:
 
-- Track model drift, stakeholder complaints, overrides, incidents, and material context changes.
-- Trigger fresh review when the data, user base, workflow, or legal environment changes meaningfully.
-- Use independent challenge where the system affects sensitive or high-impact decisions.
-- Convert lessons from incidents, near misses, and audits into stronger controls and design updates.
+- approved use policies and escalation paths
+- vendor and procurement standards
+- data access, retrieval, or interoperability improvements
+- evaluation methods for the priority use cases
+- security, privacy, and logging controls
+- training for users, managers, and risk owners
+- clear ownership for systems that move beyond experimentation
 
-If conditions change materially, the system should be adjusted, paused, or withdrawn rather than left to degrade quietly.[2], [11]
+This stage is often neglected because leadership teams want visible pilots quickly. But weak enabling foundations usually mean duplication, inconsistent controls, and tools that never move beyond local use.[2], [32], [34]
 
-## Minimum Before Wider Rollout
+## Stage 3. Scale Through Gates, Not Hype
 
-Before an AI system is rolled out more broadly, leadership should expect five things to be in place:[11]
+The third stage is not "roll out everything." It is to move selected systems through explicit gates:
 
-- **Clear scope**: the intended task, operational boundaries, fallback arrangements, and excluded uses are written down plainly.
-- **Named accountability**: one accountable owner remains answerable even when several teams support the controls.
-- **Human intervention**: staff can challenge, override, or suspend the system when conditions deteriorate or confidence falls.
-- **Evidence pack**: current evidence exists for performance, fairness where needed, data quality, and test assumptions.
-- **Monitoring and response**: logging, alerts, complaint review, and escalation procedures remain active after go-live.
+### Gate A. Pilot to Operational Workflow
 
-These are not bureaucratic extras. They are the minimum conditions for moving from a pilot to a governable service.
+Leadership should expect evidence that the use case is real, the data is fit, the economics are credible, and people can use the tool without creating unmanaged risk.
+
+### Gate B. Operational Workflow to Scaled Service
+
+Leadership should expect clear ownership, repeatable monitoring, support arrangements, vendor or internal operating discipline, and enough documentation to handle review, complaints, and change.
+
+### Gate C. Scaled Service to Strategic Platform
+
+Leadership should expect platform standards, integration discipline, portfolio reporting, and a clear reason why this capability should become part of the organisation's long-term operating model.
+
+Scaling should require evidence and named accountability, not optimism.[2], [32]
+
+## Adoption Is Part of the Roadmap
+
+Many AI roadmaps fail because they treat adoption as a communication problem at the end rather than a design problem from the start. The UK Government's human-centred guidance on scaling AI tools is useful here: adoption, sustained use, and optimisation are separate challenges, and value appears only when people use the tools well enough and often enough for workflows to change.[35]
+
+Leaders should therefore ask:
+
+- who must change behaviour for this tool to matter?
+- what training, support, and managerial reinforcement will they need?
+- how will success be measured beyond log-ins?
+- what hidden risks appear when people rely on the tool in real work?
+
+For many organisations, adoption is the real bottleneck. A technically competent system that goes unused or is used badly creates little value.
 
 ## Cost Checkpoints Before Scale
 
@@ -80,6 +103,18 @@ Before scaling an AI system, leadership should ask:
 
 The practical decision standard is simple: do not move from pilot to scale unless the economics remain defensible after compute, integration, oversight, and change costs are included.
 
+## Minimum Before Wider Rollout
+
+Before an AI system is rolled out more broadly, leadership should expect five things to be in place:
+
+- **Clear scope**: the intended task, operational boundaries, fallback arrangements, and excluded uses are written down plainly.
+- **Named accountability**: one accountable owner remains answerable even when several teams support the controls.
+- **Human intervention**: staff can challenge, override, or suspend the system when conditions deteriorate or confidence falls.
+- **Evidence pack**: current evidence exists for performance, fairness where needed, data quality, and test assumptions.
+- **Monitoring and response**: logging, alerts, complaint review, and escalation procedures remain active after go-live.[2], [32]
+
+These are not bureaucratic extras. They are the minimum conditions for moving from a pilot to a governable service.
+
 ## Roadmaps Should Scale to the Institution
 
 The right roadmap for AI depends partly on what kind of leadership problem the organisation is trying to solve.
@@ -95,13 +130,14 @@ The common mistake is to import an enterprise roadmap into a setting that lacks 
 
 ## Leadership Lens
 
-A credible roadmap should connect use cases, capability building, governance controls, and change management. It should also distinguish between experiments, scalable deployments, and strategic platforms.
+A credible roadmap should connect use cases, capability building, adoption, governance controls, and change management. It should also distinguish clearly between experiments, scalable deployments, and strategic platforms.
 
 ## Key Questions for Leaders
 
 - What sequence of AI initiatives makes sense for our current maturity level?
 - Which enabling capabilities need to be built before scale is realistic?
 - How will we distinguish pilot activity from durable business impact?
+- Which of our current AI efforts should remain local, and which deserve strategic investment?
 
 ---
 

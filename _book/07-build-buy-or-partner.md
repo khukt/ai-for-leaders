@@ -7,7 +7,9 @@ nav_order: 2
 
 # Build, Buy, or Partner
 
-Most organisations do not need the same sourcing strategy for every AI capability. Some use cases justify internal development because they depend on proprietary data or create strategic differentiation. Others are better addressed through external vendors or partnerships that reduce time to value.
+The sourcing question is not a technical side issue. It is one of the main ways leaders determine the organisation's pace of adoption, dependency profile, cost structure, and degree of control.
+
+Most organisations do not need the same sourcing strategy for every AI capability. Some use cases justify internal development because they depend on proprietary data, distinctive workflows, or demanding assurance requirements. Others are better addressed through external vendors or partnerships that reduce time to value or bring access to scarce capability.[2], [32]
 
 ## Sourcing Options
 
@@ -17,12 +19,33 @@ Most organisations do not need the same sourcing strategy for every AI capabilit
 | **Buy** | Common capability, faster deployment, limited internal AI capacity | Vendor dependency, weak transparency, limited customisation |
 | **Partner** | Shared innovation, sector collaboration, capability gaps | Governance complexity, IP ambiguity, slower coordination |
 
-## Key Themes in This Chapter
+## The Sourcing Decision Starts After the Value Thesis
 
-- Vendor risk assessment
-- Procurement due diligence
-- Intellectual property considerations
-- Hidden costs of AI adoption
+The right question is rarely "should we build or buy AI?" in the abstract. The real question is which capabilities are strategic enough to justify control, which are commoditised enough to externalise, and which require shared delivery because no single organisation can carry the risk or capability burden alone.
+
+That means sourcing should follow, not replace, strategy. If the use case is weak, faster procurement does not fix it. If the value depends on unique data, workflow fit, or regulatory assurance, a cheap external tool may become expensive once it has to be adapted, governed, or replaced.
+
+## A Five-Test Sourcing Framework
+
+### 1. Strategic Importance
+
+If the capability could change the organisation's competitive position, service model, or institutional resilience, leaders should ask whether too much control is being given away. Commodity assistance tools are often sensible to buy. Capabilities tied to core differentiation, core public-service delivery, or sensitive research workflows deserve more scrutiny before being outsourced.
+
+### 2. Workflow and Data Specificity
+
+The more a system depends on local workflow logic, proprietary data, or hard-to-codify operational context, the harder it is to buy off the shelf without hidden adaptation cost. This does not automatically mean "build," but it does mean leaders should be sceptical of claims that deployment will be quick or simple.[2], [3]
+
+### 3. Assurance Burden
+
+Some uses need far more evidence, traceability, and control than others. If the system affects regulated decisions, sensitive populations, safety, or rights, leadership should test whether the supplier can provide enough documentation, monitoring, and change transparency to support oversight.[2], [3], [32]
+
+### 4. Operating Capability
+
+Building is not only a software choice. It means operating a capability: evaluation, monitoring, incident handling, retraining or prompt updates, model change management, access control, and user support. If the organisation cannot realistically sustain that operating model, an internal build may create fragility rather than strategic strength.
+
+### 5. Dependency and Exit Risk
+
+Every sourcing choice creates dependencies. Leaders should ask how exposed they are to pricing changes, product retirement, model updates, hosting restrictions, subcontractors, and migration difficulty. This is especially important when a tool becomes embedded into an operational workflow or a high-volume process.[32], [34]
 
 ## The Real Cost of AI Adoption
 
@@ -39,42 +62,43 @@ Leaders should expect to account for at least six cost layers:
 
 For many organisations, the key question is not whether AI works in principle. It is whether the use case remains attractive after all six cost layers are included.
 
-## Cost and Dependency Trade-offs
+## What Leaders Should Demand From Vendors and Partners
 
-Different sourcing choices create different economic and control profiles:
+Before procurement or partnership approval, leadership teams should expect evidence on at least the following points:
 
-- **Build** can create stronger control and differentiation, but usually requires higher upfront investment and deeper internal capability.
-- **Buy** can reduce time to value, but it may expose the organisation to pricing risk, opaque updates, and higher long-term dependency.
-- **Partner** can share capability and cost, but coordination and governance overhead can erode the expected benefit.
+- **Purpose and scope**: what the system is designed to do, what it should not be used for, and the main failure conditions.[34]
+- **Data handling**: what data is stored, retained, logged, used for further training, or shared with subcontractors.
+- **Security and access control**: how access is managed, how environments are separated, and what happens in the event of compromise.[3], [34]
+- **Evaluation evidence**: how the provider tests performance, reliability, and known limitations for the relevant use case.[2], [32]
+- **Change management**: how model updates, feature changes, or policy changes are communicated and governed.
+- **Accountability model**: who handles incidents, complaints, escalations, and remediation.
+- **Portability and exit**: what data, prompts, configurations, logs, and interfaces can be exported if the organisation needs to leave.
+- **Intellectual property and rights**: who owns inputs, outputs, adaptations, and derived assets, and what indemnities or exclusions apply.
 
-This is why sourcing decisions should be treated as both commercial decisions and dependency decisions, not as procurement mechanics alone.
+The exact threshold will differ by sector, but the principle is stable: leaders should not approve a material dependency on an AI supplier they do not understand well enough to govern.
 
-## Obsolescence Risk in Specialized Model Investment
+## Build, Buy, and Partner Have Different Leadership Jobs
 
-Leaders should also consider a risk that is easy to miss during early enthusiasm: a costly custom or language-specific model may lose much of its value if a frontier provider releases a stronger general model a few months later.
+- **Build** requires disciplined product ownership, data stewardship, evaluation, and sustained operating capacity.
+- **Buy** requires strong procurement, vendor challenge, and an explicit exit strategy.
+- **Partner** requires shared decision rights, clear data and IP terms, joint governance, and dispute resolution that are agreed before delivery starts.
 
-This is not a theoretical risk. In November 2024, Inflection AI's CEO said the company was no longer trying to compete on next-generation frontier models and explicitly framed that decision against the capital intensity of firms building far larger compute systems.[13] That shift matters because it illustrates a broader market pattern: once model competition concentrates around a small number of hyperscaler-backed players, smaller builders may be forced to pivot from model creation toward tooling, enterprise integration, or niche deployment models.
+Partnerships are especially useful when the capability problem crosses organisational boundaries. Cooperatives, research consortia, hospitals, municipalities, and smaller firms may all benefit from shared infrastructure or sector-specific tooling that none of them should build alone. But those arrangements succeed only if governance is treated as core design work rather than paperwork added later.
 
-At the same time, frontier providers have been expanding multilingual reach rapidly. Google announced Gemini Live support for more than 40 languages on October 3, 2024, after earlier expanding Gemini 1.5 Pro availability across more than 35 languages in May 2024.[14], [15] The leadership implication is clear: an investment case based mainly on temporary language advantage can weaken quickly if a large provider closes the gap in one or two release cycles.
+## Leadership Context
 
-For leadership teams, the practical question is not whether specialised models are ever justified. They often are. The question is whether the advantage is durable. A custom model is more defensible when it provides at least one of the following:
-
-- access to proprietary data or workflow context that general models cannot easily replicate
-- deployment control required for latency, privacy, safety, or sovereignty reasons
-- regulatory or assurance advantages tied to the use case
-- integration into a business process where switching cost and operational fit matter more than raw benchmark quality
-
-If the expected advantage is only temporary model quality, management should assume a meaningful risk of investment obsolescence and assess the project accordingly.
-
-## Leadership Lens
-
-The right question is rarely whether building is better than buying in general. It is which capabilities should remain strategic, which can be commoditised, and which dependencies the organisation can accept.
+- **SMEs** should usually prefer buying or light partnership models unless the use case depends on a distinctive data advantage or regulatory constraint they can defend economically.[16], [17]
+- **Large enterprises** should separate commodity productivity tools from strategically differentiated systems. The former are often bought; the latter may justify controlled internal capability.
+- **Research institutions** should be cautious about suppliers whose terms weaken reproducibility, access control, or publication integrity.
+- **Public institutions** should treat procurement, accountability, and continuity as strategic concerns, not just commercial ones.[21], [34]
+- **Cooperatives and mutuals** should test sourcing choices against member trust, shared governance, and long-term bargaining power.
 
 ## Key Questions for Leaders
 
-- Which AI capabilities are core to our long-term differentiation?
-- What evidence do we require from vendors before procurement?
+- Which AI capabilities are genuinely strategic, and which are becoming commodities?
+- What evidence do we require from vendors before procurement or renewal?
 - Are we underestimating integration, change, and exit costs?
+- What dependency are we creating if this tool becomes embedded in a critical workflow?
 
 ---
 
