@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "AI Landscape"
-nav_order: 2
+title: "What AI Means for Leaders"
+nav_order: 4
 ---
 
-# AI Landscape
+# What AI Means for Leaders
 
 ## What AI Is — and What It Is Not
 
@@ -12,16 +12,20 @@ Artificial intelligence is a broad label for machine-based systems that infer fr
 
 AI is **not** a single technology, and it is not a guarantee of autonomy, accuracy, or business value. The term covers multiple methods with different data requirements, failure modes, and governance implications. For leaders, those differences matter more than the label itself.
 
-## The Three Waves of AI
+## AI vs Automation
 
-**First wave: Rules-based systems (1980s–2000s)**  
-Early AI systems followed explicit rules written by humans. They could be effective in narrow, stable environments, but they were brittle when reality deviated from their predefined logic.
+Leaders often hear AI discussed as if it were interchangeable with automation. It is not. Traditional automation follows predefined rules for stable and repeatable tasks. AI systems, by contrast, infer patterns from data, handle ambiguity unevenly, and often introduce probabilities rather than certainties.
 
-**Second wave: Machine learning (2000s–2020s)**  
-Instead of relying only on hand-written rules, machine learning systems detect patterns from data. This enabled more flexible prediction and classification across domains such as fraud detection, recommendation, demand forecasting, and predictive maintenance.
+That difference matters because governance, testing, and acceptable error rates are not the same. A broken workflow rule and a model that produces plausible but incorrect output create different management problems.
 
-**Third wave: Foundation models and generative AI (2020s–present)**  
-Large language models and other foundation models are trained on broad datasets and adapted to many downstream tasks. They have reduced the cost and time needed to prototype AI-enabled products, but they have also introduced new risks around reliability, security, copyright, privacy, and model misuse.[2], [3]
+## Predictive vs Generative Systems
+
+Not all AI systems do the same thing. Two broad categories are especially relevant for leaders:
+
+- **Predictive systems** estimate or classify: fraud likelihood, churn risk, creditworthiness, demand, equipment failure, or patient risk.
+- **Generative systems** produce new content: text, summaries, code, images, audio, or conversational responses.
+
+Predictive systems are often embedded in decisions and workflows that carry regulatory or fairness implications. Generative systems lower the barrier to experimentation, but they also introduce new risks around truthfulness, confidentiality, copyright, and misuse.
 
 ## What Has Changed
 
@@ -30,6 +34,16 @@ Three changes have made AI a leadership priority:
 1. **Access** — Cloud APIs, foundation models, and packaged software have made advanced AI capabilities easier to buy and test.
 2. **Interface** — Natural-language interfaces allow non-specialists to experiment with AI directly, which accelerates adoption beyond technical teams.
 3. **Pressure** — Boards, employees, customers, and competitors now expect a clear position on where AI should and should not be used.
+
+## Why AI Is Different from Previous Digital Waves
+
+AI differs from earlier waves of enterprise software in three important ways:
+
+- **It is probabilistic**: outputs can be useful without being consistently correct.
+- **It is widely accessible**: teams can adopt powerful tools before governance catches up.
+- **It changes decision boundaries**: AI affects judgment, responsibility, and customer trust, not only process efficiency.
+
+These features make AI less like a standard IT rollout and more like a cross-functional management issue involving strategy, risk, legal exposure, and organisational design.
 
 ## What AI Still Cannot Do
 
@@ -59,4 +73,4 @@ For leadership teams, the key question is not whether a model is impressive in g
 
 ---
 
-[← Preface]({{ site.baseurl }}/book/00-preface/) | [Next: AI Regulation & Penalties →]({{ site.baseurl }}/book/02-ai-regulation/)
+[← Executive Summary]({{ site.baseurl }}/book/02-executive-summary/) | [Next: The Global AI Shift →]({{ site.baseurl }}/book/04-the-global-ai-shift/)

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Bibliography"
-nav_order: 6
+nav_order: 24
 ---
 
 # Bibliography
@@ -47,4 +47,4 @@ This bibliography consolidates the main external sources referenced across the b
 
 ---
 
-[← AI Governance]({{ site.baseurl }}/book/04-ai-governance/)
+[← Appendix E]({{ site.baseurl }}/book/22-appendix-glossary-of-key-terms/)

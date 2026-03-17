@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "AI Strategy"
-nav_order: 4
+title: "Where AI Creates Organizational Value"
+nav_order: 7
 ---
 
-# AI Strategy
+# Where AI Creates Organizational Value
 
 ## Strategy Before Technology
 
@@ -62,32 +62,6 @@ Before funding an AI initiative, leadership teams should be able to answer six q
 
 If those answers are vague, the project is probably not ready.
 
-## Build, Buy, or Partner?
-
-Most organisations face a make-or-buy decision for AI capabilities:
-
-| Approach | When it makes sense | Risks |
-|---|---|---|
-| **Build** | Competitive differentiation, unique data, long-term core capability | High cost, slow, talent competition |
-| **Buy** | Commodity capability, fast time-to-value, limited internal expertise | Vendor dependency, limited customisation |
-| **Partner** | Shared risk, co-development, industry consortia | Governance complexity, IP issues |
-
-## The Role of Data
-
-AI is only as good as its data. Before investing in AI capabilities, leaders should assess:
-
-- **Data availability**: Do we have the data the AI system needs?
-- **Data quality**: Is it accurate, complete, and consistent?
-- **Data governance**: Can we use this data legally and ethically?
-
-For generative AI, leaders should also distinguish between three different data questions:
-
-- **Context data**: what the model needs at runtime to answer well
-- **Training and fine-tuning data**: what shapes model behaviour over time
-- **Audit data**: what the organisation needs to prove control, traceability, and compliance
-
-Treating those as one problem usually leads to weak architecture and weak governance.[1], [2]
-
 ## Reliability Notes
 
 - Many AI business cases fail because value is estimated from demos rather than measured in production.[2]
@@ -103,4 +77,4 @@ Treating those as one problem usually leads to weak architecture and weak govern
 
 ---
 
-[← AI Regulation & Penalties]({{ site.baseurl }}/book/02-ai-regulation/) | [Next: AI Governance →]({{ site.baseurl }}/book/04-ai-governance/)
+[← AI Law, Regulation, and Financial Exposure]({{ site.baseurl }}/book/05-ai-law-regulation-and-financial-exposure/) | [Next: Build, Buy, or Partner →]({{ site.baseurl }}/book/07-build-buy-or-partner/)

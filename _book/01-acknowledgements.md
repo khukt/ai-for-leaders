@@ -18,3 +18,7 @@ The insights developed within this research initiative have contributed signific
 The author also extends appreciation to academic collaborators, industry partners, and policy stakeholders who continue to advance responsible and trustworthy AI development.
 
 Any interpretations and conclusions presented in this book are solely those of the author.
+
+---
+
+[← Preface]({{ site.baseurl }}/book/00-preface/) | [Next: Executive Summary →]({{ site.baseurl }}/book/02-executive-summary/)

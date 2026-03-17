@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "AI Regulation & Penalties"
-nav_order: 3
+title: "AI Law, Regulation, and Financial Exposure"
+nav_order: 6
 ---
 
-# AI Regulation & Penalties
+# AI Law, Regulation, and Financial Exposure
 
 ## The Regulatory Landscape Is Changing Fast
 
@@ -49,6 +49,12 @@ Many industries face additional AI-specific requirements:
 
 In the United States and other jurisdictions, sector regulators may act even without a single omnibus AI law. Consumer protection, anti-discrimination, product liability, procurement, and professional duty rules can still create meaningful enforcement risk.
 
+### Comparative Jurisdictional Direction
+
+Leaders operating across multiple markets should expect regulatory divergence. The EU approach is more codified and risk-classification-driven. The United States is more fragmented and enforcement-led across agencies and sectors. Other jurisdictions, including China and several regional regulators, are developing their own governance models with different expectations around transparency, security, data use, and platform control.
+
+For multinational organisations, the practical burden is rarely a single rulebook. It is the need to align products, controls, documentation, and vendor management across different legal environments.
+
 ## What Leaders Should Know
 
 1. **Scope is broader than headquarters**: Regulatory exposure often follows market access, affected individuals, processing activities, or sector participation.
@@ -71,4 +77,4 @@ In the United States and other jurisdictions, sector regulators may act even wit
 
 ---
 
-[← AI Landscape]({{ site.baseurl }}/book/01-ai-landscape/) | [Next: AI Strategy →]({{ site.baseurl }}/book/03-ai-strategy/)
+[← The Global AI Shift]({{ site.baseurl }}/book/04-the-global-ai-shift/) | [Next: Where AI Creates Organizational Value →]({{ site.baseurl }}/book/06-where-ai-creates-organizational-value/)

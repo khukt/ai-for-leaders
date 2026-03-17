@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "AI Governance"
-nav_order: 5
+title: "Establishing an AI Governance Framework"
+nav_order: 11
 ---
 
-# AI Governance
+# Establishing an AI Governance Framework
 
 ## What AI Governance Is
 
@@ -93,4 +93,4 @@ Boards do not need to review every model. They do need confidence that managemen
 
 ---
 
-[← AI Strategy]({{ site.baseurl }}/book/03-ai-strategy/) | [Next: Bibliography →]({{ site.baseurl }}/book/05-bibliography/)
+[← Designing an AI Roadmap]({{ site.baseurl }}/book/09-designing-an-ai-roadmap/) | [Next: Managing AI Risk →]({{ site.baseurl }}/book/11-managing-ai-risk/)
