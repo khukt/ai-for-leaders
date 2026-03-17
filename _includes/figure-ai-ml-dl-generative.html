@@ -1,3 +1,197 @@
+<style>
+  .html-figure--taxonomy {
+    margin: 1.5rem 0 1rem;
+  }
+
+  .html-figure--taxonomy .html-figure__canvas {
+    position: relative;
+    padding: 2rem;
+    border-radius: 24px;
+    background: #f5f7fb;
+    overflow: hidden;
+  }
+
+  .html-figure--taxonomy .html-figure__taxonomy-shell,
+  .html-figure--taxonomy .html-figure__taxonomy-callout {
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 2rem;
+    box-sizing: border-box;
+  }
+
+  .html-figure--taxonomy .html-figure__taxonomy-shell h4,
+  .html-figure--taxonomy .html-figure__taxonomy-shell h5,
+  .html-figure--taxonomy .html-figure__taxonomy-shell h6,
+  .html-figure--taxonomy .html-figure__taxonomy-callout h5 {
+    margin: 0 0 0.65rem;
+    line-height: 1.08;
+  }
+
+  .html-figure--taxonomy .html-figure__taxonomy-shell p,
+  .html-figure--taxonomy .html-figure__taxonomy-callout p,
+  .html-figure--taxonomy .html-figure__note {
+    margin: 0;
+  }
+
+  .html-figure--taxonomy .html-figure__taxonomy-shell--ai {
+    width: min(66rem, calc(100% - 24rem));
+    min-height: 40rem;
+    padding: 2rem 2.2rem;
+    background: #d8e7ff;
+    border-color: #2e5fa7;
+  }
+
+  .html-figure--taxonomy .html-figure__taxonomy-shell--ai > h4 {
+    color: #1e406f;
+    font-size: clamp(2.2rem, 3vw, 4rem);
+    font-weight: 800;
+  }
+
+  .html-figure--taxonomy .html-figure__taxonomy-shell--ai > p {
+    max-width: 52rem;
+    color: #365a8a;
+    font-size: clamp(1.1rem, 1.8vw, 1.55rem);
+  }
+
+  .html-figure--taxonomy .html-figure__taxonomy-shell--ml {
+    width: 74%;
+    margin-top: 2rem;
+    margin-left: 8%;
+    padding: 1.8rem 1.9rem;
+    background: #d8f4e7;
+    border-color: #2e8b57;
+  }
+
+  .html-figure--taxonomy .html-figure__taxonomy-shell--ml > h5 {
+    color: #1f6a44;
+    font-size: clamp(1.9rem, 2.5vw, 3.1rem);
+    font-weight: 800;
+  }
+
+  .html-figure--taxonomy .html-figure__taxonomy-shell--ml > p {
+    color: #2a7d53;
+    font-size: clamp(1rem, 1.5vw, 1.35rem);
+  }
+
+  .html-figure--taxonomy .html-figure__taxonomy-shell--dl {
+    width: 58%;
+    margin-top: 1.7rem;
+    margin-left: 22%;
+    padding: 1.4rem 1.6rem;
+    background: #ffe1bf;
+    border-color: #c56a12;
+  }
+
+  .html-figure--taxonomy .html-figure__taxonomy-shell--dl > h6 {
+    color: #9b4f07;
+    font-size: clamp(1.6rem, 2vw, 2.6rem);
+    font-weight: 800;
+  }
+
+  .html-figure--taxonomy .html-figure__taxonomy-shell--dl > p {
+    color: #9b4f07;
+    font-size: clamp(1rem, 1.35vw, 1.2rem);
+  }
+
+  .html-figure--taxonomy .html-figure__taxonomy-callout {
+    position: absolute;
+    top: 16rem;
+    right: 2rem;
+    width: 22rem;
+    padding: 1.8rem 1.8rem 1.7rem;
+    background: #fff3cf;
+    border-color: #b18a12;
+    z-index: 1;
+  }
+
+  .html-figure--taxonomy .html-figure__taxonomy-callout h5 {
+    color: #8a6a09;
+    font-size: clamp(1.8rem, 2.1vw, 3rem);
+    font-weight: 800;
+  }
+
+  .html-figure--taxonomy .html-figure__taxonomy-callout p {
+    color: #8a6a09;
+    font-size: clamp(1rem, 1.25vw, 1.25rem);
+  }
+
+  .html-figure--taxonomy .html-figure__taxonomy-callout p + p {
+    margin-top: 1.4rem;
+  }
+
+  .html-figure--taxonomy .html-figure__taxonomy-link {
+    position: absolute;
+    top: 25.2rem;
+    left: calc(66% - 2rem);
+    width: 14rem;
+    border-top: 4px dashed #7d6b18;
+    transform: rotate(-3deg);
+    transform-origin: left center;
+  }
+
+  .html-figure--taxonomy .html-figure__note {
+    margin-top: 1.4rem;
+    color: #334968;
+    font-size: clamp(1rem, 1.3vw, 1.3rem);
+  }
+
+  .html-figure--taxonomy .html-figure__note strong {
+    color: #22324d;
+  }
+
+  @media (max-width: 1380px) {
+    .html-figure--taxonomy .html-figure__canvas {
+      padding: 1.6rem;
+    }
+
+    .html-figure--taxonomy .html-figure__taxonomy-shell--ai {
+      width: calc(100% - 20rem);
+    }
+
+    .html-figure--taxonomy .html-figure__taxonomy-callout {
+      width: 18rem;
+    }
+
+    .html-figure--taxonomy .html-figure__taxonomy-link {
+      width: 10rem;
+      left: calc(100% - 28rem);
+    }
+  }
+
+  @media (max-width: 1180px) {
+    .html-figure--taxonomy .html-figure__canvas {
+      display: grid;
+      gap: 1.25rem;
+    }
+
+    .html-figure--taxonomy .html-figure__taxonomy-shell--ai,
+    .html-figure--taxonomy .html-figure__taxonomy-shell--ml,
+    .html-figure--taxonomy .html-figure__taxonomy-shell--dl,
+    .html-figure--taxonomy .html-figure__taxonomy-callout {
+      position: static;
+      width: 100%;
+      min-height: 0;
+      margin: 0;
+    }
+
+    .html-figure--taxonomy .html-figure__taxonomy-shell--ai {
+      padding: 1.5rem;
+    }
+
+    .html-figure--taxonomy .html-figure__taxonomy-shell--ml {
+      margin-top: 1.5rem;
+    }
+
+    .html-figure--taxonomy .html-figure__taxonomy-shell--dl {
+      margin-top: 1.2rem;
+    }
+
+    .html-figure--taxonomy .html-figure__taxonomy-link {
+      display: none;
+    }
+  }
+</style>
+
 <div class="html-figure html-figure--taxonomy" role="img" aria-label="AI as the broadest category, with machine learning and deep learning nested inside it, and generative AI shown as a practical capability layer commonly built with deep learning">
   <div class="html-figure__canvas">
     <div class="html-figure__taxonomy-shell html-figure__taxonomy-shell--ai">
