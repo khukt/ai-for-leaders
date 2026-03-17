@@ -30,7 +30,7 @@ Leaders often hear these terms used loosely, but they describe different layers 
 
 For leaders, the practical point is not mastering the taxonomy. It is understanding that these categories behave differently in terms of data dependence, explainability, operating cost, and risk.
 
-![Diagram showing the relationship between AI, machine learning, deep learning, and generative AI]({{ site.baseurl }}/assets/images/ai-ml-dl-generative.svg)
+{% include figure-ai-ml-dl-generative.html %}
 
 *Figure: AI is the broadest category; machine learning and deep learning sit within it, while generative AI is a practical capability layer commonly built with deep learning models.*
 
