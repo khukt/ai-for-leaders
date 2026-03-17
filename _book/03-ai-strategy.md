@@ -8,7 +8,7 @@ nav_order: 4
 
 ## Strategy Before Technology
 
-The most common mistake organisations make with AI is starting with the technology and working backwards to the problem. They invest in AI platforms, hire data science teams, and launch proofs of concept — and then struggle to demonstrate business value.
+One of the most common AI mistakes is to start with a tool and only later ask what business problem it should solve. Organisations buy platforms, run pilots, and announce transformation programmes — then discover that the use case is weak, the workflow is broken, or the economics do not hold.[2]
 
 Effective AI strategy starts with the question: **where does AI create genuine value for our organisation?**
 
@@ -17,17 +17,17 @@ Effective AI strategy starts with the question: **where does AI create genuine v
 AI creates value in three ways:
 
 ### 1. Automation
-Replacing human effort in repetitive, rules-based tasks. This is the most straightforward value driver and often the easiest to quantify.
+Reducing manual effort in repetitive, structured tasks. This is usually the clearest value driver because time, throughput, and error rates can often be measured.
 
 Examples: document processing, customer service routing, compliance checking.
 
 ### 2. Augmentation
-Enhancing human judgment by providing better information, faster analysis, or broader perspective.
+Improving human performance by surfacing relevant information, faster analysis, or better first drafts.
 
 Examples: clinical decision support, fraud analyst tools, market intelligence dashboards.
 
 ### 3. Innovation
-Creating new products, services, or business models that were not previously possible.
+Creating new products, services, or delivery models that would be difficult to offer without AI-enabled capabilities.
 
 Examples: personalised medicine, predictive maintenance as a service, AI-native financial products.
 
@@ -49,6 +49,19 @@ Not all AI opportunities are equal. When evaluating AI initiatives, consider:
 - What regulatory constraints apply?
 - What are the reputational consequences if it goes wrong?
 
+## A Practical Screening Test
+
+Before funding an AI initiative, leadership teams should be able to answer six questions clearly:
+
+1. **What decision or workflow improves?**
+2. **How will value be measured?**
+3. **What data, permissions, and integrations are required?**
+4. **What is the acceptable error rate?**
+5. **Who owns the process when the model is wrong?**
+6. **Why is AI better than a simpler alternative?**
+
+If those answers are vague, the project is probably not ready.
+
 ## Build, Buy, or Partner?
 
 Most organisations face a make-or-buy decision for AI capabilities:
@@ -67,11 +80,26 @@ AI is only as good as its data. Before investing in AI capabilities, leaders sho
 - **Data quality**: Is it accurate, complete, and consistent?
 - **Data governance**: Can we use this data legally and ethically?
 
+For generative AI, leaders should also distinguish between three different data questions:
+
+- **Context data**: what the model needs at runtime to answer well
+- **Training and fine-tuning data**: what shapes model behaviour over time
+- **Audit data**: what the organisation needs to prove control, traceability, and compliance
+
+Treating those as one problem usually leads to weak architecture and weak governance.[1], [2]
+
+## Reliability Notes
+
+- Many AI business cases fail because value is estimated from demos rather than measured in production.[2]
+- Productivity gains are highly context-dependent; they should be validated in specific workflows instead of assumed from market-wide headlines.
+- A strong AI strategy usually depends as much on process design and change management as on model quality.[1]
+
 ## Key Questions for Leaders
 
 - Where are we currently investing in AI, and what is the expected business value?
 - Do we have a prioritisation framework for AI investments?
 - What is our data strategy, and does it support our AI ambitions?
+
 
 ---
 
