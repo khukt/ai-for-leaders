@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 820" role="img" aria-labelledby="title desc">
+  <title id="title">Shallow versus deep model architecture</title>
+  <desc id="desc">A comparison of a shallow model with a small number of layers and a deep model with many layers and many more internal connections.</desc>
+  <rect width="1400" height="820" fill="#f7f9fc"/>
+
+  <text x="110" y="95" font-family="Arial, sans-serif" font-size="52" font-weight="700" fill="#24324a">Shallow vs Deep Model Architecture</text>
+  <text x="110" y="140" font-family="Arial, sans-serif" font-size="24" fill="#5a6b85">Leadership point: deeper architectures can represent more complex patterns, but they also increase opacity, data demand, and governance difficulty.</text>
+
+  <text x="260" y="220" font-family="Arial, sans-serif" font-size="38" font-weight="700" text-anchor="middle" fill="#30567d">Shallow Model</text>
+  <text x="1020" y="220" font-family="Arial, sans-serif" font-size="38" font-weight="700" text-anchor="middle" fill="#30567d">Deep Model</text>
+
+  <g stroke="#9ecae1" stroke-width="6" fill="none">
+    <line x1="250" y1="315" x2="180" y2="430"/>
+    <line x1="250" y1="315" x2="320" y2="430"/>
+    <line x1="180" y1="430" x2="130" y2="565"/>
+    <line x1="180" y1="430" x2="230" y2="565"/>
+    <line x1="320" y1="430" x2="270" y2="565"/>
+    <line x1="320" y1="430" x2="370" y2="565"/>
+  </g>
+
+  <g fill="#dff4ff" stroke="#87bdd8" stroke-width="4">
+    <rect x="225" y="290" width="50" height="50" rx="8"/>
+    <rect x="155" y="405" width="50" height="50" rx="8"/>
+    <rect x="295" y="405" width="50" height="50" rx="8"/>
+    <rect x="105" y="540" width="50" height="50" rx="8"/>
+    <rect x="205" y="540" width="50" height="50" rx="8"/>
+    <rect x="245" y="540" width="50" height="50" rx="8"/>
+    <rect x="345" y="540" width="50" height="50" rx="8"/>
+  </g>
+
+  <text x="260" y="650" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#4d6078">Fewer layers and simpler internal structure</text>
+
+  <g stroke="#9ecae1" stroke-width="5" fill="none">
+    <line x1="1020" y1="235" x2="900" y2="315"/>
+    <line x1="1020" y1="235" x2="1140" y2="315"/>
+    <line x1="900" y1="315" x2="840" y2="395"/>
+    <line x1="900" y1="315" x2="960" y2="395"/>
+    <line x1="1140" y1="315" x2="1080" y2="395"/>
+    <line x1="1140" y1="315" x2="1200" y2="395"/>
+
+    <line x1="840" y1="395" x2="790" y2="475"/>
+    <line x1="840" y1="395" x2="890" y2="475"/>
+    <line x1="960" y1="395" x2="920" y2="475"/>
+    <line x1="960" y1="395" x2="1000" y2="475"/>
+    <line x1="1080" y1="395" x2="1040" y2="475"/>
+    <line x1="1080" y1="395" x2="1120" y2="475"/>
+    <line x1="1200" y1="395" x2="1150" y2="475"/>
+    <line x1="1200" y1="395" x2="1250" y2="475"/>
+
+    <line x1="790" y1="475" x2="760" y2="555"/>
+    <line x1="790" y1="475" x2="820" y2="555"/>
+    <line x1="890" y1="475" x2="860" y2="555"/>
+    <line x1="890" y1="475" x2="920" y2="555"/>
+    <line x1="920" y1="475" x2="890" y2="555"/>
+    <line x1="920" y1="475" x2="950" y2="555"/>
+    <line x1="1000" y1="475" x2="970" y2="555"/>
+    <line x1="1000" y1="475" x2="1030" y2="555"/>
+    <line x1="1040" y1="475" x2="1010" y2="555"/>
+    <line x1="1040" y1="475" x2="1070" y2="555"/>
+    <line x1="1120" y1="475" x2="1090" y2="555"/>
+    <line x1="1120" y1="475" x2="1150" y2="555"/>
+    <line x1="1150" y1="475" x2="1120" y2="555"/>
+    <line x1="1150" y1="475" x2="1180" y2="555"/>
+    <line x1="1250" y1="475" x2="1210" y2="555"/>
+    <line x1="1250" y1="475" x2="1290" y2="555"/>
+
+    <line x1="760" y1="555" x2="740" y2="625"/>
+    <line x1="760" y1="555" x2="780" y2="625"/>
+    <line x1="820" y1="555" x2="800" y2="625"/>
+    <line x1="820" y1="555" x2="840" y2="625"/>
+    <line x1="860" y1="555" x2="845" y2="625"/>
+    <line x1="860" y1="555" x2="875" y2="625"/>
+    <line x1="920" y1="555" x2="905" y2="625"/>
+    <line x1="920" y1="555" x2="935" y2="625"/>
+    <line x1="950" y1="555" x2="940" y2="625"/>
+    <line x1="950" y1="555" x2="960" y2="625"/>
+    <line x1="1030" y1="555" x2="1010" y2="625"/>
+    <line x1="1030" y1="555" x2="1050" y2="625"/>
+    <line x1="1070" y1="555" x2="1055" y2="625"/>
+    <line x1="1070" y1="555" x2="1085" y2="625"/>
+    <line x1="1090" y1="555" x2="1075" y2="625"/>
+    <line x1="1090" y1="555" x2="1105" y2="625"/>
+    <line x1="1150" y1="555" x2="1130" y2="625"/>
+    <line x1="1150" y1="555" x2="1170" y2="625"/>
+    <line x1="1180" y1="555" x2="1160" y2="625"/>
+    <line x1="1180" y1="555" x2="1200" y2="625"/>
+    <line x1="1210" y1="555" x2="1190" y2="625"/>
+    <line x1="1210" y1="555" x2="1230" y2="625"/>
+    <line x1="1290" y1="555" x2="1265" y2="625"/>
+    <line x1="1290" y1="555" x2="1315" y2="625"/>
+  </g>
+
+  <g fill="#dff4ff" stroke="#87bdd8" stroke-width="3">
+    <rect x="995" y="210" width="50" height="50" rx="8"/>
+    <rect x="875" y="290" width="50" height="50" rx="8"/>
+    <rect x="1115" y="290" width="50" height="50" rx="8"/>
+    <rect x="815" y="370" width="50" height="50" rx="8"/>
+    <rect x="935" y="370" width="50" height="50" rx="8"/>
+    <rect x="1055" y="370" width="50" height="50" rx="8"/>
+    <rect x="1175" y="370" width="50" height="50" rx="8"/>
+    <rect x="765" y="450" width="40" height="40" rx="6"/>
+    <rect x="865" y="450" width="40" height="40" rx="6"/>
+    <rect x="900" y="450" width="40" height="40" rx="6"/>
+    <rect x="980" y="450" width="40" height="40" rx="6"/>
+    <rect x="1020" y="450" width="40" height="40" rx="6"/>
+    <rect x="1100" y="450" width="40" height="40" rx="6"/>
+    <rect x="1130" y="450" width="40" height="40" rx="6"/>
+    <rect x="1230" y="450" width="40" height="40" rx="6"/>
+    <rect x="740" y="535" width="34" height="34" rx="6"/>
+    <rect x="800" y="535" width="34" height="34" rx="6"/>
+    <rect x="840" y="535" width="34" height="34" rx="6"/>
+    <rect x="900" y="535" width="34" height="34" rx="6"/>
+    <rect x="930" y="535" width="34" height="34" rx="6"/>
+    <rect x="1010" y="535" width="34" height="34" rx="6"/>
+    <rect x="1050" y="535" width="34" height="34" rx="6"/>
+    <rect x="1070" y="535" width="34" height="34" rx="6"/>
+    <rect x="1130" y="535" width="34" height="34" rx="6"/>
+    <rect x="1160" y="535" width="34" height="34" rx="6"/>
+    <rect x="1190" y="535" width="34" height="34" rx="6"/>
+    <rect x="1270" y="535" width="34" height="34" rx="6"/>
+    <rect x="730" y="615" width="28" height="28" rx="5"/>
+    <rect x="770" y="615" width="28" height="28" rx="5"/>
+    <rect x="790" y="615" width="28" height="28" rx="5"/>
+    <rect x="830" y="615" width="28" height="28" rx="5"/>
+    <rect x="860" y="615" width="28" height="28" rx="5"/>
+    <rect x="890" y="615" width="28" height="28" rx="5"/>
+    <rect x="920" y="615" width="28" height="28" rx="5"/>
+    <rect x="945" y="615" width="28" height="28" rx="5"/>
+    <rect x="1000" y="615" width="28" height="28" rx="5"/>
+    <rect x="1040" y="615" width="28" height="28" rx="5"/>
+    <rect x="1065" y="615" width="28" height="28" rx="5"/>
+    <rect x="1095" y="615" width="28" height="28" rx="5"/>
+    <rect x="1120" y="615" width="28" height="28" rx="5"/>
+    <rect x="1160" y="615" width="28" height="28" rx="5"/>
+    <rect x="1190" y="615" width="28" height="28" rx="5"/>
+    <rect x="1220" y="615" width="28" height="28" rx="5"/>
+    <rect x="1250" y="615" width="28" height="28" rx="5"/>
+    <rect x="1300" y="615" width="28" height="28" rx="5"/>
+  </g>
+
+  <text x="1020" y="700" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#4d6078">More layers and many more internal representations</text>
+
+  <text x="110" y="760" font-family="Arial, sans-serif" font-size="24" fill="#4d6078">Shallow models can be easier to inspect and govern. Deep models often perform better on complex tasks, but they usually need more data, more compute, and stronger oversight.</text>
+</svg>

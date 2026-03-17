@@ -26,6 +26,10 @@ For leadership teams, explainability supports trust in four ways:
 - it strengthens customer and regulator communication
 - it turns responsible AI practice into a visible strategic differentiator
 
+![Diagram contrasting a black-box AI model with a transparent model and explainable interface]({{ site.baseurl }}/assets/images/black-box-vs-explainable-ai.svg)
+
+*Figure: explainability does not guarantee correctness, but it improves the ability of users, managers, auditors, and regulators to understand, challenge, and govern important outputs.*
+
 ## Leadership Lens
 
 The organisations that sustain AI advantage are unlikely to be those that move fastest without control. They are more likely to be those that combine speed with credibility, clarity, and dependable governance.

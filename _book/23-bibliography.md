@@ -41,6 +41,20 @@ This bibliography consolidates the main external sources referenced across the b
 
 [7] GDPR-Info.eu, “Art. 22 GDPR — Automated individual decision-making, including profiling.” [Online]. Available: https://gdpr-info.eu/art-22-gdpr/. [Accessed: Mar. 17, 2026].
 
+## AI Security and Threat Frameworks
+
+### <a id="owasp-llm-top-10"></a>OWASP Top 10 for LLMs and Gen AI Apps
+
+[8] OWASP Gen AI Security Project, “Top 10 Risk & Mitigations for LLMs and Gen AI Apps (2025).” [Online]. Available: https://genai.owasp.org/llm-top-10/. [Accessed: Mar. 17, 2026].
+
+### <a id="mitre-atlas"></a>MITRE ATLAS
+
+[9] MITRE, “MITRE ATLAS.” [Online]. Available: https://atlas.mitre.org/. [Accessed: Mar. 17, 2026].
+
+### <a id="cisa-engaging-with-ai"></a>CISA and Partners Guidance on Using AI Securely
+
+[10] Cybersecurity and Infrastructure Security Agency, “CISA Joins ACSC-led Guidance on How to Use AI Systems Securely,” Jan. 23, 2024. [Online]. Available: https://www.cisa.gov/news-events/alerts/2024/01/23/cisa-joins-acsc-led-guidance-how-use-ai-systems-securely. [Accessed: Mar. 17, 2026].
+
 ## Notes on Use
 
 - This book is written for leadership audiences and uses these materials as interpretive anchors rather than as a substitute for legal advice.

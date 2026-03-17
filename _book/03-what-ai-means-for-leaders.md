@@ -86,6 +86,10 @@ Recent AI progress did not come from a single breakthrough. It came from the com
 
 For leadership teams, this matters because AI improvement is not only a science story. It is also an infrastructure and capability story. Organisations that ignore compute dependency, data readiness, or vendor concentration may misunderstand both the opportunities and the risks.[3]
 
+![Diagram comparing a shallow model architecture with a deeper model architecture]({{ site.baseurl }}/assets/images/shallow-vs-deep-architecture.svg)
+
+*Figure: deeper architectures can model more complex patterns, but they also tend to increase data dependence, compute demand, and interpretability challenges.*
+
 ## Why AI Is Different from Previous Digital Waves
 
 AI differs from earlier waves of enterprise software in three important ways:

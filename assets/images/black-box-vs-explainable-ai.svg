@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+  <title id="title">Black-box AI versus explainable AI</title>
+  <desc id="desc">A comparison diagram showing a black-box model path and an explainable AI path with a transparent model and explainable interface.</desc>
+  <rect width="1400" height="900" fill="#0b0f18"/>
+
+  <rect x="90" y="180" width="210" height="120" rx="22" fill="#ffb11f"/>
+  <rect x="355" y="180" width="230" height="120" rx="22" fill="#ff8f1f"/>
+  <polygon points="300,215 355,215 355,265 300,265" fill="#8d8d8d"/>
+  <polygon points="585,215 625,215 625,180 685,255 625,330 625,295 585,295" fill="#8d8d8d"/>
+  <text x="195" y="230" font-family="Arial, sans-serif" font-size="34" text-anchor="middle" fill="#ffffff" font-weight="700">Training</text>
+  <text x="195" y="272" font-family="Arial, sans-serif" font-size="34" text-anchor="middle" fill="#ffffff" font-weight="700">Data</text>
+  <text x="470" y="220" font-family="Arial, sans-serif" font-size="32" text-anchor="middle" fill="#ffffff" font-weight="700">Machine</text>
+  <text x="470" y="262" font-family="Arial, sans-serif" font-size="32" text-anchor="middle" fill="#ffffff" font-weight="700">Learning</text>
+  <text x="470" y="304" font-family="Arial, sans-serif" font-size="32" text-anchor="middle" fill="#ffffff" font-weight="700">Process</text>
+  <text x="810" y="245" font-family="Arial, sans-serif" font-size="42" fill="#ffffff" font-weight="700">Black-Box</text>
+  <text x="810" y="300" font-family="Arial, sans-serif" font-size="42" fill="#ffffff" font-weight="700">Model</text>
+
+  <circle cx="1180" cy="230" r="78" fill="#5c677a"/>
+  <rect x="1125" y="310" width="110" height="135" rx="22" fill="#5c677a"/>
+  <circle cx="1152" cy="225" r="10" fill="#10151f"/>
+  <circle cx="1208" cy="225" r="10" fill="#10151f"/>
+  <path d="M1154 267 Q1180 248 1206 267" fill="none" stroke="#10151f" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="1086" cy="223" r="18" fill="#394152"/>
+  <text x="1120" y="500" font-family="Arial, sans-serif" font-size="26" fill="#aeb6c5">Low interpretability</text>
+
+  <rect x="90" y="585" width="210" height="120" rx="22" fill="#ffb11f"/>
+  <rect x="355" y="585" width="230" height="120" rx="22" fill="#ff8f1f"/>
+  <polygon points="300,620 355,620 355,670 300,670" fill="#8d8d8d"/>
+  <polygon points="585,620 625,620 625,585 685,660 625,735 625,700 585,700" fill="#8d8d8d"/>
+  <text x="195" y="635" font-family="Arial, sans-serif" font-size="34" text-anchor="middle" fill="#ffffff" font-weight="700">Training</text>
+  <text x="195" y="677" font-family="Arial, sans-serif" font-size="34" text-anchor="middle" fill="#ffffff" font-weight="700">Data</text>
+  <text x="470" y="625" font-family="Arial, sans-serif" font-size="32" text-anchor="middle" fill="#ffffff" font-weight="700">Machine</text>
+  <text x="470" y="667" font-family="Arial, sans-serif" font-size="32" text-anchor="middle" fill="#ffffff" font-weight="700">Learning</text>
+  <text x="470" y="709" font-family="Arial, sans-serif" font-size="32" text-anchor="middle" fill="#ffffff" font-weight="700">Process</text>
+
+  <rect x="685" y="600" width="285" height="120" rx="24" fill="#c9d3e5"/>
+  <text x="828" y="650" font-family="Arial, sans-serif" font-size="32" text-anchor="middle" fill="#10151f" font-weight="700">Transparent Model</text>
+  <text x="828" y="690" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#10151f" font-weight="700">+ Explainable Interface</text>
+
+  <path d="M970 660 L1215 660" fill="none" stroke="#00b8ff" stroke-width="6"/>
+  <polygon points="1215,660 1188,646 1188,674" fill="#00b8ff"/>
+  <path d="M830 600 L830 530 L1180 530 L1180 565" fill="none" stroke="#00b8ff" stroke-width="6"/>
+  <polygon points="1180,565 1166,538 1194,538" fill="#00b8ff"/>
+  <path d="M830 530 L830 600" fill="none" stroke="#00b8ff" stroke-width="6"/>
+  <polygon points="830,600 816,573 844,573" fill="#00b8ff"/>
+
+  <rect x="1100" y="530" width="220" height="230" rx="28" fill="none" stroke="#00b8ff" stroke-width="6"/>
+  <circle cx="1210" cy="600" r="76" fill="#e8eef7"/>
+  <rect x="1155" y="680" width="110" height="130" rx="22" fill="#e8eef7"/>
+  <circle cx="1182" cy="595" r="10" fill="#10151f"/>
+  <circle cx="1238" cy="595" r="10" fill="#10151f"/>
+  <path d="M1180 635 Q1210 662 1240 635" fill="none" stroke="#10151f" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="1116" cy="595" r="18" fill="#98a7ba"/>
+  <text x="1112" y="840" font-family="Arial, sans-serif" font-size="26" fill="#8ee1ff">Higher interpretability and trust</text>
+
+  <text x="90" y="85" font-family="Arial, sans-serif" font-size="52" font-weight="700" fill="#ffffff">Explainability Changes How AI Is Trusted</text>
+  <text x="90" y="130" font-family="Arial, sans-serif" font-size="26" fill="#c8d0db">A black-box output may still be useful, but a transparent model with an explainable interface is easier to review, challenge, and govern.</text>
+</svg>
