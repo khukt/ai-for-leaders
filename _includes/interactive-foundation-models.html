@@ -2,9 +2,9 @@
   <div class="interactive-diagram__app" data-interactive-diagram="pretrained-model">
     <div class="interactive-diagram__intro">
       <p class="interactive-diagram__eyebrow">Interactive Figure</p>
-      <h4 class="interactive-diagram__title">Pretrained is a training stage, not a model family</h4>
+      <h4 class="interactive-diagram__title">A pretrained model is the base you start from</h4>
       <p class="interactive-diagram__summary">
-        A pretrained model is a model trained first on broad data and then reused later for a narrower task. Pick an example to see how that applies across different model families.
+        A pretrained model is already trained before your organisation uses it. Pick a common path to see what changes next: use it directly, add company knowledge, or adapt the model itself.
       </p>
     </div>
 
@@ -13,7 +13,7 @@
         <span class="interactive-diagram__node-label">Stage 1</span>
         <div class="interactive-diagram__icon-badge" data-diagram-data-icon aria-hidden="true"></div>
         <strong>Broad training data</strong>
-        <p data-diagram-data-copy>Large text collections are used to teach general language patterns.</p>
+        <p data-diagram-data-copy>Large datasets teach general patterns before your company-specific use case begins.</p>
       </div>
 
       <div class="interactive-diagram__flow-arrow" aria-hidden="true">→</div>
@@ -21,8 +21,8 @@
       <div class="interactive-diagram__column interactive-diagram__column--model">
         <span class="interactive-diagram__node-label">Stage 2</span>
         <div class="interactive-diagram__icon-badge" data-diagram-model-icon aria-hidden="true"></div>
-        <strong data-diagram-model-name>Pretrained BERT model</strong>
-        <p data-diagram-model-copy>The model has already learned reusable patterns before your specific downstream task begins.</p>
+        <strong data-diagram-model-name>Pretrained base model</strong>
+        <p data-diagram-model-copy>The model already knows broad patterns. That is what "pretrained" means.</p>
       </div>
 
       <div class="interactive-diagram__flow-arrow" aria-hidden="true">→</div>
@@ -30,62 +30,62 @@
       <div class="interactive-diagram__column interactive-diagram__column--adapted">
         <span class="interactive-diagram__node-label">Stage 3</span>
         <div class="interactive-diagram__icon-badge" data-diagram-task-icon aria-hidden="true"></div>
-        <strong data-diagram-task-name>Fine-tuned for classification or question answering</strong>
-        <p data-diagram-task-copy>The pretrained model is adapted for a narrower task after the initial training stage.</p>
+        <strong data-diagram-task-name>Use the model directly</strong>
+        <p data-diagram-task-copy>The base model is used as-is with prompts, workflow rules, and human review.</p>
       </div>
     </div>
 
     <div class="interactive-diagram__transition-note">
-      Same idea across different model families: train first on broad data, then adapt for the real task.
+      The pretrained model stays the starting point. The real decision is what you add around it, or whether you change the model itself.
     </div>
 
-    <div class="interactive-diagram__controls" aria-label="Pretrained model examples">
-      <button class="interactive-diagram__tab is-active" type="button" aria-pressed="true" data-diagram-tab="bert">
-        BERT
+    <div class="interactive-diagram__controls" aria-label="Pretrained model paths">
+      <button class="interactive-diagram__tab is-active" type="button" aria-pressed="true" data-diagram-tab="direct">
+        Use It Directly
       </button>
-      <button class="interactive-diagram__tab" type="button" aria-pressed="false" data-diagram-tab="resnet">
-        ResNet
+      <button class="interactive-diagram__tab" type="button" aria-pressed="false" data-diagram-tab="rag">
+        Add Company Knowledge
       </button>
-      <button class="interactive-diagram__tab" type="button" aria-pressed="false" data-diagram-tab="yolo">
-        YOLO
+      <button class="interactive-diagram__tab" type="button" aria-pressed="false" data-diagram-tab="fine-tune">
+        Fine-Tune It
       </button>
     </div>
 
     <div class="interactive-diagram__facts">
       <div class="interactive-diagram__fact-card">
-        <span class="interactive-diagram__fact-label">Architecture</span>
+        <span class="interactive-diagram__fact-label">What Changes</span>
         <div class="interactive-diagram__mini-icon-row">
-          <span class="interactive-diagram__mini-icon" data-diagram-architecture-icon aria-hidden="true"></span>
+          <span class="interactive-diagram__mini-icon" data-diagram-change-icon aria-hidden="true"></span>
         </div>
-        <strong data-diagram-architecture>Transformer encoder</strong>
-        <p data-diagram-architecture-copy>One model family used in language systems.</p>
+        <strong data-diagram-change-title>Prompts and workflow design</strong>
+        <p data-diagram-change-copy>You shape how the model is used, but you do not retrain it.</p>
       </div>
 
       <div class="interactive-diagram__fact-card">
-        <span class="interactive-diagram__fact-label">Pretrained on</span>
-        <p data-diagram-pretrained-on>Broad text corpora to learn general language representations.</p>
+        <span class="interactive-diagram__fact-label">What Stays The Same</span>
+        <p data-diagram-stays-same>The pretrained model itself stays unchanged.</p>
       </div>
 
       <div class="interactive-diagram__fact-card">
-        <span class="interactive-diagram__fact-label">Typical adaptation</span>
-        <p data-diagram-adaptation>Fine-tune the model for tasks like sentiment analysis, classification, or question answering.</p>
+        <span class="interactive-diagram__fact-label">When You Hear This</span>
+        <p data-diagram-hear-this>When teams want a fast assistant for drafting, summarising, or general reasoning.</p>
       </div>
 
       <div class="interactive-diagram__fact-card">
-        <span class="interactive-diagram__fact-label">Foundation model?</span>
-        <p data-diagram-foundation>Yes, in the sense that it is a broadly trained reusable base model for many NLP tasks.</p>
+        <span class="interactive-diagram__fact-label">Leadership Question</span>
+        <p data-diagram-leadership-question>What guardrails and human review are in place before people rely on the output?</p>
       </div>
     </div>
 
     <p class="interactive-diagram__rule" data-diagram-rule>
-      Key idea: BERT, ResNet, and YOLO can all be pretrained. "Pretrained" describes when and how the model was trained, not which architecture family it belongs to.
+      Key idea: a pretrained model is the starting point. You can use it directly, add external knowledge around it, or fine-tune the model itself for a narrower task.
     </p>
   </div>
 
   <div class="interactive-diagram__fallback">
     <img src="{{ site.baseurl }}/assets/images/foundation-to-specialized-models.svg" alt="Diagram showing the progression from foundation models to adapted and specialized business models">
     <p class="interactive-diagram__caption">
-      Figure: a pretrained model is trained first on broad data and then adapted for a narrower task. This idea applies across different model families, not only transformers.
+      Figure: a pretrained model is trained first on broad data and then used in different ways. Leaders usually need to distinguish between using the base model directly, adding company knowledge around it, and fine-tuning the model itself.
     </p>
   </div>
 </div>
