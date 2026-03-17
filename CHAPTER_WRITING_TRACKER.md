@@ -25,8 +25,8 @@ This tracker reflects the current manuscript state in `_book/` and is meant to g
 | 9 | `_book/11-managing-ai-risk.md` | Managing AI Risk | `Working draft` | High | Expand risk categories, incident response, and control options |
 | 10 | `_book/12-compliance-and-audit-readiness.md` | Compliance and Audit Readiness | `Outline stub` | High | Add documentation model, evidence requirements, and third-party assurance |
 | 11 | `_book/13-leading-organizational-transformation.md` | Leading Organizational Transformation | `Outline stub` | Medium | Add workforce redesign, capability-building, and leadership communication |
-| 12 | `_book/14-human-ai-collaboration-and-autonomous-systems.md` | Human-AI Collaboration and Autonomous Systems | `Outline stub` | Medium | Develop decision-boundary logic and autonomy governance examples |
-| 13 | `_book/15-ai-in-smart-industry-and-critical-infrastructure.md` | AI in Smart Industry and Critical Infrastructure | `Outline stub` | Medium | Add sector-specific cases and high-assurance operating requirements |
+| 12 | `_book/14-human-ai-collaboration-and-autonomous-systems.md` | Human-AI Collaboration and Autonomous Systems | `Working draft` | High | Tighten examples and add cross-references to governance and transformation chapters |
+| 13 | `_book/15-ai-in-smart-industry-and-critical-infrastructure.md` | AI in Smart Industry and Critical Infrastructure | `Working draft` | High | Deepen sector cases and sharpen advisory-versus-control guidance |
 | 14 | `_book/16-trust-as-a-competitive-advantage.md` | Trust as a Competitive Advantage | `Working draft` | Medium | Turn the trust thesis into a synthesis chapter that draws on earlier chapters |
 | 15 | `_book/17-ai-across-leadership-contexts.md` | AI Across Leadership Contexts | `Strong draft` | High | Use as the audience bridge chapter and cross-check against SME, cooperative, public-sector, and national-leadership needs |
 | 16 | `_book/17-the-executive-five-year-agenda.md` | The Executive Five-Year Agenda | `Working draft` | Medium | Use as the final synthesis chapter after context-specific guidance is stable |

@@ -79,6 +79,64 @@ This bibliography consolidates the main external sources referenced across the b
 
 [15] S. Hsiao, “Get more done with Gemini: Try 1.5 Pro and more intelligent features,” Google, May 14, 2024. [Online]. Available: https://blog.google/products/gemini/google-gemini-update-may-2024/. [Accessed: Mar. 17, 2026].
 
+## Leadership Context and Sector Guidance
+
+### <a id="oecd-ai-smes"></a>OECD on AI Adoption by SMEs
+
+[16] OECD, “Artificial intelligence adoption by SMEs,” 2025. [Online]. Available: https://www.oecd.org/en/publications/artificial-intelligence-adoption-by-smes_32f2de5f-en.html. [Accessed: Mar. 17, 2026].
+
+### <a id="oecd-genai-sme-workforce"></a>OECD on Generative AI and the SME Workforce
+
+[17] OECD, “Generative AI and the SME workforce,” 2025. [Online]. Available: https://www.oecd.org/en/publications/generative-ai-and-the-sme-workforce_ae285f40-en.html. [Accessed: Mar. 17, 2026].
+
+### <a id="ica-cooperative-identity"></a>International Cooperative Alliance on Cooperative Identity
+
+[18] International Cooperative Alliance, “Cooperative identity, values & principles.” [Online]. Available: https://ica.coop/en/cooperatives/cooperative-identity. [Accessed: Mar. 17, 2026].
+
+### <a id="nsf-research-conduct"></a>NSF on Responsible Conduct of Research
+
+[19] U.S. National Science Foundation, “Research ethics and responsible conduct of research.” [Online]. Available: https://new.nsf.gov/office-integrity/research-ethics/research-conduct. [Accessed: Mar. 17, 2026].
+
+### <a id="icmje-ai-authors"></a>ICMJE on AI-Assisted Technologies in Manuscripts
+
+[20] International Committee of Medical Journal Editors, “Use of AI by authors.” [Online]. Available: https://www.icmje.org/recommendations/browse/artificial-intelligence/ai-use-by-authors.html. [Accessed: Mar. 17, 2026].
+
+### <a id="unesco-ai-ethics-recommendation"></a>UNESCO Recommendation on the Ethics of AI
+
+[21] UNESCO, “Recommendation on the Ethics of Artificial Intelligence.” [Online]. Available: https://www.unesco.org/en/legal-affairs/recommendation-ethics-artificial-intelligence. [Accessed: Mar. 17, 2026].
+
+### <a id="g7-public-sector-ai-toolkit"></a>G7 Toolkit for AI in the Public Sector
+
+[22] OECD.AI, “A G7 toolkit for artificial intelligence in the public sector.” [Online]. Available: https://oecd.ai/en/wonk/g7-toolkit-for-artificial-intelligence-in-the-public-sector. [Accessed: Mar. 17, 2026].
+
+### <a id="oecd-governing-with-ai"></a>OECD on Governing with AI
+
+[23] OECD, “Governing with artificial intelligence: Are governments ready for the next frontier?” 2025. [Online]. Available: https://www.oecd.org/en/publications/governing-with-artificial-intelligence_c12a3462-en.html. [Accessed: Mar. 17, 2026].
+
+### <a id="oecd-national-compute"></a>OECD on National AI Compute Capacity
+
+[24] OECD.AI, “A blueprint for building national compute capacity for artificial intelligence,” 2023. [Online]. Available: https://oecd.ai/en/wonk/national-compute-capacity-for-ai. [Accessed: Mar. 17, 2026].
+
+### <a id="oecd-policy-observatory"></a>OECD AI Policy Observatory
+
+[25] OECD.AI, “AI policy observatory.” [Online]. Available: https://oecd.ai/en/dashboards/policy-observatory. [Accessed: Mar. 17, 2026].
+
+### <a id="nist-human-ai-use-taxonomy"></a>NIST AI Use Taxonomy
+
+[26] M. F. Theofanos, Y.-Y. Choong, and T. Jensen, “AI Use Taxonomy: A Human-Centered Approach,” National Institute of Standards and Technology, NIST AI 200-1, Mar. 26, 2024. [Online]. Available: https://doi.org/10.6028/NIST.AI.200-1. [Accessed: Mar. 17, 2026].
+
+### <a id="nist-ics-security"></a>NIST Guide to Industrial Control Systems Security
+
+[27] K. Stouffer, V. Pillitteri, S. Lightman, M. Abrams, and A. Hahn, “Guide to Industrial Control Systems (ICS) Security,” National Institute of Standards and Technology, NIST SP 800-82 Rev. 2, May 2015. [Online]. Available: https://doi.org/10.6028/NIST.SP.800-82r2. [Accessed: Mar. 17, 2026].
+
+### <a id="cisa-critical-infrastructure"></a>CISA Critical Infrastructure Overview
+
+[28] Cybersecurity and Infrastructure Security Agency, “Critical infrastructure security and resilience.” [Online]. Available: https://www.cisa.gov/critical-infrastructure. [Accessed: Mar. 17, 2026].
+
+### <a id="cisa-ai-collaboration-playbook"></a>CISA AI Cybersecurity Collaboration Playbook
+
+[29] Cybersecurity and Infrastructure Security Agency, “AI Cybersecurity Collaboration Playbook,” Jan. 14, 2025. [Online]. Available: https://www.cisa.gov/resources-tools/resources/ai-cybersecurity-collaboration-playbook. [Accessed: Mar. 17, 2026].
+
 ## Notes on Use
 
 - This book is written for leadership audiences and uses these materials as interpretive anchors rather than as a substitute for legal advice.
