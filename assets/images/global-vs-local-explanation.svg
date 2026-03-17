@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 760" role="img" aria-labelledby="title desc">
+  <title id="title">Global versus local explanation in explainable AI</title>
+  <desc id="desc">A side-by-side comparison showing global explanation as understanding what matters across many decisions, and local explanation as understanding why one specific decision was made.</desc>
+  <rect width="1400" height="760" fill="#0b0f18"/>
+
+  <text x="80" y="90" font-family="Arial, sans-serif" font-size="50" font-weight="700" fill="#ffffff">Global vs Local Explanation</text>
+  <text x="80" y="135" font-family="Arial, sans-serif" font-size="24" fill="#c8d0db">Both matter. Global explanation shows what drives the model overall. Local explanation shows why one specific output happened.</text>
+
+  <text x="310" y="205" font-family="Arial, sans-serif" font-size="40" font-weight="700" text-anchor="middle" fill="#8ee1ff">Global</text>
+  <text x="310" y="245" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#c8d0db">What matters overall</text>
+
+  <text x="1085" y="205" font-family="Arial, sans-serif" font-size="40" font-weight="700" text-anchor="middle" fill="#8ee1ff">Local</text>
+  <text x="1085" y="245" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#c8d0db">Why a specific decision was made</text>
+
+  <circle cx="310" cy="450" r="205" fill="none" stroke="#8ee1ff" stroke-width="4"/>
+
+  <g transform="translate(110,270)">
+    <g fill="#7f8a8f">
+      <g id="bot">
+        <circle cx="0" cy="0" r="18"/>
+        <rect x="-12" y="20" width="24" height="26" rx="8"/>
+        <circle cx="-6" cy="-3" r="3" fill="#9cf3ff"/>
+        <circle cx="6" cy="-3" r="3" fill="#9cf3ff"/>
+      </g>
+    </g>
+    <use href="#bot" x="40" y="20"/>
+    <use href="#bot" x="85" y="8"/>
+    <use href="#bot" x="130" y="18"/>
+    <use href="#bot" x="175" y="8"/>
+    <use href="#bot" x="220" y="18"/>
+    <use href="#bot" x="265" y="10"/>
+    <use href="#bot" x="310" y="24"/>
+    <use href="#bot" x="355" y="8"/>
+    <use href="#bot" x="20" y="68"/>
+    <use href="#bot" x="65" y="62"/>
+    <use href="#bot" x="110" y="72"/>
+    <use href="#bot" x="155" y="58"/>
+    <use href="#bot" x="200" y="70"/>
+    <use href="#bot" x="245" y="58"/>
+    <use href="#bot" x="290" y="72"/>
+    <use href="#bot" x="335" y="60"/>
+    <use href="#bot" x="380" y="72"/>
+    <use href="#bot" x="0" y="115"/>
+    <use href="#bot" x="48" y="125"/>
+    <use href="#bot" x="95" y="112"/>
+    <use href="#bot" x="142" y="126"/>
+    <use href="#bot" x="190" y="112"/>
+    <use href="#bot" x="238" y="126"/>
+    <use href="#bot" x="286" y="112"/>
+    <use href="#bot" x="334" y="126"/>
+    <use href="#bot" x="382" y="112"/>
+    <use href="#bot" x="24" y="170"/>
+    <use href="#bot" x="72" y="182"/>
+    <use href="#bot" x="120" y="170"/>
+    <use href="#bot" x="168" y="184"/>
+    <use href="#bot" x="216" y="170"/>
+    <use href="#bot" x="264" y="184"/>
+    <use href="#bot" x="312" y="170"/>
+    <use href="#bot" x="360" y="182"/>
+    <use href="#bot" x="60" y="238"/>
+    <use href="#bot" x="120" y="250"/>
+    <use href="#bot" x="180" y="238"/>
+    <use href="#bot" x="240" y="250"/>
+    <use href="#bot" x="300" y="238"/>
+    <use href="#bot" x="140" y="300"/>
+    <use href="#bot" x="210" y="312"/>
+    <use href="#bot" x="280" y="300"/>
+  </g>
+
+  <text x="310" y="680" font-family="Arial, sans-serif" font-size="22" text-anchor="middle" fill="#c8d0db">Feature importance, common rules, recurring patterns, average drivers</text>
+
+  <circle cx="1085" cy="450" r="205" fill="none" stroke="#8ee1ff" stroke-width="4"/>
+
+  <g transform="translate(1085,455)">
+    <circle cx="0" cy="-18" r="78" fill="#8c979b"/>
+    <rect x="-62" y="66" width="124" height="132" rx="28" fill="#778186"/>
+    <rect x="-90" y="70" width="42" height="94" rx="18" fill="#778186"/>
+    <rect x="48" y="70" width="42" height="94" rx="18" fill="#778186"/>
+    <circle cx="-26" cy="-24" r="11" fill="#9cf3ff"/>
+    <circle cx="26" cy="-24" r="11" fill="#9cf3ff"/>
+  </g>
+
+  <g fill="#6d767b" opacity="0.8">
+    <circle cx="950" cy="360" r="40"/>
+    <circle cx="1225" cy="350" r="42"/>
+    <circle cx="930" cy="535" r="42"/>
+    <circle cx="1245" cy="550" r="40"/>
+    <circle cx="1000" cy="305" r="30"/>
+    <circle cx="1165" cy="300" r="30"/>
+    <circle cx="1005" cy="610" r="30"/>
+    <circle cx="1170" cy="610" r="30"/>
+  </g>
+  <g fill="#9cf3ff" opacity="0.9">
+    <circle cx="935" cy="355" r="5"/>
+    <circle cx="965" cy="355" r="5"/>
+    <circle cx="1210" cy="345" r="5"/>
+    <circle cx="1240" cy="345" r="5"/>
+    <circle cx="915" cy="530" r="5"/>
+    <circle cx="945" cy="530" r="5"/>
+    <circle cx="1230" cy="545" r="5"/>
+    <circle cx="1260" cy="545" r="5"/>
+  </g>
+
+  <text x="1085" y="680" font-family="Arial, sans-serif" font-size="22" text-anchor="middle" fill="#c8d0db">Why this one prediction, score, recommendation, or rejection occurred</text>
+</svg>
