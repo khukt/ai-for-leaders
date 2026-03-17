@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Designing an AI Roadmap"
-nav_order: 10
+parent: "Part II: Strategy & Value"
+nav_order: 4
 ---
 
 # Designing an AI Roadmap

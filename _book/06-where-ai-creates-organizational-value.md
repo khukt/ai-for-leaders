@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Where AI Creates Organizational Value"
-nav_order: 7
+parent: "Part II: Strategy & Value"
+nav_order: 1
 ---
 
 # Where AI Creates Organizational Value

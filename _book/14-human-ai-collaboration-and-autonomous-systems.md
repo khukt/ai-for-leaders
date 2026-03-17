@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Human-AI Collaboration and Autonomous Systems"
-nav_order: 15
+parent: "Part IV: Future Organizations"
+nav_order: 1
 ---
 
 # Human-AI Collaboration and Autonomous Systems

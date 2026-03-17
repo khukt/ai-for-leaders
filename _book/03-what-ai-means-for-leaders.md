@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "What AI Means for Leaders"
-nav_order: 4
+parent: "Part I: AI Landscape"
+nav_order: 1
 ---
 
 # What AI Means for Leaders

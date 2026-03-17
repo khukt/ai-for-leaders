@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Appendix C: Vendor Evaluation Framework"
-nav_order: 21
+parent: "Appendices & References"
+nav_order: 3
 ---
 
 # Appendix C: Vendor Evaluation Framework

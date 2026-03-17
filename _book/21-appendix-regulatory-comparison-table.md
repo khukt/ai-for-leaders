@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Appendix D: Regulatory Comparison Table"
-nav_order: 22
+parent: "Appendices & References"
+nav_order: 4
 ---
 
 # Appendix D: Regulatory Comparison Table

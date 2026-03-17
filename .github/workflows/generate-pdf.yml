@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - '_book/**'
+      - 'scripts/build_pdf_book.py'
       - '.github/workflows/generate-pdf.yml'
   workflow_dispatch:
 
@@ -20,37 +21,24 @@ jobs:
       - name: Install pandoc and LaTeX
         run: |
           sudo apt-get update -q
-          sudo apt-get install -y pandoc texlive-latex-base texlive-latex-extra texlive-fonts-recommended
+          sudo apt-get install -y pandoc texlive-latex-base texlive-latex-extra texlive-fonts-recommended texlive-xetex
 
       - name: Combine book chapters
         run: |
-          python3 << 'EOF'
-          import re
-
-          files = [
-              '_book/00-preface.md',
-              '_book/01-ai-landscape.md',
-              '_book/02-ai-regulation.md',
-              '_book/03-ai-strategy.md',
-              '_book/04-ai-governance.md',
-          ]
-
-          combined = "---\ntitle: \"AI for Leaders\"\nauthor: \"AI for Leaders\"\n---\n\n"
-
-          for f in files:
-              with open(f) as fp:
-                  content = fp.read()
-              content = re.sub(r'^---\n.*?---\n', '', content, flags=re.DOTALL)
-              content = re.sub(r'\{\{[^}]+\}\}', '', content)
-              combined += content.strip() + "\n\n\\newpage\n\n"
-
-          with open('/tmp/book.md', 'w') as fp:
-              fp.write(combined)
-          EOF
+          python3 scripts/build_pdf_book.py
 
       - name: Generate PDF
         run: |
-          pandoc /tmp/book.md -o assets/AI-for-Leaders.pdf --pdf-engine=pdflatex -V geometry:margin=1in
+          pandoc /tmp/book.md \
+            -o assets/AI-for-Leaders.pdf \
+            --from markdown+pipe_tables+raw_tex \
+            --pdf-engine=xelatex \
+            --toc \
+            --toc-depth=2 \
+            --top-level-division=chapter \
+            -V documentclass=book \
+            -V classoption=oneside \
+            -V geometry:margin=1in
 
       - name: Commit updated PDF
         run: |

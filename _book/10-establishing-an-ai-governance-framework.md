@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Establishing an AI Governance Framework"
-nav_order: 11
+parent: "Part III: Governance, Risk & Leadership"
+nav_order: 1
 ---
 
 # Establishing an AI Governance Framework

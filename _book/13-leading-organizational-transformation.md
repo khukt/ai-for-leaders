@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Leading Organizational Transformation"
-nav_order: 14
+parent: "Part III: Governance, Risk & Leadership"
+nav_order: 4
 ---
 
 # Leading Organizational Transformation

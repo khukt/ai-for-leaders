@@ -21,4 +21,4 @@ just_the_docs:
   collections:
     book:
       name: Book
-      nav_fold: true
+      nav_fold: false

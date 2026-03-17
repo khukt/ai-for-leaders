@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Build, Buy, or Partner"
-nav_order: 8
+parent: "Part II: Strategy & Value"
+nav_order: 2
 ---
 
 # Build, Buy, or Partner

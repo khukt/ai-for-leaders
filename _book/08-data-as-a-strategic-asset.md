@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Data as a Strategic Asset"
-nav_order: 9
+parent: "Part II: Strategy & Value"
+nav_order: 3
 ---
 
 # Data as a Strategic Asset

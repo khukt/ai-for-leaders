@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Appendix B: AI Risk Assessment Template"
-nav_order: 20
+parent: "Appendices & References"
+nav_order: 2
 ---
 
 # Appendix B: AI Risk Assessment Template

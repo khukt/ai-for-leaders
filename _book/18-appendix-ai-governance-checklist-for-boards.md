@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Appendix A: AI Governance Checklist for Boards"
-nav_order: 19
+parent: "Appendices & References"
+nav_order: 1
 ---
 
 # Appendix A: AI Governance Checklist for Boards

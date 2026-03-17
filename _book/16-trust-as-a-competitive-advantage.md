@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Trust as a Competitive Advantage"
-nav_order: 17
+parent: "Part IV: Future Organizations"
+nav_order: 3
 ---
 
 # Trust as a Competitive Advantage

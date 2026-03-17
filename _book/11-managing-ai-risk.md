@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Managing AI Risk"
-nav_order: 12
+parent: "Part III: Governance, Risk & Leadership"
+nav_order: 2
 ---
 
 # Managing AI Risk

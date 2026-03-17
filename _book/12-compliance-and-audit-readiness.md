@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Compliance and Audit Readiness"
-nav_order: 13
+parent: "Part III: Governance, Risk & Leadership"
+nav_order: 3
 ---
 
 # Compliance and Audit Readiness

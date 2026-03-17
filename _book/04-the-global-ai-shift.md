@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "The Global AI Shift"
-nav_order: 5
+parent: "Part I: AI Landscape"
+nav_order: 2
 ---
 
 # The Global AI Shift

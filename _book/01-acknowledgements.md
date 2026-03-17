@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Acknowledgements"
+parent: "Front Matter"
 nav_order: 2
 ---
 

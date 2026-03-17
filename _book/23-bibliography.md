@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Bibliography"
-nav_order: 24
+parent: "Appendices & References"
+nav_order: 6
 ---
 
 # Bibliography

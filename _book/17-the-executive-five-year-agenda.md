@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "The Executive Five-Year Agenda"
-nav_order: 18
+parent: "Part IV: Future Organizations"
+nav_order: 4
 ---
 
 # The Executive Five-Year Agenda

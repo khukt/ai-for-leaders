@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "AI in Smart Industry and Critical Infrastructure"
-nav_order: 16
+parent: "Part IV: Future Organizations"
+nav_order: 2
 ---
 
 # AI in Smart Industry and Critical Infrastructure

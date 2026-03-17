@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "AI Law, Regulation, and Financial Exposure"
-nav_order: 6
+parent: "Part I: AI Landscape"
+nav_order: 3
 ---
 
 # AI Law, Regulation, and Financial Exposure

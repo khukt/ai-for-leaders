@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Appendix E: Glossary of Key Terms"
-nav_order: 23
+parent: "Appendices & References"
+nav_order: 5
 ---
 
 # Appendix E: Glossary of Key Terms
