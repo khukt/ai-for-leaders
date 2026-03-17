@@ -4,151 +4,160 @@
   }
 
   .html-figure--taxonomy .html-figure__canvas {
+    padding: 1.5rem;
+    border-radius: 28px;
+    background:
+      radial-gradient(circle at top right, rgba(255, 215, 102, 0.14), transparent 24%),
+      linear-gradient(180deg, #f7f9fe 0%, #eef3fb 100%);
+  }
+
+  .html-figure--taxonomy .html-figure__grid {
     display: grid;
-    grid-template-columns: minmax(0, 1.2fr) minmax(18rem, 0.88fr);
-    gap: 1.4rem;
+    grid-template-columns: minmax(0, 1.2fr) minmax(18rem, 0.82fr);
+    gap: 1.35rem;
     align-items: start;
-    padding: 1.6rem;
-    border-radius: 24px;
-    background: linear-gradient(180deg, #f7f9fe 0%, #eef3fb 100%);
   }
 
-  .html-figure--taxonomy .html-figure__stack {
+  .html-figure--taxonomy .html-figure__left {
     display: grid;
-    gap: 0.95rem;
+    gap: 0.85rem;
   }
 
-  .html-figure--taxonomy .html-figure__tier {
+  .html-figure--taxonomy .html-figure__step {
+    position: relative;
     box-sizing: border-box;
     border: 4px solid;
-    border-radius: 1.8rem;
-    padding: 1.15rem 1.2rem 1.25rem;
+    border-radius: 1.6rem;
+    padding: 1.1rem 1.15rem 1.15rem;
     background: #fff;
+    box-shadow: 0 12px 24px rgba(27, 43, 74, 0.08);
   }
 
-  .html-figure--taxonomy .html-figure__tier--ai {
+  .html-figure--taxonomy .html-figure__step--ai {
     width: 100%;
     background: #d8e7ff;
     border-color: #2e5fa7;
   }
 
-  .html-figure--taxonomy .html-figure__tier--ml {
-    width: 82%;
-    margin-left: 8%;
+  .html-figure--taxonomy .html-figure__step--ml {
+    width: 86%;
+    margin-left: 7%;
     background: #d8f4e7;
     border-color: #2e8b57;
   }
 
-  .html-figure--taxonomy .html-figure__tier--dl {
-    width: 64%;
-    margin-left: 18%;
+  .html-figure--taxonomy .html-figure__step--dl {
+    width: 72%;
+    margin-left: 14%;
     background: #ffe1bf;
     border-color: #c56a12;
   }
 
-  .html-figure--taxonomy .html-figure__eyebrow {
+  .html-figure--taxonomy .html-figure__label {
     display: inline-block;
-    margin-bottom: 0.45rem;
-    font-size: 0.8rem;
+    margin-bottom: 0.4rem;
+    font-size: 0.78rem;
     font-weight: 800;
-    letter-spacing: 0.14em;
+    letter-spacing: 0.12em;
     text-transform: uppercase;
   }
 
-  .html-figure--taxonomy .html-figure__tier h4,
-  .html-figure--taxonomy .html-figure__tier h5,
-  .html-figure--taxonomy .html-figure__tier h6,
+  .html-figure--taxonomy .html-figure__step h4,
+  .html-figure--taxonomy .html-figure__step h5,
+  .html-figure--taxonomy .html-figure__step h6,
   .html-figure--taxonomy .html-figure__callout h5 {
-    margin: 0 0 0.35rem;
+    margin: 0 0 0.3rem;
     line-height: 1.08;
     font-weight: 800;
   }
 
-  .html-figure--taxonomy .html-figure__tier p,
+  .html-figure--taxonomy .html-figure__step p,
   .html-figure--taxonomy .html-figure__callout p,
   .html-figure--taxonomy .html-figure__note {
     margin: 0;
     line-height: 1.35;
   }
 
-  .html-figure--taxonomy .html-figure__tier--ai .html-figure__eyebrow,
-  .html-figure--taxonomy .html-figure__tier--ai h4,
-  .html-figure--taxonomy .html-figure__tier--ai p {
+  .html-figure--taxonomy .html-figure__step--ai .html-figure__label,
+  .html-figure--taxonomy .html-figure__step--ai h4,
+  .html-figure--taxonomy .html-figure__step--ai p {
     color: #274a7f;
   }
 
-  .html-figure--taxonomy .html-figure__tier--ml .html-figure__eyebrow,
-  .html-figure--taxonomy .html-figure__tier--ml h5,
-  .html-figure--taxonomy .html-figure__tier--ml p {
+  .html-figure--taxonomy .html-figure__step--ml .html-figure__label,
+  .html-figure--taxonomy .html-figure__step--ml h5,
+  .html-figure--taxonomy .html-figure__step--ml p {
     color: #226747;
   }
 
-  .html-figure--taxonomy .html-figure__tier--dl .html-figure__eyebrow,
-  .html-figure--taxonomy .html-figure__tier--dl h6,
-  .html-figure--taxonomy .html-figure__tier--dl p {
+  .html-figure--taxonomy .html-figure__step--dl .html-figure__label,
+  .html-figure--taxonomy .html-figure__step--dl h6,
+  .html-figure--taxonomy .html-figure__step--dl p {
     color: #9b4f07;
   }
 
-  .html-figure--taxonomy .html-figure__tier--ai h4 {
-    font-size: clamp(1.9rem, 2.4vw, 3rem);
+  .html-figure--taxonomy .html-figure__step h4 {
+    font-size: clamp(1.8rem, 2.3vw, 2.8rem);
   }
 
-  .html-figure--taxonomy .html-figure__tier--ml h5 {
-    font-size: clamp(1.45rem, 1.8vw, 2.2rem);
+  .html-figure--taxonomy .html-figure__step h5 {
+    font-size: clamp(1.45rem, 1.8vw, 2rem);
   }
 
-  .html-figure--taxonomy .html-figure__tier--dl h6 {
-    font-size: clamp(1.2rem, 1.45vw, 1.65rem);
+  .html-figure--taxonomy .html-figure__step h6 {
+    font-size: clamp(1.18rem, 1.35vw, 1.48rem);
   }
 
-  .html-figure--taxonomy .html-figure__tier p {
-    font-size: clamp(0.98rem, 1.08vw, 1.12rem);
+  .html-figure--taxonomy .html-figure__step p {
+    font-size: clamp(0.96rem, 1.05vw, 1.08rem);
   }
 
-  .html-figure--taxonomy .html-figure__subset {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    margin-left: 18%;
-    color: #63758f;
-    font-size: 0.86rem;
-    font-weight: 700;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-  }
-
-  .html-figure--taxonomy .html-figure__subset::before {
-    content: "";
-    width: 1.6rem;
-    height: 2px;
-    background: #94a5bf;
-  }
-
-  .html-figure--taxonomy .html-figure__callout {
+  .html-figure--taxonomy .html-figure__arrow {
+    width: 0;
+    height: 1.6rem;
+    margin-left: 2.1rem;
+    border-left: 3px solid #9cb0cf;
     position: relative;
-    padding: 1.3rem 1.35rem;
-    border: 4px solid #b18a12;
-    border-radius: 1.8rem;
-    background: #fff3cf;
-    box-sizing: border-box;
-    min-height: 100%;
   }
 
-  .html-figure--taxonomy .html-figure__callout::before {
+  .html-figure--taxonomy .html-figure__arrow::after {
     content: "";
     position: absolute;
-    left: -1.4rem;
-    top: 4rem;
-    width: 1.4rem;
+    left: -6px;
+    bottom: -1px;
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 8px solid #9cb0cf;
+  }
+
+  .html-figure--taxonomy .html-figure__right {
+    display: grid;
+    gap: 0.7rem;
+    padding-top: 9.2rem;
+  }
+
+  .html-figure--taxonomy .html-figure__bridge {
+    width: 2.6rem;
     height: 2px;
+    margin-left: -0.15rem;
     background: repeating-linear-gradient(
       90deg,
-      #9b7b11 0 10px,
-      transparent 10px 18px
+      #b28a16 0 10px,
+      transparent 10px 17px
     );
   }
 
-  .html-figure--taxonomy .html-figure__callout .html-figure__eyebrow,
+  .html-figure--taxonomy .html-figure__callout {
+    padding: 1.15rem 1.2rem 1.2rem;
+    border: 4px solid #b18a12;
+    border-radius: 1.6rem;
+    background: #fff3cf;
+    box-shadow: 0 12px 24px rgba(114, 86, 13, 0.08);
+  }
+
+  .html-figure--taxonomy .html-figure__callout .html-figure__label,
   .html-figure--taxonomy .html-figure__callout h5,
   .html-figure--taxonomy .html-figure__callout p,
   .html-figure--taxonomy .html-figure__callout li {
@@ -156,22 +165,22 @@
   }
 
   .html-figure--taxonomy .html-figure__callout h5 {
-    font-size: clamp(1.55rem, 1.8vw, 2.4rem);
+    font-size: clamp(1.45rem, 1.7vw, 2.05rem);
   }
 
   .html-figure--taxonomy .html-figure__callout ul {
-    margin: 0.85rem 0 0;
-    padding-left: 1.2rem;
+    margin: 0.8rem 0 0;
+    padding-left: 1.1rem;
   }
 
   .html-figure--taxonomy .html-figure__callout li + li {
-    margin-top: 0.4rem;
+    margin-top: 0.35rem;
   }
 
   .html-figure--taxonomy .html-figure__note {
-    margin-top: 1.05rem;
+    margin-top: 1rem;
     color: #334968;
-    font-size: clamp(1rem, 1.08vw, 1.12rem);
+    font-size: clamp(0.98rem, 1.02vw, 1.08rem);
   }
 
   .html-figure--taxonomy .html-figure__note strong {
@@ -179,64 +188,72 @@
   }
 
   @media (max-width: 980px) {
-    .html-figure--taxonomy .html-figure__canvas {
+    .html-figure--taxonomy .html-figure__grid {
       grid-template-columns: 1fr;
     }
 
-    .html-figure--taxonomy .html-figure__callout::before {
+    .html-figure--taxonomy .html-figure__right {
+      padding-top: 0;
+    }
+
+    .html-figure--taxonomy .html-figure__bridge {
       display: none;
     }
   }
 
   @media (max-width: 720px) {
     .html-figure--taxonomy .html-figure__canvas {
-      padding: 1.2rem;
+      padding: 1.1rem;
     }
 
-    .html-figure--taxonomy .html-figure__tier--ml,
-    .html-figure--taxonomy .html-figure__tier--dl,
-    .html-figure--taxonomy .html-figure__subset {
+    .html-figure--taxonomy .html-figure__step--ml,
+    .html-figure--taxonomy .html-figure__step--dl {
       width: 100%;
       margin-left: 0;
     }
   }
 </style>
 
-<div class="html-figure html-figure--taxonomy" role="img" aria-label="AI as the broadest category, with machine learning and deep learning as narrower subsets, and generative AI shown as a capability layer commonly built with deep learning">
+<div class="html-figure html-figure--taxonomy" role="img" aria-label="AI as the broadest category, machine learning as a subset of AI, deep learning as a subset of machine learning, and generative AI as a capability often built using deep learning">
   <div class="html-figure__canvas">
-    <div class="html-figure__stack">
-      <section class="html-figure__tier html-figure__tier--ai">
-        <span class="html-figure__eyebrow">Broadest Category</span>
-        <h4>Artificial Intelligence</h4>
-        <p>Systems for prediction, reasoning, perception, and decision support.</p>
-      </section>
+    <div class="html-figure__grid">
+      <div class="html-figure__left">
+        <section class="html-figure__step html-figure__step--ai">
+          <span class="html-figure__label">Broadest Category</span>
+          <h4>Artificial Intelligence</h4>
+          <p>Systems for prediction, reasoning, perception, and decision support.</p>
+        </section>
 
-      <div class="html-figure__subset">Subset of AI</div>
+        <div class="html-figure__arrow" aria-hidden="true"></div>
 
-      <section class="html-figure__tier html-figure__tier--ml">
-        <span class="html-figure__eyebrow">Narrower Category</span>
-        <h5>Machine Learning</h5>
-        <p>Systems that learn patterns from data rather than relying only on hand-written rules.</p>
-      </section>
+        <section class="html-figure__step html-figure__step--ml">
+          <span class="html-figure__label">Subset of AI</span>
+          <h5>Machine Learning</h5>
+          <p>Systems that learn patterns from data rather than relying only on hand-written rules.</p>
+        </section>
 
-      <div class="html-figure__subset">Subset of ML</div>
+        <div class="html-figure__arrow" aria-hidden="true"></div>
 
-      <section class="html-figure__tier html-figure__tier--dl">
-        <span class="html-figure__eyebrow">Further Subset</span>
-        <h6>Deep Learning</h6>
-        <p>Multi-layer neural networks made practical by more compute, more data, and better training methods.</p>
-      </section>
+        <section class="html-figure__step html-figure__step--dl">
+          <span class="html-figure__label">Subset of ML</span>
+          <h6>Deep Learning</h6>
+          <p>Multi-layer neural networks made practical by more compute, more data, and better training methods.</p>
+        </section>
+      </div>
+
+      <div class="html-figure__right">
+        <div class="html-figure__bridge" aria-hidden="true"></div>
+        <aside class="html-figure__callout">
+          <span class="html-figure__label">Capability Layer</span>
+          <h5>Generative AI</h5>
+          <p>Models that create new content such as text, images, code, audio, or synthetic media.</p>
+          <ul>
+            <li>Often built with deep learning.</li>
+            <li>Often delivered through foundation-model architectures.</li>
+          </ul>
+        </aside>
+      </div>
     </div>
-
-    <aside class="html-figure__callout">
-      <span class="html-figure__eyebrow">Capability Layer</span>
-      <h5>Generative AI</h5>
-      <p>Models that create new content such as text, images, code, audio, or synthetic media.</p>
-      <ul>
-        <li>Often built with deep learning.</li>
-        <li>Often delivered through foundation-model architectures.</li>
-      </ul>
-    </aside>
   </div>
 
   <div class="html-figure__note">
