@@ -15,20 +15,38 @@ It is not only a compliance exercise. It is a management discipline for allocati
 
 ## Trustworthy AI as a Governance Standard
 
-For leadership teams, trustworthy AI is best understood as AI that an organisation can justify using in real decisions because it is lawful, well-governed, technically robust, and subject to meaningful human oversight.[1], [2], [11], [12]
+For leadership teams, trustworthy AI is best understood as AI that an organisation can defend in real use because it operates within the law, is properly governed, is technically dependable enough for the context, and remains subject to meaningful human control.[1], [2], [11], [12]
 
 That definition matters because it shifts the conversation away from model performance alone. A system can be technically impressive and still be untrustworthy if people cannot challenge it, if ownership is unclear, or if deployment outruns governance.
 
 Across OECD, NIST, and European policy frameworks, the same practical checks appear repeatedly:[1], [2], [12]
 
-- **Reliable and robust**: the system performs consistently enough for the context and has known limits.
-- **Safe and controllable**: failures are less likely to cause harm and humans can intervene.
-- **Fair**: unjustified differences in outcomes are tested and monitored.
-- **Transparent**: people know when AI is being used and how important outputs can be traced or explained.
-- **Accountable**: ownership, review, and escalation responsibilities are clear.
-- **Well-governed data**: data quality, privacy, access, and lifecycle controls are treated as part of trustworthiness.
+- **Reliable and robust**: the system behaves consistently enough for its context, and its limits are understood rather than assumed.
+- **Safe and controllable**: harm is constrained through safeguards, and people can interrupt or redirect use when needed.
+- **Fair**: material differences in treatment or outcomes are examined rather than ignored.
+- **Transparent**: affected people and reviewers can see where AI is used and how important outputs can be traced or interpreted.
+- **Accountable**: responsibility for approval, operation, review, and escalation is visible.
+- **Well-governed data**: data quality, privacy, access control, and lifecycle management are built into the operating model.
 
 This is a useful governance standard because it is broad enough for executives and specific enough for operating teams.
+
+## Trust Compass
+
+One practical way to use this standard is as a compact governance screen before an organisation relies on an AI system in policy, operations, or service delivery.[11]
+
+The five questions below are useful because they force leadership teams to test trustworthiness as an operational condition, not as branding language:
+
+- **Reliable**: is the system dependable enough across the situations where we expect people to rely on it?
+- **Safe**: what practical controls prevent weak or uncertain outputs from causing damage?
+- **Fair**: where could unjustified differences in treatment or outcomes emerge?
+- **Transparent**: can users and reviewers tell when AI is involved and follow the decision trail?
+- **Accountable**: which person or function owns the outcome and can step in when necessary?
+
+If one of these directions is weak or unclear, the correct management response is usually not faster scaling. It is to slow adoption until safeguards and ownership are stronger.
+
+![Diagram showing a Trust Compass with five leadership checks: reliable, safe, fair, transparent, and accountable]({{ site.baseurl }}/assets/images/trust-compass.svg)
+
+*Figure: the Trust Compass is a simple executive screen for deciding whether an AI system is ready to be relied on in live use.*
 
 ## Why Governance Fails
 

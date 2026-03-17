@@ -13,6 +13,19 @@ AI is not only a product trend. It is becoming part of how markets compete, how 
 
 AI is moving from isolated pilots toward embedded capability across software, operations, and public services. As adoption widens, competitive advantage increasingly depends on who can deploy AI responsibly at scale, not merely who can test the latest model first.
 
+## Compute, Cloud, and Concentration
+
+Part of the global AI shift is infrastructural. Access to advanced AI increasingly depends on compute capacity, cloud platforms, semiconductor supply chains, and the ability to secure scarce technical resources fast enough to matter.
+
+For leaders, this creates a strategic reality:
+
+- a small number of providers control much of the cloud and hardware stack on which advanced AI depends
+- compute shortages or cost spikes can slow adoption even when business demand is clear
+- dependence on external platforms can become a source of pricing, resilience, and geopolitical risk
+- deployment choices across cloud, on-premise, edge, and device environments can shape latency, privacy, continuity, and control
+
+This is why AI should be treated not only as a software trend, but also as a question of infrastructure access and dependency management.
+
 ## Core Themes in This Chapter
 
 - **Industry adoption trends**: where AI use is accelerating, and where adoption remains constrained by data, regulation, or workflow complexity

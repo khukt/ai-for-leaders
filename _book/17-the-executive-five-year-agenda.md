@@ -16,6 +16,89 @@ Leadership teams need a forward view that is concrete enough to guide action but
 - Investment strategy
 - Building sustainable AI capability
 
+## The Next 12 Months
+
+The immediate objective is not to become an AI leader in every domain. It is to establish control over current use, identify where value is real, and prevent unmanaged deployment.
+
+In the next 12 months, most leadership teams should:
+
+- build or refresh an enterprise AI inventory
+- classify systems by use case and risk
+- stop unmanaged adoption in sensitive workflows
+- name accountable owners for material AI systems
+- define minimum evidence requirements before wider rollout
+- set a reporting rhythm for board or executive review
+
+This phase is about visibility, containment, and decision discipline.
+
+## The Next 24 Months
+
+Once the organisation has visibility and basic controls, the next priority is to make AI repeatable as a managed capability rather than a sequence of disconnected pilots.
+
+In the next 24 months, management should focus on:
+
+- standard approval and escalation processes
+- stronger vendor governance and contract discipline
+- current monitoring for drift, incidents, complaints, and overrides
+- clearer data-readiness and traceability practices
+- targeted capability building in the business, not only in technical teams
+- use-case prioritisation tied to measurable economic or service value
+
+This phase is about moving from experimentation to governable scale.
+
+## Investment Discipline
+
+AI spending should be judged with the same discipline as other strategic investments, but with a broader cost lens than many teams apply at pilot stage.
+
+Leadership should expect investment cases to include:
+
+- model and platform access cost
+- infrastructure and deployment cost
+- integration and workflow redesign cost
+- monitoring, review, and governance cost
+- vendor dependency and exit cost
+- obsolescence risk if a frontier or hyperscaler-backed provider closes the capability gap quickly
+- realistic assumptions about adoption, error reduction, and measurable value creation
+
+This matters because AI can appear inexpensive when only the model or software line item is counted. The real economic question is whether the organisation creates enough value after infrastructure, oversight, and change costs are included.
+
+## The Next Five Years
+
+Over the longer horizon, the competitive question shifts. The issue is no longer whether the organisation can use AI at all. The issue is whether it can build durable capability while maintaining trust and control.
+
+Over five years, leadership teams should aim to build:
+
+- a repeatable governance operating model
+- a credible internal evidence standard for higher-impact systems
+- stronger resilience against vendor concentration and opaque dependencies
+- organisational capability to redesign work around AI rather than merely layer tools on top
+- a differentiated position based on trust, reliability, and disciplined execution
+
+This phase is about institution building, not just technology adoption.
+
+## Board Agenda
+
+Boards and executive committees should expect recurring attention in four areas:
+
+- material AI risk exposure
+- major deployments and use-case expansion
+- incidents, complaints, and remediation
+- strategic capability gaps in data, talent, governance, or vendor dependence
+
+The board does not need to manage AI directly. It does need confidence that management can see the real exposure, challenge weak assumptions, and intervene when AI use outpaces control.
+
+## What Good Looks Like
+
+By the end of a credible five-year agenda, the organisation should be able to say:
+
+- we know where AI is used
+- we know which uses matter most
+- we know who is accountable
+- we can show what evidence supports deployment
+- we can slow, pause, or stop systems when the context changes
+
+That is the difference between AI ambition and durable AI capability.
+
 ## Leadership Lens
 
 The executive agenda should balance urgency with discipline. Waiting too long creates strategic weakness. Moving too fast without evidence, governance, or organisational readiness creates avoidable exposure.

@@ -90,6 +90,39 @@ For leadership teams, this matters because AI improvement is not only a science 
 
 *Figure: deeper architectures can model more complex patterns, but they also tend to increase data dependence, compute demand, and interpretability challenges.*
 
+## Pretrained and Foundation Models
+
+Many of the most visible AI products in use today are not built from zero for one task. They begin as **pretrained** or **foundation models** trained on very large collections of text, images, audio, video, code, or structured data. Organisations then adapt them for narrower purposes such as summarisation, search, customer support, coding assistance, or domain-specific analysis.
+
+For leaders, this matters because the strategic question is usually not whether to train a model from scratch. It is whether to use an existing foundation model, how much to adapt it, and what dependencies that choice creates in cost, control, language support, intellectual property, and governance.
+
+Adaptation can take several forms:
+
+- **Prompting and workflow design**: changing how the model is instructed and embedded in a business process
+- **Retrieval or grounding**: supplying trusted internal context at run time
+- **Fine-tuning or domain adaptation**: changing the model to perform better in a specific domain or language
+- **Alignment and safety tuning**: adjusting how the model responds to risky, sensitive, or policy-relevant situations
+- **Compression or quantisation**: reducing model size so deployment is cheaper or more practical in constrained environments
+
+Leaders do not need to master model architecture in detail. A brief awareness is enough: many modern generative AI systems use **transformer-based architectures**, but the important leadership issue is not how attention mechanisms work. It is how general-purpose models become business systems, and what assurance is required before people rely on them.
+
+![Diagram showing the progression from foundation models to adapted and specialized business models]({{ site.baseurl }}/assets/images/foundation-to-specialized-models.svg)
+
+*Figure: many organisations start with a general-purpose foundation model and then adapt, align, or constrain it for narrower business uses rather than building from scratch.*
+
+## AI Is Also an Infrastructure Question
+
+Leaders should not treat AI as software alone. AI capability depends on compute, cloud infrastructure, storage, networking, and in some cases specialised hardware such as GPUs or other accelerators. That infrastructure affects what models can be run, how quickly they respond, how expensive they become at scale, and whether they can be deployed in the environments where the organisation actually needs them.
+
+This matters for four reasons:
+
+- **Cost and scale**: model quality is only one part of the business case; inference cost, usage growth, and infrastructure spend can change the economics quickly.
+- **Deployment constraints**: some systems can run centrally in the cloud, while others may require on-premise, edge, or device-level deployment because of latency, privacy, resilience, or safety needs.
+- **Dependency risk**: many organisations depend on a small number of cloud and model providers for the hardware and platform layers underneath AI services.
+- **Operational resilience**: if compute access, latency, or infrastructure availability becomes constrained, AI-enabled workflows can degrade even when the model itself is sound.
+
+Leaders do not need hardware engineering detail. They do need to understand that AI strategy is partly a compute strategy: where systems run, who controls the infrastructure, what it costs to scale, and what dependencies that creates.
+
 ## Why AI Is Different from Previous Digital Waves
 
 AI differs from earlier waves of enterprise software in three important ways:

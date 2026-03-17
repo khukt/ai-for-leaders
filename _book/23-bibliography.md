@@ -65,6 +65,20 @@ This bibliography consolidates the main external sources referenced across the b
 
 [12] European Commission High-Level Expert Group on Artificial Intelligence, “Ethics Guidelines for Trustworthy AI,” Apr. 8, 2019. [Online]. Available: https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai. [Accessed: Mar. 17, 2026].
 
+## Market Dynamics and Model Competition
+
+### <a id="inflection-pivot"></a>Inflection AI Strategy Shift
+
+[13] M. Zeff, “Inflection AI CEO says it’s done trying to make next-generation AI models,” TechCrunch, Nov. 26, 2024. [Online]. Available: https://techcrunch.com/2024/11/26/inflection-ceo-says-its-done-competing-to-make-next-generation-ai-models/. [Accessed: Mar. 17, 2026].
+
+### <a id="gemini-multilingual-oct2024"></a>Gemini Live Language Expansion
+
+[14] J. Walter, “New in Gemini: Gemini Live and connected Google apps in more languages,” Google, Oct. 3, 2024. [Online]. Available: https://blog.google/products/gemini/gemini-live-extensions-language-expansion/. [Accessed: Mar. 17, 2026].
+
+### <a id="gemini-1-5-pro-may2024"></a>Gemini 1.5 Pro Language Expansion
+
+[15] S. Hsiao, “Get more done with Gemini: Try 1.5 Pro and more intelligent features,” Google, May 14, 2024. [Online]. Available: https://blog.google/products/gemini/google-gemini-update-may-2024/. [Accessed: Mar. 17, 2026].
+
 ## Notes on Use
 
 - This book is written for leadership audiences and uses these materials as interpretive anchors rather than as a substitute for legal advice.

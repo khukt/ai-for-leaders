@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 960" role="img" aria-labelledby="title desc">
+  <title id="title">Trust Compass for AI governance</title>
+  <desc id="desc">A compass-style governance figure with five trust checks: reliable, safe, fair, transparent, and accountable.</desc>
+  <rect width="1400" height="960" fill="#f5f7fb"/>
+
+  <text x="90" y="90" font-family="Arial, sans-serif" font-size="48" font-weight="700" fill="#22324b">Trust Compass</text>
+  <text x="90" y="132" font-family="Arial, sans-serif" font-size="24" fill="#55657d">Five executive questions to ask before relying on an AI system in live use.</text>
+
+  <g transform="translate(130,230)">
+    <circle cx="330" cy="280" r="230" fill="#ffffff" stroke="#c9d3e1" stroke-width="6"/>
+    <circle cx="330" cy="280" r="170" fill="none" stroke="#d8e1ec" stroke-width="4"/>
+    <line x1="330" y1="55" x2="330" y2="505" stroke="#d8e1ec" stroke-width="4"/>
+    <line x1="105" y1="280" x2="555" y2="280" stroke="#d8e1ec" stroke-width="4"/>
+    <line x1="171" y1="121" x2="489" y2="439" stroke="#d8e1ec" stroke-width="4"/>
+    <line x1="489" y1="121" x2="171" y2="439" stroke="#d8e1ec" stroke-width="4"/>
+
+    <circle cx="330" cy="280" r="40" fill="#24324a"/>
+    <text x="330" y="290" font-family="Arial, sans-serif" font-size="28" font-weight="700" text-anchor="middle" fill="#ffffff">Trust</text>
+
+    <polygon points="330,110 350,280 330,260 310,280" fill="#2563eb"/>
+    <polygon points="330,450 314,290 330,304 346,290" fill="#9fb7d9"/>
+
+    <text x="330" y="30" font-family="Arial, sans-serif" font-size="28" font-weight="700" text-anchor="middle" fill="#2563eb">Reliable</text>
+    <text x="595" y="290" font-family="Arial, sans-serif" font-size="28" font-weight="700" text-anchor="middle" fill="#0f766e">Safe</text>
+    <text x="490" y="505" font-family="Arial, sans-serif" font-size="28" font-weight="700" text-anchor="middle" fill="#ea580c">Fair</text>
+    <text x="165" y="505" font-family="Arial, sans-serif" font-size="28" font-weight="700" text-anchor="middle" fill="#7c3aed">Transparent</text>
+    <text x="65" y="290" font-family="Arial, sans-serif" font-size="28" font-weight="700" text-anchor="middle" fill="#9333ea">Accountable</text>
+  </g>
+
+  <g transform="translate(760,210)">
+    <rect x="0" y="0" width="550" height="110" rx="22" fill="#eef5ff" stroke="#2563eb" stroke-width="4"/>
+    <text x="32" y="44" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#2563eb">Reliable</text>
+    <text x="32" y="82" font-family="Arial, sans-serif" font-size="22" fill="#1f2937">Will the system perform consistently enough in the situations we expect?</text>
+
+    <rect x="0" y="135" width="550" height="110" rx="22" fill="#eefaf7" stroke="#0f766e" stroke-width="4"/>
+    <text x="32" y="179" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#0f766e">Safe</text>
+    <text x="32" y="217" font-family="Arial, sans-serif" font-size="22" fill="#1f2937">What stops harm when the system is uncertain, weak, or wrong?</text>
+
+    <rect x="0" y="270" width="550" height="110" rx="22" fill="#fff6ed" stroke="#ea580c" stroke-width="4"/>
+    <text x="32" y="314" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#ea580c">Fair</text>
+    <text x="32" y="352" font-family="Arial, sans-serif" font-size="22" fill="#1f2937">Could it produce unjustified differences in treatment or outcomes?</text>
+
+    <rect x="0" y="405" width="550" height="110" rx="22" fill="#f6f0ff" stroke="#7c3aed" stroke-width="4"/>
+    <text x="32" y="449" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#7c3aed">Transparent</text>
+    <text x="32" y="487" font-family="Arial, sans-serif" font-size="22" fill="#1f2937">Will people know when AI is used and how important decisions can be traced?</text>
+
+    <rect x="0" y="540" width="550" height="110" rx="22" fill="#f7f1ff" stroke="#9333ea" stroke-width="4"/>
+    <text x="32" y="584" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#9333ea">Accountable</text>
+    <text x="32" y="622" font-family="Arial, sans-serif" font-size="22" fill="#1f2937">Who is responsible when something goes wrong, and who can intervene?</text>
+
+    <rect x="0" y="705" width="550" height="110" rx="22" fill="#ffffff" stroke="#c9d3e1" stroke-width="4"/>
+    <text x="32" y="750" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#22324b">Governance signal</text>
+    <text x="32" y="789" font-family="Arial, sans-serif" font-size="22" fill="#1f2937">If one direction is weak or unclear, slow adoption and strengthen safeguards before scale.</text>
+  </g>
+</svg>

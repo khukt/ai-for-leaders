@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">From foundation models to specialized business systems</title>
+  <desc id="desc">A diagram showing the progression from a foundation model trained on broad data to adapted models and then to specialized business applications.</desc>
+  <rect width="1600" height="900" fill="#f5f7fb"/>
+
+  <text x="70" y="85" font-family="Arial, sans-serif" font-size="48" font-weight="700" fill="#22324b">From Foundation Models to Specialized Systems</text>
+  <text x="70" y="128" font-family="Arial, sans-serif" font-size="24" fill="#55657d">A simple executive view of how broad pretrained models become narrower business tools.</text>
+
+  <rect x="70" y="180" width="440" height="600" rx="30" fill="#f3eef9" stroke="#c9bddb" stroke-width="4"/>
+  <text x="290" y="245" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="middle" fill="#23324a">Foundation Model</text>
+
+  <rect x="120" y="295" width="340" height="190" rx="24" fill="#ffffff" stroke="#c9d3e1" stroke-width="3"/>
+  <text x="290" y="345" font-family="Arial, sans-serif" font-size="28" font-weight="700" text-anchor="middle" fill="#23324a">Broad Training Data</text>
+  <rect x="150" y="375" width="80" height="54" rx="12" fill="#f9fafb" stroke="#a8b3c4" stroke-width="2"/>
+  <rect x="250" y="375" width="80" height="54" rx="12" fill="#f9fafb" stroke="#a8b3c4" stroke-width="2"/>
+  <rect x="350" y="375" width="80" height="54" rx="12" fill="#f9fafb" stroke="#a8b3c4" stroke-width="2"/>
+  <text x="190" y="410" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="#1f2937">Text</text>
+  <text x="290" y="410" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="#1f2937">Image</text>
+  <text x="390" y="410" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="#1f2937">Code</text>
+  <rect x="150" y="445" width="280" height="46" rx="12" fill="#f9fafb" stroke="#a8b3c4" stroke-width="2"/>
+  <text x="290" y="475" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="#1f2937">Structured and operational data</text>
+
+  <rect x="140" y="565" width="180" height="105" rx="20" fill="#e6f0f8" stroke="#9eb7cf" stroke-width="3"/>
+  <text x="230" y="620" font-family="Arial, sans-serif" font-size="26" text-anchor="middle" fill="#23324a">Pretraining</text>
+  <text x="230" y="650" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="#55657d">General capability</text>
+
+  <rect x="345" y="565" width="120" height="105" rx="20" fill="#ffffff" stroke="#a8b3c4" stroke-width="3"/>
+  <circle cx="405" cy="618" r="13" fill="#8f867f"/>
+  <circle cx="385" cy="598" r="13" fill="#b9b1aa"/>
+  <circle cx="425" cy="598" r="13" fill="#b9b1aa"/>
+  <circle cx="385" cy="638" r="13" fill="#b9b1aa"/>
+  <circle cx="425" cy="638" r="13" fill="#b9b1aa"/>
+  <line x1="385" y1="598" x2="405" y2="618" stroke="#7a7a7a" stroke-width="2"/>
+  <line x1="425" y1="598" x2="405" y2="618" stroke="#7a7a7a" stroke-width="2"/>
+  <line x1="385" y1="638" x2="405" y2="618" stroke="#7a7a7a" stroke-width="2"/>
+  <line x1="425" y1="638" x2="405" y2="618" stroke="#7a7a7a" stroke-width="2"/>
+  <text x="405" y="665" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#23324a">Pretrained</text>
+
+  <rect x="580" y="180" width="430" height="600" rx="30" fill="#eef6fb" stroke="#b7cce0" stroke-width="4"/>
+  <text x="795" y="245" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="middle" fill="#23324a">Adaptation and Alignment</text>
+
+  <rect x="635" y="305" width="320" height="98" rx="22" fill="#f7f1fa" stroke="#c8b8d7" stroke-width="3"/>
+  <text x="795" y="352" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#23324a">Domain or language data</text>
+  <text x="795" y="382" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="#55657d">Smaller, narrower, and task-specific</text>
+
+  <rect x="680" y="435" width="230" height="80" rx="18" fill="#f7f1fa" stroke="#c8b8d7" stroke-width="3"/>
+  <text x="795" y="483" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#23324a">Prompting and retrieval</text>
+
+  <rect x="680" y="545" width="230" height="80" rx="18" fill="#f7f1fa" stroke="#c8b8d7" stroke-width="3"/>
+  <text x="795" y="593" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#23324a">Fine-tuning and alignment</text>
+
+  <rect x="650" y="655" width="290" height="80" rx="18" fill="#f7f1fa" stroke="#c8b8d7" stroke-width="3"/>
+  <text x="795" y="703" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#23324a">Compression and deployment tuning</text>
+
+  <line x1="510" y1="620" x2="610" y2="620" stroke="#1f2937" stroke-width="4"/>
+  <polygon points="610,620 590,608 590,632" fill="#1f2937"/>
+
+  <rect x="1080" y="180" width="450" height="600" rx="30" fill="#eef8fb" stroke="#bcd7e1" stroke-width="4"/>
+  <text x="1305" y="245" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="middle" fill="#23324a">Specialized Business Uses</text>
+
+  <rect x="1140" y="320" width="300" height="100" rx="22" fill="#dff3d8" stroke="#97c18c" stroke-width="3"/>
+  <text x="1290" y="374" font-family="Arial, sans-serif" font-size="28" text-anchor="middle" fill="#23324a">Summarization</text>
+
+  <rect x="1140" y="470" width="300" height="100" rx="22" fill="#f3ece8" stroke="#ccb9b0" stroke-width="3"/>
+  <text x="1290" y="524" font-family="Arial, sans-serif" font-size="28" text-anchor="middle" fill="#23324a">Generation</text>
+
+  <rect x="1140" y="620" width="300" height="100" rx="22" fill="#d8f5fb" stroke="#92cddd" stroke-width="3"/>
+  <text x="1290" y="674" font-family="Arial, sans-serif" font-size="28" text-anchor="middle" fill="#23324a">Assistant or chatbot</text>
+
+  <circle cx="1460" cy="370" r="58" fill="#ffffff" stroke="#a8b3c4" stroke-width="3"/>
+  <circle cx="1460" cy="520" r="58" fill="#ffffff" stroke="#a8b3c4" stroke-width="3"/>
+  <circle cx="1460" cy="670" r="58" fill="#ffffff" stroke="#a8b3c4" stroke-width="3"/>
+
+  <line x1="1010" y1="590" x2="1105" y2="370" stroke="#1f2937" stroke-width="4"/>
+  <polygon points="1105,370 1086,360 1092,383" fill="#1f2937"/>
+  <line x1="1010" y1="590" x2="1105" y2="520" stroke="#1f2937" stroke-width="4"/>
+  <polygon points="1105,520 1085,513 1099,533" fill="#1f2937"/>
+  <line x1="1010" y1="590" x2="1105" y2="670" stroke="#1f2937" stroke-width="4"/>
+  <polygon points="1105,670 1085,657 1087,681" fill="#1f2937"/>
+</svg>

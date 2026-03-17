@@ -24,10 +24,10 @@ One of the clearest lessons from practical trustworthy-AI programs is that the o
 
 The first stage is to stop avoidable harm before the system becomes routine.
 
-- Define what the AI is for, where it helps, and where it should not be used.
-- Add confidence thresholds, refusal rules, and a fallback path when the system is uncertain.
-- Require human review for risky, unusual, or low-confidence cases.
-- Check that critical data is recent enough and fit for the task.
+- Set the approved purpose of the system in plain language, including the boundaries of acceptable use.
+- Establish operating thresholds, refusal conditions, and a safe fallback when confidence weakens.
+- Route unusual, high-consequence, or low-confidence cases to human review.
+- Confirm that the underlying data is sufficiently current and operationally fit.
 
 The key decision gate at this stage is simple: do not widen use until the system can fail safely and people can intervene.
 
@@ -35,10 +35,10 @@ The key decision gate at this stage is simple: do not widen use until the system
 
 The second stage is to turn ad hoc safeguards into repeatable operating rules.
 
-- Name an accountable owner and define an escalation path for failures or exceptions.
-- Keep records of model versions, approvals, key decisions, and exceptions.
-- Run repeatable fairness, reliability, and documentation checks.
-- Define who can approve changes, pauses, overrides, or rollback decisions.
+- Assign one accountable owner and document how incidents or exceptions escalate.
+- Maintain a controlled record of versions, approvals, major decisions, and deviations.
+- Introduce repeatable review routines for performance, fairness where relevant, and documentation quality.
+- Clarify who is allowed to approve changes, temporary overrides, pauses, and rollback actions.
 
 Scaling should require evidence and named accountability, not optimism.
 
@@ -46,10 +46,10 @@ Scaling should require evidence and named accountability, not optimism.
 
 The third stage is to treat AI as a live service rather than a one-time deployment.
 
-- Monitor drift, complaints, overrides, incidents, and changes in operating context.
-- Re-review the system when data, users, workflows, or legal obligations change.
-- Use independent challenge for high-impact or high-sensitivity use cases.
-- Feed lessons from failures, near misses, and audits back into controls and design.
+- Track model drift, stakeholder complaints, overrides, incidents, and material context changes.
+- Trigger fresh review when the data, user base, workflow, or legal environment changes meaningfully.
+- Use independent challenge where the system affects sensitive or high-impact decisions.
+- Convert lessons from incidents, near misses, and audits into stronger controls and design updates.
 
 If conditions change materially, the system should be adjusted, paused, or withdrawn rather than left to degrade quietly.[2], [11]
 
@@ -57,13 +57,28 @@ If conditions change materially, the system should be adjusted, paused, or withd
 
 Before an AI system is rolled out more broadly, leadership should expect five things to be in place:[11]
 
-- **Clear scope**: the task, boundaries, fallback path, and non-approved uses are documented in plain language.
-- **Named accountability**: one owner is answerable for the use case, even if several teams contribute controls.
-- **Human intervention**: people can review, override, or stop the system when confidence is weak or context changes.
-- **Evidence pack**: there is current evidence for reliability, fairness, data quality, and test conditions.
-- **Monitoring and response**: logging, alerts, complaint handling, and incident escalation exist after launch, not only before it.
+- **Clear scope**: the intended task, operational boundaries, fallback arrangements, and excluded uses are written down plainly.
+- **Named accountability**: one accountable owner remains answerable even when several teams support the controls.
+- **Human intervention**: staff can challenge, override, or suspend the system when conditions deteriorate or confidence falls.
+- **Evidence pack**: current evidence exists for performance, fairness where needed, data quality, and test assumptions.
+- **Monitoring and response**: logging, alerts, complaint review, and escalation procedures remain active after go-live.
 
 These are not bureaucratic extras. They are the minimum conditions for moving from a pilot to a governable service.
+
+## Cost Checkpoints Before Scale
+
+Roadmaps fail when scale economics are treated as an afterthought. A use case that works technically may still fail commercially if inference cost, review burden, integration effort, or vendor dependency increase faster than value.
+
+Before scaling an AI system, leadership should ask:
+
+- what does the system cost per meaningful transaction, case, or user interaction?
+- how does cost change as usage volume grows?
+- how much human review is still required after deployment?
+- what infrastructure or vendor commitments increase as the use case scales?
+- what cost would we incur if we had to pause, replace, or migrate the system?
+- how exposed are we to a stronger general model making this custom investment economically obsolete?
+
+The practical decision standard is simple: do not move from pilot to scale unless the economics remain defensible after compute, integration, oversight, and change costs are included.
 
 ## Leadership Lens
 
