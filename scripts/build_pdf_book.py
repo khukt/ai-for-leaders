@@ -40,6 +40,8 @@ def parse_front_matter(text: str) -> tuple[dict[str, object], str]:
 def clean_body(body: str) -> str:
     body = re.sub(r"\{\{[^}]+\}\}", "", body)
     body = re.sub(r'<a id="[^"]+"></a>', "", body)
+    body = body.replace("](/assets/", "](assets/")
+    body = body.replace('"/assets/', '"assets/')
 
     lines = body.rstrip().splitlines()
     while lines and not lines[-1].strip():

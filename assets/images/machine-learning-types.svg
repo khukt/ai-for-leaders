@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Main types of machine learning</title>
+  <desc id="desc">A three-column visual comparing supervised, unsupervised, and reinforcement learning in plain business language.</desc>
+  <rect width="1200" height="760" fill="#f7f8fc"/>
+  <text x="80" y="100" font-family="Arial, sans-serif" font-size="56" font-weight="700" fill="#24324a">Main Types of Machine Learning</text>
+  <text x="80" y="145" font-family="Arial, sans-serif" font-size="26" fill="#51627c">A leadership view of the common learning patterns, the data they require, and where they are used.</text>
+  <rect x="70" y="210" width="320" height="420" rx="28" fill="#dff1ff" stroke="#3f75a2" stroke-width="4"/>
+  <rect x="440" y="210" width="320" height="420" rx="28" fill="#e7f7df" stroke="#4f8a43" stroke-width="4"/>
+  <rect x="810" y="210" width="320" height="420" rx="28" fill="#ffe6da" stroke="#b7673c" stroke-width="4"/>
+  <text x="110" y="275" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#234d74">Supervised</text>
+  <text x="110" y="315" font-family="Arial, sans-serif" font-size="24" fill="#234d74">Learns from labelled examples</text>
+  <text x="110" y="375" font-family="Arial, sans-serif" font-size="24" fill="#234d74">Use when:</text>
+  <text x="110" y="408" font-family="Arial, sans-serif" font-size="22" fill="#234d74">• you know the target outcome</text>
+  <text x="110" y="438" font-family="Arial, sans-serif" font-size="22" fill="#234d74">• you can measure accuracy</text>
+  <text x="110" y="495" font-family="Arial, sans-serif" font-size="24" fill="#234d74">Examples:</text>
+  <text x="110" y="528" font-family="Arial, sans-serif" font-size="22" fill="#234d74">fraud scoring</text>
+  <text x="110" y="556" font-family="Arial, sans-serif" font-size="22" fill="#234d74">demand forecasting</text>
+  <text x="110" y="584" font-family="Arial, sans-serif" font-size="22" fill="#234d74">credit assessment</text>
+  <text x="480" y="275" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#34672d">Unsupervised</text>
+  <text x="480" y="315" font-family="Arial, sans-serif" font-size="24" fill="#34672d">Finds structure without labels</text>
+  <text x="480" y="375" font-family="Arial, sans-serif" font-size="24" fill="#34672d">Use when:</text>
+  <text x="480" y="408" font-family="Arial, sans-serif" font-size="22" fill="#34672d">• you need pattern discovery</text>
+  <text x="480" y="438" font-family="Arial, sans-serif" font-size="22" fill="#34672d">• categories are not predefined</text>
+  <text x="480" y="495" font-family="Arial, sans-serif" font-size="24" fill="#34672d">Examples:</text>
+  <text x="480" y="528" font-family="Arial, sans-serif" font-size="22" fill="#34672d">customer segmentation</text>
+  <text x="480" y="556" font-family="Arial, sans-serif" font-size="22" fill="#34672d">anomaly detection</text>
+  <text x="480" y="584" font-family="Arial, sans-serif" font-size="22" fill="#34672d">pattern discovery</text>
+  <text x="850" y="275" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#8d4d2c">Reinforcement</text>
+  <text x="850" y="315" font-family="Arial, sans-serif" font-size="24" fill="#8d4d2c">Improves through feedback</text>
+  <text x="850" y="375" font-family="Arial, sans-serif" font-size="24" fill="#8d4d2c">Use when:</text>
+  <text x="850" y="408" font-family="Arial, sans-serif" font-size="22" fill="#8d4d2c">• actions affect later outcomes</text>
+  <text x="850" y="438" font-family="Arial, sans-serif" font-size="22" fill="#8d4d2c">• systems learn by trial and reward</text>
+  <text x="850" y="495" font-family="Arial, sans-serif" font-size="24" fill="#8d4d2c">Examples:</text>
+  <text x="850" y="528" font-family="Arial, sans-serif" font-size="22" fill="#8d4d2c">robotics</text>
+  <text x="850" y="556" font-family="Arial, sans-serif" font-size="22" fill="#8d4d2c">control systems</text>
+  <text x="850" y="584" font-family="Arial, sans-serif" font-size="22" fill="#8d4d2c">adaptive optimization</text>
+  <text x="80" y="695" font-family="Arial, sans-serif" font-size="24" fill="#485973">Leadership point: the learning type affects the data you need, the error you can tolerate, and how easy the system is to evaluate and govern.</text>
+</svg>

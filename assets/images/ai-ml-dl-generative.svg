@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">AI, machine learning, deep learning, and generative AI</title>
+  <desc id="desc">A nested diagram showing AI as the broadest category, machine learning inside AI, deep learning inside machine learning, and generative AI as a practical layer commonly built with deep learning.</desc>
+  <rect width="1200" height="760" fill="#f5f7fb"/>
+  <rect x="70" y="70" width="720" height="520" rx="36" fill="#d8e7ff" stroke="#2e5fa7" stroke-width="4"/>
+  <rect x="170" y="155" width="520" height="350" rx="32" fill="#d8f4e7" stroke="#2e8b57" stroke-width="4"/>
+  <rect x="285" y="245" width="290" height="180" rx="28" fill="#ffe1bf" stroke="#c56a12" stroke-width="4"/>
+  <rect x="790" y="210" width="320" height="250" rx="28" fill="#fff3cf" stroke="#b18a12" stroke-width="4"/>
+  <path d="M575 335 C650 335, 700 330, 790 320" fill="none" stroke="#7d6b18" stroke-width="4" stroke-dasharray="10 10"/>
+  <text x="120" y="140" font-family="Arial, sans-serif" font-size="54" font-weight="700" fill="#1e406f">Artificial Intelligence</text>
+  <text x="120" y="190" font-family="Arial, sans-serif" font-size="28" fill="#365a8a">Broad systems for prediction, reasoning, perception, and decision support</text>
+  <text x="215" y="225" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#1f6a44">Machine Learning</text>
+  <text x="215" y="265" font-family="Arial, sans-serif" font-size="24" fill="#2a7d53">Systems that learn patterns from data</text>
+  <text x="330" y="315" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#9b4f07">Deep Learning</text>
+  <text x="330" y="352" font-family="Arial, sans-serif" font-size="22" fill="#9b4f07">Multi-layer neural networks</text>
+  <text x="330" y="388" font-family="Arial, sans-serif" font-size="22" fill="#9b4f07">made practical by compute, data,</text>
+  <text x="330" y="418" font-family="Arial, sans-serif" font-size="22" fill="#9b4f07">and better training methods</text>
+  <text x="835" y="270" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#8a6a09">Generative AI</text>
+  <text x="835" y="310" font-family="Arial, sans-serif" font-size="23" fill="#8a6a09">Models that create text, images,</text>
+  <text x="835" y="340" font-family="Arial, sans-serif" font-size="23" fill="#8a6a09">code, audio, or synthetic media</text>
+  <text x="835" y="390" font-family="Arial, sans-serif" font-size="21" fill="#8a6a09">Often built with deep learning</text>
+  <text x="835" y="418" font-family="Arial, sans-serif" font-size="21" fill="#8a6a09">and foundation-model architectures</text>
+  <text x="90" y="655" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#22324d">Leadership point:</text>
+  <text x="300" y="655" font-family="Arial, sans-serif" font-size="28" fill="#22324d">these are related but not interchangeable categories.</text>
+  <text x="90" y="695" font-family="Arial, sans-serif" font-size="24" fill="#42536f">Different layers imply different data needs, costs, explainability constraints, and governance risks.</text>
+</svg>

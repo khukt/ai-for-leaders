@@ -19,6 +19,21 @@ Leaders often hear AI discussed as if it were interchangeable with automation. I
 
 That difference matters because governance, testing, and acceptable error rates are not the same. A broken workflow rule and a model that produces plausible but incorrect output create different management problems.
 
+## AI, Machine Learning, Deep Learning, and Generative AI
+
+Leaders often hear these terms used loosely, but they describe different layers of capability:
+
+- **Artificial intelligence (AI)** is the broad category for systems that perform tasks associated with perception, prediction, reasoning, or decision support.
+- **Machine learning (ML)** is a subset of AI in which systems learn patterns from data rather than relying only on hand-written rules.
+- **Deep learning (DL)** is a subset of machine learning that uses multi-layer neural networks and has become practical because of improvements in compute, data availability, and model design.[1], [3]
+- **Generative AI** refers to models that create new content such as text, images, code, audio, or synthetic media.
+
+For leaders, the practical point is not mastering the taxonomy. It is understanding that these categories behave differently in terms of data dependence, explainability, operating cost, and risk.
+
+![Diagram showing the relationship between AI, machine learning, deep learning, and generative AI]({{ site.baseurl }}/assets/images/ai-ml-dl-generative.svg)
+
+*Figure: AI is the broadest category; machine learning and deep learning sit within it, while generative AI is a practical capability layer commonly built with deep learning models.*
+
 ## Predictive vs Generative Systems
 
 Not all AI systems do the same thing. Two broad categories are especially relevant for leaders:
@@ -28,6 +43,31 @@ Not all AI systems do the same thing. Two broad categories are especially releva
 
 Predictive systems are often embedded in decisions and workflows that carry regulatory or fairness implications. Generative systems lower the barrier to experimentation, but they also introduce new risks around truthfulness, confidentiality, copyright, and misuse.
 
+## Main Types of Machine Learning
+
+At a high level, leaders only need to understand three common learning patterns:
+
+- **Supervised learning** learns from labelled examples and is widely used for prediction and classification tasks such as fraud detection, demand forecasting, and credit assessment.
+- **Unsupervised learning** looks for structure in data without predefined labels and is often used for clustering, segmentation, anomaly detection, and pattern discovery.
+- **Reinforcement learning** improves through feedback from actions and outcomes, and is most relevant where systems learn through repeated interaction with an environment.
+
+These distinctions matter because they shape what data is needed, how performance is measured, and how easily the system's outputs can be reviewed or challenged.
+
+![Diagram comparing supervised, unsupervised, and reinforcement learning in plain business language]({{ site.baseurl }}/assets/images/machine-learning-types.svg)
+
+*Figure: the learning type changes the data requirements, evaluation method, and governance implications of the system.*
+
+## Where These Systems Show Up in Practice
+
+Much of the confusion around AI disappears once leaders connect methods to business use:
+
+- **Classification**: medical imaging support, spam filtering, document routing, fraud screening
+- **Prediction**: churn risk, maintenance failure, demand forecasting, credit risk
+- **Clustering and segmentation**: customer grouping, pattern discovery, operational anomaly detection
+- **Generation**: drafting, summarisation, coding assistance, image creation, conversational interfaces
+
+The management question is not which technique sounds most advanced. It is which approach is appropriate for the workflow, data quality, acceptable error rate, and level of oversight required.
+
 ## What Has Changed
 
 Three changes have made AI a leadership priority:
@@ -35,6 +75,16 @@ Three changes have made AI a leadership priority:
 1. **Access** — Cloud APIs, foundation models, and packaged software have made advanced AI capabilities easier to buy and test.
 2. **Interface** — Natural-language interfaces allow non-specialists to experiment with AI directly, which accelerates adoption beyond technical teams.
 3. **Pressure** — Boards, employees, customers, and competitors now expect a clear position on where AI should and should not be used.
+
+## Why AI Progress Accelerated
+
+Recent AI progress did not come from a single breakthrough. It came from the combination of:
+
+- **More compute**: the ability to train and run larger models at lower cost
+- **More data**: large datasets, digital workflows, and richer operational signals
+- **Better models and training methods**: improvements in architectures, optimisation, and transfer learning
+
+For leadership teams, this matters because AI improvement is not only a science story. It is also an infrastructure and capability story. Organisations that ignore compute dependency, data readiness, or vendor concentration may misunderstand both the opportunities and the risks.[3]
 
 ## Why AI Is Different from Previous Digital Waves
 
@@ -64,6 +114,12 @@ Not every AI claim deserves equal confidence. In practice, evidence quality vari
 - **General claims about “reasoning” or “human-level performance”** should be tested against specific business tasks, error rates, and escalation paths.
 
 For leadership teams, the key question is not whether a model is impressive in general. It is whether the system is dependable enough for the decision, process, or customer interaction in front of you.[2]
+
+## A Note on Explainability
+
+Not every AI system needs the same level of explanation. But as systems move closer to decisions about people, money, safety, access, or rights, explainability becomes more important.
+
+For leaders, explainability is not mainly a technical preference. It is a management issue. If an important output cannot be interpreted, challenged, or justified, then oversight, accountability, and trust become harder to sustain. That is why explainability later becomes a governance, risk, compliance, and trust issue across the book.
 
 ## Key Questions for Leaders
 
