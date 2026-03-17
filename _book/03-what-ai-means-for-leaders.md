@@ -106,9 +106,7 @@ Adaptation can take several forms:
 
 Leaders do not need to master model architecture in detail. A brief awareness is enough: many modern generative AI systems use **transformer-based architectures**, but the important leadership issue is not how attention mechanisms work. It is how general-purpose models become business systems, and what assurance is required before people rely on them.
 
-![Diagram showing the progression from foundation models to adapted and specialized business models]({{ site.baseurl }}/assets/images/foundation-to-specialized-models.svg)
-
-*Figure: many organisations start with a general-purpose foundation model and then adapt, align, or constrain it for narrower business uses rather than building from scratch.*
+{% include interactive-foundation-models.html %}
 
 ## From Copilots to Agents
 

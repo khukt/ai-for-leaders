@@ -25,6 +25,9 @@
   }
 </style>
 <script>
+  document.documentElement.classList.add('js');
+</script>
+<script>
   document.addEventListener('DOMContentLoaded', function () {
     var btn = document.createElement('a');
     btn.id = 'pdf-download-btn';
@@ -36,3 +39,4 @@
     document.body.appendChild(btn);
   });
 </script>
+<script src="{{ site.baseurl }}/assets/js/interactive-diagrams.js" defer></script>

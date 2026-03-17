@@ -1,0 +1,151 @@
+<div class="interactive-diagram interactive-diagram--foundation-models">
+  <div class="interactive-diagram__app" data-interactive-diagram="foundation-models">
+    <div class="interactive-diagram__intro">
+      <p class="interactive-diagram__eyebrow">Interactive Figure</p>
+      <h4 class="interactive-diagram__title">How a foundation model becomes a business system</h4>
+      <p class="interactive-diagram__summary">
+        Choose an adaptation path to see how the same base model turns into a different operating model with different trade-offs in cost, control, and risk.
+      </p>
+    </div>
+
+    <div class="interactive-diagram__controls" role="tablist" aria-label="Foundation model adaptation paths">
+      <button class="interactive-diagram__tab is-active" type="button" role="tab" aria-selected="true" aria-controls="foundation-panel-prompting" id="foundation-tab-prompting" data-diagram-tab="prompting">
+        Prompting
+      </button>
+      <button class="interactive-diagram__tab" type="button" role="tab" aria-selected="false" aria-controls="foundation-panel-rag" id="foundation-tab-rag" data-diagram-tab="rag">
+        RAG
+      </button>
+      <button class="interactive-diagram__tab" type="button" role="tab" aria-selected="false" aria-controls="foundation-panel-finetuning" id="foundation-tab-finetuning" data-diagram-tab="finetuning">
+        Fine-tuning
+      </button>
+      <button class="interactive-diagram__tab" type="button" role="tab" aria-selected="false" aria-controls="foundation-panel-alignment" id="foundation-tab-alignment" data-diagram-tab="alignment">
+        Alignment
+      </button>
+      <button class="interactive-diagram__tab" type="button" role="tab" aria-selected="false" aria-controls="foundation-panel-compression" id="foundation-tab-compression" data-diagram-tab="compression">
+        Compression
+      </button>
+    </div>
+
+    <div class="interactive-diagram__stage" aria-live="polite">
+      <div class="interactive-diagram__node interactive-diagram__node--base">
+        <span class="interactive-diagram__node-label">Base</span>
+        <strong>Foundation model</strong>
+        <p>General-purpose model trained at scale.</p>
+      </div>
+
+      <div class="interactive-diagram__bridge">
+        <span class="interactive-diagram__bridge-label">Adaptation path</span>
+        <div class="interactive-diagram__bridge-track"></div>
+        <strong class="interactive-diagram__bridge-name" data-diagram-name>Prompting and workflow design</strong>
+        <p class="interactive-diagram__bridge-copy" data-diagram-bridge>
+          The model stays general-purpose, but instructions, guardrails, and process design shape how it behaves in use.
+        </p>
+      </div>
+
+      <div class="interactive-diagram__node interactive-diagram__node--result">
+        <span class="interactive-diagram__node-label">Result</span>
+        <strong data-diagram-output-title>Workflow assistant</strong>
+        <p data-diagram-output-copy>Fastest route to a usable system for drafting, summarising, support, and low-risk productivity work.</p>
+      </div>
+    </div>
+
+    <div class="interactive-diagram__panels">
+      <section class="interactive-diagram__panel is-active" id="foundation-panel-prompting" role="tabpanel" aria-labelledby="foundation-tab-prompting" data-diagram-panel="prompting">
+        <p>Use the model as-is, but wrap it in prompts, decision rules, templates, and human review.</p>
+        <dl class="interactive-diagram__facts">
+          <div>
+            <dt>Best fit</dt>
+            <dd>Drafting, summarisation, search assistance, and workflow copilots.</dd>
+          </div>
+          <div>
+            <dt>Cost profile</dt>
+            <dd>Lowest upfront cost and fastest time to trial.</dd>
+          </div>
+          <div>
+            <dt>Leadership watchpoint</dt>
+            <dd>Local productivity gains can be mistaken for strategic capability if the workflow itself does not change.</dd>
+          </div>
+        </dl>
+      </section>
+
+      <section class="interactive-diagram__panel" id="foundation-panel-rag" role="tabpanel" aria-labelledby="foundation-tab-rag" data-diagram-panel="rag" hidden>
+        <p>Add trusted internal documents or knowledge sources at run time so the model answers with current organisational context.</p>
+        <dl class="interactive-diagram__facts">
+          <div>
+            <dt>Best fit</dt>
+            <dd>Knowledge assistants, policy search, research support, and controlled enterprise Q&amp;A.</dd>
+          </div>
+          <div>
+            <dt>Cost profile</dt>
+            <dd>Moderate build cost because retrieval quality, permissions, and source freshness become critical.</dd>
+          </div>
+          <div>
+            <dt>Leadership watchpoint</dt>
+            <dd>Weak data stewardship or poor source quality will undermine trust faster than model quality alone.</dd>
+          </div>
+        </dl>
+      </section>
+
+      <section class="interactive-diagram__panel" id="foundation-panel-finetuning" role="tabpanel" aria-labelledby="foundation-tab-finetuning" data-diagram-panel="finetuning" hidden>
+        <p>Change the model itself so it performs better in a narrow domain, language, or task pattern.</p>
+        <dl class="interactive-diagram__facts">
+          <div>
+            <dt>Best fit</dt>
+            <dd>Domain-heavy tasks where general prompts are not enough and the advantage is expected to persist.</dd>
+          </div>
+          <div>
+            <dt>Cost profile</dt>
+            <dd>Higher cost because data quality, evaluation, and operating discipline all matter more.</dd>
+          </div>
+          <div>
+            <dt>Leadership watchpoint</dt>
+            <dd>Only worth it when the advantage is durable, not when a general model is likely to catch up quickly.</dd>
+          </div>
+        </dl>
+      </section>
+
+      <section class="interactive-diagram__panel" id="foundation-panel-alignment" role="tabpanel" aria-labelledby="foundation-tab-alignment" data-diagram-panel="alignment" hidden>
+        <p>Tune the system's responses around safety, refusal, tone, escalation, and other policy-sensitive behaviours.</p>
+        <dl class="interactive-diagram__facts">
+          <div>
+            <dt>Best fit</dt>
+            <dd>Public-facing assistants, sensitive workflows, and systems operating under stronger trust or safety expectations.</dd>
+          </div>
+          <div>
+            <dt>Cost profile</dt>
+            <dd>Moderate to high because testing edge cases and maintaining policy consistency takes ongoing work.</dd>
+          </div>
+          <div>
+            <dt>Leadership watchpoint</dt>
+            <dd>Alignment is not only a model setting; it becomes part of governance, complaints handling, and accountability.</dd>
+          </div>
+        </dl>
+      </section>
+
+      <section class="interactive-diagram__panel" id="foundation-panel-compression" role="tabpanel" aria-labelledby="foundation-tab-compression" data-diagram-panel="compression" hidden>
+        <p>Reduce model size or deployment weight so it can run faster, cheaper, or closer to the edge.</p>
+        <dl class="interactive-diagram__facts">
+          <div>
+            <dt>Best fit</dt>
+            <dd>Latency-sensitive, resource-constrained, on-device, or edge deployments.</dd>
+          </div>
+          <div>
+            <dt>Cost profile</dt>
+            <dd>Can reduce operating cost later, but requires careful testing to avoid quality loss.</dd>
+          </div>
+          <div>
+            <dt>Leadership watchpoint</dt>
+            <dd>The trade-off is usually between efficiency and capability, not between efficiency and zero risk.</dd>
+          </div>
+        </dl>
+      </section>
+    </div>
+  </div>
+
+  <div class="interactive-diagram__fallback">
+    <img src="{{ site.baseurl }}/assets/images/foundation-to-specialized-models.svg" alt="Diagram showing the progression from foundation models to adapted and specialized business models">
+    <p class="interactive-diagram__caption">
+      Figure: many organisations start with a general-purpose foundation model and then adapt, align, or constrain it for narrower business uses rather than building from scratch.
+    </p>
+  </div>
+</div>
