@@ -55,12 +55,24 @@ Leaders operating across multiple markets should expect regulatory divergence. T
 
 For multinational organisations, the practical burden is rarely a single rulebook. It is the need to align products, controls, documentation, and vendor management across different legal environments.
 
+## Explainable AI as a Legal and Regulatory Issue
+
+Explainability matters most when AI systems influence rights, access, safety, or material outcomes. In those contexts, leaders may need to show not only that a system performs adequately, but also that decisions can be described, challenged, and governed in a defensible way.
+
+For practical purposes, explainable AI in this chapter is about:
+
+- demonstrating that high-impact outputs can be meaningfully reviewed
+- supporting human oversight and challenge processes
+- helping justify decisions to regulators, auditors, customers, or affected individuals
+- reducing legal and reputational exposure when decisions are disputed
+
 ## What Leaders Should Know
 
 1. **Scope is broader than headquarters**: Regulatory exposure often follows market access, affected individuals, processing activities, or sector participation.
 2. **Third-party risk remains your risk**: Buying AI from a vendor does not eliminate accountability for deployment, oversight, or harm.
 3. **Documentation is part of compliance**: If you cannot show how a system was assessed, monitored, and governed, you may struggle to defend it.
-4. **Generative AI adds extra issues**: Transparency, copyright-related questions, prompt leakage, and model-provider dependencies complicate existing compliance programs.
+4. **Explainability is situational, not optional everywhere**: The need for explanation rises sharply when systems affect rights, access, safety, or significant decisions.
+5. **Generative AI adds extra issues**: Transparency, copyright-related questions, prompt leakage, and model-provider dependencies complicate existing compliance programs.
 
 ## Reliability Notes
 

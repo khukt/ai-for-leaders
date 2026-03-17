@@ -13,7 +13,14 @@ As AI use matures, leaders need more than policy statements. They need evidence.
 - Documentation requirements
 - Risk classification processes
 - Third-party assessments
+- Explainability evidence for review and challenge
 - Continuous monitoring and reporting
+
+## Explainable AI in Audit Readiness
+
+For many higher-impact systems, audit readiness depends partly on whether the organisation can explain how outputs are generated, what limitations are known, and how humans are expected to review or override those outputs.
+
+This does not always require deep technical transparency. It does require enough evidence to show that the system's behavior is understood well enough to be governed responsibly.
 
 ## Leadership Lens
 

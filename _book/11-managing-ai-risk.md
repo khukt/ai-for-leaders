@@ -13,7 +13,14 @@ AI risk management is not limited to technical model quality. Leaders must also 
 - **Bias and fairness risk**: whether outcomes disadvantage people or groups in unlawful or unjustifiable ways
 - **Security and adversarial threats**: prompt injection, data leakage, model abuse, and system manipulation
 - **Reliability and failure scenarios**: weak outputs, silent degradation, automation overreach, and poor escalation design
+- **Opacity and explainability risk**: decisions that cannot be understood, challenged, or defended when outcomes are disputed
 - **Reputational risk**: customer harm, public backlash, media scrutiny, and board-level loss of confidence
+
+## Explainable AI as a Risk Control
+
+Explainability is not a guarantee of safety, but it can be a useful control. When leaders can understand why a model produced a result, they are usually in a stronger position to detect bias, investigate failures, assign accountability, and defend decisions under scrutiny.
+
+The practical issue is not whether every model is fully interpretable. It is whether the organisation has enough explanation, review, and fallback capability for the level of risk involved.
 
 ## Leadership Lens
 

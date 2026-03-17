@@ -46,6 +46,17 @@ Someone must be accountable for each AI system's performance and compliance. Thi
 - A **business owner** responsible for use and outcomes
 - A **governance function** that sets standards and conducts reviews
 
+## Explainable AI in Governance
+
+Explainability should be treated as a governance design choice, not only as a technical feature. The relevant question for leaders is whether a system is explainable enough for the decision it supports, the people it affects, and the level of oversight required.
+
+In practice, governance should define:
+
+- which systems require explanation to support approval or deployment
+- who must be able to understand or challenge an AI output
+- what form of explanation is operationally useful for users, reviewers, and auditors
+- when low explainability is acceptable, and what compensating controls are needed instead
+
 ## A Minimal Governance Operating Model
 
 For most organisations, a workable starting point includes:
