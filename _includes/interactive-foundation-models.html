@@ -20,7 +20,7 @@
       </button>
     </div>
 
-    <div class="interactive-diagram__stage interactive-diagram__stage--pretrained" aria-live="polite">
+    <div class="interactive-diagram__pretrain-flow" aria-label="How pretraining works">
       <div class="interactive-diagram__column interactive-diagram__column--data">
         <span class="interactive-diagram__node-label">Stage 1</span>
         <strong>Pretraining data</strong>
@@ -34,9 +34,7 @@
         </div>
       </div>
 
-      <div class="interactive-diagram__arrow" aria-hidden="true">
-        <span>→</span>
-      </div>
+      <div class="interactive-diagram__flow-arrow" aria-hidden="true">→</div>
 
       <div class="interactive-diagram__column interactive-diagram__column--model">
         <span class="interactive-diagram__node-label">Stage 2</span>
@@ -47,19 +45,25 @@
           <p>Trained in advance on broad data.</p>
         </div>
       </div>
+    </div>
 
-      <div class="interactive-diagram__arrow" aria-hidden="true">
-        <span>→</span>
-      </div>
+    <div class="interactive-diagram__transition-note">
+      The base model above does not change when you switch options below. What changes is how that pretrained model gets adapted for use.
+    </div>
 
-      <div class="interactive-diagram__column interactive-diagram__column--adapted">
+    <div class="interactive-diagram__adaptation-card" aria-live="polite">
+      <div class="interactive-diagram__adaptation-header">
         <span class="interactive-diagram__node-label">Stage 3</span>
         <strong data-diagram-method>Prompting</strong>
-        <p data-diagram-bridge>Use the same pretrained model, but guide it with instructions and workflow rules.</p>
+      </div>
+      <p class="interactive-diagram__adaptation-summary" data-diagram-bridge>Use the same pretrained model, but guide it with instructions and workflow rules.</p>
+
+      <div class="interactive-diagram__adaptation-grid">
         <div class="interactive-diagram__support">
           <span class="interactive-diagram__support-title" data-diagram-support-title>What gets added</span>
           <p data-diagram-support-copy>Prompts, templates, and guardrails. The model itself is not retrained.</p>
         </div>
+
         <div class="interactive-diagram__result">
           <span class="interactive-diagram__result-label">Business use</span>
           <strong data-diagram-output-title>Drafting assistant</strong>
