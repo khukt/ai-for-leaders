@@ -43,6 +43,16 @@ Both are useful, but they answer different leadership questions. Global explanat
 
 *Figure: global explanation helps leaders understand what matters overall; local explanation helps them understand why one specific decision was made.*
 
+## Who Needs Explainability and Why
+
+Explainability is not a single audience requirement. Different stakeholders need different levels and forms of explanation depending on what decisions they make, what risks they carry, and how closely they are affected by AI outputs.
+
+Domain experts need explanations they can use in practice. End users need enough clarity to understand how decisions affect them. Regulators and auditors need evidence that decisions can be reviewed and defended. Builders need explanations that help them improve the system. Executives need explanations that support governance, accountability, and strategic judgment.
+
+![Diagram showing the main stakeholder groups who need explainability and the reasons it matters to each group]({{ site.baseurl }}/assets/images/explainability-stakeholders.svg)
+
+*Figure: explainability serves different purposes for different stakeholders, from operational trust and debugging to regulatory review and executive oversight.*
+
 ## Leadership Lens
 
 The organisations that sustain AI advantage are unlikely to be those that move fastest without control. They are more likely to be those that combine speed with credibility, clarity, and dependable governance.

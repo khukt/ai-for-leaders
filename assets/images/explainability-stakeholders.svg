@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 980" role="img" aria-labelledby="title desc">
+  <title id="title">Stakeholders who need explainability and why</title>
+  <desc id="desc">A visual showing five stakeholder groups who need explainability in AI systems and the reasons it matters to each group.</desc>
+  <rect width="1600" height="980" fill="#f5f7fb"/>
+
+  <text x="70" y="90" font-family="Arial, sans-serif" font-size="54" font-weight="700" fill="#24324a">Who Needs Explainability and Why</text>
+  <text x="70" y="135" font-family="Arial, sans-serif" font-size="24" fill="#55657d">Explainability does not serve only one audience. Different stakeholders need different forms of explanation for trust, action, oversight, and accountability.</text>
+
+  <g transform="translate(110,245)">
+    <circle cx="170" cy="170" r="150" fill="#fff7e6" stroke="#d4a12a" stroke-width="6"/>
+    <circle cx="170" cy="170" r="120" fill="#f4e4c1" stroke="#b88a1d" stroke-width="3"/>
+    <circle cx="170" cy="170" r="90" fill="#b6d8f0" stroke="#507ea6" stroke-width="3"/>
+    <circle cx="170" cy="170" r="62" fill="#e35a5a" stroke="#a53333" stroke-width="3"/>
+    <circle cx="170" cy="170" r="30" fill="#f1bf47" stroke="#a8790a" stroke-width="3"/>
+    <line x1="170" y1="170" x2="60" y2="95" stroke="#72503a" stroke-width="6"/>
+    <line x1="170" y1="170" x2="170" y2="45" stroke="#72503a" stroke-width="6"/>
+    <line x1="170" y1="170" x2="275" y2="80" stroke="#72503a" stroke-width="6"/>
+    <line x1="170" y1="170" x2="300" y2="120" stroke="#72503a" stroke-width="6"/>
+    <line x1="170" y1="170" x2="30" y2="130" stroke="#72503a" stroke-width="6"/>
+    <polygon points="55,92 75,80 66,105" fill="#f2c23a"/>
+    <polygon points="170,42 181,63 159,63" fill="#2db95e"/>
+    <polygon points="278,77 298,89 272,98" fill="#3f8de3"/>
+    <polygon points="303,118 327,122 309,140" fill="#d54444"/>
+    <polygon points="28,129 43,111 50,136" fill="#6a4a9c"/>
+  </g>
+
+  <rect x="520" y="220" width="460" height="210" rx="24" fill="#eef8ff" stroke="#1aa3d8" stroke-width="5"/>
+  <rect x="1015" y="220" width="500" height="210" rx="24" fill="#eef6ff" stroke="#1f7fd1" stroke-width="5"/>
+  <rect x="70" y="550" width="470" height="250" rx="24" fill="#f1fff4" stroke="#00b34a" stroke-width="5"/>
+  <rect x="570" y="550" width="500" height="250" rx="24" fill="#eef3ff" stroke="#143789" stroke-width="5"/>
+  <rect x="1095" y="550" width="450" height="250" rx="24" fill="#f3f3f6" stroke="#3a3a3f" stroke-width="5"/>
+
+  <text x="750" y="290" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="middle" fill="#1777a6">Domain Experts &amp; Practitioners</text>
+  <text x="565" y="352" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#111827">Who?</text>
+  <text x="655" y="352" font-family="Arial, sans-serif" font-size="23" fill="#111827">Doctors, analysts, insurance agents, financial advisors, and operational specialists.</text>
+  <text x="565" y="405" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#111827">Why?</text>
+  <text x="655" y="405" font-family="Arial, sans-serif" font-size="23" fill="#111827">To trust outputs, challenge weak reasoning, and convert model behavior into actionable insight.</text>
+
+  <text x="1265" y="290" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="middle" fill="#156fbf">End Users Impacted by Decisions</text>
+  <text x="1055" y="352" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#111827">Who?</text>
+  <text x="1145" y="352" font-family="Arial, sans-serif" font-size="23" fill="#111827">Patients, customers, citizens, applicants, or any person affected by AI-driven outcomes.</text>
+  <text x="1055" y="405" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#111827">Why?</text>
+  <text x="1145" y="405" font-family="Arial, sans-serif" font-size="23" fill="#111827">To understand how decisions affect them and to assess fairness, recourse, and transparency.</text>
+
+  <text x="305" y="620" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="middle" fill="#00a144">Regulatory Authorities</text>
+  <text x="115" y="682" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#111827">Who?</text>
+  <text x="205" y="682" font-family="Arial, sans-serif" font-size="23" fill="#111827">Government agencies, auditors, supervisory bodies, and compliance reviewers.</text>
+  <text x="115" y="735" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#111827">Why?</text>
+  <text x="205" y="735" font-family="Arial, sans-serif" font-size="23" fill="#111827">To verify adherence to laws, ethical expectations, documentation duties, and audit requirements.</text>
+
+  <text x="820" y="620" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="middle" fill="#143789">AI Builders &amp; Innovators</text>
+  <text x="610" y="682" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#111827">Who?</text>
+  <text x="700" y="682" font-family="Arial, sans-serif" font-size="23" fill="#111827">Engineers, developers, researchers, product managers, and model owners.</text>
+  <text x="610" y="735" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#111827">Why?</text>
+  <text x="700" y="735" font-family="Arial, sans-serif" font-size="23" fill="#111827">To improve model performance, identify limitations, debug failures, and support responsible innovation.</text>
+
+  <text x="1320" y="620" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="middle" fill="#2f2f33">Business Leaders &amp; Executives</text>
+  <text x="1135" y="682" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#111827">Who?</text>
+  <text x="1225" y="682" font-family="Arial, sans-serif" font-size="23" fill="#111827">Managers, decision-makers, risk owners, and board members.</text>
+  <text x="1135" y="735" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#111827">Why?</text>
+  <text x="1225" y="735" font-family="Arial, sans-serif" font-size="23" fill="#111827">To evaluate risk, ensure compliance, assign accountability, and align AI use with strategy.</text>
+</svg>
