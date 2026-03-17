@@ -4,217 +4,258 @@
   }
 
   .html-figure--taxonomy .html-figure__canvas {
-    position: relative;
+    display: grid;
+    grid-template-columns: minmax(0, 1.45fr) 4.5rem minmax(18rem, 0.9fr);
+    align-items: center;
+    gap: 1rem;
     padding: 2rem;
     border-radius: 24px;
-    background: #f5f7fb;
+    background: linear-gradient(180deg, #f7f9fe 0%, #eff3fb 100%);
     overflow: hidden;
   }
 
-  .html-figure--taxonomy .html-figure__taxonomy-shell,
-  .html-figure--taxonomy .html-figure__taxonomy-callout {
-    border-style: solid;
-    border-width: 4px;
-    border-radius: 2rem;
+  .html-figure--taxonomy .html-figure__nest {
+    position: relative;
+    min-height: 38rem;
+  }
+
+  .html-figure--taxonomy .html-figure__layer {
+    position: absolute;
     box-sizing: border-box;
+    border: 4px solid;
+    border-radius: 2.2rem;
   }
 
-  .html-figure--taxonomy .html-figure__taxonomy-shell h4,
-  .html-figure--taxonomy .html-figure__taxonomy-shell h5,
-  .html-figure--taxonomy .html-figure__taxonomy-shell h6,
-  .html-figure--taxonomy .html-figure__taxonomy-callout h5 {
-    margin: 0 0 0.65rem;
-    line-height: 1.08;
+  .html-figure--taxonomy .html-figure__layer-content {
+    max-width: 34rem;
   }
 
-  .html-figure--taxonomy .html-figure__taxonomy-shell p,
-  .html-figure--taxonomy .html-figure__taxonomy-callout p,
-  .html-figure--taxonomy .html-figure__note {
+  .html-figure--taxonomy .html-figure__eyebrow {
+    display: inline-block;
+    margin-bottom: 0.7rem;
+    font-size: 0.82rem;
+    font-weight: 800;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+
+  .html-figure--taxonomy h4,
+  .html-figure--taxonomy h5,
+  .html-figure--taxonomy h6 {
+    margin: 0 0 0.55rem;
+    line-height: 1.05;
+    font-weight: 800;
+  }
+
+  .html-figure--taxonomy p {
     margin: 0;
+    line-height: 1.35;
   }
 
-  .html-figure--taxonomy .html-figure__taxonomy-shell--ai {
-    width: min(66rem, calc(100% - 24rem));
-    min-height: 40rem;
-    padding: 2rem 2.2rem;
+  .html-figure--taxonomy .html-figure__layer--ai {
+    inset: 0 0 0 0;
+    padding: 2.1rem 2.2rem;
     background: #d8e7ff;
     border-color: #2e5fa7;
   }
 
-  .html-figure--taxonomy .html-figure__taxonomy-shell--ai > h4 {
-    color: #1e406f;
-    font-size: clamp(2.2rem, 3vw, 4rem);
-    font-weight: 800;
+  .html-figure--taxonomy .html-figure__layer--ai .html-figure__eyebrow,
+  .html-figure--taxonomy .html-figure__layer--ai h4,
+  .html-figure--taxonomy .html-figure__layer--ai p {
+    color: #274a7f;
   }
 
-  .html-figure--taxonomy .html-figure__taxonomy-shell--ai > p {
-    max-width: 52rem;
-    color: #365a8a;
-    font-size: clamp(1.1rem, 1.8vw, 1.55rem);
+  .html-figure--taxonomy .html-figure__layer--ai h4 {
+    font-size: clamp(2rem, 2.8vw, 3.6rem);
   }
 
-  .html-figure--taxonomy .html-figure__taxonomy-shell--ml {
-    width: 74%;
-    margin-top: 2rem;
-    margin-left: 8%;
-    padding: 1.8rem 1.9rem;
+  .html-figure--taxonomy .html-figure__layer--ai p {
+    max-width: 31rem;
+    font-size: clamp(1rem, 1.45vw, 1.45rem);
+  }
+
+  .html-figure--taxonomy .html-figure__layer--ml {
+    inset: 8.2rem 6.6rem 6.4rem 5.7rem;
+    padding: 1.8rem 1.8rem;
     background: #d8f4e7;
     border-color: #2e8b57;
   }
 
-  .html-figure--taxonomy .html-figure__taxonomy-shell--ml > h5 {
-    color: #1f6a44;
-    font-size: clamp(1.9rem, 2.5vw, 3.1rem);
-    font-weight: 800;
+  .html-figure--taxonomy .html-figure__layer--ml .html-figure__eyebrow,
+  .html-figure--taxonomy .html-figure__layer--ml h5,
+  .html-figure--taxonomy .html-figure__layer--ml p {
+    color: #226747;
   }
 
-  .html-figure--taxonomy .html-figure__taxonomy-shell--ml > p {
-    color: #2a7d53;
-    font-size: clamp(1rem, 1.5vw, 1.35rem);
+  .html-figure--taxonomy .html-figure__layer--ml h5 {
+    font-size: clamp(1.7rem, 2.15vw, 2.85rem);
   }
 
-  .html-figure--taxonomy .html-figure__taxonomy-shell--dl {
-    width: 58%;
-    margin-top: 1.7rem;
-    margin-left: 22%;
-    padding: 1.4rem 1.6rem;
+  .html-figure--taxonomy .html-figure__layer--ml p {
+    max-width: 22rem;
+    font-size: clamp(0.95rem, 1.2vw, 1.2rem);
+  }
+
+  .html-figure--taxonomy .html-figure__layer--dl {
+    inset: 17rem 9.8rem 9.2rem 12.2rem;
+    padding: 1.35rem 1.45rem;
     background: #ffe1bf;
     border-color: #c56a12;
   }
 
-  .html-figure--taxonomy .html-figure__taxonomy-shell--dl > h6 {
+  .html-figure--taxonomy .html-figure__layer--dl .html-figure__eyebrow,
+  .html-figure--taxonomy .html-figure__layer--dl h6,
+  .html-figure--taxonomy .html-figure__layer--dl p {
     color: #9b4f07;
-    font-size: clamp(1.6rem, 2vw, 2.6rem);
-    font-weight: 800;
   }
 
-  .html-figure--taxonomy .html-figure__taxonomy-shell--dl > p {
-    color: #9b4f07;
-    font-size: clamp(1rem, 1.35vw, 1.2rem);
+  .html-figure--taxonomy .html-figure__layer--dl h6 {
+    font-size: clamp(1.35rem, 1.75vw, 2.25rem);
   }
 
-  .html-figure--taxonomy .html-figure__taxonomy-callout {
+  .html-figure--taxonomy .html-figure__layer--dl p {
+    max-width: 15rem;
+    font-size: clamp(0.88rem, 1vw, 1.05rem);
+  }
+
+  .html-figure--taxonomy .html-figure__bridge {
+    position: relative;
+    height: 4px;
+    background: repeating-linear-gradient(
+      90deg,
+      #9b7b11 0 12px,
+      transparent 12px 22px
+    );
+    border-radius: 999px;
+    transform: translateY(2.5rem);
+  }
+
+  .html-figure--taxonomy .html-figure__bridge::after {
+    content: "";
     position: absolute;
-    top: 16rem;
-    right: 2rem;
-    width: 22rem;
-    padding: 1.8rem 1.8rem 1.7rem;
+    top: -6px;
+    right: -2px;
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 14px solid #9b7b11;
+  }
+
+  .html-figure--taxonomy .html-figure__callout {
+    padding: 1.8rem 1.9rem;
+    border: 4px solid #b18a12;
+    border-radius: 2rem;
     background: #fff3cf;
-    border-color: #b18a12;
-    z-index: 1;
+    box-sizing: border-box;
   }
 
-  .html-figure--taxonomy .html-figure__taxonomy-callout h5 {
+  .html-figure--taxonomy .html-figure__callout .html-figure__eyebrow,
+  .html-figure--taxonomy .html-figure__callout h5,
+  .html-figure--taxonomy .html-figure__callout p {
     color: #8a6a09;
-    font-size: clamp(1.8rem, 2.1vw, 3rem);
-    font-weight: 800;
   }
 
-  .html-figure--taxonomy .html-figure__taxonomy-callout p {
-    color: #8a6a09;
-    font-size: clamp(1rem, 1.25vw, 1.25rem);
+  .html-figure--taxonomy .html-figure__callout h5 {
+    font-size: clamp(1.7rem, 2vw, 2.8rem);
   }
 
-  .html-figure--taxonomy .html-figure__taxonomy-callout p + p {
-    margin-top: 1.4rem;
+  .html-figure--taxonomy .html-figure__callout p {
+    font-size: clamp(0.98rem, 1.15vw, 1.18rem);
   }
 
-  .html-figure--taxonomy .html-figure__taxonomy-link {
-    position: absolute;
-    top: 25.2rem;
-    left: calc(66% - 2rem);
-    width: 14rem;
-    border-top: 4px dashed #7d6b18;
-    transform: rotate(-3deg);
-    transform-origin: left center;
+  .html-figure--taxonomy .html-figure__callout p + p {
+    margin-top: 1rem;
   }
 
   .html-figure--taxonomy .html-figure__note {
-    margin-top: 1.4rem;
+    margin-top: 1.2rem;
     color: #334968;
-    font-size: clamp(1rem, 1.3vw, 1.3rem);
+    font-size: clamp(1rem, 1.15vw, 1.2rem);
   }
 
   .html-figure--taxonomy .html-figure__note strong {
     color: #22324d;
   }
 
-  @media (max-width: 1380px) {
+  @media (max-width: 1180px) {
     .html-figure--taxonomy .html-figure__canvas {
-      padding: 1.6rem;
+      grid-template-columns: 1fr;
+      gap: 1.1rem;
+      padding: 1.4rem;
     }
 
-    .html-figure--taxonomy .html-figure__taxonomy-shell--ai {
-      width: calc(100% - 20rem);
+    .html-figure--taxonomy .html-figure__nest {
+      min-height: 31rem;
     }
 
-    .html-figure--taxonomy .html-figure__taxonomy-callout {
-      width: 18rem;
-    }
-
-    .html-figure--taxonomy .html-figure__taxonomy-link {
-      width: 10rem;
-      left: calc(100% - 28rem);
+    .html-figure--taxonomy .html-figure__bridge {
+      width: 100%;
+      transform: none;
     }
   }
 
-  @media (max-width: 1180px) {
-    .html-figure--taxonomy .html-figure__canvas {
-      display: grid;
-      gap: 1.25rem;
-    }
-
-    .html-figure--taxonomy .html-figure__taxonomy-shell--ai,
-    .html-figure--taxonomy .html-figure__taxonomy-shell--ml,
-    .html-figure--taxonomy .html-figure__taxonomy-shell--dl,
-    .html-figure--taxonomy .html-figure__taxonomy-callout {
-      position: static;
-      width: 100%;
+  @media (max-width: 780px) {
+    .html-figure--taxonomy .html-figure__nest {
       min-height: 0;
-      margin: 0;
+      display: grid;
+      gap: 1rem;
     }
 
-    .html-figure--taxonomy .html-figure__taxonomy-shell--ai {
-      padding: 1.5rem;
+    .html-figure--taxonomy .html-figure__layer {
+      position: static;
+      inset: auto;
+      padding: 1.25rem 1.2rem;
     }
 
-    .html-figure--taxonomy .html-figure__taxonomy-shell--ml {
-      margin-top: 1.5rem;
+    .html-figure--taxonomy .html-figure__layer-content,
+    .html-figure--taxonomy .html-figure__layer--ai p,
+    .html-figure--taxonomy .html-figure__layer--ml p,
+    .html-figure--taxonomy .html-figure__layer--dl p {
+      max-width: none;
     }
 
-    .html-figure--taxonomy .html-figure__taxonomy-shell--dl {
-      margin-top: 1.2rem;
-    }
-
-    .html-figure--taxonomy .html-figure__taxonomy-link {
+    .html-figure--taxonomy .html-figure__bridge {
       display: none;
+    }
+
+    .html-figure--taxonomy .html-figure__callout {
+      padding: 1.25rem 1.2rem;
     }
   }
 </style>
 
 <div class="html-figure html-figure--taxonomy" role="img" aria-label="AI as the broadest category, with machine learning and deep learning nested inside it, and generative AI shown as a practical capability layer commonly built with deep learning">
   <div class="html-figure__canvas">
-    <div class="html-figure__taxonomy-shell html-figure__taxonomy-shell--ai">
-      <h4>Artificial Intelligence</h4>
-      <p>Broad systems for prediction, reasoning, perception, and decision support</p>
-
-      <div class="html-figure__taxonomy-shell html-figure__taxonomy-shell--ml">
-        <h5>Machine Learning</h5>
-        <p>Systems that learn patterns from data</p>
-
-        <div class="html-figure__taxonomy-shell html-figure__taxonomy-shell--dl">
-          <h6>Deep Learning</h6>
-          <p>Multi-layer neural networks made practical by compute, data, and better training methods</p>
+    <div class="html-figure__nest">
+      <section class="html-figure__layer html-figure__layer--ai">
+        <div class="html-figure__layer-content">
+          <span class="html-figure__eyebrow">Artificial Intelligence</span>
+          <h4>Broad systems for prediction, reasoning, perception, and decision support</h4>
         </div>
-      </div>
+      </section>
+
+      <section class="html-figure__layer html-figure__layer--ml">
+        <div class="html-figure__layer-content">
+          <span class="html-figure__eyebrow">Machine Learning</span>
+          <h5>Systems that learn patterns from data</h5>
+        </div>
+      </section>
+
+      <section class="html-figure__layer html-figure__layer--dl">
+        <div class="html-figure__layer-content">
+          <span class="html-figure__eyebrow">Deep Learning</span>
+          <h6>Multi-layer neural networks made practical by compute, data, and better training methods</h6>
+        </div>
+      </section>
     </div>
 
-    <div class="html-figure__taxonomy-link" aria-hidden="true"></div>
+    <div class="html-figure__bridge" aria-hidden="true"></div>
 
-    <aside class="html-figure__taxonomy-callout">
-      <h5>Generative AI</h5>
-      <p>Models that create text, images, code, audio, or synthetic media</p>
-      <p>Often built with deep learning and foundation-model architectures</p>
+    <aside class="html-figure__callout">
+      <span class="html-figure__eyebrow">Generative AI</span>
+      <h5>Models that create text, images, code, audio, or synthetic media</h5>
+      <p>Often built with deep learning and foundation-model architectures.</p>
     </aside>
   </div>
 
