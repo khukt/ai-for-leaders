@@ -28,7 +28,8 @@ This tracker reflects the current manuscript state in `_book/` and is meant to g
 | 12 | `_book/14-human-ai-collaboration-and-autonomous-systems.md` | Human-AI Collaboration and Autonomous Systems | `Outline stub` | Medium | Develop decision-boundary logic and autonomy governance examples |
 | 13 | `_book/15-ai-in-smart-industry-and-critical-infrastructure.md` | AI in Smart Industry and Critical Infrastructure | `Outline stub` | Medium | Add sector-specific cases and high-assurance operating requirements |
 | 14 | `_book/16-trust-as-a-competitive-advantage.md` | Trust as a Competitive Advantage | `Working draft` | Medium | Turn the trust thesis into a synthesis chapter that draws on earlier chapters |
-| 15 | `_book/17-the-executive-five-year-agenda.md` | The Executive Five-Year Agenda | `Outline stub` | Medium | Write last as the final synthesis and action chapter |
+| 15 | `_book/17-ai-across-leadership-contexts.md` | AI Across Leadership Contexts | `Strong draft` | High | Use as the audience bridge chapter and cross-check against SME, cooperative, public-sector, and national-leadership needs |
+| 16 | `_book/17-the-executive-five-year-agenda.md` | The Executive Five-Year Agenda | `Working draft` | Medium | Use as the final synthesis chapter after context-specific guidance is stable |
 
 ## Front Matter
 
@@ -47,6 +48,7 @@ This tracker reflects the current manuscript state in `_book/` and is meant to g
 | `_book/20-appendix-vendor-evaluation-framework.md` | Appendix C | `Placeholder` | Late | Build after sourcing and vendor sections are complete |
 | `_book/21-appendix-regulatory-comparison-table.md` | Appendix D | `Placeholder` | Late | Build after regulation chapter is finalized |
 | `_book/22-appendix-glossary-of-key-terms.md` | Appendix E | `Placeholder` | Late | Build after terminology stabilizes across the manuscript |
+| `_book/23-appendix-ai-research-governance-checklist.md` | Appendix F | `Strong draft` | Medium | Cross-check against research-integrity, disclosure, and dual-use governance needs |
 | `_book/23-bibliography.md` | Bibliography | `Working draft` | Medium | Expand as each chapter is deepened |
 
 ## Recommended Writing Sequence
@@ -65,9 +67,10 @@ This tracker reflects the current manuscript state in `_book/` and is meant to g
 12. `_book/14-human-ai-collaboration-and-autonomous-systems.md`
 13. `_book/15-ai-in-smart-industry-and-critical-infrastructure.md`
 14. `_book/16-trust-as-a-competitive-advantage.md`
-15. `_book/17-the-executive-five-year-agenda.md`
-16. `_book/02-executive-summary.md`
-17. Appendices
+15. `_book/17-ai-across-leadership-contexts.md`
+16. `_book/17-the-executive-five-year-agenda.md`
+17. `_book/02-executive-summary.md`
+18. Appendices
 
 ## Current Editorial Assessment
 
@@ -75,4 +78,5 @@ This tracker reflects the current manuscript state in `_book/` and is meant to g
 - The strongest existing anchors are Chapters 1, 3, 4, and 8 in the new numbering scheme.
 - The largest drafting gap is the middle-to-late transition from strategy into operating execution, especially Chapters 6, 7, 9, and 10.
 - The later future-facing chapters are conceptually aligned, but still mostly scaffolding.
+- Audience coverage is now stronger because the manuscript includes explicit guidance for SMEs, research leaders, cooperatives, enterprises, public institutions, and national leadership.
 - The final book will feel much more consistent once the `Outline stub` chapters are brought closer to the depth of the `Strong draft` chapters.

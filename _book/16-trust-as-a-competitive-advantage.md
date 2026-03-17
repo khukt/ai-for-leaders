@@ -80,4 +80,4 @@ The organisations that sustain AI advantage are unlikely to be those that move f
 
 ---
 
-[← AI in Smart Industry and Critical Infrastructure]({{ site.baseurl }}/book/15-ai-in-smart-industry-and-critical-infrastructure/) | [Next: The Executive Five-Year Agenda →]({{ site.baseurl }}/book/17-the-executive-five-year-agenda/)
+[← AI in Smart Industry and Critical Infrastructure]({{ site.baseurl }}/book/15-ai-in-smart-industry-and-critical-infrastructure/) | [Next: AI Across Leadership Contexts →]({{ site.baseurl }}/book/17-ai-across-leadership-contexts/)

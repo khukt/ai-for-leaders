@@ -19,7 +19,7 @@ This book was written to close that gap.
 
 ## Who This Book Is For
 
-This book is written for executives, directors, policymakers, and senior managers who need to make decisions about AI — and who want to make those decisions well.
+This book is written for SME owners, research leaders, cooperative leaders, executives, directors, policymakers, public officials, and senior managers who need to make decisions about AI — and who want to make those decisions well.
 
 You do not need a technical background. You do not need to understand neural network architectures or model training pipelines. What you do need is a disciplined way to think about AI as a leadership issue: where it can create value, where it can fail, what evidence is strong enough to act on, and how responsibility should be assigned.
 

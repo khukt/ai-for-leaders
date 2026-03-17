@@ -15,7 +15,7 @@ nav_order: 1
     <p><strong>AI is no longer an IT topic. It is a leadership topic.</strong></p>
 
     <p>
-      This book helps executives, directors, policymakers, and senior managers make better decisions about AI —
+      This book helps SME owners, research leaders, cooperative leaders, executives, directors, policymakers, and public leaders make better decisions about AI —
       without requiring a technical background.
     </p>
 
@@ -78,13 +78,15 @@ nav_order: 1
 15. [**Human-AI Collaboration and Autonomous Systems**]({{ site.baseurl }}/book/14-human-ai-collaboration-and-autonomous-systems/)
 16. [**AI in Smart Industry and Critical Infrastructure**]({{ site.baseurl }}/book/15-ai-in-smart-industry-and-critical-infrastructure/)
 17. [**Trust as a Competitive Advantage**]({{ site.baseurl }}/book/16-trust-as-a-competitive-advantage/)
-18. [**The Executive Five-Year Agenda**]({{ site.baseurl }}/book/17-the-executive-five-year-agenda/)
+18. [**AI Across Leadership Contexts**]({{ site.baseurl }}/book/17-ai-across-leadership-contexts/)
+19. [**The Executive Five-Year Agenda**]({{ site.baseurl }}/book/17-the-executive-five-year-agenda/)
 
 ## Appendices
 
-19. [**Appendix A: AI Governance Checklist for Boards**]({{ site.baseurl }}/book/18-appendix-ai-governance-checklist-for-boards/)
-20. [**Appendix B: AI Risk Assessment Template**]({{ site.baseurl }}/book/19-appendix-ai-risk-assessment-template/)
-21. [**Appendix C: Vendor Evaluation Framework**]({{ site.baseurl }}/book/20-appendix-vendor-evaluation-framework/)
-22. [**Appendix D: Regulatory Comparison Table**]({{ site.baseurl }}/book/21-appendix-regulatory-comparison-table/)
-23. [**Appendix E: Glossary of Key Terms**]({{ site.baseurl }}/book/22-appendix-glossary-of-key-terms/)
-24. [**Bibliography**]({{ site.baseurl }}/book/23-bibliography/)
+20. [**Appendix A: AI Governance Checklist for Boards**]({{ site.baseurl }}/book/18-appendix-ai-governance-checklist-for-boards/)
+21. [**Appendix B: AI Risk Assessment Template**]({{ site.baseurl }}/book/19-appendix-ai-risk-assessment-template/)
+22. [**Appendix C: Vendor Evaluation Framework**]({{ site.baseurl }}/book/20-appendix-vendor-evaluation-framework/)
+23. [**Appendix D: Regulatory Comparison Table**]({{ site.baseurl }}/book/21-appendix-regulatory-comparison-table/)
+24. [**Appendix E: Glossary of Key Terms**]({{ site.baseurl }}/book/22-appendix-glossary-of-key-terms/)
+25. [**Appendix F: AI Research Governance Checklist**]({{ site.baseurl }}/book/23-appendix-ai-research-governance-checklist/)
+26. [**Bibliography**]({{ site.baseurl }}/book/23-bibliography/)

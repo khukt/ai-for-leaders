@@ -104,6 +104,19 @@ For most organisations, a workable starting point includes:
 
 The objective is not bureaucratic perfection. It is consistent control over the systems that matter.[1], [2]
 
+## Governance Should Match the Leadership Context
+
+The governance model should scale with institutional reality.
+
+- **SMEs** usually need a short rule set, one accountable owner, a clear vendor screen, and explicit limits on sensitive use. Lightweight governance is acceptable if visibility and accountability are real.
+- **Cooperatives and mutuals** often need stronger transparency, fairness review, and stakeholder communication because legitimacy depends on member trust, not only operational efficiency.
+- **Research institutions** usually need explicit standards for disclosure, reproducibility, sensitive-data use, compute access, and dual-use review because credibility depends on methodological integrity as much as on operational control.
+- **Large enterprises** need tiered governance with clear decision rights across functions, because the main challenge is fragmentation rather than lack of policy language.
+- **Public institutions** typically need stronger documentation, procurement discipline, explainability, and challenge paths because AI use may affect rights, access, and public-law duties.
+- **National leadership and central government** need governance that joins policy with execution: regulatory design, state procurement, sovereign dependency analysis, security review, and national accountability should not sit in isolated silos.
+
+The relevant test is not whether the framework looks sophisticated on paper. It is whether it creates the right amount of control for the consequences that the institution carries.
+
 ## Vendor Oversight
 
 Most organisations use AI systems built by third parties. Vendor oversight is a critical but often neglected part of AI governance.

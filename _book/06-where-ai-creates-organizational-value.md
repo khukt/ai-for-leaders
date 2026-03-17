@@ -63,6 +63,19 @@ Before funding an AI initiative, leadership teams should be able to answer six q
 
 If those answers are vague, the project is probably not ready.
 
+## Value Depends on Leadership Context
+
+Leaders should also be careful not to copy another organisation's AI priorities without adjusting for their own context.
+
+- **SMEs** should usually favour near-term workflow gains, cash discipline, and low-integration use cases over prestige projects.
+- **Cooperatives and mutuals** should test whether AI improves member value and service quality rather than only administrative efficiency.
+- **Research institutions and R&D leaders** should judge value in discovery speed, research quality, reproducibility, and compute efficiency rather than in output volume alone.
+- **Large enterprises** should separate local productivity tools from enterprise platforms and higher-impact decision systems, because the value logic and governance burden differ.
+- **Public institutions** should judge value in service quality, timeliness, error reduction, and resilience, not only in headcount reduction.
+- **National leadership** should think in terms of productivity, public capability, competitiveness, resilience, and social legitimacy, not only organisational ROI.
+
+The key discipline is to define value in terms that fit the institution's mandate. A strong business case in a listed company may still be a weak case for a cooperative or a government agency if the trade-offs around fairness, service access, or legitimacy are wrong.
+
 ## Reliability Notes
 
 - Many AI business cases fail because value is estimated from demos rather than measured in production.[2]

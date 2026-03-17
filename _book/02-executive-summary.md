@@ -11,6 +11,8 @@ AI is no longer a specialist technology issue. It is now a leadership issue that
 
 For most organisations, the central challenge is not whether AI is important. It is how to make disciplined decisions under uncertainty. Leaders must decide where AI creates real value, where claims are overstated, what controls are required, and how accountability should be assigned when systems fail or external rules change.
 
+Those decisions do not look identical in every setting. The choices facing an SME owner, a cooperative director, a multinational executive committee, a city administration, and a head of government are related, but not interchangeable. This book therefore treats AI as a leadership subject across organisational scales, governance models, and public-authority contexts.
+
 This book is built around five practical leadership questions:
 
 1. Where does AI create genuine organisational value?
@@ -24,7 +26,7 @@ The chapters that follow move from context to action:
 - Part I explains what AI means for leaders, how the global environment is shifting, and where regulation creates exposure.
 - Part II focuses on strategy, sourcing, data, and roadmap design.
 - Part III addresses governance, risk, compliance, and organisational change.
-- Part IV looks forward to autonomy, critical-sector applications, trust, and executive priorities.
+- Part IV looks forward to autonomy, critical-sector applications, trust, context-specific leadership choices, and executive priorities.
 
 The goal is not to make every leader a technical expert. The goal is to improve decision quality: asking better questions, demanding better evidence, and building systems of control that remain useful as AI capabilities and rules evolve.
 

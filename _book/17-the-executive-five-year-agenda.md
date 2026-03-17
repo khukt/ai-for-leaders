@@ -2,7 +2,7 @@
 layout: default
 title: "The Executive Five-Year Agenda"
 parent: "Part IV: Future Organizations"
-nav_order: 4
+nav_order: 5
 ---
 
 # The Executive Five-Year Agenda
@@ -15,6 +15,7 @@ Leadership teams need a forward view that is concrete enough to guide action but
 - Regulatory preparedness
 - Investment strategy
 - Building sustainable AI capability
+- Adapting the agenda to institutional context
 
 ## The Next 12 Months
 
@@ -76,6 +77,19 @@ Over five years, leadership teams should aim to build:
 
 This phase is about institution building, not just technology adoption.
 
+## The Agenda Changes by Leadership Level
+
+The five-year agenda should not be identical for every leadership context.
+
+- **SMEs** should focus on a short list of durable gains, safe vendor use, data discipline, and avoiding brittle dependence on tools they cannot supervise.
+- **Cooperatives and mutuals** should build trust, member transparency, and reviewable use of AI in service, pricing, and support processes.
+- **Research institutions** should strengthen AI-assisted research practices without weakening reproducibility, attribution, data protection, or dual-use safeguards.
+- **Large enterprises** should reduce unmanaged adoption, build reusable governance and platform layers, and concentrate investment where scale or differentiation is real.
+- **Public-sector institutions** should prioritise state capability, lawful service redesign, procurement maturity, and trust-preserving deployment in citizen-facing systems.
+- **National leadership** should build a national agenda around talent, infrastructure, secure adoption, industrial competitiveness, resilience, and democratic legitimacy.
+
+In each setting, the right five-year plan is the one that strengthens capability without accepting hidden dependency or avoidable loss of control.
+
 ## Board Agenda
 
 Boards and executive committees should expect recurring attention in four areas:
@@ -111,4 +125,4 @@ The executive agenda should balance urgency with discipline. Waiting too long cr
 
 ---
 
-[← Trust as a Competitive Advantage]({{ site.baseurl }}/book/16-trust-as-a-competitive-advantage/) | [Next: Appendix A →]({{ site.baseurl }}/book/18-appendix-ai-governance-checklist-for-boards/)
+[← AI Across Leadership Contexts]({{ site.baseurl }}/book/17-ai-across-leadership-contexts/) | [Next: Appendix A →]({{ site.baseurl }}/book/18-appendix-ai-governance-checklist-for-boards/)

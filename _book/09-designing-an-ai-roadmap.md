@@ -80,6 +80,19 @@ Before scaling an AI system, leadership should ask:
 
 The practical decision standard is simple: do not move from pilot to scale unless the economics remain defensible after compute, integration, oversight, and change costs are included.
 
+## Roadmaps Should Scale to the Institution
+
+The right roadmap for AI depends partly on what kind of leadership problem the organisation is trying to solve.
+
+- **SMEs** usually need a short roadmap: inventory current tool use, approve one or two priority workflows, define simple data-handling rules, and review outcomes monthly.
+- **Cooperatives and mutuals** should add explicit member-interest checks, transparency commitments, and governance review for uses that affect access, pricing, or entitlements.
+- **Research institutions** should build roadmaps around disclosure standards, reproducibility controls, governed access to models and compute, and review of dual-use or high-consequence research applications.
+- **Large enterprises** need a more structured sequence: inventory, tiered review, platform standards, vendor discipline, and executive reporting across business units.
+- **Public institutions** should build roadmaps around lawful deployment, procurement readiness, records and appeals logic, and careful sequencing between low-risk support uses and high-impact public decisions.
+- **National leadership** should treat the roadmap as a state-capacity agenda spanning adoption, infrastructure, talent, procurement, security, regulation, and critical-sector resilience.
+
+The common mistake is to import an enterprise roadmap into a setting that lacks enterprise resources, or to use a startup-style experimentation model in a public or political context that requires stronger legitimacy.
+
 ## Leadership Lens
 
 A credible roadmap should connect use cases, capability building, governance controls, and change management. It should also distinguish between experiments, scalable deployments, and strategic platforms.

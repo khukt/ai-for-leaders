@@ -2,7 +2,7 @@
 layout: default
 title: "Bibliography"
 parent: "Appendices & References"
-nav_order: 6
+nav_order: 7
 ---
 
 # Bibliography
@@ -86,4 +86,4 @@ This bibliography consolidates the main external sources referenced across the b
 
 ---
 
-[← Appendix E]({{ site.baseurl }}/book/22-appendix-glossary-of-key-terms/)
+[← Appendix F]({{ site.baseurl }}/book/23-appendix-ai-research-governance-checklist/)

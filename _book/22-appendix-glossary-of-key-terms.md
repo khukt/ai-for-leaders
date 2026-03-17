@@ -31,4 +31,4 @@ This glossary is written for executive readers. The purpose is not exhaustive te
 
 ---
 
-[← Appendix D]({{ site.baseurl }}/book/21-appendix-regulatory-comparison-table/) | [Next: Bibliography →]({{ site.baseurl }}/book/23-bibliography/)
+[← Appendix D]({{ site.baseurl }}/book/21-appendix-regulatory-comparison-table/) | [Next: Appendix F →]({{ site.baseurl }}/book/23-appendix-ai-research-governance-checklist/)
