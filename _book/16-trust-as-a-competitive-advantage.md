@@ -26,7 +26,7 @@ For leadership teams, explainability supports trust in four ways:
 - it strengthens customer and regulator communication
 - it turns responsible AI practice into a visible strategic differentiator
 
-![Diagram contrasting a black-box AI model with a transparent model and explainable interface]({{ site.baseurl }}/assets/images/black-box-vs-explainable-ai.svg)
+![Diagram contrasting a black-box AI model with a transparent model and explainable interface]({{ site.baseurl }}/assets/images/black-box-vs-explainable-ai.png)
 
 *Figure: explainability does not guarantee correctness, but it improves the ability of users, managers, auditors, and regulators to understand, challenge, and govern important outputs.*
 
@@ -54,7 +54,7 @@ Leaders should also distinguish between two different kinds of explanation:
 
 Both are useful, but they answer different leadership questions. Global explanation supports governance, model review, and strategic confidence. Local explanation supports case-level accountability and operational trust.
 
-![Diagram showing the difference between global explanation and local explanation in explainable AI]({{ site.baseurl }}/assets/images/global-vs-local-explanation.svg)
+![Diagram showing the difference between global explanation and local explanation in explainable AI]({{ site.baseurl }}/assets/images/global-vs-local-explanation.png)
 
 *Figure: global explanation helps leaders understand what matters overall; local explanation helps them understand why one specific decision was made.*
 
@@ -64,7 +64,7 @@ Explainability is not a single audience requirement. Different stakeholders need
 
 Domain experts need explanations they can use in practice. End users need enough clarity to understand how decisions affect them. Regulators and auditors need evidence that decisions can be reviewed and defended. Builders need explanations that help them improve the system. Executives need explanations that support governance, accountability, and strategic judgment.
 
-![Diagram showing the main stakeholder groups who need explainability and the reasons it matters to each group]({{ site.baseurl }}/assets/images/explainability-stakeholders.svg)
+![Diagram showing the main stakeholder groups who need explainability and the reasons it matters to each group]({{ site.baseurl }}/assets/images/explainability-stakeholders.png)
 
 *Figure: explainability serves different purposes for different stakeholders, from operational trust and debugging to regulatory review and executive oversight.*
 
