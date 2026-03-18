@@ -52,10 +52,7 @@
   box-sizing: border-box;
 }
 
-.html-figure__taxonomy-shell h4,
-.html-figure__taxonomy-shell h5,
-.html-figure__taxonomy-shell h6,
-.html-figure__taxonomy-callout h5 {
+.html-figure__step-title {
   margin: 0 0 0.65rem;
   line-height: 1.08;
 }
@@ -75,7 +72,7 @@
   border-color: #2e5fa7;
 }
 
-.html-figure__taxonomy-shell--ai > h4 {
+.html-figure__taxonomy-shell--ai > .html-figure__step-title--ai {
   color: #1e406f;
   font-size: clamp(2.2rem, 3vw, 4rem);
   font-weight: 800;
@@ -96,7 +93,7 @@
   border-color: #2e8b57;
 }
 
-.html-figure__taxonomy-shell--ml > h5 {
+.html-figure__taxonomy-shell--ml > .html-figure__step-title--ml {
   color: #1f6a44;
   font-size: clamp(1.9rem, 2.5vw, 3.1rem);
   font-weight: 800;
@@ -116,7 +113,7 @@
   border-color: #c56a12;
 }
 
-.html-figure__taxonomy-shell--dl > h6 {
+.html-figure__taxonomy-shell--dl > .html-figure__step-title--dl {
   color: #9b4f07;
   font-size: clamp(1.6rem, 2vw, 2.6rem);
   font-weight: 800;
@@ -138,7 +135,7 @@
   z-index: 1;
 }
 
-.html-figure__taxonomy-callout h5 {
+.html-figure__taxonomy-callout .html-figure__step-title--genai {
   color: #8a6a09;
   font-size: clamp(1.8rem, 2.1vw, 3rem);
   font-weight: 800;
