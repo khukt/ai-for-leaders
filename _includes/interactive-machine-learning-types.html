@@ -1,0 +1,85 @@
+<div class="interactive-diagram interactive-diagram--learning-types">
+  <div class="interactive-diagram__app" data-interactive-diagram="learning-types">
+    <div class="interactive-diagram__intro">
+      <p class="interactive-diagram__eyebrow">Interactive Figure</p>
+      <h4 class="interactive-diagram__title">Supervised, unsupervised, and reinforcement learning</h4>
+      <p class="interactive-diagram__summary">
+        Pick a learning type to see what kind of data it needs, how teams usually evaluate it, and what governance questions it raises.
+      </p>
+    </div>
+
+    <div class="interactive-diagram__controls" aria-label="Machine learning types">
+      <button class="interactive-diagram__tab is-active" type="button" aria-pressed="true" data-learning-tab="supervised">
+        Supervised
+      </button>
+      <button class="interactive-diagram__tab" type="button" aria-pressed="false" data-learning-tab="unsupervised">
+        Unsupervised
+      </button>
+      <button class="interactive-diagram__tab" type="button" aria-pressed="false" data-learning-tab="reinforcement">
+        Reinforcement
+      </button>
+    </div>
+
+    <div class="learning-diagram">
+      <div class="learning-diagram__flow">
+        <div class="learning-diagram__stage">
+          <span class="learning-diagram__stage-label">Data Pattern</span>
+          <div class="learning-diagram__stage-icon" data-learning-icon="data" aria-hidden="true"></div>
+          <strong data-learning-stage-title>Labelled examples</strong>
+          <p data-learning-stage-copy>The system learns from examples where the desired answer or category is already known.</p>
+        </div>
+
+        <div class="learning-diagram__arrow" aria-hidden="true">→</div>
+
+        <div class="learning-diagram__stage">
+          <span class="learning-diagram__stage-label">Typical Output</span>
+          <div class="learning-diagram__stage-icon" data-learning-icon="output" aria-hidden="true"></div>
+          <strong data-learning-output-title>Prediction or classification</strong>
+          <p data-learning-output-copy>Teams often use it for forecasting, scoring, routing, or deciding which class an item belongs to.</p>
+        </div>
+
+        <div class="learning-diagram__arrow" aria-hidden="true">→</div>
+
+        <div class="learning-diagram__stage">
+          <span class="learning-diagram__stage-label">Evaluation Lens</span>
+          <div class="learning-diagram__stage-icon" data-learning-icon="score" aria-hidden="true"></div>
+          <strong data-learning-eval-title>Compare outputs to known answers</strong>
+          <p data-learning-eval-copy>Performance is checked against labelled test data and task-specific error metrics.</p>
+        </div>
+      </div>
+
+      <div class="interactive-diagram__facts">
+        <div class="interactive-diagram__fact-card">
+          <span class="interactive-diagram__fact-label">Best Business Use</span>
+          <p data-learning-best-use>Prediction and classification tasks where the outcome is already defined clearly enough to label examples.</p>
+        </div>
+
+        <div class="interactive-diagram__fact-card">
+          <span class="interactive-diagram__fact-label">Main Data Need</span>
+          <p data-learning-data-need>High-quality labelled data that is relevant to the real task and population.</p>
+        </div>
+
+        <div class="interactive-diagram__fact-card">
+          <span class="interactive-diagram__fact-label">Governance Watchout</span>
+          <p data-learning-watchout>Bad labels, skewed training data, and hidden outcome bias can make a model look precise while still producing harmful decisions.</p>
+        </div>
+
+        <div class="interactive-diagram__fact-card">
+          <span class="interactive-diagram__fact-label">Leadership Question</span>
+          <p data-learning-question>Do we trust the labels and outcome definitions enough for people to rely on this model in real decisions?</p>
+        </div>
+      </div>
+    </div>
+
+    <p class="interactive-diagram__rule" data-learning-rule>
+      Key idea: the learning type changes the evidence burden. Different approaches need different data, different evaluation methods, and different oversight.
+    </p>
+  </div>
+
+  <div class="interactive-diagram__fallback">
+    <img src="{{ site.baseurl }}/assets/images/machine-learning-types.svg" alt="Diagram comparing supervised, unsupervised, and reinforcement learning in plain business language">
+    <p class="interactive-diagram__caption">
+      Figure: the learning type changes the data requirements, evaluation method, and governance implications of the system.
+    </p>
+  </div>
+</div>

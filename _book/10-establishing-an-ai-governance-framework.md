@@ -44,9 +44,7 @@ The five questions below are useful because they force leadership teams to test 
 
 If one of these directions is weak or unclear, the correct management response is usually not faster scaling. It is to slow adoption until safeguards and ownership are stronger.
 
-![Diagram showing a Trust Compass with five leadership checks: reliable, safe, fair, transparent, and accountable]({{ site.baseurl }}/assets/images/trust-compass.svg)
-
-*Figure: the Trust Compass is a simple executive screen for deciding whether an AI system is ready to be relied on in live use.*
+{% include interactive-trust-compass.html %}
 
 ## Why Governance Fails
 

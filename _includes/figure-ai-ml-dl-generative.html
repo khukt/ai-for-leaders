@@ -1,262 +1,147 @@
-<style>
-  .html-figure--taxonomy {
-    margin: 1.5rem 0 1rem;
-  }
+<div class="interactive-diagram interactive-diagram--taxonomy">
+  <div class="interactive-diagram__app" data-interactive-diagram="taxonomy">
+    <div class="interactive-diagram__intro">
+      <p class="interactive-diagram__eyebrow">Interactive Figure</p>
+      <h4 class="interactive-diagram__title">AI, machine learning, deep learning, and generative AI</h4>
+      <p class="interactive-diagram__summary">
+        Pick a layer to see how the categories relate. The main point is that these terms are connected, but they are not interchangeable.
+      </p>
+    </div>
 
-  .html-figure--taxonomy .html-figure__canvas {
-    padding: 1.5rem;
-    border-radius: 28px;
-    background:
-      radial-gradient(circle at top right, rgba(255, 215, 102, 0.14), transparent 24%),
-      linear-gradient(180deg, #f7f9fe 0%, #eef3fb 100%);
-  }
+    <div class="interactive-diagram__controls" aria-label="AI taxonomy layers">
+      <button class="interactive-diagram__tab is-active" type="button" aria-pressed="true" data-taxonomy-tab="ai">
+        AI
+      </button>
+      <button class="interactive-diagram__tab" type="button" aria-pressed="false" data-taxonomy-tab="ml">
+        Machine Learning
+      </button>
+      <button class="interactive-diagram__tab" type="button" aria-pressed="false" data-taxonomy-tab="dl">
+        Deep Learning
+      </button>
+      <button class="interactive-diagram__tab" type="button" aria-pressed="false" data-taxonomy-tab="genai">
+        Generative AI
+      </button>
+    </div>
 
-  .html-figure--taxonomy .html-figure__grid {
-    display: grid;
-    grid-template-columns: minmax(0, 1.2fr) minmax(18rem, 0.82fr);
-    gap: 1.35rem;
-    align-items: start;
-  }
-
-  .html-figure--taxonomy .html-figure__left {
-    display: grid;
-    gap: 0.85rem;
-  }
-
-  .html-figure--taxonomy .html-figure__step {
-    position: relative;
-    box-sizing: border-box;
-    border: 4px solid;
-    border-radius: 1.6rem;
-    padding: 1.1rem 1.15rem 1.15rem;
-    background: #fff;
-    box-shadow: 0 12px 24px rgba(27, 43, 74, 0.08);
-  }
-
-  .html-figure--taxonomy .html-figure__step--ai {
-    width: 100%;
-    background: #d8e7ff;
-    border-color: #2e5fa7;
-  }
-
-  .html-figure--taxonomy .html-figure__step--ml {
-    width: 86%;
-    margin-left: 7%;
-    background: #d8f4e7;
-    border-color: #2e8b57;
-  }
-
-  .html-figure--taxonomy .html-figure__step--dl {
-    width: 72%;
-    margin-left: 14%;
-    background: #ffe1bf;
-    border-color: #c56a12;
-  }
-
-  .html-figure--taxonomy .html-figure__label {
-    display: inline-block;
-    margin-bottom: 0.4rem;
-    font-size: 0.78rem;
-    font-weight: 800;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-  }
-
-  .html-figure--taxonomy .html-figure__step h4,
-  .html-figure--taxonomy .html-figure__step h5,
-  .html-figure--taxonomy .html-figure__step h6,
-  .html-figure--taxonomy .html-figure__callout h5 {
-    margin: 0 0 0.3rem;
-    line-height: 1.08;
-    font-weight: 800;
-  }
-
-  .html-figure--taxonomy .html-figure__step p,
-  .html-figure--taxonomy .html-figure__callout p,
-  .html-figure--taxonomy .html-figure__note {
-    margin: 0;
-    line-height: 1.35;
-  }
-
-  .html-figure--taxonomy .html-figure__step--ai .html-figure__label,
-  .html-figure--taxonomy .html-figure__step--ai h4,
-  .html-figure--taxonomy .html-figure__step--ai p {
-    color: #274a7f;
-  }
-
-  .html-figure--taxonomy .html-figure__step--ml .html-figure__label,
-  .html-figure--taxonomy .html-figure__step--ml h5,
-  .html-figure--taxonomy .html-figure__step--ml p {
-    color: #226747;
-  }
-
-  .html-figure--taxonomy .html-figure__step--dl .html-figure__label,
-  .html-figure--taxonomy .html-figure__step--dl h6,
-  .html-figure--taxonomy .html-figure__step--dl p {
-    color: #9b4f07;
-  }
-
-  .html-figure--taxonomy .html-figure__step h4 {
-    font-size: clamp(1.8rem, 2.3vw, 2.8rem);
-  }
-
-  .html-figure--taxonomy .html-figure__step h5 {
-    font-size: clamp(1.45rem, 1.8vw, 2rem);
-  }
-
-  .html-figure--taxonomy .html-figure__step h6 {
-    font-size: clamp(1.18rem, 1.35vw, 1.48rem);
-  }
-
-  .html-figure--taxonomy .html-figure__step p {
-    font-size: clamp(0.96rem, 1.05vw, 1.08rem);
-  }
-
-  .html-figure--taxonomy .html-figure__arrow {
-    width: 0;
-    height: 1.6rem;
-    margin-left: 2.1rem;
-    border-left: 3px solid #9cb0cf;
-    position: relative;
-  }
-
-  .html-figure--taxonomy .html-figure__arrow::after {
-    content: "";
-    position: absolute;
-    left: -6px;
-    bottom: -1px;
-    width: 0;
-    height: 0;
-    border-left: 6px solid transparent;
-    border-right: 6px solid transparent;
-    border-top: 8px solid #9cb0cf;
-  }
-
-  .html-figure--taxonomy .html-figure__right {
-    display: grid;
-    gap: 0.7rem;
-    padding-top: 9.2rem;
-  }
-
-  .html-figure--taxonomy .html-figure__bridge {
-    width: 2.6rem;
-    height: 2px;
-    margin-left: -0.15rem;
-    background: repeating-linear-gradient(
-      90deg,
-      #b28a16 0 10px,
-      transparent 10px 17px
-    );
-  }
-
-  .html-figure--taxonomy .html-figure__callout {
-    padding: 1.15rem 1.2rem 1.2rem;
-    border: 4px solid #b18a12;
-    border-radius: 1.6rem;
-    background: #fff3cf;
-    box-shadow: 0 12px 24px rgba(114, 86, 13, 0.08);
-  }
-
-  .html-figure--taxonomy .html-figure__callout .html-figure__label,
-  .html-figure--taxonomy .html-figure__callout h5,
-  .html-figure--taxonomy .html-figure__callout p,
-  .html-figure--taxonomy .html-figure__callout li {
-    color: #8a6a09;
-  }
-
-  .html-figure--taxonomy .html-figure__callout h5 {
-    font-size: clamp(1.45rem, 1.7vw, 2.05rem);
-  }
-
-  .html-figure--taxonomy .html-figure__callout ul {
-    margin: 0.8rem 0 0;
-    padding-left: 1.1rem;
-  }
-
-  .html-figure--taxonomy .html-figure__callout li + li {
-    margin-top: 0.35rem;
-  }
-
-  .html-figure--taxonomy .html-figure__note {
-    margin-top: 1rem;
-    color: #334968;
-    font-size: clamp(0.98rem, 1.02vw, 1.08rem);
-  }
-
-  .html-figure--taxonomy .html-figure__note strong {
-    color: #22324d;
-  }
-
-  @media (max-width: 980px) {
-    .html-figure--taxonomy .html-figure__grid {
-      grid-template-columns: 1fr;
-    }
-
-    .html-figure--taxonomy .html-figure__right {
-      padding-top: 0;
-    }
-
-    .html-figure--taxonomy .html-figure__bridge {
-      display: none;
-    }
-  }
-
-  @media (max-width: 720px) {
-    .html-figure--taxonomy .html-figure__canvas {
-      padding: 1.1rem;
-    }
-
-    .html-figure--taxonomy .html-figure__step--ml,
-    .html-figure--taxonomy .html-figure__step--dl {
-      width: 100%;
-      margin-left: 0;
-    }
-  }
-</style>
-
-<div class="html-figure html-figure--taxonomy" role="img" aria-label="AI as the broadest category, machine learning as a subset of AI, deep learning as a subset of machine learning, and generative AI as a capability often built using deep learning">
-  <div class="html-figure__canvas">
-    <div class="html-figure__grid">
-      <div class="html-figure__left">
-        <section class="html-figure__step html-figure__step--ai">
-          <span class="html-figure__label">Broadest Category</span>
-          <h4>Artificial Intelligence</h4>
-          <p>Systems for prediction, reasoning, perception, and decision support.</p>
+    <div class="taxonomy-diagram">
+      <div class="taxonomy-diagram__layers" aria-label="AI taxonomy structure">
+        <section class="taxonomy-diagram__layer taxonomy-diagram__layer--ai is-active" data-taxonomy-layer="ai">
+          <span class="taxonomy-diagram__label">Broadest Category</span>
+          <div class="taxonomy-diagram__icon" data-taxonomy-icon="ai" aria-hidden="true"></div>
+          <strong>Artificial Intelligence</strong>
+          <p>Systems for prediction, reasoning, perception, recommendation, and decision support.</p>
         </section>
 
-        <div class="html-figure__arrow" aria-hidden="true"></div>
+        <div class="taxonomy-diagram__arrow" aria-hidden="true">↓</div>
 
-        <section class="html-figure__step html-figure__step--ml">
-          <span class="html-figure__label">Subset of AI</span>
-          <h5>Machine Learning</h5>
+        <section class="taxonomy-diagram__layer taxonomy-diagram__layer--ml" data-taxonomy-layer="ml">
+          <span class="taxonomy-diagram__label">Subset of AI</span>
+          <div class="taxonomy-diagram__icon" data-taxonomy-icon="ml" aria-hidden="true"></div>
+          <strong>Machine Learning</strong>
           <p>Systems that learn patterns from data rather than relying only on hand-written rules.</p>
         </section>
 
-        <div class="html-figure__arrow" aria-hidden="true"></div>
+        <div class="taxonomy-diagram__arrow" aria-hidden="true">↓</div>
 
-        <section class="html-figure__step html-figure__step--dl">
-          <span class="html-figure__label">Subset of ML</span>
-          <h6>Deep Learning</h6>
+        <section class="taxonomy-diagram__layer taxonomy-diagram__layer--dl" data-taxonomy-layer="dl">
+          <span class="taxonomy-diagram__label">Subset of ML</span>
+          <div class="taxonomy-diagram__icon" data-taxonomy-icon="dl" aria-hidden="true"></div>
+          <strong>Deep Learning</strong>
           <p>Multi-layer neural networks made practical by more compute, more data, and better training methods.</p>
         </section>
       </div>
 
-      <div class="html-figure__right">
-        <div class="html-figure__bridge" aria-hidden="true"></div>
-        <aside class="html-figure__callout">
-          <span class="html-figure__label">Capability Layer</span>
-          <h5>Generative AI</h5>
-          <p>Models that create new content such as text, images, code, audio, or synthetic media.</p>
-          <ul>
-            <li>Often built with deep learning.</li>
-            <li>Often delivered through foundation-model architectures.</li>
-          </ul>
-        </aside>
+      <aside class="taxonomy-diagram__callout" data-taxonomy-layer="genai">
+        <span class="taxonomy-diagram__label">Capability Layer</span>
+        <div class="taxonomy-diagram__icon" data-taxonomy-icon="genai" aria-hidden="true"></div>
+        <strong>Generative AI</strong>
+        <p>Models that create new content such as text, images, code, audio, or synthetic media.</p>
+        <ul>
+          <li>Often built with deep learning.</li>
+          <li>Often delivered through foundation-model architectures.</li>
+        </ul>
+      </aside>
+
+      <div class="taxonomy-diagram__detail">
+        <div class="taxonomy-diagram__detail-card">
+          <span class="taxonomy-diagram__detail-label">Selected Layer</span>
+          <p data-taxonomy-selected-layer>Artificial Intelligence</p>
+        </div>
+
+        <div class="taxonomy-diagram__detail-card">
+          <span class="taxonomy-diagram__detail-label">Best Short Definition</span>
+          <p data-taxonomy-definition>
+            The broad category covering systems used for prediction, classification, reasoning, perception, recommendation, or decision support.
+          </p>
+        </div>
+
+        <div class="taxonomy-diagram__detail-card">
+          <span class="taxonomy-diagram__detail-label">How It Relates</span>
+          <p data-taxonomy-relationship>
+            AI is the umbrella. Machine learning and deep learning sit inside it, while generative AI is a capability that can be built on top of those methods.
+          </p>
+        </div>
+
+        <div class="taxonomy-diagram__detail-card">
+          <span class="taxonomy-diagram__detail-label">Leadership Question</span>
+          <p data-taxonomy-question>
+            What is this system actually doing in the workflow, and which kind of oversight follows from that?
+          </p>
+        </div>
       </div>
     </div>
+
+    <p class="interactive-diagram__rule" data-taxonomy-rule>
+      Key idea: AI is the umbrella term. The other terms narrow the method or capability, and those distinctions change cost, evidence, and governance questions.
+    </p>
   </div>
 
-  <div class="html-figure__note">
-    <strong>Leadership point:</strong> these are related but not interchangeable categories. Different layers imply different data needs, costs, explainability constraints, and governance risks.
+  <div class="interactive-diagram__fallback">
+    <div class="html-figure html-figure--taxonomy" role="img" aria-label="AI as the broadest category, machine learning as a subset of AI, deep learning as a subset of machine learning, and generative AI as a capability often built using deep learning">
+      <div class="html-figure__canvas">
+        <div class="html-figure__grid">
+          <div class="html-figure__left">
+            <section class="html-figure__step html-figure__step--ai">
+              <span class="html-figure__label">Broadest Category</span>
+              <h4>Artificial Intelligence</h4>
+              <p>Systems for prediction, reasoning, perception, and decision support.</p>
+            </section>
+
+            <div class="html-figure__arrow" aria-hidden="true"></div>
+
+            <section class="html-figure__step html-figure__step--ml">
+              <span class="html-figure__label">Subset of AI</span>
+              <h5>Machine Learning</h5>
+              <p>Systems that learn patterns from data rather than relying only on hand-written rules.</p>
+            </section>
+
+            <div class="html-figure__arrow" aria-hidden="true"></div>
+
+            <section class="html-figure__step html-figure__step--dl">
+              <span class="html-figure__label">Subset of ML</span>
+              <h6>Deep Learning</h6>
+              <p>Multi-layer neural networks made practical by more compute, more data, and better training methods.</p>
+            </section>
+          </div>
+
+          <div class="html-figure__right">
+            <div class="html-figure__bridge" aria-hidden="true"></div>
+            <aside class="html-figure__callout">
+              <span class="html-figure__label">Capability Layer</span>
+              <h5>Generative AI</h5>
+              <p>Models that create new content such as text, images, code, audio, or synthetic media.</p>
+              <ul>
+                <li>Often built with deep learning.</li>
+                <li>Often delivered through foundation-model architectures.</li>
+              </ul>
+            </aside>
+          </div>
+        </div>
+      </div>
+
+      <div class="html-figure__note">
+        <strong>Leadership point:</strong> these are related but not interchangeable categories. Different layers imply different data needs, costs, explainability constraints, and governance risks.
+      </div>
+    </div>
   </div>
 </div>

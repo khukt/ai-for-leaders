@@ -119,9 +119,7 @@ Leaders do not need a machine-learning course, but they should know that the lea
 
 These distinctions matter because they shape what data is needed, how performance is measured, and how easily the system's outputs can be reviewed or challenged.
 
-![Diagram comparing supervised, unsupervised, and reinforcement learning in plain business language]({{ site.baseurl }}/assets/images/machine-learning-types.svg)
-
-*Figure: the learning type changes the data requirements, evaluation method, and governance implications of the system.*
+{% include interactive-machine-learning-types.html %}
 
 Many of the most visible AI products in use today are also not built from zero for one task. They begin as **pretrained** or **foundation models** trained on very large collections of text, images, audio, video, code, or structured data. Organisations then adapt them for narrower purposes such as summarisation, search, customer support, coding assistance, or domain-specific analysis.
 

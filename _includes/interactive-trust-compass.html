@@ -1,0 +1,89 @@
+<div class="interactive-diagram interactive-diagram--trust-compass">
+  <div class="interactive-diagram__app" data-interactive-diagram="trust-compass">
+    <div class="interactive-diagram__intro">
+      <p class="interactive-diagram__eyebrow">Interactive Figure</p>
+      <h4 class="interactive-diagram__title">Trust Compass for live AI use</h4>
+      <p class="interactive-diagram__summary">
+        Click a direction to test one part of trustworthiness. The compass is meant to be a fast executive screen before a team treats an AI system as ready for live use.
+      </p>
+    </div>
+
+    <div class="trust-compass">
+      <div class="trust-compass__ring" role="group" aria-label="Trust Compass checks">
+        <button class="trust-compass__point trust-compass__point--north is-active" type="button" aria-pressed="true" data-trust-point="reliable">
+          <span class="trust-compass__point-icon" data-trust-point-icon="reliable" aria-hidden="true"></span>
+          <span class="trust-compass__point-label">Reliable</span>
+        </button>
+
+        <button class="trust-compass__point trust-compass__point--west" type="button" aria-pressed="false" data-trust-point="transparent">
+          <span class="trust-compass__point-icon" data-trust-point-icon="transparent" aria-hidden="true"></span>
+          <span class="trust-compass__point-label">Transparent</span>
+        </button>
+
+        <div class="trust-compass__center">
+          <span class="trust-compass__center-label">Ready For Live Use?</span>
+          <strong data-trust-selected-title>Reliable</strong>
+          <p data-trust-selected-summary>
+            The system should behave consistently enough for the real situations where people are expected to rely on it.
+          </p>
+        </div>
+
+        <button class="trust-compass__point trust-compass__point--east" type="button" aria-pressed="false" data-trust-point="safe">
+          <span class="trust-compass__point-icon" data-trust-point-icon="safe" aria-hidden="true"></span>
+          <span class="trust-compass__point-label">Safe</span>
+        </button>
+
+        <button class="trust-compass__point trust-compass__point--south" type="button" aria-pressed="false" data-trust-point="fair">
+          <span class="trust-compass__point-icon" data-trust-point-icon="fair" aria-hidden="true"></span>
+          <span class="trust-compass__point-label">Fair</span>
+        </button>
+
+        <button class="trust-compass__point trust-compass__point--south-east" type="button" aria-pressed="false" data-trust-point="accountable">
+          <span class="trust-compass__point-icon" data-trust-point-icon="accountable" aria-hidden="true"></span>
+          <span class="trust-compass__point-label">Accountable</span>
+        </button>
+      </div>
+
+      <div class="trust-compass__detail">
+        <div class="trust-compass__detail-card">
+          <span class="trust-compass__detail-label">Leadership Question</span>
+          <p data-trust-question>
+            Is the system dependable enough across the situations where we expect people to rely on it?
+          </p>
+        </div>
+
+        <div class="trust-compass__detail-card">
+          <span class="trust-compass__detail-label">What To Look For</span>
+          <p data-trust-look-for>
+            Task-specific testing, known limits, monitoring after deployment, and a clear view of when performance degrades.
+          </p>
+        </div>
+
+        <div class="trust-compass__detail-card">
+          <span class="trust-compass__detail-label">Weak Signal</span>
+          <p data-trust-weak-signal>
+            The team can show a demo, but cannot show how the system behaves across edge cases, drift, or operational pressure.
+          </p>
+        </div>
+
+        <div class="trust-compass__detail-card">
+          <span class="trust-compass__detail-label">Management Move</span>
+          <p data-trust-management-move>
+            Narrow the use case, raise the evidence bar, and avoid dependence until reliability is proven in the real workflow.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <p class="interactive-diagram__rule" data-trust-rule>
+      Key idea: if one direction is weak, the right response is usually not faster scaling. It is to strengthen safeguards, ownership, or evidence before live reliance grows.
+    </p>
+  </div>
+
+  <div class="interactive-diagram__fallback">
+    <img src="{{ site.baseurl }}/assets/images/trust-compass.svg" alt="Diagram showing a Trust Compass with five leadership checks: reliable, safe, fair, transparent, and accountable">
+    <p class="interactive-diagram__caption">
+      Figure: the Trust Compass is a simple executive screen for deciding whether an AI system is ready to be relied on in live use.
+    </p>
+  </div>
+</div>
