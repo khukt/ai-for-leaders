@@ -84,19 +84,19 @@ That is why the key leadership question is not whether a system is impressive. I
 
 Leaders should assume that accountability stays with people and institutions, even when AI is heavily involved. That matters because AI can change how work is done without changing who carries responsibility for the result.
 
-Not every AI system needs the same level of explanation. But as systems move closer to decisions about people, money, safety, access, or rights, explainability becomes more important. If an important output cannot be interpreted, challenged, or justified, then oversight, accountability, and trust become harder to sustain.
+In practice, that means accountability should be visible in the operating model:
 
-This issue becomes sharper as the market moves from systems that mainly answer questions toward systems that can plan, use tools, and take multi-step actions on a user's behalf. OECD work published on February 13, 2026 describes this emerging field as **agentic AI** and notes that definitions vary, but the common pattern is greater autonomy in how systems pursue goals over time.[40]
+- a named business owner should remain answerable for why the system is being used
+- a clear decision-maker should remain responsible for material outcomes, even if AI informs the recommendation
+- vendor involvement should not blur internal responsibility for approval, oversight, escalation, or remediation
 
-For leaders, the key issue is not whether a vendor calls a product a copilot, assistant, or agent. It is how much action autonomy the system is actually being given:
+This is one reason leadership teams should be careful with language such as *the model decided* or *the system approved*. Systems can score, rank, draft, recommend, or trigger steps in a workflow. They do not absorb legal, managerial, or ethical accountability on behalf of the organisation.
 
-- does it only suggest, draft, or retrieve?
-- does it trigger workflows, call tools, or make changes in connected systems?
-- does it act once, or does it continue over multiple steps with limited supervision?
-
-As systems move from answering to acting, the management problem changes. Accuracy still matters, but so do permissions, rollback, auditability, escalation, and the ability to interrupt the system before it creates operational or legal consequences. The central accountability question becomes: where does suggestion end and delegated action begin?
+The practical question is simple: when the output matters, who is still expected to justify the decision, own the consequences, and intervene if the system behaves badly?
 
 ## 4. What Evidence Makes Use Acceptable?
+
+Use is acceptable only when the organisation has enough evidence for the specific task, workflow, and level of risk involved.
 
 The next leadership mistake is to confuse access with readiness. AI became a mainstream leadership issue as three things began to converge:
 
@@ -145,6 +145,20 @@ The evidence question is therefore broader than “does the model look good?” 
 - can we monitor and challenge it after deployment?
 
 ## 5. Where Must Humans Stay in Control?
+
+Human control matters most where the organisation may later need to explain, challenge, reverse, or stop what the system has done.
+
+Not every AI system needs the same level of explanation. But as systems move closer to decisions about people, money, safety, access, or rights, explainability becomes more important. If an important output cannot be interpreted, challenged, or justified, then oversight, accountability, and trust become harder to sustain.
+
+This issue becomes sharper as the market moves from systems that mainly answer questions toward systems that can plan, use tools, and take multi-step actions on a user's behalf. OECD work published on February 13, 2026 describes this emerging field as **agentic AI** and notes that definitions vary, but the common pattern is greater autonomy in how systems pursue goals over time.[40]
+
+For leaders, the key issue is not whether a vendor calls a product a copilot, assistant, or agent. It is how much action autonomy the system is actually being given:
+
+- does it only suggest, draft, or retrieve?
+- does it trigger workflows, call tools, or make changes in connected systems?
+- does it act once, or does it continue over multiple steps with limited supervision?
+
+As systems move from answering to acting, the management problem changes. Accuracy still matters, but so do permissions, rollback, auditability, escalation, and the ability to interrupt the system before it creates operational or legal consequences.
 
 In practical terms, humans should remain firmly in control where:
 

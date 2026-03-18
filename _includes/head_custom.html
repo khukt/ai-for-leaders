@@ -1,42 +1,4 @@
-<style>
-  #pdf-download-btn {
-    position: fixed;
-    bottom: 24px;
-    right: 24px;
-    z-index: 1000;
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    padding: 10px 18px;
-    background: #0b5fff;
-    color: #fff;
-    border: none;
-    border-radius: 10px;
-    text-decoration: none;
-    font-size: 0.95rem;
-    font-weight: 600;
-    cursor: pointer;
-    box-shadow: 0 4px 16px rgba(0,0,0,0.18);
-    transition: background 0.2s;
-  }
-  #pdf-download-btn:hover {
-    background: #0043c7;
-    color: #fff;
-  }
-</style>
 <script>
   document.documentElement.classList.add('js');
-</script>
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    var btn = document.createElement('a');
-    btn.id = 'pdf-download-btn';
-    btn.title = 'Download the book as PDF';
-    btn.setAttribute('aria-label', 'Download the book as PDF');
-    btn.innerHTML = '&#11015; Download PDF';
-    btn.href = '{{ site.baseurl }}/assets/AI-for-Leaders.pdf';
-    btn.download = 'AI-for-Leaders.pdf';
-    document.body.appendChild(btn);
-  });
 </script>
 <script src="{{ site.baseurl }}/assets/js/interactive-diagrams.js" defer></script>

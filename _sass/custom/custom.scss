@@ -489,13 +489,12 @@
   font-weight: 500;
 }
 
-// Print / PDF styles
+// Print styles
 @media print {
   .site-header,
   .side-bar,
   .main-header,
   .page-header,
-  #pdf-download-btn,
   .interactive-diagram__app {
     display: none !important;
   }
