@@ -1,3 +1,7 @@
+---
+nav_exclude: true
+---
+
 # Reliability and Pragmatism Improvement Plan
 
 This plan translates the current manuscript review into a practical editing sequence. The goal is to make the book more defensible, more usable, and more consistent as an executive guide.

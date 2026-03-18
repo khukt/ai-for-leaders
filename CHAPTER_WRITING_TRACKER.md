@@ -1,3 +1,7 @@
+---
+nav_exclude: true
+---
+
 # Chapter Writing Tracker
 
 This tracker reflects the current manuscript state in `_book/` and is meant to guide writing order, revision effort, and editorial focus.
