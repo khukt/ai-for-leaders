@@ -19,7 +19,7 @@ The most useful way to read this chapter is through five questions:
 
 ## 1. What Is This System Being Trusted to Do?
 
-Artificial intelligence is best understood as a family of systems that infer from data and then produce outputs such as predictions, classifications, recommendations, or generated content.[1] In practice, leaders encounter AI through products and workflows: fraud scoring, document extraction, forecasting, search, copilots, and decision support.
+Artificial intelligence is best understood as a family of machine-based systems that infer from inputs and then produce outputs such as predictions, classifications, recommendations, or generated content.[1] In practice, leaders encounter AI through products and workflows: fraud scoring, document extraction, forecasting, search, copilots, and decision support.
 
 That sounds simple, but the first leadership mistake is usually to treat all AI as one thing. It is not. A predictive risk model, a document classifier, a recommendation engine, and a generative writing assistant are all “AI,” but they do not create the same operating model or the same oversight burden.
 
@@ -35,11 +35,11 @@ That means these terms are related, but they are not interchangeable:
 - **Artificial intelligence (AI)** is the broad category. It covers systems used for prediction, classification, reasoning, perception, recommendation, or decision support.
 - **Machine learning (ML)** is a subset of AI. The system learns patterns from data instead of relying only on fixed hand-written rules.
 - **Deep learning (DL)** is a subset of machine learning. It uses multi-layer neural networks and became practical because of more compute, more data, and better training methods.[1], [3]
-- **Generative AI** refers specifically to systems that generate new content such as text, images, code, audio, or synthetic media. It is not the whole of AI.
+- **Generative AI** refers specifically to systems that generate new content such as text, images, code, audio, or synthetic media. It is not the whole of AI, and it is best understood as a class of AI systems rather than as the full architecture of the field.
 
 {% include figure-ai-ml-dl-generative.html %}
 
-*Figure: AI is the broadest category; machine learning and deep learning sit within it, while generative AI is a practical capability layer commonly built with deep learning models.*
+*Figure: AI is the broadest category; machine learning and deep learning sit within it, while generative AI refers to systems that generate new content and is commonly implemented with deep learning models.*
 
 Leaders should also distinguish AI from automation. Traditional automation follows explicit rules for stable and repeatable tasks. AI systems, by contrast, infer patterns from data, handle ambiguity unevenly, and often produce probabilities rather than certainties.
 
@@ -98,7 +98,7 @@ As systems move from answering to acting, the management problem changes. Accura
 
 ## 4. What Evidence Makes Use Acceptable?
 
-The next leadership mistake is to confuse access with readiness. AI became a leadership issue when three things happened at once:
+The next leadership mistake is to confuse access with readiness. AI became a mainstream leadership issue as three things began to converge:
 
 1. **Access** — Cloud APIs, foundation models, and packaged software made advanced AI capabilities easier to buy and test.
 2. **Interface** — Natural-language interfaces let non-specialists experiment directly, which accelerated adoption beyond technical teams.
@@ -146,14 +146,12 @@ The evidence question is therefore broader than “does the model look good?” 
 
 ## 5. Where Must Humans Stay in Control?
 
-Leaders should not treat AI as software alone. AI capability depends on compute, cloud infrastructure, storage, networking, and in some cases specialised hardware such as GPUs or other accelerators. That infrastructure affects what models can be run, how quickly they respond, how expensive they become at scale, and whether they can be deployed where the organisation actually needs them.
+In practical terms, humans should remain firmly in control where:
 
-This matters for four reasons:
-
-- **Cost and scale**: model quality is only one part of the business case; inference cost, usage growth, and infrastructure spend can change the economics quickly.
-- **Deployment constraints**: some systems can run centrally in the cloud, while others may require on-premise, edge, or device-level deployment because of latency, privacy, resilience, or safety needs.
-- **Dependency risk**: many organisations depend on a small number of cloud and model providers for the hardware and platform layers underneath AI services.
-- **Operational resilience**: if compute access, latency, or infrastructure availability becomes constrained, AI-enabled workflows can degrade even when the model itself is sound.
+- the outcome affects rights, eligibility, safety, or access
+- the cost of error is high or hard to reverse
+- the organisation must be able to justify the outcome to regulators, auditors, customers, or the public
+- the system is moving from assistance into action
 
 AI also differs from earlier waves of enterprise software in three important ways:
 
@@ -163,14 +161,18 @@ AI also differs from earlier waves of enterprise software in three important way
 
 These features make AI less like a standard IT rollout and more like a cross-functional management issue involving strategy, risk, legal exposure, workforce design, and institutional trust.
 
-In practical terms, humans should remain firmly in control where:
-
-- the outcome affects rights, eligibility, safety, or access
-- the cost of error is high or hard to reverse
-- the organisation must be able to justify the outcome to regulators, auditors, customers, or the public
-- the system is moving from assistance into action
-
 The more serious the consequence, the stronger the case for human approval, escalation, override, and auditability.
+
+## AI Is Also an Infrastructure Question
+
+Leaders should not treat AI as software alone. AI capability depends on compute, cloud infrastructure, storage, networking, and in some cases specialised hardware such as GPUs or other accelerators. That infrastructure affects what models can be run, how quickly they respond, how expensive they become at scale, and whether they can be deployed where the organisation actually needs them.
+
+This matters for four reasons:
+
+- **Cost and scale**: model quality is only one part of the business case; inference cost, usage growth, and infrastructure spend can change the economics quickly.
+- **Deployment constraints**: some systems can run centrally in the cloud, while others may require on-premise, edge, or device-level deployment because of latency, privacy, resilience, or safety needs.
+- **Dependency risk**: many organisations depend on a small number of cloud and model providers for the hardware and platform layers underneath AI services.
+- **Operational resilience**: if compute access, latency, or infrastructure availability becomes constrained, AI-enabled workflows can degrade even when the model itself is sound.
 
 ## Key Questions for Leaders
 
