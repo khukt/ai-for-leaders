@@ -7,47 +7,113 @@ nav_order: 1
 
 # What AI Means for Leaders
 
-## What AI Is — and What It Is Not
+Leaders do not need to become AI specialists. They do need a clear enough understanding to separate serious opportunity from noise, ask better questions of teams and vendors, and decide where AI can be trusted, where it cannot, and what controls must sit around it.
 
-Artificial intelligence is a broad label for machine-based systems that infer from inputs and produce outputs such as predictions, classifications, recommendations, or generated content.[1] In practice, leaders encounter AI through products and workflows: fraud scoring, document extraction, search, forecasting, copilots, and decision support.
+The most useful way to read this chapter is through five questions:
 
-AI is **not** a single technology, and it is not a guarantee of autonomy, accuracy, or business value. The term covers multiple methods with different data requirements, failure modes, and governance implications. For leaders, those differences matter more than the label itself.
+1. What is this system being trusted to do?
+2. What happens if it is wrong?
+3. Who remains accountable?
+4. What evidence makes use acceptable?
+5. Where must humans stay in control?
 
-## AI vs Automation
+## 1. What Is This System Being Trusted to Do?
 
-Leaders often hear AI discussed as if it were interchangeable with automation. It is not. Traditional automation follows predefined rules for stable and repeatable tasks. AI systems, by contrast, infer patterns from data, handle ambiguity unevenly, and often introduce probabilities rather than certainties.
+Artificial intelligence is best understood as a family of systems that infer from data and then produce outputs such as predictions, classifications, recommendations, or generated content.[1] In practice, leaders encounter AI through products and workflows: fraud scoring, document extraction, forecasting, search, copilots, and decision support.
 
-That difference matters because governance, testing, and acceptable error rates are not the same. A broken workflow rule and a model that produces plausible but incorrect output create different management problems.
+That sounds simple, but the first leadership mistake is usually to treat all AI as one thing. It is not. A predictive risk model, a document classifier, a recommendation engine, and a generative writing assistant are all “AI,” but they do not create the same operating model or the same oversight burden.
 
-## AI, Machine Learning, Deep Learning, and Generative AI
+The vocabulary is often used carelessly, so a simple mental model helps:
 
-Leaders often hear these terms used loosely, but they describe different layers of capability:
+- `AI` is the umbrella term.
+- `Machine learning` is one important way of building AI systems.
+- `Deep learning` is a powerful type of machine learning.
+- `Generative AI` describes what some systems do: create new content.
 
-- **Artificial intelligence (AI)** is the broad category for systems that perform tasks associated with perception, prediction, reasoning, or decision support.
-- **Machine learning (ML)** is a subset of AI in which systems learn patterns from data rather than relying only on hand-written rules.
-- **Deep learning (DL)** is a subset of machine learning that uses multi-layer neural networks and has become practical because of improvements in compute, data availability, and model design.[1], [3]
-- **Generative AI** refers to models that create new content such as text, images, code, audio, or synthetic media.
+That means these terms are related, but they are not interchangeable:
 
-For leaders, the practical point is not mastering the taxonomy. It is understanding that these categories behave differently in terms of data dependence, explainability, operating cost, and risk.
+- **Artificial intelligence (AI)** is the broad category. It covers systems used for prediction, classification, reasoning, perception, recommendation, or decision support.
+- **Machine learning (ML)** is a subset of AI. The system learns patterns from data instead of relying only on fixed hand-written rules.
+- **Deep learning (DL)** is a subset of machine learning. It uses multi-layer neural networks and became practical because of more compute, more data, and better training methods.[1], [3]
+- **Generative AI** refers specifically to systems that generate new content such as text, images, code, audio, or synthetic media. It is not the whole of AI.
 
 {% include figure-ai-ml-dl-generative.html %}
 
 *Figure: AI is the broadest category; machine learning and deep learning sit within it, while generative AI is a practical capability layer commonly built with deep learning models.*
 
-## Predictive vs Generative Systems
+Leaders should also distinguish AI from automation. Traditional automation follows explicit rules for stable and repeatable tasks. AI systems, by contrast, infer patterns from data, handle ambiguity unevenly, and often produce probabilities rather than certainties.
 
-Not all AI systems do the same thing. Two broad categories are especially relevant for leaders:
+That difference matters because the management model changes:
+
+- a broken workflow rule usually fails in a visible and repeatable way
+- an AI system can fail plausibly, inconsistently, or silently
+- automation mainly raises process questions; AI often raises judgment, accountability, and trust questions
+
+Much of the confusion disappears once leaders connect methods to practical use:
+
+- **Classification**: medical imaging support, spam filtering, document routing, fraud screening
+- **Prediction**: churn risk, maintenance failure, demand forecasting, credit risk
+- **Clustering and segmentation**: customer grouping, pattern discovery, operational anomaly detection
+- **Generation**: drafting, summarisation, coding assistance, image creation, conversational interfaces
+
+The leadership question is not which technique sounds most advanced. It is what the system is being trusted to do in the workflow.
+
+## 2. What Happens If It Is Wrong?
+
+Not all AI systems fail in the same way. For most leadership teams, the most useful distinction is between systems that estimate and systems that create:
 
 - **Predictive systems** estimate or classify: fraud likelihood, churn risk, creditworthiness, demand, equipment failure, or patient risk.
 - **Generative systems** produce new content: text, summaries, code, images, audio, or conversational responses.
 
-Predictive systems are often embedded in decisions and workflows that carry regulatory or fairness implications. Generative systems lower the barrier to experimentation, but they also introduce new risks around truthfulness, confidentiality, copyright, and misuse.
+Predictive systems are often embedded in decisions about money, risk, eligibility, or operations. That makes calibration, bias, monitoring, and explainability especially important. Generative systems lower the barrier to experimentation, but they introduce new risks around truthfulness, confidentiality, copyright, and misuse.
 
-## Main Types of Machine Learning
+In practice:
 
-At a high level, leaders only need to understand three common learning patterns:
+- predictive systems are often harder to see, but easier to tie to business outcomes
+- generative systems are often easier to try, but harder to control once widely adopted
 
-- **Supervised learning** learns from labelled examples and is widely used for prediction and classification tasks such as fraud detection, demand forecasting, and credit assessment.
+Despite rapid progress, AI still has important limitations:
+
+- **It does not reliably distinguish truth from plausibility.** Many systems can produce fluent but incorrect output, especially when the task depends on missing context, weak retrieval, or ambiguous instructions.
+- **It does not carry organisational judgment.** AI can assist analysis, but it does not own trade-offs involving ethics, regulation, customer trust, or strategic intent.
+- **It does not remove the need for controls.** Performance in a demo does not prove reliable performance in production. Monitoring, fallback processes, and human review still matter.
+
+That is why the key leadership question is not whether a system is impressive. It is what kind of harm, cost, delay, compliance issue, or trust damage follows if it is wrong.
+
+## 3. Who Remains Accountable?
+
+Leaders should assume that accountability stays with people and institutions, even when AI is heavily involved. That matters because AI can change how work is done without changing who carries responsibility for the result.
+
+Not every AI system needs the same level of explanation. But as systems move closer to decisions about people, money, safety, access, or rights, explainability becomes more important. If an important output cannot be interpreted, challenged, or justified, then oversight, accountability, and trust become harder to sustain.
+
+This issue becomes sharper as the market moves from systems that mainly answer questions toward systems that can plan, use tools, and take multi-step actions on a user's behalf. OECD work published on February 13, 2026 describes this emerging field as **agentic AI** and notes that definitions vary, but the common pattern is greater autonomy in how systems pursue goals over time.[40]
+
+For leaders, the key issue is not whether a vendor calls a product a copilot, assistant, or agent. It is how much action autonomy the system is actually being given:
+
+- does it only suggest, draft, or retrieve?
+- does it trigger workflows, call tools, or make changes in connected systems?
+- does it act once, or does it continue over multiple steps with limited supervision?
+
+As systems move from answering to acting, the management problem changes. Accuracy still matters, but so do permissions, rollback, auditability, escalation, and the ability to interrupt the system before it creates operational or legal consequences. The central accountability question becomes: where does suggestion end and delegated action begin?
+
+## 4. What Evidence Makes Use Acceptable?
+
+The next leadership mistake is to confuse access with readiness. AI became a leadership issue when three things happened at once:
+
+1. **Access** — Cloud APIs, foundation models, and packaged software made advanced AI capabilities easier to buy and test.
+2. **Interface** — Natural-language interfaces let non-specialists experiment directly, which accelerated adoption beyond technical teams.
+3. **Pressure** — Boards, employees, customers, and competitors began expecting a clear position on where AI should and should not be used.
+
+Easy access does not remove the need for evidence. In practice, evidence quality varies widely:
+
+- **Vendor demos** often show best-case performance, not operational reliability.
+- **Benchmarks** can be useful, but they may not reflect your data, workflow, or risk tolerance.
+- **Pilot results** may not survive scale if users change behaviour or data quality degrades.
+- **General claims about “reasoning” or “human-level performance”** should be tested against specific business tasks, error rates, and escalation paths.
+
+Leaders do not need a machine-learning course, but they should know that the learning pattern changes the evidence burden:
+
+- **Supervised learning** learns from labelled examples and is widely used for prediction and classification tasks.
 - **Unsupervised learning** looks for structure in data without predefined labels and is often used for clustering, segmentation, anomaly detection, and pattern discovery.
 - **Reinforcement learning** improves through feedback from actions and outcomes, and is most relevant where systems learn through repeated interaction with an environment.
 
@@ -57,44 +123,9 @@ These distinctions matter because they shape what data is needed, how performanc
 
 *Figure: the learning type changes the data requirements, evaluation method, and governance implications of the system.*
 
-## Where These Systems Show Up in Practice
+Many of the most visible AI products in use today are also not built from zero for one task. They begin as **pretrained** or **foundation models** trained on very large collections of text, images, audio, video, code, or structured data. Organisations then adapt them for narrower purposes such as summarisation, search, customer support, coding assistance, or domain-specific analysis.
 
-Much of the confusion around AI disappears once leaders connect methods to business use:
-
-- **Classification**: medical imaging support, spam filtering, document routing, fraud screening
-- **Prediction**: churn risk, maintenance failure, demand forecasting, credit risk
-- **Clustering and segmentation**: customer grouping, pattern discovery, operational anomaly detection
-- **Generation**: drafting, summarisation, coding assistance, image creation, conversational interfaces
-
-The management question is not which technique sounds most advanced. It is which approach is appropriate for the workflow, data quality, acceptable error rate, and level of oversight required.
-
-## What Has Changed
-
-Three changes have made AI a leadership priority:
-
-1. **Access** — Cloud APIs, foundation models, and packaged software have made advanced AI capabilities easier to buy and test.
-2. **Interface** — Natural-language interfaces allow non-specialists to experiment with AI directly, which accelerates adoption beyond technical teams.
-3. **Pressure** — Boards, employees, customers, and competitors now expect a clear position on where AI should and should not be used.
-
-## Why AI Progress Accelerated
-
-Recent AI progress did not come from a single breakthrough. It came from the combination of:
-
-- **More compute**: the ability to train and run larger models at lower cost
-- **More data**: large datasets, digital workflows, and richer operational signals
-- **Better models and training methods**: improvements in architectures, optimisation, and transfer learning
-
-For leadership teams, this matters because AI improvement is not only a science story. It is also an infrastructure and capability story. Organisations that ignore compute dependency, data readiness, or vendor concentration may misunderstand both the opportunities and the risks.[3]
-
-![Diagram comparing a shallow model architecture with a deeper model architecture]({{ site.baseurl }}/assets/images/shallow-vs-deep-architecture.svg)
-
-*Figure: deeper architectures can model more complex patterns, but they also tend to increase data dependence, compute demand, and interpretability challenges.*
-
-## Pretrained and Foundation Models
-
-Many of the most visible AI products in use today are not built from zero for one task. They begin as **pretrained** or **foundation models** trained on very large collections of text, images, audio, video, code, or structured data. Organisations then adapt them for narrower purposes such as summarisation, search, customer support, coding assistance, or domain-specific analysis.
-
-For leaders, this matters because the strategic question is usually not whether to train a model from scratch. It is whether to use an existing foundation model, how much to adapt it, and what dependencies that choice creates in cost, control, language support, intellectual property, and governance.
+For leaders, this matters because the strategic question is usually not whether to train a model from scratch. It is whether to use an existing model, how much to adapt it, and what that choice creates in cost, control, vendor dependence, language support, intellectual property exposure, and governance.
 
 Adaptation can take several forms:
 
@@ -104,25 +135,18 @@ Adaptation can take several forms:
 - **Alignment and safety tuning**: adjusting how the model responds to risky, sensitive, or policy-relevant situations
 - **Compression or quantisation**: reducing model size so deployment is cheaper or more practical in constrained environments
 
-Leaders do not need to master model architecture in detail. A brief awareness is enough: many modern generative AI systems use **transformer-based architectures**, but the important leadership issue is not how attention mechanisms work. It is how general-purpose models become business systems, and what assurance is required before people rely on them.
-
 {% include interactive-foundation-models.html %}
 
-## From Copilots to Agents
+The evidence question is therefore broader than “does the model look good?” It is:
 
-The landscape is also shifting from systems that mainly answer questions toward systems that can plan, use tools, and take multi-step actions on a user's behalf. OECD work published on February 13, 2026 describes this emerging field as **agentic AI** and notes that definitions vary, but the common pattern is greater autonomy in how systems pursue goals over time.[40]
+- does it work on our data?
+- does it work in our workflow?
+- does it fail safely enough for this use?
+- can we monitor and challenge it after deployment?
 
-For leaders, the key issue is not whether the market calls a product a copilot, assistant, or agent. It is how much action autonomy the system is being given:
+## 5. Where Must Humans Stay in Control?
 
-- does it only suggest, draft, or retrieve?
-- does it trigger workflows, call tools, or make changes in connected systems?
-- does it act once, or does it continue over multiple steps with limited supervision?
-
-As systems move from answering to acting, the management problem changes. Accuracy still matters, but so do permissions, rollback, auditability, escalation, and the ability to interrupt the system before it creates operational or legal consequences.
-
-## AI Is Also an Infrastructure Question
-
-Leaders should not treat AI as software alone. AI capability depends on compute, cloud infrastructure, storage, networking, and in some cases specialised hardware such as GPUs or other accelerators. That infrastructure affects what models can be run, how quickly they respond, how expensive they become at scale, and whether they can be deployed in the environments where the organisation actually needs them.
+Leaders should not treat AI as software alone. AI capability depends on compute, cloud infrastructure, storage, networking, and in some cases specialised hardware such as GPUs or other accelerators. That infrastructure affects what models can be run, how quickly they respond, how expensive they become at scale, and whether they can be deployed where the organisation actually needs them.
 
 This matters for four reasons:
 
@@ -131,42 +155,22 @@ This matters for four reasons:
 - **Dependency risk**: many organisations depend on a small number of cloud and model providers for the hardware and platform layers underneath AI services.
 - **Operational resilience**: if compute access, latency, or infrastructure availability becomes constrained, AI-enabled workflows can degrade even when the model itself is sound.
 
-Leaders do not need hardware engineering detail. They do need to understand that AI strategy is partly a compute strategy: where systems run, who controls the infrastructure, what it costs to scale, and what dependencies that creates.
-
-## Why AI Is Different from Previous Digital Waves
-
-AI differs from earlier waves of enterprise software in three important ways:
+AI also differs from earlier waves of enterprise software in three important ways:
 
 - **It is probabilistic**: outputs can be useful without being consistently correct.
 - **It is widely accessible**: teams can adopt powerful tools before governance catches up.
 - **It changes decision boundaries**: AI affects judgment, responsibility, and customer trust, not only process efficiency.
 
-These features make AI less like a standard IT rollout and more like a cross-functional management issue involving strategy, risk, legal exposure, and organisational design.
+These features make AI less like a standard IT rollout and more like a cross-functional management issue involving strategy, risk, legal exposure, workforce design, and institutional trust.
 
-## What AI Still Cannot Do
+In practical terms, humans should remain firmly in control where:
 
-Despite rapid progress, AI has important limitations:
+- the outcome affects rights, eligibility, safety, or access
+- the cost of error is high or hard to reverse
+- the organisation must be able to justify the outcome to regulators, auditors, customers, or the public
+- the system is moving from assistance into action
 
-- **Reliably distinguish truth from plausibility**: Many systems can produce fluent but incorrect output, especially when the task depends on missing context, weak retrieval, or ambiguous instructions.
-- **Carry organisational judgment**: AI can assist analysis, but it does not own trade-offs involving ethics, regulation, customer trust, or strategic intent.
-- **Eliminate the need for controls**: Performance in a demo does not prove consistent performance in production. Monitoring, fallback processes, and human review still matter.
-
-## What Leaders Should Treat With Caution
-
-Not every AI claim deserves equal confidence. In practice, evidence quality varies widely:
-
-- **Vendor demos** often show best-case performance, not operational reliability.
-- **Benchmarks** can be useful, but they may not reflect your data, workflow, or risk tolerance.
-- **Pilot results** may not survive scale if users change behaviour or data quality degrades.
-- **General claims about “reasoning” or “human-level performance”** should be tested against specific business tasks, error rates, and escalation paths.
-
-For leadership teams, the key question is not whether a model is impressive in general. It is whether the system is dependable enough for the decision, process, or customer interaction in front of you.[2]
-
-## A Note on Explainability
-
-Not every AI system needs the same level of explanation. But as systems move closer to decisions about people, money, safety, access, or rights, explainability becomes more important.
-
-For leaders, explainability is not mainly a technical preference. It is a management issue. If an important output cannot be interpreted, challenged, or justified, then oversight, accountability, and trust become harder to sustain. That is why explainability later becomes a governance, risk, compliance, and trust issue across the book.
+The more serious the consequence, the stronger the case for human approval, escalation, override, and auditability.
 
 ## Key Questions for Leaders
 

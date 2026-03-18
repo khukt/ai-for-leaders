@@ -62,6 +62,8 @@ Leaders should expect to account for at least six cost layers:
 
 For many organisations, the key question is not whether AI works in principle. It is whether the use case remains attractive after all six cost layers are included.
 
+This chapter owns that economic and dependency lens. The roadmap chapter should then decide when and in what order those sourcing commitments should be taken on.
+
 ## What Leaders Should Demand From Vendors and Partners
 
 Before procurement or partnership approval, leadership teams should expect evidence on at least the following points:

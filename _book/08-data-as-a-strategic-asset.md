@@ -90,6 +90,8 @@ A credible data strategy for AI usually includes:
 
 The strategic issue is not only whether data exists. It is whether the organisation can reliably turn information into a governed capability.
 
+The roadmap chapter that follows should then decide sequencing: which data improvements are prerequisites for scale, which can be built in parallel, and which do not justify near-term investment.
+
 ## Leadership Lens
 
 The organisations that benefit most from AI are not always the ones with the most data. They are often the ones with clearer rights, better stewardship, stronger workflow context, and enough traceability to keep improving safely.

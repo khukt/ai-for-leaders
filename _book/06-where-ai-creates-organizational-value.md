@@ -74,19 +74,19 @@ Leadership teams should also test whether the expected value is durable rather t
 
 This chapter focuses on identifying value. The next chapters test whether that value can be sourced, supported by data, and scaled in a disciplined way.
 
-## A Practical Screening Test
+## A Practical Value Test
 
-Before funding an AI initiative, leadership teams should be able to answer seven questions clearly:
+Before funding an AI initiative, leadership teams should be able to answer five value questions clearly:
 
-1. **What decision or workflow improves?**
+1. **What decision, workflow, or service improves?**
 2. **How will value be measured?**
-3. **What data, permissions, and integrations are required?**
-4. **What is the acceptable error rate?**
-5. **Who owns the process when the model is wrong?**
-6. **Why is AI better than a simpler alternative?**
-7. **What has to change in the way people work for the value to appear?**
+3. **Why is AI better than a simpler alternative?**
+4. **What has to change in the way people work for the value to appear?**
+5. **Would the benefit still matter after adoption, support, and integration effort are included?**
 
-If those answers are vague, the project is probably not ready.
+If those answers are vague, the initiative may still be interesting, but the value thesis is not yet strong enough.
+
+Questions about sourcing, data readiness, controls, and deployment sequence belong in the next chapters. This chapter's job is to establish whether the opportunity is worth pursuing at all.
 
 ## Value Depends on Leadership Context
 

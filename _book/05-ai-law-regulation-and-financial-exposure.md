@@ -11,7 +11,16 @@ nav_order: 3
 
 AI regulation is no longer a future concern. Rules are now taking effect in major jurisdictions, existing privacy and consumer-protection laws are being applied to AI-enabled practices, and leadership teams increasingly need to treat AI compliance as an operating issue rather than a watching brief.
 
-Leaders do not need to master every legal article. They do need to understand where exposure sits: what systems are in scope, which roles carry responsibility, what evidence regulators may expect, and how fines, injunctions, or public scrutiny could affect the organisation.
+Leaders do not need to master every legal article. They do need to understand where exposure sits: what systems are in scope, which roles carry responsibility, what evidence regulators may expect, and how fines, injunctions, contract disputes, or public scrutiny could affect the organisation.
+
+The core leadership mistake here is to assume that legal risk begins only when a new AI-specific law arrives. In practice, exposure usually begins earlier:
+
+- when an AI system touches personal data
+- when it affects rights, access, pricing, eligibility, or safety
+- when a vendor tool is deployed without enough internal oversight
+- when the organisation cannot explain, document, or justify how the system is being used
+
+This means AI law is not only about future regulation. It is also about how existing legal duties are being applied to new systems.
 
 ## Key Regulatory Frameworks
 
@@ -58,6 +67,16 @@ Leaders operating across multiple markets should expect regulatory divergence. T
 
 For multinational organisations, the practical burden is rarely a single rulebook. It is the need to align products, controls, documentation, and vendor management across different legal environments.
 
+## Where Exposure Usually Starts
+
+For most leadership teams, exposure begins in five places:
+
+1. **Use-case choice**: a low-stakes drafting assistant and a hiring-screening system do not create the same legal burden.
+2. **Data handling**: personal data, sensitive data, and cross-border data movement can trigger obligations before any model issue is even examined.
+3. **Vendor dependency**: using a third-party tool does not transfer accountability for harmful deployment, poor oversight, or weak internal controls.
+4. **Documentation gaps**: if the organisation cannot show what was assessed, approved, monitored, and escalated, it becomes harder to defend the system.
+5. **Public-facing use**: customer interaction, employee impact, or high-visibility use raises the chance of complaints, scrutiny, and reputational escalation.
+
 ## Explainable AI as a Legal and Regulatory Issue
 
 Explainability matters most when AI systems influence rights, access, safety, or material outcomes. In those contexts, leaders may need to show not only that a system performs adequately, but also that decisions can be described, challenged, and governed in a defensible way.
@@ -76,6 +95,7 @@ For practical purposes, explainable AI in this chapter is about:
 3. **Documentation is part of compliance**: If you cannot show how a system was assessed, monitored, and governed, you may struggle to defend it.
 4. **Explainability is situational, not optional everywhere**: The need for explanation rises sharply when systems affect rights, access, safety, or significant decisions.
 5. **Generative AI adds extra issues**: Transparency, copyright-related questions, prompt leakage, and model-provider dependencies complicate existing compliance programs.
+6. **Financial exposure is broader than fines**: Contract failure, delayed launches, remediation cost, litigation, insurance implications, and loss of customer trust can matter as much as formal penalties.
 
 ## Reliability Notes
 

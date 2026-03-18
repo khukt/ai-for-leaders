@@ -57,6 +57,8 @@ The second stage is capability building. Before scale, most organisations need s
 
 This stage is often neglected because leadership teams want visible pilots quickly. But weak enabling foundations usually mean duplication, inconsistent controls, and tools that never move beyond local use.[2], [32], [34]
 
+The detailed sourcing, vendor, and data questions should be handled in the previous two chapters. The roadmap question is different: which of those capabilities must be built first, and which can wait until later stages?
+
 ## Stage 3. Scale Through Gates, Not Hype
 
 The third stage is not "roll out everything." It is to move selected systems through explicit gates:
@@ -88,20 +90,17 @@ Leaders should therefore ask:
 
 For many organisations, adoption is the real bottleneck. A technically competent system that goes unused or is used badly creates little value.
 
-## Cost Checkpoints Before Scale
+## Economic Checkpoints Before Scale
 
-Roadmaps fail when scale economics are treated as an afterthought. A use case that works technically may still fail commercially if inference cost, review burden, integration effort, or vendor dependency increase faster than value.
+Roadmaps fail when scale economics are treated as an afterthought. A use case that works technically may still fail commercially if cost, review burden, or dependency increase faster than value.
 
-Before scaling an AI system, leadership should ask:
+At roadmap level, leadership should therefore confirm three things before scaling:
 
-- what does the system cost per meaningful transaction, case, or user interaction?
-- how does cost change as usage volume grows?
-- how much human review is still required after deployment?
-- what infrastructure or vendor commitments increase as the use case scales?
-- what cost would we incur if we had to pause, replace, or migrate the system?
-- how exposed are we to a stronger general model making this custom investment economically obsolete?
+- the economics are still defensible beyond the pilot
+- the operating burden is understood and owned
+- the sourcing choice still makes sense once the system becomes more embedded
 
-The practical decision standard is simple: do not move from pilot to scale unless the economics remain defensible after compute, integration, oversight, and change costs are included.
+The detailed cost layers and dependency questions belong in the sourcing chapter. Here the decision standard is simpler: do not move from pilot to scale unless the economics remain credible after real-world adoption, oversight, and operating conditions are included.
 
 ## Minimum Before Wider Rollout
 
@@ -115,18 +114,11 @@ Before an AI system is rolled out more broadly, leadership should expect five th
 
 These are not bureaucratic extras. They are the minimum conditions for moving from a pilot to a governable service.
 
-## Roadmaps Should Scale to the Institution
+## Roadmaps Should Match Institutional Capacity
 
-The right roadmap for AI depends partly on what kind of leadership problem the organisation is trying to solve.
+The right roadmap depends partly on what kind of institution is trying to execute it. Some need a short, tightly managed sequence. Others need a more formal multi-year programme with stronger governance, procurement, and reporting.
 
-- **SMEs** usually need a short roadmap: inventory current tool use, approve one or two priority workflows, define simple data-handling rules, and review outcomes monthly.
-- **Cooperatives and mutuals** should add explicit member-interest checks, transparency commitments, and governance review for uses that affect access, pricing, or entitlements.
-- **Research institutions** should build roadmaps around disclosure standards, reproducibility controls, governed access to models and compute, and review of dual-use or high-consequence research applications.
-- **Large enterprises** need a more structured sequence: inventory, tiered review, platform standards, vendor discipline, and executive reporting across business units.
-- **Public institutions** should build roadmaps around lawful deployment, procurement readiness, records and appeals logic, and careful sequencing between low-risk support uses and high-impact public decisions.
-- **National leadership** should treat the roadmap as a state-capacity agenda spanning adoption, infrastructure, talent, procurement, security, regulation, and critical-sector resilience.
-
-The common mistake is to import an enterprise roadmap into a setting that lacks enterprise resources, or to use a startup-style experimentation model in a public or political context that requires stronger legitimacy.
+The common mistake is to import an enterprise roadmap into a setting that lacks enterprise resources, or to use a startup-style experimentation model in a public or political context that requires stronger legitimacy. The principle is stable even when the structure differs: sequence ambition to fit institutional capacity.
 
 ## Leadership Lens
 

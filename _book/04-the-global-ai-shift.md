@@ -9,6 +9,8 @@ nav_order: 2
 
 AI is not only a product trend. It is becoming part of how markets compete, how states invest, and how critical sectors modernise. Leaders therefore need to treat AI as a strategic shift in infrastructure, capability, and power.
 
+This chapter matters because many organisations still misread the environment. They see AI as a software-buying question when it is increasingly also a timing question, a dependency question, a legitimacy question, and in some sectors a state-capacity question.
+
 ## Why the Shift Matters
 
 The global AI shift is often described as if it were one thing. In practice, it is several shifts happening at once:
@@ -20,6 +22,8 @@ The global AI shift is often described as if it were one thing. In practice, it 
 - incidents, public scrutiny, and regulation are rising alongside deployment.
 
 That combination is what makes this chapter important. Leaders are not just deciding whether to try a new technology. They are entering a changing environment in which timing, dependency, and legitimacy all matter.
+
+For leadership teams, the core takeaway is straightforward: the external AI environment is moving faster than most internal decision processes. That does not mean every organisation should move recklessly. It means slow understanding is becoming its own risk.
 
 ## Access Has Expanded Faster Than Organisational Readiness
 
@@ -37,6 +41,8 @@ OECD analysis published on June 30, 2025 estimates that AI could add between 0.4
 
 This is an important leadership correction. AI does not create value because a country or company has access to a powerful model. Value appears when tools are adopted in consequential workflows, supported by data and process redesign, and sustained with enough trust for people to rely on them.
 
+The relevant competitive question is therefore not only `who has access first?` It is `who can absorb AI into real work without losing control, coherence, or trust?`
+
 ## AI Is Becoming Strategic Infrastructure
 
 Part of the global AI shift is infrastructural. Access to advanced AI increasingly depends on compute capacity, cloud platforms, data centres, semiconductor supply chains, and the ability to secure scarce technical resources fast enough to matter.
@@ -49,6 +55,8 @@ This creates a strategic reality:
 - deployment choices across cloud, on-premise, edge, and device environments shape latency, privacy, continuity, and control
 
 OECD work on national compute capacity makes the point clearly: AI capability is not only about models, but also about the compute infrastructure that determines who can train, adapt, and deploy them at meaningful scale.[24]
+
+For leaders, this means vendor choice is no longer just procurement. It can become a question of resilience, bargaining power, data location, security posture, and future strategic flexibility.
 
 This infrastructure logic is now visible in state policy. In the United States, the White House released *America's AI Action Plan* on July 23, 2025, organised around innovation, infrastructure, and international diplomacy and security.[41] Whether or not other jurisdictions copy that framing, the signal is clear: AI has moved into the domain of industrial strategy and national capability, not just enterprise software.
 
@@ -64,6 +72,8 @@ The pattern is mixed:
 
 For leaders, this means the external environment is becoming more active but not necessarily more uniform. The challenge is not only compliance with one law. It is managing across different expectations around data, transparency, safety, competition, labour, and public accountability.
 
+This is especially important for multinational firms, regulated institutions, public agencies, and research organisations. They are less likely to face one decisive AI rule than to face overlapping scrutiny from several directions at once.
+
 ## Incidents and Hazards Are Becoming Part of the Landscape
 
 As adoption grows, incidents and hazards become more visible. OECD work published on February 10, 2026 shows that media-reported AI incidents and hazards have increased sharply since November 2022, even though the mix of risks changes over time across themes such as synthetic media, privacy, cyberattacks, child safety, and health.[39]
@@ -71,6 +81,8 @@ As adoption grows, incidents and hazards become more visible. OECD work publishe
 The important point is not that every reported event is equally severe. It is that AI deployment now creates a growing body of public evidence about what goes wrong in practice. That evidence affects regulators, boards, journalists, customers, and workers. It also shapes which sectors come under pressure first.
 
 This is one reason the global AI shift cannot be read only through product releases and investment rounds. Risk visibility is becoming part of the market environment.
+
+In other words, the downside of AI is no longer hidden inside technical teams. Failures now travel outward into media, politics, regulation, employee trust, and customer confidence.
 
 ## The Landscape Is Still Moving
 
@@ -85,7 +97,14 @@ The correct posture is neither hype nor paralysis. It is to build enough capabil
 
 ## Leadership Lens
 
-For executives, the important question is not whether AI is globally significant in the abstract. It is how this shift changes investment timing, dependency risk, talent needs, and competitive expectations in their own sector.
+For executives, the important question is not whether AI is globally significant in the abstract. It is how this shift changes investment timing, dependency risk, talent needs, regulatory exposure, and competitive expectations in their own sector.
+
+The practical leadership mistake is to read AI through only one lens:
+
+- only as innovation, and miss the dependency risk
+- only as risk, and miss the adoption opportunity
+- only as software, and miss the infrastructure and policy shift
+- only as enterprise tooling, and miss the broader effects on customers, labour, and public expectations
 
 ## Key Questions for Leaders
 
