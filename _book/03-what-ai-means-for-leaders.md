@@ -23,23 +23,31 @@ Artificial intelligence is best understood as a family of machine-based systems 
 
 That sounds simple, but the first leadership mistake is usually to treat all AI as one thing. It is not. A predictive risk model, a document classifier, a recommendation engine, and a generative writing assistant are all “AI,” but they do not create the same operating model or the same oversight burden.
 
-The vocabulary is often used carelessly, so a simple mental model helps:
+The vocabulary is often used carelessly, and one common mistake is to treat `AI`, `machine learning`, `deep learning`, and `generative AI` as if they were four labels at the same level. They are not.[43]
 
-- `AI` is the umbrella term.
-- `Machine learning` is one important way of building AI systems.
-- `Deep learning` is a powerful type of machine learning.
-- `Generative AI` describes what some systems do: create new content.
+The cleaner mental model is this:
 
-That means these terms are related, but they are not interchangeable:
+- `AI` is the broad system category.
+- `Machine learning` and `deep learning` are technical approaches used to build some AI systems.
+- `Generative AI` describes a class of AI systems defined by what they produce: new content.
 
-- **Artificial intelligence (AI)** is the broad category. It covers systems used for prediction, classification, reasoning, perception, recommendation, or decision support.
-- **Machine learning (ML)** is a subset of AI. The system learns patterns from data instead of relying only on fixed hand-written rules.
-- **Deep learning (DL)** is a subset of machine learning. It uses multi-layer neural networks and became practical because of more compute, more data, and better training methods.[1], [3]
-- **Generative AI** refers specifically to systems that generate new content such as text, images, code, audio, or synthetic media. It is not the whole of AI, and it is best understood as a class of AI systems rather than as the full architecture of the field.
+That distinction matters because the terms mix different kinds of description:
+
+- **Artificial intelligence (AI)** is the broadest category. OECD frameworks define AI systems as machine-based systems that infer from inputs how to generate outputs such as predictions, content, recommendations, or decisions, with varying levels of autonomy.[1], [43]
+- **Machine learning (ML)** is one major way of building AI. Instead of relying only on explicit hand-written rules, the system learns statistical patterns from data.[43]
+- **Deep learning (DL)** is one family within machine learning. It uses multi-layer neural networks and became practical because of more data, more compute, and better training methods.[44]
+- **Generative AI** refers to AI systems that generate new content such as text, images, audio, video, or code in response to prompts or other inputs.[3], [45]
+
+The more accurate executive takeaway is therefore:
+
+- not all AI is machine learning
+- not all machine learning is deep learning
+- not all deep learning is generative
+- most mainstream generative AI today is built with deep-learning-based foundation models, but the term `generative AI` describes the output behavior, not the full technical stack
 
 {% include figure-ai-ml-dl-generative.html %}
 
-*Figure: AI is the broadest category; machine learning and deep learning sit within it, while generative AI refers to systems that generate new content and is commonly implemented with deep learning models.*
+*Figure: `AI` is the broad category, `ML` and `DL` are technical approaches within that category, and `generative AI` names systems that create new content rather than a separate layer of the field.*
 
 Leaders should also distinguish AI from automation. Traditional automation follows explicit rules for stable and repeatable tasks. AI systems, by contrast, infer patterns from data, handle ambiguity unevenly, and often produce probabilities rather than certainties.
 

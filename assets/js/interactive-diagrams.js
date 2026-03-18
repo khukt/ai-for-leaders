@@ -113,31 +113,35 @@ document.addEventListener('DOMContentLoaded', function () {
   var taxonomyConfigs = {
     ai: {
       title: 'Artificial Intelligence',
-      definition: 'The broad category covering systems used for prediction, classification, reasoning, perception, recommendation, or decision support.',
-      relationship: 'AI is the umbrella. Machine learning and deep learning sit inside it, while generative AI is a capability that can be built on top of those methods.',
+      kind: 'Broad system category',
+      definition: 'A broad class of machine-based systems that infer from inputs how to generate outputs such as predictions, content, recommendations, or decisions.',
+      relationship: 'AI is broader than machine learning. Some AI is rule-based or search-based; much modern AI uses machine learning; deep learning is one family within machine learning; generative AI names a kind of output behavior rather than the whole field.',
       question: 'What is this system actually doing in the workflow, and which kind of oversight follows from that?',
-      rule: 'Key idea: AI is the umbrella term. The other terms narrow the method or capability, and those distinctions change cost, evidence, and governance questions.'
+      rule: 'Key idea: AI is the broadest category, but the other labels are not all subcategories of the same kind.'
     },
     ml: {
       title: 'Machine Learning',
-      definition: 'A subset of AI in which systems learn patterns from data instead of relying only on fixed hand-written rules.',
-      relationship: 'Machine learning sits inside AI. Deep learning is one important family inside machine learning, but not all machine learning is deep learning.',
+      kind: 'Technical approach',
+      definition: 'A family of methods in which models learn statistical relationships from data rather than relying only on explicit hand-written rules.',
+      relationship: 'Machine learning is one major way to build AI systems, but it is not all of AI. Deep learning sits within machine learning, while many recommendation, forecasting, and classification systems use other ML methods.',
       question: 'What data is this system learning from, and how will we know whether those learned patterns remain dependable over time?',
-      rule: 'Key idea: once the discussion moves from AI in general to machine learning, data quality and evaluation become much more central.'
+      rule: 'Key idea: once the discussion moves from AI in general to machine learning, data quality, drift, and evaluation become central.'
     },
     dl: {
       title: 'Deep Learning',
-      definition: 'A subset of machine learning built on multi-layer neural networks and enabled by larger datasets, more compute, and stronger training methods.',
-      relationship: 'Deep learning sits inside machine learning. Many modern high-performing systems use it, but its complexity can raise explainability, cost, and deployment questions.',
+      kind: 'Technical approach within ML',
+      definition: 'A family of machine-learning methods based on multi-layer neural networks that learn representations from large amounts of data.',
+      relationship: 'Deep learning sits inside machine learning. Many modern vision, speech, and foundation-model systems use it, but many deep-learning systems are predictive rather than generative.',
       question: 'Does this use case justify the extra complexity, compute demand, and explainability trade-offs that often come with deep learning?',
-      rule: 'Key idea: deep learning is powerful, but the leadership question is whether its extra complexity is justified in this workflow.'
+      rule: 'Key idea: deep learning is powerful, but leaders should separate model capability from the cost, opacity, and infrastructure burden that often come with it.'
     },
     genai: {
       title: 'Generative AI',
-      definition: 'Systems that generate new content such as text, images, code, audio, or synthetic media.',
-      relationship: 'Generative AI is not the whole of AI. It is a capability layer, often implemented with deep learning and frequently delivered through foundation-model architectures.',
+      kind: 'Output-oriented system class',
+      definition: 'AI systems designed to generate novel content such as text, images, audio, video, or code in response to prompts or other inputs.',
+      relationship: 'Generative AI is defined by what the system produces, not by one single architecture. In current practice, most mainstream generative AI is built with deep-learning-based foundation models, but the term names the task, not the whole technical stack.',
       question: 'Are we trusting this system to create content, and what controls do we need around truthfulness, confidentiality, copyright, and misuse?',
-      rule: 'Key idea: generative AI describes what a system does. It does not replace the need to ask which method, data, and controls sit underneath it.'
+      rule: 'Key idea: generative AI describes output behavior. It does not tell you, by itself, which model architecture, data pipeline, or controls sit underneath it.'
     }
   };
 
@@ -339,6 +343,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var layers = diagram.querySelectorAll('[data-taxonomy-layer]');
     var iconTargets = diagram.querySelectorAll('[data-taxonomy-icon]');
     var selectedLayerTarget = diagram.querySelector('[data-taxonomy-selected-layer]');
+    var kindTarget = diagram.querySelector('[data-taxonomy-kind]');
     var definitionTarget = diagram.querySelector('[data-taxonomy-definition]');
     var relationshipTarget = diagram.querySelector('[data-taxonomy-relationship]');
     var questionTarget = diagram.querySelector('[data-taxonomy-question]');
@@ -366,6 +371,7 @@ document.addEventListener('DOMContentLoaded', function () {
       });
 
       selectedLayerTarget.textContent = config.title;
+      kindTarget.textContent = config.kind;
       definitionTarget.textContent = config.definition;
       relationshipTarget.textContent = config.relationship;
       questionTarget.textContent = config.question;

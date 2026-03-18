@@ -4,78 +4,56 @@
       <p class="interactive-diagram__eyebrow">Interactive Figure</p>
       <p class="interactive-diagram__title">AI, machine learning, deep learning, and generative AI</p>
       <p class="interactive-diagram__summary">
-        Pick a layer to see how the categories relate. The main point is that these terms are connected, but they are not interchangeable.
+        Pick a term to see how the labels differ. The main point is that these terms are related, but they do not describe the same level of the stack.
       </p>
     </div>
 
-    <div class="interactive-diagram__controls" aria-label="AI taxonomy layers">
-      <button class="interactive-diagram__tab is-active" type="button" aria-pressed="true" data-taxonomy-tab="ai">
-        AI
-      </button>
-      <button class="interactive-diagram__tab" type="button" aria-pressed="false" data-taxonomy-tab="ml">
-        Machine Learning
-      </button>
-      <button class="interactive-diagram__tab" type="button" aria-pressed="false" data-taxonomy-tab="dl">
-        Deep Learning
-      </button>
-      <button class="interactive-diagram__tab" type="button" aria-pressed="false" data-taxonomy-tab="genai">
-        Generative AI
-      </button>
-    </div>
-
     <div class="taxonomy-diagram">
-      <div class="taxonomy-diagram__layers" aria-label="AI taxonomy structure">
-        <section class="taxonomy-diagram__layer taxonomy-diagram__layer--ai is-active" data-taxonomy-layer="ai">
-          <span class="taxonomy-diagram__label">Broadest Category</span>
+      <div class="taxonomy-diagram__map" role="group" aria-label="AI taxonomy structure">
+        <button class="taxonomy-diagram__node taxonomy-diagram__node--ai is-active" type="button" aria-pressed="true" data-taxonomy-tab="ai" data-taxonomy-layer="ai">
+          <span class="taxonomy-diagram__label">Broad Category</span>
           <div class="taxonomy-diagram__icon" data-taxonomy-icon="ai" aria-hidden="true"></div>
           <strong>Artificial Intelligence</strong>
-          <p>Systems for prediction, reasoning, perception, recommendation, and decision support.</p>
-        </section>
+          <p>System category for prediction, content, recommendations, and decisions.</p>
+        </button>
 
-        <div class="taxonomy-diagram__arrow" aria-hidden="true">↓</div>
-
-        <section class="taxonomy-diagram__layer taxonomy-diagram__layer--ml" data-taxonomy-layer="ml">
-          <span class="taxonomy-diagram__label">Subset of AI</span>
+        <button class="taxonomy-diagram__node taxonomy-diagram__node--ml" type="button" aria-pressed="false" data-taxonomy-tab="ml" data-taxonomy-layer="ml">
+          <span class="taxonomy-diagram__label">Build Approach</span>
           <div class="taxonomy-diagram__icon" data-taxonomy-icon="ml" aria-hidden="true"></div>
           <strong>Machine Learning</strong>
-          <p>Systems that learn patterns from data rather than relying only on hand-written rules.</p>
-        </section>
+          <p>Trains models from data rather than relying only on explicit rules.</p>
+        </button>
 
-        <div class="taxonomy-diagram__arrow" aria-hidden="true">↓</div>
-
-        <section class="taxonomy-diagram__layer taxonomy-diagram__layer--dl" data-taxonomy-layer="dl">
-          <span class="taxonomy-diagram__label">Subset of ML</span>
+        <button class="taxonomy-diagram__node taxonomy-diagram__node--dl" type="button" aria-pressed="false" data-taxonomy-tab="dl" data-taxonomy-layer="dl">
+          <span class="taxonomy-diagram__label">Model Family</span>
           <div class="taxonomy-diagram__icon" data-taxonomy-icon="dl" aria-hidden="true"></div>
           <strong>Deep Learning</strong>
-          <p>Multi-layer neural networks made practical by more compute, more data, and better training methods.</p>
-        </section>
-      </div>
+          <p>Multi-layer neural networks inside machine learning.</p>
+        </button>
 
-      <aside class="taxonomy-diagram__callout" data-taxonomy-layer="genai">
-        <span class="taxonomy-diagram__label">Capability Layer</span>
-        <div class="taxonomy-diagram__icon" data-taxonomy-icon="genai" aria-hidden="true"></div>
-        <strong>Generative AI</strong>
-        <p>Models that create new content such as text, images, code, audio, or synthetic media.</p>
-        <ul>
-          <li>Often built with deep learning.</li>
-          <li>Often delivered through foundation-model architectures.</li>
-        </ul>
-      </aside>
+        <button class="taxonomy-diagram__node taxonomy-diagram__node--genai" type="button" aria-pressed="false" data-taxonomy-tab="genai" data-taxonomy-layer="genai">
+          <span class="taxonomy-diagram__label">Output Class</span>
+          <div class="taxonomy-diagram__icon" data-taxonomy-icon="genai" aria-hidden="true"></div>
+          <strong>Generative AI</strong>
+          <p>Creates new text, images, audio, video, or code.</p>
+        </button>
+      </div>
 
       <div class="taxonomy-diagram__detail">
         <div class="taxonomy-diagram__detail-card">
-          <span class="taxonomy-diagram__detail-label">Selected Layer</span>
+          <span class="taxonomy-diagram__detail-label">Selected Term</span>
           <p data-taxonomy-selected-layer>Artificial Intelligence</p>
+          <p class="taxonomy-diagram__kind" data-taxonomy-kind>Broad system category</p>
         </div>
 
         <div class="taxonomy-diagram__detail-card">
           <span class="taxonomy-diagram__detail-label">Best Short Definition</span>
           <p data-taxonomy-definition>
-            The broad category covering systems used for prediction, classification, reasoning, perception, recommendation, or decision support.
+            The broad category of machine-based systems that infer from inputs how to generate outputs such as predictions, content, recommendations, or decisions.
           </p>
         </div>
 
-        <div class="taxonomy-diagram__detail-card">
+        <div class="taxonomy-diagram__detail-card taxonomy-diagram__detail-card--wide">
           <span class="taxonomy-diagram__detail-label">How It Relates</span>
           <p data-taxonomy-relationship>
             AI is the umbrella. Machine learning and deep learning sit inside it, while generative AI is a capability that can be built on top of those methods.

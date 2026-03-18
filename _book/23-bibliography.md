@@ -189,6 +189,18 @@ This bibliography consolidates the main external sources referenced across the b
 
 [42] European Commission, “Navigating the AI Act,” Shaping Europe’s digital future, 2026. [Online]. Available: https://digital-strategy.ec.europa.eu/en/faqs/navigating-ai-act. [Accessed: Mar. 17, 2026].
 
+### <a id="oecd-ai-classification-framework"></a>OECD Framework for the Classification of AI Systems
+
+[43] OECD, “OECD Framework for the Classification of AI systems,” OECD Digital Economy Papers, No. 323, OECD Publishing, Paris, Feb. 22, 2022. [Online]. Available: https://doi.org/10.1787/cb6d9eca-en. [Accessed: Mar. 18, 2026].
+
+### <a id="lecun-bengio-hinton-deep-learning"></a>Deep Learning
+
+[44] Y. LeCun, Y. Bengio, and G. Hinton, “Deep learning,” Nature, vol. 521, pp. 436-444, May 28, 2015. [Online]. Available: https://doi.org/10.1038/nature14539. [Accessed: Mar. 18, 2026].
+
+### <a id="oecd-initial-policy-considerations-genai"></a>Initial Policy Considerations for Generative AI
+
+[45] P. Lorenz, K. Perset, and J. Berryhill, “Initial policy considerations for generative artificial intelligence,” OECD Artificial Intelligence Papers, No. 1, OECD Publishing, Paris, Sep. 18, 2023. [Online]. Available: https://doi.org/10.1787/fae2d1e6-en. [Accessed: Mar. 18, 2026].
+
 ## Notes on Use
 
 - This book is written for leadership audiences and uses these materials as interpretive anchors rather than as a substitute for legal advice.
