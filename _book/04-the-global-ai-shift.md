@@ -23,6 +23,8 @@ The global AI shift is often described as if it were one thing. In practice, it 
 
 That combination is what makes this chapter important. Leaders are not just deciding whether to try a new technology. They are entering a changing environment in which timing, dependency, and legitimacy all matter.
 
+{% include interactive-global-ai-shift.html %}
+
 For leadership teams, the core takeaway is straightforward: the external AI environment is moving faster than most internal decision processes. That does not mean every organisation should move recklessly. It means slow understanding is becoming its own risk.
 
 ## Access Has Expanded Faster Than Organisational Readiness

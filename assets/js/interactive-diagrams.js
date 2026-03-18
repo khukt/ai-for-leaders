@@ -187,6 +187,59 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   };
 
+  var globalShiftConfigs = {
+    access: {
+      eyebrow: 'Access Shift',
+      title: 'Access has expanded faster than organisational readiness',
+      summary: 'General-purpose AI reached users faster than policy, training, procurement, and internal governance could catch up.',
+      why: 'Leaders are dealing with AI as a fast-moving exposure rather than a centrally sequenced rollout.',
+      change: 'The management problem shifts from “should we buy AI?” to “how do we control use that may already be spreading?”',
+      risk: 'Access can outrun internal readiness, creating shadow use, vendor sprawl, and policy gaps.',
+      move: 'Build visibility quickly: who is using what, for which tasks, under which controls, and with which dependencies.',
+      rule: 'Key idea: easier access means experimentation spreads faster than formal governance.'
+    },
+    diffusion: {
+      eyebrow: 'Diffusion Shift',
+      title: 'The real race is diffusion, not just frontier performance',
+      summary: 'Strategic advantage depends on whether AI reaches real workflows, institutions, and business models rather than who watches the best demos first.',
+      why: 'Value appears when tools are adopted in consequential work and supported by process redesign, data, and trust.',
+      change: 'The competitive question becomes who can absorb AI into real work without losing coherence or control.',
+      risk: 'Leaders can overfocus on model headlines and underinvest in adoption capacity, training, workflow fit, and operating discipline.',
+      move: 'Track where AI is actually being embedded in work, what is changing operationally, and where adoption is stalled.',
+      rule: 'Key idea: frontier capability matters, but diffusion into real work is what turns capability into advantage.'
+    },
+    infrastructure: {
+      eyebrow: 'Infrastructure Shift',
+      title: 'AI is becoming strategic infrastructure',
+      summary: 'Compute, cloud platforms, chips, and deployment environments increasingly shape who can train, adapt, and run AI at meaningful scale.',
+      why: 'Vendor choice now affects resilience, bargaining power, data location, continuity, and geopolitical exposure.',
+      change: 'Procurement becomes part of infrastructure strategy, not just a software-buying decision.',
+      risk: 'Dependence on a small number of providers can create pricing, resilience, sovereignty, and concentration risk.',
+      move: 'Map which providers, platforms, and deployment constraints sit underneath your AI ambitions before dependence hardens.',
+      rule: 'Key idea: AI capability depends on underlying infrastructure, not just on model quality.'
+    },
+    policy: {
+      eyebrow: 'Policy Shift',
+      title: 'Policy is proliferating without fully converging',
+      summary: 'More jurisdictions are creating AI rules, guidance, standards, and industrial policy, but not from one single playbook.',
+      why: 'Multinational firms and regulated institutions are more likely to face overlapping expectations than one decisive rule.',
+      change: 'Leadership teams need to manage across legal obligations, procurement rules, sector expectations, and public accountability pressures at once.',
+      risk: 'Treating AI governance as one-law compliance can leave organisations exposed to scrutiny from other directions.',
+      move: 'Monitor how legal, standards, procurement, labour, and sector-specific expectations are evolving across your footprint.',
+      rule: 'Key idea: the policy landscape is expanding fast, but it is not becoming simple or uniform.'
+    },
+    incidents: {
+      eyebrow: 'Incident Shift',
+      title: 'Incidents and hazards are becoming part of the market landscape',
+      summary: 'As deployment grows, failures become visible to journalists, regulators, customers, workers, and boards rather than staying inside technical teams.',
+      why: 'Public evidence of what goes wrong shapes which sectors come under pressure first and how trust in AI is judged.',
+      change: 'Risk visibility becomes a strategic factor, not just an internal operational issue.',
+      risk: 'Even isolated incidents can travel outward into politics, regulation, workforce trust, and customer confidence.',
+      move: 'Prepare for external visibility: incident response, governance records, review rights, and clear communication matter before a failure happens.',
+      rule: 'Key idea: once incidents become visible, AI risk becomes part of the external operating environment.'
+    }
+  };
+
   document.querySelectorAll('[data-interactive-diagram="pretrained-model"]').forEach(function (diagram) {
     var tabs = diagram.querySelectorAll('[data-diagram-tab]');
     var dataIconTarget = diagram.querySelector('[data-diagram-data-icon]');
@@ -483,5 +536,69 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     activate('supervised');
+  });
+
+  document.querySelectorAll('[data-interactive-diagram="global-shift"]').forEach(function (diagram) {
+    var tabs = diagram.querySelectorAll('[data-global-shift-tab]');
+    var eyebrowTarget = diagram.querySelector('[data-global-shift-eyebrow]');
+    var titleTarget = diagram.querySelector('[data-global-shift-title]');
+    var summaryTarget = diagram.querySelector('[data-global-shift-summary]');
+    var whyTarget = diagram.querySelector('[data-global-shift-why]');
+    var changeTarget = diagram.querySelector('[data-global-shift-change]');
+    var riskTarget = diagram.querySelector('[data-global-shift-risk]');
+    var moveTarget = diagram.querySelector('[data-global-shift-move]');
+    var ruleTarget = diagram.querySelector('[data-global-shift-rule]');
+
+    function activate(key) {
+      var config = globalShiftConfigs[key];
+      if (!config) {
+        return;
+      }
+
+      tabs.forEach(function (tab) {
+        var isActive = tab.getAttribute('data-global-shift-tab') === key;
+        tab.classList.toggle('is-active', isActive);
+        tab.setAttribute('aria-pressed', isActive ? 'true' : 'false');
+        tab.tabIndex = isActive ? 0 : -1;
+      });
+
+      eyebrowTarget.textContent = config.eyebrow;
+      titleTarget.textContent = config.title;
+      summaryTarget.textContent = config.summary;
+      whyTarget.textContent = config.why;
+      changeTarget.textContent = config.change;
+      riskTarget.textContent = config.risk;
+      moveTarget.textContent = config.move;
+      ruleTarget.textContent = config.rule;
+    }
+
+    tabs.forEach(function (tab) {
+      tab.addEventListener('click', function () {
+        activate(tab.getAttribute('data-global-shift-tab'));
+      });
+
+      tab.addEventListener('keydown', function (event) {
+        if (event.key !== 'ArrowRight' && event.key !== 'ArrowLeft') {
+          return;
+        }
+
+        event.preventDefault();
+
+        var index = Array.prototype.indexOf.call(tabs, tab);
+        var nextIndex = event.key === 'ArrowRight' ? index + 1 : index - 1;
+
+        if (nextIndex < 0) {
+          nextIndex = tabs.length - 1;
+        }
+        if (nextIndex >= tabs.length) {
+          nextIndex = 0;
+        }
+
+        tabs[nextIndex].focus();
+        activate(tabs[nextIndex].getAttribute('data-global-shift-tab'));
+      });
+    });
+
+    activate('access');
   });
 });

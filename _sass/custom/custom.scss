@@ -211,6 +211,17 @@
   box-shadow: 0 20px 40px rgba(18, 38, 63, 0.08);
 }
 
+.interactive-diagram--global-shift .interactive-diagram__app {
+  border: 1px solid #d7dfeb;
+  border-radius: 22px;
+  padding: 1.5rem;
+  background:
+    radial-gradient(circle at top left, rgba(255, 185, 88, 0.14), transparent 24%),
+    radial-gradient(circle at bottom right, rgba(11, 95, 255, 0.08), transparent 28%),
+    linear-gradient(180deg, #fcfdff 0%, #f4f7fc 100%);
+  box-shadow: 0 20px 40px rgba(18, 38, 63, 0.08);
+}
+
 .interactive-diagram__intro {
   margin-bottom: 1.25rem;
 }
@@ -826,6 +837,101 @@
   text-transform: uppercase;
 }
 
+.global-shift-diagram {
+  display: grid;
+  grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.2fr);
+  gap: 1rem;
+  margin: 0 0 1rem;
+}
+
+.global-shift-diagram__controls {
+  display: grid;
+  gap: 0.8rem;
+}
+
+.global-shift-diagram__driver,
+.global-shift-diagram__fact-card,
+.global-shift-diagram__detail {
+  border: 1px solid #d7dfeb;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.92);
+}
+
+.global-shift-diagram__driver {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.35rem;
+  padding: 0.95rem 1rem;
+  color: #23415f;
+  text-align: left;
+  cursor: pointer;
+  transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+}
+
+.global-shift-diagram__driver:hover,
+.global-shift-diagram__driver:focus-visible {
+  border-color: #0b5fff;
+  outline: none;
+  transform: translateY(-1px);
+}
+
+.global-shift-diagram__driver.is-active {
+  border-color: #0b5fff;
+  background: linear-gradient(180deg, #eff5ff 0%, #eef8f7 100%);
+  box-shadow: 0 14px 28px rgba(11, 95, 255, 0.14);
+}
+
+.global-shift-diagram__driver-label,
+.global-shift-diagram__fact-label,
+.global-shift-diagram__eyebrow {
+  display: inline-block;
+  color: #0b5fff;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.global-shift-diagram__driver strong {
+  color: #12263f;
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+.global-shift-diagram__driver p,
+.global-shift-diagram__summary,
+.global-shift-diagram__fact-card p {
+  margin: 0;
+  color: #42526b;
+  font-size: 0.95rem;
+}
+
+.global-shift-diagram__detail {
+  padding: 1rem 1.05rem;
+}
+
+.global-shift-diagram__headline {
+  margin-bottom: 0.95rem;
+}
+
+.global-shift-diagram__title {
+  margin: 0.3rem 0 0.45rem;
+  color: #12263f;
+  font-size: 1.35rem;
+  line-height: 1.2;
+}
+
+.global-shift-diagram__facts {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.85rem;
+}
+
+.global-shift-diagram__fact-card {
+  padding: 0.9rem 0.95rem;
+}
+
 .learning-diagram {
   margin: 0 0 1rem;
 }
@@ -1149,6 +1255,10 @@
     grid-template-columns: 1fr;
   }
 
+  .global-shift-diagram {
+    grid-template-columns: 1fr;
+  }
+
   .taxonomy-diagram__map {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1219,7 +1329,8 @@
   }
 
   .trust-compass__ring,
-  .trust-compass__detail {
+  .trust-compass__detail,
+  .global-shift-diagram__facts {
     grid-template-columns: 1fr;
   }
 
