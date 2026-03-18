@@ -69,6 +69,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   var trustCompassConfigs = {
     reliable: {
+      centerSummary: 'Shows repeatable performance in live conditions.',
       summary: 'The system should behave consistently enough for the real situations where people are expected to rely on it.',
       question: 'Is the system dependable enough across the situations where we expect people to rely on it?',
       lookFor: 'Task-specific testing, known limits, monitoring after deployment, and a clear view of when performance degrades.',
@@ -77,6 +78,7 @@ document.addEventListener('DOMContentLoaded', function () {
       rule: 'Key idea: reliability is not a claim about the model in general. It is evidence that the system performs well enough for this exact workflow.'
     },
     safe: {
+      centerSummary: 'Has practical controls around errors and harm.',
       summary: 'The system should be surrounded by practical controls so weak, uncertain, or malicious outputs do not create avoidable harm.',
       question: 'What practical controls prevent weak or uncertain outputs from causing damage?',
       lookFor: 'Human approval points, rate limits, permissions, rollback, incident response, and clear stop conditions.',
@@ -85,6 +87,7 @@ document.addEventListener('DOMContentLoaded', function () {
       rule: 'Key idea: safety is about operating controls, not only model quality.'
     },
     fair: {
+      centerSummary: 'Tests for unjustified outcome differences.',
       summary: 'The organisation should test whether unjustified differences in treatment or outcomes could emerge for different groups, regions, or cases.',
       question: 'Where could unjustified differences in treatment or outcomes emerge?',
       lookFor: 'Bias review, representative data checks, subgroup testing, and a process for challenging problematic outcomes.',
@@ -93,6 +96,7 @@ document.addEventListener('DOMContentLoaded', function () {
       rule: 'Key idea: fairness usually has to be examined. It does not appear automatically just because a system feels objective.'
     },
     transparent: {
+      centerSummary: 'Makes AI involvement and decision trails visible.',
       summary: 'Users and reviewers should be able to tell when AI is involved and trace how important outputs were produced or supported.',
       question: 'Can users and reviewers tell when AI is involved and follow the decision trail?',
       lookFor: 'Clear disclosure, usable logs, source visibility, explanation where needed, and traceability from input to outcome.',
@@ -101,6 +105,7 @@ document.addEventListener('DOMContentLoaded', function () {
       rule: 'Key idea: transparency gives management, auditors, and affected people a way to inspect and challenge important outputs.'
     },
     accountable: {
+      centerSummary: 'Keeps clear human ownership and intervention rights.',
       summary: 'Responsibility for approval, operation, review, and escalation should remain visible even when AI is heavily involved.',
       question: 'Which person or function owns the outcome and can step in when necessary?',
       lookFor: 'A named business owner, escalation paths, review rights, vendor accountability boundaries, and a clear incident owner.',
@@ -348,7 +353,7 @@ document.addEventListener('DOMContentLoaded', function () {
       });
 
       titleTarget.textContent = key.charAt(0).toUpperCase() + key.slice(1);
-      summaryTarget.textContent = config.summary;
+      summaryTarget.textContent = config.centerSummary || config.summary;
       questionTarget.textContent = config.question;
       lookForTarget.textContent = config.lookFor;
       weakSignalTarget.textContent = config.weakSignal;
