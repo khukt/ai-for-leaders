@@ -131,6 +131,8 @@ These distinctions matter because they shape what data is needed, how performanc
 
 {% include interactive-machine-learning-types.html %}
 
+## 5. What Are Pretrained Models, and Why Do They Matter?
+
 Many of the most visible AI products in use today are also not built from zero for one task. They begin as **pretrained** or **foundation models** trained on very large collections of text, images, audio, video, code, or structured data. Organisations then adapt them for narrower purposes such as summarisation, search, customer support, coding assistance, or domain-specific analysis.
 
 For leaders, this matters because the strategic question is usually not whether to train a model from scratch. It is whether to use an existing model, how much to adapt it, and what that choice creates in cost, control, vendor dependence, language support, intellectual property exposure, and governance.
@@ -152,7 +154,7 @@ The evidence question is therefore broader than “does the model look good?” 
 - does it fail safely enough for this use?
 - can we monitor and challenge it after deployment?
 
-## 5. Why Must Humans Stay in Control?
+## 6. Why Must Humans Stay in Control?
 
 Human control matters most where the organisation may later need to explain, challenge, reverse, or stop what the system has done.
 
