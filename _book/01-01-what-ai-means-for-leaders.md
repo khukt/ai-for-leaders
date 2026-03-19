@@ -17,7 +17,7 @@ The most useful way to read this chapter is through five questions:
 2. What can AI do well, and how does it fail?
 3. Why does accountability stay with people?
 4. What kind of evidence separates access from readiness?
-5. What Are Pretrained Models, and Why Do They Matter?
+5. What are pretrained models, and why do they matter?
 6. Why must humans stay in control?
 
 ## 1. What Is AI, Really?
@@ -146,7 +146,7 @@ Until those questions are answered, access should not be mistaken for readiness.
 
 
 
-## 5. What Are Pretrained Models, and Why Do They Matter?
+## 5. What are pretrained models, and why do they matter?
 
 Many of the most visible AI products in use today are not built from zero. This shifts the leadership problem from building systems to choosing, adapting, and governing **pretrained** or **foundation models**. These models are trained on very large collections of text, images, audio, video, code, or structured data before being adapted for specific uses such as summarisation, search, customer support, coding assistance, or domain-specific analysis.
 
@@ -214,21 +214,24 @@ The more serious the consequence, the stronger the case for human approval, esca
 
 ## AI Is Also an Infrastructure Question
 
+**What infrastructure is required to run AI reliably at scale?**
+
 Leaders should not treat AI as software alone. AI capability depends on compute, cloud infrastructure, storage, networking, and in some cases specialised hardware such as GPUs or other accelerators. That infrastructure affects what models can be run, how quickly they respond, how expensive they become at scale, and whether they can be deployed where the organisation actually needs them.
 
 This matters for four reasons:
 
-- **Cost and scale**: model quality is only one part of the business case; inference cost, usage growth, and infrastructure spend can change the economics quickly.
-- **Deployment constraints**: some systems can run centrally in the cloud, while others may require on-premise, edge, or device-level deployment because of latency, privacy, resilience, or safety needs.
-- **Dependency risk**: many organisations depend on a small number of cloud and model providers for the hardware and platform layers underneath AI services.
-- **Operational resilience**: if compute access, latency, or infrastructure availability becomes constrained, AI-enabled workflows can degrade even when the model itself is sound.
+- **Cost and scale**: model quality is only one part of the business case; inference cost, usage growth, and infrastructure spend can change the economics quickly  
+- **Deployment constraints**: some systems can run centrally in the cloud, while others may require on-premise, edge, or device-level deployment because of latency, privacy, resilience, or safety needs  
+- **Dependency risk**: many organisations depend on a small number of cloud and model providers for the hardware and platform layers underneath AI services  
+- **Operational resilience**: if compute access, latency, or infrastructure availability becomes constrained, AI-enabled workflows can degrade even when the model itself is sound  
 
 ## Key Questions for Leaders
 
-- Which AI capabilities are genuinely relevant to our industry and business model?
+- Where will AI create **real economic or operational advantage**, not just experimentation?
 - Where is AI already being used in our organisation, with or without central oversight?
 - What assumptions are our teams making about AI reliability that need to be tested?
-- Where are tools beginning to move from drafting and analysis into action-taking or semi-autonomous behaviour?
+- Which processes are **safe to automate**, and which require sustained human judgment and oversight?
+- Where are tools beginning to move from drafting and analysis into **action-taking or semi-autonomous behaviour**?
 
 ## Final Perspective
 
