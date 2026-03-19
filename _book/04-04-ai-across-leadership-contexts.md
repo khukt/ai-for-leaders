@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "AI Across Leadership Contexts"
-permalink: /book/17-ai-across-leadership-contexts/
+redirect_from:
+  - /book/17-ai-across-leadership-contexts/
 parent: "Part IV: Future Organizations"
 nav_order: 4
 ---
@@ -208,4 +209,4 @@ AI leadership improves when leaders stop asking only, "What can this technology 
 
 ---
 
-[← Trust as a Competitive Advantage]({{ site.baseurl }}/book/16-trust-as-a-competitive-advantage/) | [Next: The Executive Five-Year Agenda →]({{ site.baseurl }}/book/17-the-executive-five-year-agenda/)
+[← Trust as a Competitive Advantage]({{ site.baseurl }}/book/04-03-trust-as-a-competitive-advantage/) | [Next: The Executive Five-Year Agenda →]({{ site.baseurl }}/book/04-05-the-executive-five-year-agenda/)

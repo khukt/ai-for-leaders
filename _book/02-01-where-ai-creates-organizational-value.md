@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Where AI Creates Organizational Value"
-permalink: /book/06-where-ai-creates-organizational-value/
+redirect_from:
+  - /book/06-where-ai-creates-organizational-value/
 parent: "Part II: Strategy & Value"
 nav_order: 1
 ---
@@ -118,4 +119,4 @@ The key discipline is to define value in terms that fit the institution's mandat
 
 ---
 
-[← AI Law, Regulation, and Financial Exposure]({{ site.baseurl }}/book/05-ai-law-regulation-and-financial-exposure/) | [Next: Build, Buy, or Partner →]({{ site.baseurl }}/book/07-build-buy-or-partner/)
+[← AI Law, Regulation, and Financial Exposure]({{ site.baseurl }}/book/01-03-ai-law-regulation-and-financial-exposure/) | [Next: Build, Buy, or Partner →]({{ site.baseurl }}/book/02-02-build-buy-or-partner/)

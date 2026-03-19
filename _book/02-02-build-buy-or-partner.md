@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Build, Buy, or Partner"
-permalink: /book/07-build-buy-or-partner/
+redirect_from:
+  - /book/07-build-buy-or-partner/
 parent: "Part II: Strategy & Value"
 nav_order: 2
 ---
@@ -105,4 +106,4 @@ Partnerships are especially useful when the capability problem crosses organisat
 
 ---
 
-[← Where AI Creates Organizational Value]({{ site.baseurl }}/book/06-where-ai-creates-organizational-value/) | [Next: Data as a Strategic Asset →]({{ site.baseurl }}/book/08-data-as-a-strategic-asset/)
+[← Where AI Creates Organizational Value]({{ site.baseurl }}/book/02-01-where-ai-creates-organizational-value/) | [Next: Data as a Strategic Asset →]({{ site.baseurl }}/book/02-03-data-as-a-strategic-asset/)

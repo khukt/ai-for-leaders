@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "The Executive Five-Year Agenda"
-permalink: /book/17-the-executive-five-year-agenda/
+redirect_from:
+  - /book/17-the-executive-five-year-agenda/
 parent: "Part IV: Future Organizations"
 nav_order: 5
 ---
@@ -184,4 +185,4 @@ The executive agenda should balance urgency with discipline. Waiting too long cr
 
 ---
 
-[← AI Across Leadership Contexts]({{ site.baseurl }}/book/17-ai-across-leadership-contexts/) | [Next: Appendix A →]({{ site.baseurl }}/book/18-appendix-ai-governance-checklist-for-boards/)
+[← AI Across Leadership Contexts]({{ site.baseurl }}/book/04-04-ai-across-leadership-contexts/) | [Next: Appendix A →]({{ site.baseurl }}/book/05-01-appendix-ai-governance-checklist-for-boards/)

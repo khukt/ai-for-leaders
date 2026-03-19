@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Trust as a Competitive Advantage"
-permalink: /book/16-trust-as-a-competitive-advantage/
+redirect_from:
+  - /book/16-trust-as-a-competitive-advantage/
 parent: "Part IV: Future Organizations"
 nav_order: 3
 ---
@@ -81,4 +82,4 @@ The organisations that sustain AI advantage are unlikely to be those that move f
 
 ---
 
-[← AI in Smart Industry and Critical Infrastructure]({{ site.baseurl }}/book/15-ai-in-smart-industry-and-critical-infrastructure/) | [Next: AI Across Leadership Contexts →]({{ site.baseurl }}/book/17-ai-across-leadership-contexts/)
+[← AI in Smart Industry and Critical Infrastructure]({{ site.baseurl }}/book/04-02-ai-in-smart-industry-and-critical-infrastructure/) | [Next: AI Across Leadership Contexts →]({{ site.baseurl }}/book/04-04-ai-across-leadership-contexts/)

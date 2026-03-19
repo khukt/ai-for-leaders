@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "AI Law, Regulation, and Financial Exposure"
-permalink: /book/05-ai-law-regulation-and-financial-exposure/
+redirect_from:
+  - /book/05-ai-law-regulation-and-financial-exposure/
 parent: "Part I: AI Landscape"
 nav_order: 3
 ---
@@ -116,4 +117,4 @@ For practical purposes, explainable AI in this chapter is about:
 
 ---
 
-[← The Global AI Shift]({{ site.baseurl }}/book/04-the-global-ai-shift/) | [Next: Where AI Creates Organizational Value →]({{ site.baseurl }}/book/06-where-ai-creates-organizational-value/)
+[← The Global AI Shift]({{ site.baseurl }}/book/01-02-the-global-ai-shift/) | [Next: Where AI Creates Organizational Value →]({{ site.baseurl }}/book/02-01-where-ai-creates-organizational-value/)

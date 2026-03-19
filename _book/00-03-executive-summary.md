@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Executive Summary"
-permalink: /book/02-executive-summary/
+redirect_from:
+  - /book/02-executive-summary/
 parent: "Front Matter"
 nav_order: 3
 ---
@@ -33,4 +34,4 @@ The goal is not to make every leader a technical expert. The goal is to improve 
 
 ---
 
-[← Acknowledgements]({{ site.baseurl }}/book/01-acknowledgements/) | [Next: What AI Means for Leaders →]({{ site.baseurl }}/book/03-what-ai-means-for-leaders/)
+[← Acknowledgements]({{ site.baseurl }}/book/00-02-acknowledgements/) | [Next: What AI Means for Leaders →]({{ site.baseurl }}/book/01-01-what-ai-means-for-leaders/)

@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Acknowledgements"
-permalink: /book/01-acknowledgements/
+redirect_from:
+  - /book/01-acknowledgements/
 parent: "Front Matter"
 nav_order: 2
 ---
@@ -23,4 +24,4 @@ Any interpretations and conclusions presented in this book are solely those of t
 
 ---
 
-[← Preface]({{ site.baseurl }}/book/00-preface/) | [Next: Executive Summary →]({{ site.baseurl }}/book/02-executive-summary/)
+[← Preface]({{ site.baseurl }}/book/00-01-preface/) | [Next: Executive Summary →]({{ site.baseurl }}/book/00-03-executive-summary/)

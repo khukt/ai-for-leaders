@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "AI in Smart Industry and Critical Infrastructure"
-permalink: /book/15-ai-in-smart-industry-and-critical-infrastructure/
+redirect_from:
+  - /book/15-ai-in-smart-industry-and-critical-infrastructure/
 parent: "Part IV: Future Organizations"
 nav_order: 2
 ---
@@ -161,4 +162,4 @@ This chapter connects the book's broader governance themes to settings where fai
 
 ---
 
-[← Human-AI Collaboration and Autonomous Systems]({{ site.baseurl }}/book/14-human-ai-collaboration-and-autonomous-systems/) | [Next: Trust as a Competitive Advantage →]({{ site.baseurl }}/book/16-trust-as-a-competitive-advantage/)
+[← Human-AI Collaboration and Autonomous Systems]({{ site.baseurl }}/book/04-01-human-ai-collaboration-and-autonomous-systems/) | [Next: Trust as a Competitive Advantage →]({{ site.baseurl }}/book/04-03-trust-as-a-competitive-advantage/)

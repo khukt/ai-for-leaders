@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Compliance and Audit Readiness"
-permalink: /book/12-compliance-and-audit-readiness/
+redirect_from:
+  - /book/12-compliance-and-audit-readiness/
 parent: "Part III: Governance, Risk & Leadership"
 nav_order: 3
 ---
@@ -178,4 +179,4 @@ In practice, many governance programs fail not because the organisation had no p
 
 ---
 
-[← Managing AI Risk]({{ site.baseurl }}/book/11-managing-ai-risk/) | [Next: Leading Organizational Transformation →]({{ site.baseurl }}/book/13-leading-organizational-transformation/)
+[← Managing AI Risk]({{ site.baseurl }}/book/03-02-managing-ai-risk/) | [Next: Leading Organizational Transformation →]({{ site.baseurl }}/book/03-04-leading-organizational-transformation/)

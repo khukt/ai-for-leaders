@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Appendix B: AI Risk Assessment Template"
-permalink: /book/19-appendix-ai-risk-assessment-template/
+redirect_from:
+  - /book/19-appendix-ai-risk-assessment-template/
 parent: "Appendices & References"
 nav_order: 2
 ---
@@ -69,4 +70,4 @@ Reassess the use case when:
 
 ---
 
-[← Appendix A]({{ site.baseurl }}/book/18-appendix-ai-governance-checklist-for-boards/) | [Next: Appendix C →]({{ site.baseurl }}/book/20-appendix-vendor-evaluation-framework/)
+[← Appendix A]({{ site.baseurl }}/book/05-01-appendix-ai-governance-checklist-for-boards/) | [Next: Appendix C →]({{ site.baseurl }}/book/05-03-appendix-vendor-evaluation-framework/)

@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "What AI Means for Leaders"
-permalink: /book/03-what-ai-means-for-leaders/
+redirect_from:
+  - /book/03-what-ai-means-for-leaders/
 parent: "Part I: AI Landscape"
 nav_order: 1
 ---
@@ -205,4 +206,4 @@ This matters for four reasons:
 
 ---
 
-[← Executive Summary]({{ site.baseurl }}/book/02-executive-summary/) | [Next: The Global AI Shift →]({{ site.baseurl }}/book/04-the-global-ai-shift/)
+[← Executive Summary]({{ site.baseurl }}/book/00-03-executive-summary/) | [Next: The Global AI Shift →]({{ site.baseurl }}/book/01-02-the-global-ai-shift/)

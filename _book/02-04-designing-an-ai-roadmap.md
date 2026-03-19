@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Designing an AI Roadmap"
-permalink: /book/09-designing-an-ai-roadmap/
+redirect_from:
+  - /book/09-designing-an-ai-roadmap/
 parent: "Part II: Strategy & Value"
 nav_order: 4
 ---
@@ -134,4 +135,4 @@ A credible roadmap should connect use cases, capability building, adoption, gove
 
 ---
 
-[← Data as a Strategic Asset]({{ site.baseurl }}/book/08-data-as-a-strategic-asset/) | [Next: Establishing an AI Governance Framework →]({{ site.baseurl }}/book/10-establishing-an-ai-governance-framework/)
+[← Data as a Strategic Asset]({{ site.baseurl }}/book/02-03-data-as-a-strategic-asset/) | [Next: Establishing an AI Governance Framework →]({{ site.baseurl }}/book/03-01-establishing-an-ai-governance-framework/)

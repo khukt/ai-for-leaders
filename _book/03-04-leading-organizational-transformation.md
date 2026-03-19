@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Leading Organizational Transformation"
-permalink: /book/13-leading-organizational-transformation/
+redirect_from:
+  - /book/13-leading-organizational-transformation/
 parent: "Part III: Governance, Risk & Leadership"
 nav_order: 4
 ---
@@ -145,4 +146,4 @@ The main question is not whether jobs will change. They will. The harder questio
 
 ---
 
-[← Compliance and Audit Readiness]({{ site.baseurl }}/book/12-compliance-and-audit-readiness/) | [Next: Human-AI Collaboration and Autonomous Systems →]({{ site.baseurl }}/book/14-human-ai-collaboration-and-autonomous-systems/)
+[← Compliance and Audit Readiness]({{ site.baseurl }}/book/03-03-compliance-and-audit-readiness/) | [Next: Human-AI Collaboration and Autonomous Systems →]({{ site.baseurl }}/book/04-01-human-ai-collaboration-and-autonomous-systems/)

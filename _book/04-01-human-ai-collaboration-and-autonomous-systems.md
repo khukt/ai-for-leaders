@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Human-AI Collaboration and Autonomous Systems"
-permalink: /book/14-human-ai-collaboration-and-autonomous-systems/
+redirect_from:
+  - /book/14-human-ai-collaboration-and-autonomous-systems/
 parent: "Part IV: Future Organizations"
 nav_order: 1
 ---
@@ -157,4 +158,4 @@ The most important design question is not whether a system can act autonomously.
 
 ---
 
-[← Leading Organizational Transformation]({{ site.baseurl }}/book/13-leading-organizational-transformation/) | [Next: AI in Smart Industry and Critical Infrastructure →]({{ site.baseurl }}/book/15-ai-in-smart-industry-and-critical-infrastructure/)
+[← Leading Organizational Transformation]({{ site.baseurl }}/book/03-04-leading-organizational-transformation/) | [Next: AI in Smart Industry and Critical Infrastructure →]({{ site.baseurl }}/book/04-02-ai-in-smart-industry-and-critical-infrastructure/)

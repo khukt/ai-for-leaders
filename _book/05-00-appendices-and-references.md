@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Appendices & References"
-permalink: /book/05-appendices-and-references/
+redirect_from:
+  - /book/05-appendices-and-references/
 nav_order: 6
 has_children: true
 ---
@@ -21,4 +22,4 @@ This section contains practical board and management tools, reference material, 
 
 ---
 
-[Next: Appendix A →]({{ site.baseurl }}/book/18-appendix-ai-governance-checklist-for-boards/)
+[Next: Appendix A →]({{ site.baseurl }}/book/05-01-appendix-ai-governance-checklist-for-boards/)

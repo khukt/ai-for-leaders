@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Appendix F: AI Research Governance Checklist"
-permalink: /book/23-appendix-ai-research-governance-checklist/
+redirect_from:
+  - /book/23-appendix-ai-research-governance-checklist/
 parent: "Appendices & References"
 nav_order: 6
 ---
@@ -100,4 +101,4 @@ That is the difference between AI-enabled research and research that quietly wea
 
 ---
 
-[← Appendix E]({{ site.baseurl }}/book/22-appendix-glossary-of-key-terms/) | [Next: Bibliography →]({{ site.baseurl }}/book/23-bibliography/)
+[← Appendix E]({{ site.baseurl }}/book/05-05-appendix-glossary-of-key-terms/) | [Next: Bibliography →]({{ site.baseurl }}/book/05-07-bibliography/)

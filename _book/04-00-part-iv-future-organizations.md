@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Part IV: Future Organizations"
-permalink: /book/04-part-iv-future-organizations/
+redirect_from:
+  - /book/04-part-iv-future-organizations/
 nav_order: 5
 has_children: true
 ---
@@ -20,4 +21,4 @@ This part looks forward: how humans and AI will work together, how higher-stakes
 
 ---
 
-[Next: Human-AI Collaboration and Autonomous Systems →]({{ site.baseurl }}/book/14-human-ai-collaboration-and-autonomous-systems/)
+[Next: Human-AI Collaboration and Autonomous Systems →]({{ site.baseurl }}/book/04-01-human-ai-collaboration-and-autonomous-systems/)

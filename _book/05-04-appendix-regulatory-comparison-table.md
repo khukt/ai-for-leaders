@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Appendix D: Regulatory Comparison Table"
-permalink: /book/21-appendix-regulatory-comparison-table/
+redirect_from:
+  - /book/21-appendix-regulatory-comparison-table/
 parent: "Appendices & References"
 nav_order: 4
 ---
@@ -28,4 +29,4 @@ This table is a leadership reference, not a substitute for legal advice. Its pur
 
 ---
 
-[← Appendix C]({{ site.baseurl }}/book/20-appendix-vendor-evaluation-framework/) | [Next: Appendix E →]({{ site.baseurl }}/book/22-appendix-glossary-of-key-terms/)
+[← Appendix C]({{ site.baseurl }}/book/05-03-appendix-vendor-evaluation-framework/) | [Next: Appendix E →]({{ site.baseurl }}/book/05-05-appendix-glossary-of-key-terms/)

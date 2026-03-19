@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Part III: Governance, Risk & Leadership"
-permalink: /book/03-part-iii-governance-risk-and-leadership/
+redirect_from:
+  - /book/03-part-iii-governance-risk-and-leadership/
 nav_order: 4
 has_children: true
 ---
@@ -27,4 +28,4 @@ The most useful way to read this part is through five governance questions:
 
 ---
 
-[Next: Establishing an AI Governance Framework →]({{ site.baseurl }}/book/10-establishing-an-ai-governance-framework/)
+[Next: Establishing an AI Governance Framework →]({{ site.baseurl }}/book/03-01-establishing-an-ai-governance-framework/)

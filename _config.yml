@@ -11,6 +11,8 @@ remote_theme: just-the-docs/just-the-docs
 color_scheme: light
 search_enabled: true
 permalink: pretty
+plugins:
+  - jekyll-redirect-from
 
 collections:
   book:

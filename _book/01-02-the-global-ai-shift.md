@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "The Global AI Shift"
-permalink: /book/04-the-global-ai-shift/
+redirect_from:
+  - /book/04-the-global-ai-shift/
 parent: "Part I: AI Landscape"
 nav_order: 2
 ---
@@ -118,4 +119,4 @@ The practical leadership mistake is to read AI through only one lens:
 
 ---
 
-[← What AI Means for Leaders]({{ site.baseurl }}/book/03-what-ai-means-for-leaders/) | [Next: AI Law, Regulation, and Financial Exposure →]({{ site.baseurl }}/book/05-ai-law-regulation-and-financial-exposure/)
+[← What AI Means for Leaders]({{ site.baseurl }}/book/01-01-what-ai-means-for-leaders/) | [Next: AI Law, Regulation, and Financial Exposure →]({{ site.baseurl }}/book/01-03-ai-law-regulation-and-financial-exposure/)

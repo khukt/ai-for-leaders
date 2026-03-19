@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Appendix E: Glossary of Key Terms"
-permalink: /book/22-appendix-glossary-of-key-terms/
+redirect_from:
+  - /book/22-appendix-glossary-of-key-terms/
 parent: "Appendices & References"
 nav_order: 5
 ---
@@ -32,4 +33,4 @@ This glossary is written for executive readers. The purpose is not exhaustive te
 
 ---
 
-[← Appendix D]({{ site.baseurl }}/book/21-appendix-regulatory-comparison-table/) | [Next: Appendix F →]({{ site.baseurl }}/book/23-appendix-ai-research-governance-checklist/)
+[← Appendix D]({{ site.baseurl }}/book/05-04-appendix-regulatory-comparison-table/) | [Next: Appendix F →]({{ site.baseurl }}/book/05-06-appendix-ai-research-governance-checklist/)

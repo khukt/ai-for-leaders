@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Appendix A: AI Governance Checklist for Boards"
-permalink: /book/18-appendix-ai-governance-checklist-for-boards/
+redirect_from:
+  - /book/18-appendix-ai-governance-checklist-for-boards/
 parent: "Appendices & References"
 nav_order: 1
 ---
@@ -44,4 +45,4 @@ For material AI use, boards should usually expect:
 
 ---
 
-[← The Executive Five-Year Agenda]({{ site.baseurl }}/book/17-the-executive-five-year-agenda/) | [Next: Appendix B →]({{ site.baseurl }}/book/19-appendix-ai-risk-assessment-template/)
+[← The Executive Five-Year Agenda]({{ site.baseurl }}/book/04-05-the-executive-five-year-agenda/) | [Next: Appendix B →]({{ site.baseurl }}/book/05-02-appendix-ai-risk-assessment-template/)

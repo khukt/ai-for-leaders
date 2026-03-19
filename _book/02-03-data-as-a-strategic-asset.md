@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Data as a Strategic Asset"
-permalink: /book/08-data-as-a-strategic-asset/
+redirect_from:
+  - /book/08-data-as-a-strategic-asset/
 parent: "Part II: Strategy & Value"
 nav_order: 3
 ---
@@ -114,4 +115,4 @@ The organisations that benefit most from AI are not always the ones with the mos
 
 ---
 
-[← Build, Buy, or Partner]({{ site.baseurl }}/book/07-build-buy-or-partner/) | [Next: Designing an AI Roadmap →]({{ site.baseurl }}/book/09-designing-an-ai-roadmap/)
+[← Build, Buy, or Partner]({{ site.baseurl }}/book/02-02-build-buy-or-partner/) | [Next: Designing an AI Roadmap →]({{ site.baseurl }}/book/02-04-designing-an-ai-roadmap/)

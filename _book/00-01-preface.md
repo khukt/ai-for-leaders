@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Preface"
-permalink: /book/00-preface/
+redirect_from:
+  - /book/00-preface/
 parent: "Front Matter"
 nav_order: 1
 ---
@@ -47,4 +48,4 @@ Where a topic is evolving quickly, treat the chapter as a decision framework rat
 
 ---
 
-[Next: Acknowledgements →]({{ site.baseurl }}/book/01-acknowledgements/)
+[Next: Acknowledgements →]({{ site.baseurl }}/book/00-02-acknowledgements/)

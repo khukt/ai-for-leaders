@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Part I: AI Landscape"
-permalink: /book/01-part-i-ai-landscape/
+redirect_from:
+  - /book/01-part-i-ai-landscape/
 nav_order: 2
 has_children: true
 ---
@@ -36,4 +37,4 @@ After Part I, a leader should be able to answer three basic questions:
 
 ---
 
-[Next: What AI Means for Leaders →]({{ site.baseurl }}/book/03-what-ai-means-for-leaders/)
+[Next: What AI Means for Leaders →]({{ site.baseurl }}/book/01-01-what-ai-means-for-leaders/)

@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Front Matter"
-permalink: /book/00-front-matter/
+redirect_from:
+  - /book/00-front-matter/
 nav_order: 1
 has_children: true
 ---
@@ -18,4 +19,4 @@ This section introduces the purpose, audience, and framing of the book before th
 
 ---
 
-[Next: Preface →]({{ site.baseurl }}/book/00-preface/)
+[Next: Preface →]({{ site.baseurl }}/book/00-01-preface/)

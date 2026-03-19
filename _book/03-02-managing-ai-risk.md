@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Managing AI Risk"
-permalink: /book/11-managing-ai-risk/
+redirect_from:
+  - /book/11-managing-ai-risk/
 parent: "Part III: Governance, Risk & Leadership"
 nav_order: 2
 ---
@@ -103,4 +104,4 @@ The key management challenge is not to eliminate all AI risk. It is to identify 
 
 ---
 
-[← Establishing an AI Governance Framework]({{ site.baseurl }}/book/10-establishing-an-ai-governance-framework/) | [Next: Compliance and Audit Readiness →]({{ site.baseurl }}/book/12-compliance-and-audit-readiness/)
+[← Establishing an AI Governance Framework]({{ site.baseurl }}/book/03-01-establishing-an-ai-governance-framework/) | [Next: Compliance and Audit Readiness →]({{ site.baseurl }}/book/03-03-compliance-and-audit-readiness/)

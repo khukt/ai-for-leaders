@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Establishing an AI Governance Framework"
-permalink: /book/10-establishing-an-ai-governance-framework/
+redirect_from:
+  - /book/10-establishing-an-ai-governance-framework/
 parent: "Part III: Governance, Risk & Leadership"
 nav_order: 1
 ---
@@ -152,4 +153,4 @@ Boards do not need to review every model. They do need confidence that managemen
 
 ---
 
-[← Designing an AI Roadmap]({{ site.baseurl }}/book/09-designing-an-ai-roadmap/) | [Next: Managing AI Risk →]({{ site.baseurl }}/book/11-managing-ai-risk/)
+[← Designing an AI Roadmap]({{ site.baseurl }}/book/02-04-designing-an-ai-roadmap/) | [Next: Managing AI Risk →]({{ site.baseurl }}/book/03-02-managing-ai-risk/)

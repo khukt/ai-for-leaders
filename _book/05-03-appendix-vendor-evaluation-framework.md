@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Appendix C: Vendor Evaluation Framework"
-permalink: /book/20-appendix-vendor-evaluation-framework/
+redirect_from:
+  - /book/20-appendix-vendor-evaluation-framework/
 parent: "Appendices & References"
 nav_order: 3
 ---
@@ -48,4 +49,4 @@ Any `red` area in a high-impact use case should normally trigger escalation or d
 
 ---
 
-[← Appendix B]({{ site.baseurl }}/book/19-appendix-ai-risk-assessment-template/) | [Next: Appendix D →]({{ site.baseurl }}/book/21-appendix-regulatory-comparison-table/)
+[← Appendix B]({{ site.baseurl }}/book/05-02-appendix-ai-risk-assessment-template/) | [Next: Appendix D →]({{ site.baseurl }}/book/05-04-appendix-regulatory-comparison-table/)

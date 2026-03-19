@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Part II: Strategy & Value"
-permalink: /book/02-part-ii-strategy-and-value/
+redirect_from:
+  - /book/02-part-ii-strategy-and-value/
 nav_order: 3
 has_children: true
 ---
@@ -28,4 +29,4 @@ Leaders should read these chapters as one strategic arc rather than as separate 
 
 ---
 
-[Next: Where AI Creates Organizational Value →]({{ site.baseurl }}/book/06-where-ai-creates-organizational-value/)
+[Next: Where AI Creates Organizational Value →]({{ site.baseurl }}/book/02-01-where-ai-creates-organizational-value/)

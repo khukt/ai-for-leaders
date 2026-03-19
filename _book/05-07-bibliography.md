@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Bibliography"
-permalink: /book/23-bibliography/
+redirect_from:
+  - /book/23-bibliography/
 parent: "Appendices & References"
 nav_order: 7
 ---
@@ -209,4 +210,4 @@ This bibliography consolidates the main external sources referenced across the b
 
 ---
 
-[← Appendix F]({{ site.baseurl }}/book/23-appendix-ai-research-governance-checklist/)
+[← Appendix F]({{ site.baseurl }}/book/05-06-appendix-ai-research-governance-checklist/)
