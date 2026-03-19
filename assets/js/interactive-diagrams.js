@@ -245,6 +245,49 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   };
 
+  var euAiActConfigs = {
+    unacceptable: {
+      eyebrow: 'Unacceptable Risk',
+      title: 'Some AI uses are prohibited outright',
+      summary: 'The AI Act bans certain uses because the risk is considered incompatible with EU law and values rather than something to be managed through controls alone.',
+      examples: 'Social scoring, certain manipulative uses, and several prohibited biometric practices.',
+      effect: 'The right response is not stronger documentation. It is to avoid the prohibited practice.',
+      needs: 'Clear screening of use cases before deployment and a process to escalate anything that may fall into a banned category.',
+      question: 'Are we trying to govern something that the Act treats as impermissible in the first place?',
+      rule: 'Key idea: some uses are prohibited, so governance starts with screening out banned practices before discussing controls.'
+    },
+    high: {
+      eyebrow: 'High Risk',
+      title: 'High-risk systems must carry a real governance burden',
+      summary: 'High-risk AI uses are allowed only with stronger controls around risk management, documentation, data governance, logging, and human oversight.',
+      examples: 'Hiring tools, credit scoring, certain education uses, critical infrastructure, medical uses, and some law-enforcement uses.',
+      effect: 'Use is conditional on evidence, system controls, and the ability to show regulators how the system is governed.',
+      needs: 'Documentation, testing, oversight, monitoring, and clear accountability for how the system is deployed and reviewed.',
+      question: 'Do we have the evidence pack and operating controls needed to defend this deployment under scrutiny?',
+      rule: 'Key idea: high-risk AI is not just a product choice. It is an operating-model commitment.'
+    },
+    limited: {
+      eyebrow: 'Limited / Transparency Risk',
+      title: 'Some uses mainly trigger disclosure and transparency duties',
+      summary: 'Where people could be misled about AI involvement or synthetic content, the Act leans on transparency obligations rather than full high-risk governance.',
+      examples: 'Chatbots, deepfakes, and some AI-generated public-facing content.',
+      effect: 'The organisation needs to disclose AI involvement or synthetic content clearly enough for users to understand what they are seeing or interacting with.',
+      needs: 'Plain disclosure, content labelling where required, and review of customer-facing touchpoints.',
+      question: 'Would a user clearly understand where AI is involved, or could the presentation create misleading confidence?',
+      rule: 'Key idea: limited-risk uses are lighter than high-risk uses, but transparency is still a legal requirement, not just a design choice.'
+    },
+    minimal: {
+      eyebrow: 'Minimal Risk',
+      title: 'Most low-risk uses do not face specific AI Act duties',
+      summary: 'Many ordinary low-risk systems fall outside the heavier AI Act burden, though other laws and internal controls may still matter.',
+      examples: 'Spam filters, AI in video games, and many low-stakes convenience features.',
+      effect: 'The AI Act does not impose the same specific obligations here, but privacy, consumer, contract, and sector rules can still apply.',
+      needs: 'Basic governance, sensible monitoring, and a check that the use case is truly low-stakes and does not drift into a regulated category.',
+      question: 'Are we treating a seemingly low-risk use as harmless without checking whether its context makes it more sensitive?',
+      rule: 'Key idea: minimal-risk does not mean no governance. It means the AI Act burden is lighter, while other obligations may still apply.'
+    }
+  };
+
   document.querySelectorAll('[data-interactive-diagram="pretrained-model"]').forEach(function (diagram) {
     var tabs = diagram.querySelectorAll('[data-diagram-tab]');
     var dataIconTarget = diagram.querySelector('[data-diagram-data-icon]');
@@ -605,5 +648,69 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     activate('access');
+  });
+
+  document.querySelectorAll('[data-interactive-diagram="eu-ai-act"]').forEach(function (diagram) {
+    var tabs = diagram.querySelectorAll('[data-eu-ai-act-tab]');
+    var eyebrowTarget = diagram.querySelector('[data-eu-ai-act-eyebrow]');
+    var titleTarget = diagram.querySelector('[data-eu-ai-act-title]');
+    var summaryTarget = diagram.querySelector('[data-eu-ai-act-summary]');
+    var examplesTarget = diagram.querySelector('[data-eu-ai-act-examples]');
+    var effectTarget = diagram.querySelector('[data-eu-ai-act-effect]');
+    var needsTarget = diagram.querySelector('[data-eu-ai-act-needs]');
+    var questionTarget = diagram.querySelector('[data-eu-ai-act-question]');
+    var ruleTarget = diagram.querySelector('[data-eu-ai-act-rule]');
+
+    function activate(key) {
+      var config = euAiActConfigs[key];
+      if (!config) {
+        return;
+      }
+
+      tabs.forEach(function (tab) {
+        var isActive = tab.getAttribute('data-eu-ai-act-tab') === key;
+        tab.classList.toggle('is-active', isActive);
+        tab.setAttribute('aria-pressed', isActive ? 'true' : 'false');
+        tab.tabIndex = isActive ? 0 : -1;
+      });
+
+      eyebrowTarget.textContent = config.eyebrow;
+      titleTarget.textContent = config.title;
+      summaryTarget.textContent = config.summary;
+      examplesTarget.textContent = config.examples;
+      effectTarget.textContent = config.effect;
+      needsTarget.textContent = config.needs;
+      questionTarget.textContent = config.question;
+      ruleTarget.textContent = config.rule;
+    }
+
+    tabs.forEach(function (tab) {
+      tab.addEventListener('click', function () {
+        activate(tab.getAttribute('data-eu-ai-act-tab'));
+      });
+
+      tab.addEventListener('keydown', function (event) {
+        if (event.key !== 'ArrowRight' && event.key !== 'ArrowLeft') {
+          return;
+        }
+
+        event.preventDefault();
+
+        var index = Array.prototype.indexOf.call(tabs, tab);
+        var nextIndex = event.key === 'ArrowRight' ? index + 1 : index - 1;
+
+        if (nextIndex < 0) {
+          nextIndex = tabs.length - 1;
+        }
+        if (nextIndex >= tabs.length) {
+          nextIndex = 0;
+        }
+
+        tabs[nextIndex].focus();
+        activate(tabs[nextIndex].getAttribute('data-eu-ai-act-tab'));
+      });
+    });
+
+    activate('unacceptable');
   });
 });

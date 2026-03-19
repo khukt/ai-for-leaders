@@ -37,6 +37,8 @@ The Act categorises AI systems by risk level:
 | **Limited / transparency risk** | Chatbots, deepfakes, some AI-generated public-facing content | Disclosure and transparency obligations |
 | **Minimal risk** | Spam filters, AI in video games | No specific requirements |
 
+{% include interactive-eu-ai-act-risk.html %}
+
 The timetable is phased, and the dates matter. The AI Act entered into force on **August 1, 2024**. Prohibited practices and AI literacy obligations started to apply on **February 2, 2025**. Governance rules and obligations for general-purpose AI models became applicable on **August 2, 2025**. The Act becomes fully applicable on **August 2, 2026**, with some high-risk systems embedded in regulated products following a longer timetable to **August 2, 2027**.[4], [5], [42]
 
 The practical point for leaders is simple: waiting for "full implementation" is not a compliance strategy.
