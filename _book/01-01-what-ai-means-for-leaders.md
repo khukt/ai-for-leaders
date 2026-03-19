@@ -17,7 +17,8 @@ The most useful way to read this chapter is through five questions:
 2. What can AI do well, and how does it fail?
 3. Why does accountability stay with people?
 4. What kind of evidence separates access from readiness?
-5. Why must humans stay in control?
+5. What Are Pretrained Models, and Why Do They Matter?
+6. Why must humans stay in control?
 
 ## 1. What Is AI, Really?
 
@@ -106,34 +107,58 @@ The practical question is simple: when the output matters, who is still expected
 
 ## 4. What Kind of Evidence Separates Access from Readiness?
 
-Use is acceptable only when the organisation has enough evidence for the specific task, workflow, and level of risk involved.
+The critical leadership mistake is to confuse **access to AI** with **readiness to use it responsibly**.
 
-The next leadership mistake is to confuse access with readiness. AI became a mainstream leadership issue as three things began to converge:
+Today, most organisations can access powerful AI systems almost instantly. Cloud APIs, foundation models, and natural-language interfaces make it easy to test capabilities without deep technical investment. At the same time, pressure from boards, employees, customers, and competitors creates urgency to adopt.
 
-1. **Access** — Cloud APIs, foundation models, and packaged software made advanced AI capabilities easier to buy and test.
-2. **Interface** — Natural-language interfaces let non-specialists experiment directly, which accelerated adoption beyond technical teams.
-3. **Pressure** — Boards, employees, customers, and competitors began expecting a clear position on where AI should and should not be used.
+But **easy access is not evidence of readiness**.
 
-Easy access does not remove the need for evidence. In practice, evidence quality varies widely:
+The real question is not whether a system works in a demo. It is whether it works **reliably, safely, and accountably in your specific context**.
 
-- **Vendor demos** often show best-case performance, not operational reliability.
-- **Benchmarks** can be useful, but they may not reflect your data, workflow, or risk tolerance.
-- **Pilot results** may not survive scale if users change behaviour or data quality degrades.
-- **General claims about “reasoning” or “human-level performance”** should be tested against specific business tasks, error rates, and escalation paths.
+In practice, evidence quality varies widely:
 
-Leaders do not need a machine-learning course, but they should know that the learning pattern changes the evidence burden:
+- **Vendor demonstrations** show best-case scenarios, not failure modes  
+- **Benchmarks** reflect general performance, not your data or risk exposure  
+- **Pilots** often succeed under controlled conditions but degrade at scale  
+- **Claims about “reasoning” or “human-level performance”** rarely translate directly into business reliability  
 
-- **Supervised learning** learns from labelled examples and is widely used for prediction and classification tasks.
-- **Unsupervised learning** looks for structure in data without predefined labels and is often used for clustering, segmentation, anomaly detection, and pattern discovery.
-- **Reinforcement learning** improves through feedback from actions and outcomes, and is most relevant where systems learn through repeated interaction with an environment.
+For leaders, the most useful shift is this:
 
-These distinctions matter because they shape what data is needed, how performance is measured, and how easily the system's outputs can be reviewed or challenged.
+> **From “Does it work?” to “Can we trust it in this workflow?”**
 
-{% include interactive-machine-learning-types.html %}
+A system is closer to readiness when four conditions are met:
+
+- **Task fit** — it performs well on your actual use case, not a generic benchmark  
+- **Data fit** — it handles the quality, variability, and edge cases in your data  
+- **Failure visibility** — errors can be detected, understood, and escalated  
+- **Operational control** — there are clear processes for monitoring, override, and fallback  
+
+These conditions matter more than the underlying technique. Leaders do not need to master machine learning methods. The key question is whether the system can be trusted in context, not how it is built.
+
+The evidence question is therefore practical:
+
+- does it work on our data?  
+- does it work in our workflow?  
+- what happens when it is wrong?  
+- can we detect, challenge, and correct it?  
+
+Until those questions are answered, access should not be mistaken for readiness.
+
+
 
 ## 5. What Are Pretrained Models, and Why Do They Matter?
 
-Many of the most visible AI products in use today are also not built from zero for one task. They begin as **pretrained** or **foundation models** trained on very large collections of text, images, audio, video, code, or structured data. Organisations then adapt them for narrower purposes such as summarisation, search, customer support, coding assistance, or domain-specific analysis.
+Many of the most visible AI products in use today are not built from zero. This shifts the leadership problem from building systems to choosing, adapting, and governing **pretrained** or **foundation models**. These models are trained on very large collections of text, images, audio, video, code, or structured data before being adapted for specific uses such as summarisation, search, customer support, coding assistance, or domain-specific analysis.
+
+Leaders do not need a machine-learning course, but they should understand that different learning approaches shape how systems are trained, adapted, and evaluated:
+
+- **Supervised learning** learns from labelled examples and is widely used for prediction and classification tasks  
+- **Unsupervised learning** identifies patterns without predefined labels and is often used for clustering, segmentation, and anomaly detection  
+- **Reinforcement learning** improves through feedback from actions and outcomes, typically in environments where systems learn through interaction  
+
+These differences matter because they influence how much data is required, how performance is validated, and how predictable system behaviour will be in practice.
+
+{% include interactive-machine-learning-types.html %}
 
 For leaders, this matters because the strategic question is usually not whether to train a model from scratch. It is whether to use an existing model, how much to adapt it, and what that choice creates in cost, control, vendor dependence, language support, intellectual property exposure, and governance.
 
@@ -205,6 +230,11 @@ This matters for four reasons:
 - What assumptions are our teams making about AI reliability that need to be tested?
 - Where are tools beginning to move from drafting and analysis into action-taking or semi-autonomous behaviour?
 
+## Final Perspective
+
+AI is not primarily a technology decision. It is a decision about where to trust machines, where to retain human judgment, and how to manage the risks that sit between them.
+
+The organisations that benefit most from AI will not be those that adopt it fastest, but those that apply it deliberately, govern it clearly, and understand its limits as well as its capabilities.
 
 ---
 
