@@ -18,62 +18,62 @@ This tracker reflects the current manuscript state in `_book/` and is meant to g
 
 | Order | File | Chapter | Current state | Priority | Next move |
 |---|---|---|---|---|---|
-| 1 | `_book/03-what-ai-means-for-leaders.md` | What AI Means for Leaders | `Strong draft` | High | Use as the leadership-orientation chapter and keep sharpening examples and transitions |
-| 2 | `_book/04-the-global-ai-shift.md` | The Global AI Shift | `Strong draft` | High | Refresh policy and market examples periodically so the chapter stays current |
-| 3 | `_book/05-ai-law-regulation-and-financial-exposure.md` | AI Law, Regulation, and Financial Exposure | `Strong draft` | High | Add more concrete cross-border, sector, and vendor-liability examples |
-| 4 | `_book/06-where-ai-creates-organizational-value.md` | Where AI Creates Organizational Value | `Working draft` | High | Add more sector-specific cases and sharpen the distinction between local productivity and strategic value |
-| 5 | `_book/07-build-buy-or-partner.md` | Build, Buy, or Partner | `Working draft` | High | Cross-check against the vendor appendix and tighten contractual/IP examples |
-| 6 | `_book/08-data-as-a-strategic-asset.md` | Data as a Strategic Asset | `Working draft` | High | Add concrete examples of data debt, traceability, and reuse economics |
-| 7 | `_book/09-designing-an-ai-roadmap.md` | Designing an AI Roadmap | `Working draft` | High | Add a compact maturity model and more examples of adoption metrics |
-| 8 | `_book/10-establishing-an-ai-governance-framework.md` | Establishing an AI Governance Framework | `Strong draft` | High | Use as the governance anchor and sharpen the operating model |
-| 9 | `_book/11-managing-ai-risk.md` | Managing AI Risk | `Working draft` | High | Expand risk categories, incident response, and control options |
-| 10 | `_book/12-compliance-and-audit-readiness.md` | Compliance and Audit Readiness | `Working draft` | High | Tighten sector-specific evidence examples and connect more directly to audit and internal assurance practice |
-| 11 | `_book/13-leading-organizational-transformation.md` | Leading Organizational Transformation | `Working draft` | High | Add role redesign examples and sharpen metrics for transformation success |
-| 12 | `_book/14-human-ai-collaboration-and-autonomous-systems.md` | Human-AI Collaboration and Autonomous Systems | `Working draft` | High | Tighten examples and add cross-references to governance and transformation chapters |
-| 13 | `_book/15-ai-in-smart-industry-and-critical-infrastructure.md` | AI in Smart Industry and Critical Infrastructure | `Working draft` | High | Deepen sector cases and sharpen advisory-versus-control guidance |
-| 14 | `_book/16-trust-as-a-competitive-advantage.md` | Trust as a Competitive Advantage | `Working draft` | Medium | Turn the trust thesis into a synthesis chapter that draws on earlier chapters |
-| 15 | `_book/17-ai-across-leadership-contexts.md` | AI Across Leadership Contexts | `Strong draft` | High | Use as the audience bridge chapter and cross-check against SME, cooperative, public-sector, and national-leadership needs |
-| 16 | `_book/17-the-executive-five-year-agenda.md` | The Executive Five-Year Agenda | `Working draft` | Medium | Use as the final synthesis chapter after context-specific guidance is stable |
+| 1 | `_book/01-01-what-ai-means-for-leaders.md` | What AI Means for Leaders | `Strong draft` | High | Use as the leadership-orientation chapter and keep sharpening examples and transitions |
+| 2 | `_book/01-02-the-global-ai-shift.md` | The Global AI Shift | `Strong draft` | High | Refresh policy and market examples periodically so the chapter stays current |
+| 3 | `_book/01-03-ai-law-regulation-and-financial-exposure.md` | AI Law, Regulation, and Financial Exposure | `Strong draft` | High | Add more concrete cross-border, sector, and vendor-liability examples |
+| 4 | `_book/02-01-where-ai-creates-organizational-value.md` | Where AI Creates Organizational Value | `Working draft` | High | Add more sector-specific cases and sharpen the distinction between local productivity and strategic value |
+| 5 | `_book/02-02-build-buy-or-partner.md` | Build, Buy, or Partner | `Working draft` | High | Cross-check against the vendor appendix and tighten contractual/IP examples |
+| 6 | `_book/02-03-data-as-a-strategic-asset.md` | Data as a Strategic Asset | `Working draft` | High | Add concrete examples of data debt, traceability, and reuse economics |
+| 7 | `_book/02-04-designing-an-ai-roadmap.md` | Designing an AI Roadmap | `Working draft` | High | Add a compact maturity model and more examples of adoption metrics |
+| 8 | `_book/03-01-establishing-an-ai-governance-framework.md` | Establishing an AI Governance Framework | `Strong draft` | High | Use as the governance anchor and sharpen the operating model |
+| 9 | `_book/03-02-managing-ai-risk.md` | Managing AI Risk | `Working draft` | High | Expand risk categories, incident response, and control options |
+| 10 | `_book/03-03-compliance-and-audit-readiness.md` | Compliance and Audit Readiness | `Working draft` | High | Tighten sector-specific evidence examples and connect more directly to audit and internal assurance practice |
+| 11 | `_book/03-04-leading-organizational-transformation.md` | Leading Organizational Transformation | `Working draft` | High | Add role redesign examples and sharpen metrics for transformation success |
+| 12 | `_book/04-01-human-ai-collaboration-and-autonomous-systems.md` | Human-AI Collaboration and Autonomous Systems | `Working draft` | High | Tighten examples and add cross-references to governance and transformation chapters |
+| 13 | `_book/04-02-ai-in-smart-industry-and-critical-infrastructure.md` | AI in Smart Industry and Critical Infrastructure | `Working draft` | High | Deepen sector cases and sharpen advisory-versus-control guidance |
+| 14 | `_book/04-03-trust-as-a-competitive-advantage.md` | Trust as a Competitive Advantage | `Working draft` | Medium | Turn the trust thesis into a synthesis chapter that draws on earlier chapters |
+| 15 | `_book/04-04-ai-across-leadership-contexts.md` | AI Across Leadership Contexts | `Strong draft` | High | Use as the audience bridge chapter and cross-check against SME, cooperative, public-sector, and national-leadership needs |
+| 16 | `_book/04-05-the-executive-five-year-agenda.md` | The Executive Five-Year Agenda | `Working draft` | Medium | Use as the final synthesis chapter after context-specific guidance is stable |
 
 ## Front Matter
 
 | File | Section | Current state | Priority | Next move |
 |---|---|---|---|---|
-| `_book/00-preface.md` | Preface | `Working draft` | Medium | Keep the framing, then refine once the full manuscript stabilizes |
-| `_book/01-acknowledgements.md` | Acknowledgements | `Strong draft` | Low | Minimal changes likely needed |
-| `_book/02-executive-summary.md` | Executive Summary | `Write late` | Medium | Rewrite near the end so it reflects the finished book accurately |
+| `_book/00-01-preface.md` | Preface | `Working draft` | Medium | Keep the framing, then refine once the full manuscript stabilizes |
+| `_book/00-02-acknowledgements.md` | Acknowledgements | `Strong draft` | Low | Minimal changes likely needed |
+| `_book/00-03-executive-summary.md` | Executive Summary | `Write late` | Medium | Rewrite near the end so it reflects the finished book accurately |
 
 ## Appendices and Back Matter
 
 | File | Section | Current state | Priority | Next move |
 |---|---|---|---|---|
-| `_book/18-appendix-ai-governance-checklist-for-boards.md` | Appendix A | `Placeholder` | Late | Build after governance chapter is stable |
-| `_book/19-appendix-ai-risk-assessment-template.md` | Appendix B | `Placeholder` | Late | Build after risk chapter is stable |
-| `_book/20-appendix-vendor-evaluation-framework.md` | Appendix C | `Placeholder` | Late | Build after sourcing and vendor sections are complete |
-| `_book/21-appendix-regulatory-comparison-table.md` | Appendix D | `Placeholder` | Late | Build after regulation chapter is finalized |
-| `_book/22-appendix-glossary-of-key-terms.md` | Appendix E | `Placeholder` | Late | Build after terminology stabilizes across the manuscript |
-| `_book/23-appendix-ai-research-governance-checklist.md` | Appendix F | `Strong draft` | Medium | Cross-check against research-integrity, disclosure, and dual-use governance needs |
-| `_book/23-bibliography.md` | Bibliography | `Working draft` | Medium | Expand as each chapter is deepened |
+| `_book/05-01-appendix-ai-governance-checklist-for-boards.md` | Appendix A | `Placeholder` | Late | Build after governance chapter is stable |
+| `_book/05-02-appendix-ai-risk-assessment-template.md` | Appendix B | `Placeholder` | Late | Build after risk chapter is stable |
+| `_book/05-03-appendix-vendor-evaluation-framework.md` | Appendix C | `Placeholder` | Late | Build after sourcing and vendor sections are complete |
+| `_book/05-04-appendix-regulatory-comparison-table.md` | Appendix D | `Placeholder` | Late | Build after regulation chapter is finalized |
+| `_book/05-05-appendix-glossary-of-key-terms.md` | Appendix E | `Placeholder` | Late | Build after terminology stabilizes across the manuscript |
+| `_book/05-06-appendix-ai-research-governance-checklist.md` | Appendix F | `Strong draft` | Medium | Cross-check against research-integrity, disclosure, and dual-use governance needs |
+| `_book/05-07-bibliography.md` | Bibliography | `Working draft` | Medium | Expand as each chapter is deepened |
 
 ## Recommended Writing Sequence
 
-1. `_book/03-what-ai-means-for-leaders.md`
-2. `_book/05-ai-law-regulation-and-financial-exposure.md`
-3. `_book/06-where-ai-creates-organizational-value.md`
-4. `_book/10-establishing-an-ai-governance-framework.md`
-5. `_book/04-the-global-ai-shift.md`
-6. `_book/08-data-as-a-strategic-asset.md`
-7. `_book/09-designing-an-ai-roadmap.md`
-8. `_book/11-managing-ai-risk.md`
-9. `_book/12-compliance-and-audit-readiness.md`
-10. `_book/07-build-buy-or-partner.md`
-11. `_book/13-leading-organizational-transformation.md`
-12. `_book/14-human-ai-collaboration-and-autonomous-systems.md`
-13. `_book/15-ai-in-smart-industry-and-critical-infrastructure.md`
-14. `_book/16-trust-as-a-competitive-advantage.md`
-15. `_book/17-ai-across-leadership-contexts.md`
-16. `_book/17-the-executive-five-year-agenda.md`
-17. `_book/02-executive-summary.md`
+1. `_book/01-01-what-ai-means-for-leaders.md`
+2. `_book/01-03-ai-law-regulation-and-financial-exposure.md`
+3. `_book/02-01-where-ai-creates-organizational-value.md`
+4. `_book/03-01-establishing-an-ai-governance-framework.md`
+5. `_book/01-02-the-global-ai-shift.md`
+6. `_book/02-03-data-as-a-strategic-asset.md`
+7. `_book/02-04-designing-an-ai-roadmap.md`
+8. `_book/03-02-managing-ai-risk.md`
+9. `_book/03-03-compliance-and-audit-readiness.md`
+10. `_book/02-02-build-buy-or-partner.md`
+11. `_book/03-04-leading-organizational-transformation.md`
+12. `_book/04-01-human-ai-collaboration-and-autonomous-systems.md`
+13. `_book/04-02-ai-in-smart-industry-and-critical-infrastructure.md`
+14. `_book/04-03-trust-as-a-competitive-advantage.md`
+15. `_book/04-04-ai-across-leadership-contexts.md`
+16. `_book/04-05-the-executive-five-year-agenda.md`
+17. `_book/00-03-executive-summary.md`
 18. Appendices
 
 ## Current Editorial Assessment
