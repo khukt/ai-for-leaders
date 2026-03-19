@@ -954,9 +954,10 @@
 
 .eu-ai-act-diagram {
   display: grid;
-  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.2fr);
+  grid-template-columns: minmax(15rem, 0.85fr) minmax(0, 1.15fr);
   gap: 1rem;
   margin: 0 0 1rem;
+  align-items: start;
 }
 
 .eu-ai-act-diagram__controls {
@@ -1042,7 +1043,7 @@
 
 .eu-ai-act-diagram__facts {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
   gap: 0.85rem;
   margin-bottom: 0.95rem;
 }
@@ -1053,7 +1054,7 @@
 
 .eu-ai-act-diagram__timeline-row {
   display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
   gap: 0.75rem;
   margin-top: 0.55rem;
 }
@@ -1398,6 +1399,14 @@
 
   .eu-ai-act-diagram {
     grid-template-columns: 1fr;
+  }
+
+  .eu-ai-act-diagram__facts {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .eu-ai-act-diagram__timeline-row {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .taxonomy-diagram__map {

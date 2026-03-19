@@ -12,9 +12,10 @@
 
   .interactive-diagram--eu-ai-act .eu-ai-act-diagram {
     display: grid;
-    grid-template-columns: minmax(17rem, 0.9fr) minmax(0, 1.2fr);
+    grid-template-columns: minmax(15rem, 0.85fr) minmax(0, 1.15fr);
     gap: 1rem;
     margin: 0 0 1rem;
+    align-items: start;
   }
 
   .interactive-diagram--eu-ai-act .eu-ai-act-diagram__controls {
@@ -109,7 +110,7 @@
 
   .interactive-diagram--eu-ai-act .eu-ai-act-diagram__facts {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
     gap: 0.85rem;
     margin-bottom: 0.95rem;
   }
@@ -121,7 +122,7 @@
 
   .interactive-diagram--eu-ai-act .eu-ai-act-diagram__timeline-row {
     display: grid;
-    grid-template-columns: repeat(5, minmax(0, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
     gap: 0.75rem;
     margin-top: 0.55rem;
   }
@@ -132,7 +133,21 @@
     font-size: 0.92rem;
   }
 
-  @media (max-width: 900px) {
+  @media (max-width: 1180px) {
+    .interactive-diagram--eu-ai-act .eu-ai-act-diagram {
+      grid-template-columns: 1fr;
+    }
+
+    .interactive-diagram--eu-ai-act .eu-ai-act-diagram__facts {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .interactive-diagram--eu-ai-act .eu-ai-act-diagram__timeline-row {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 760px) {
     .interactive-diagram--eu-ai-act .eu-ai-act-diagram,
     .interactive-diagram--eu-ai-act .eu-ai-act-diagram__facts,
     .interactive-diagram--eu-ai-act .eu-ai-act-diagram__timeline-row {
