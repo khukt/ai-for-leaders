@@ -39,6 +39,18 @@ nav_order: 1
 
 ---
 
+<div style="margin:18px 0; padding:14px 16px; border-radius:12px; background:#f5f7fa; border-left:4px solid #0b5fff;">
+
+<strong>🚧 Work in Progress</strong><br>
+
+This book is an actively evolving, open-source resource. Some chapters are still being refined and expanded to improve clarity, practical relevance, and usability for leaders.
+
+Feedback, suggestions, and contributions are welcome.
+
+</div>
+
+---
+
 ## What you’ll get from this book
 
 - **Clarity:** what AI is (and isn’t), and what’s changing now  
