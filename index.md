@@ -102,3 +102,38 @@ Feedback, suggestions, and contributions are welcome.
 24. [**Appendix E: Glossary of Key Terms**]({{ site.baseurl }}/book/22-appendix-glossary-of-key-terms/)
 25. [**Appendix F: AI Research Governance Checklist**]({{ site.baseurl }}/book/23-appendix-ai-research-governance-checklist/)
 26. [**Bibliography**]({{ site.baseurl }}/book/23-bibliography/)
+
+---
+
+<div style="margin:26px 0;">
+
+  <a href="https://www.vinnova.se/en/p/trustworthy-ai-and-mobile-generative-ai-for-6g-networks-and-smart-industry-applications/"
+     target="_blank"
+     rel="noreferrer"
+     style="display:block; text-decoration:none;">
+
+    <div style="display:flex; align-items:center; gap:18px; padding:16px 18px; border-radius:14px; background:#ffffff; box-shadow:0 8px 24px rgba(0,0,0,0.08);">
+
+      <div style="flex-shrink:0;">
+        <img
+          src="{{ site.baseurl }}/assets/images/vinnova-logo.png"
+          alt="VINNOVA logo"
+          style="height:48px; width:auto;"
+          loading="lazy"
+        >
+      </div>
+
+      <div>
+        <div style="font-size:0.85rem; color:#666;">Funding Support</div>
+        <div style="font-weight:600; color:#111;">
+          VINNOVA – Sweden’s Innovation Agency
+        </div>
+      </div>
+
+    </div>
+
+  </a>
+
+</div>
+
+---
