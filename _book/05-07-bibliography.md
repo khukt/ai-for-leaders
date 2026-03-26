@@ -281,6 +281,26 @@ This bibliography consolidates the main external sources referenced across the b
 
 [64] Federal Trade Commission, “FTC Announces Crackdown on Deceptive AI Claims and Schemes,” Sep. 25, 2024. [Online]. Available: https://www.ftc.gov/news-events/news/press-releases/2024/09/ftc-announces-crackdown-deceptive-ai-claims-schemes. [Accessed: Mar. 26, 2026].
 
+### <a id="brynjolfsson-hitt-beyond-computation"></a>Beyond Computation
+
+[65] E. Brynjolfsson and L. M. Hitt, “Beyond Computation: Information Technology, Organizational Transformation and Business Performance,” *Journal of Economic Perspectives*, vol. 14, no. 4, pp. 23-48, Fall 2000. [Online]. Available: https://www.aeaweb.org/articles?id=10.1257/jep.14.4.23. [Accessed: Mar. 26, 2026].
+
+### <a id="brynjolfsson-milgrom-complementarity"></a>Complementarity in Organizations
+
+[66] E. Brynjolfsson and P. Milgrom, “Complementarity in Organizations,” in *The Handbook of Organizational Economics*, R. Gibbons and J. Roberts, Eds. Princeton, NJ, USA: Princeton University Press, 2013, pp. 11-55. [Online]. Available: https://www.degruyter.com/document/doi/10.1515/9781400845354-003/html. [Accessed: Mar. 26, 2026].
+
+### <a id="puranam-human-ai-organization-design"></a>Human-AI Collaborative Decision-Making as an Organization Design Problem
+
+[67] P. Puranam, “Human-AI collaborative decision-making as an organization design problem,” *Journal of Organization Design*, vol. 10, no. 1, Art. no. 7, Feb. 2021. [Online]. Available: https://link.springer.com/article/10.1007/s41469-021-00095-2. [Accessed: Mar. 26, 2026].
+
+### <a id="iansiti-lakhani-competing-age-ai"></a>Competing in the Age of AI
+
+[68] M. Iansiti and K. R. Lakhani, *Competing in the Age of AI: Strategy and Leadership When Algorithms and Networks Run the World*. Boston, MA, USA: Harvard Business Review Press, 2020. [Online]. Available: https://store.hbr.org/product/competing-in-the-age-of-ai-strategy-and-leadership-when-algorithms-and-networks-run-the-world/10480. [Accessed: Mar. 26, 2026].
+
+### <a id="raisch-krakowski-automation-augmentation-paradox"></a>The Automation-Augmentation Paradox
+
+[69] S. Raisch and S. Krakowski, “Artificial Intelligence and Management: The Automation-Augmentation Paradox,” *Academy of Management Review*, vol. 46, no. 1, pp. 192-210, Jan. 2021. [Online]. Available: https://doi.org/10.5465/amr.2018.0072. [Accessed: Mar. 26, 2026].
+
 ## Notes on Use
 
 - This book is written for leadership audiences and uses these materials as interpretive anchors rather than as a substitute for legal advice.

@@ -235,6 +235,49 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   };
 
+  var aiValueConfigs = {
+    personal: {
+      stageLabel: 'Local Gain',
+      title: 'Personal productivity is real, but it is often overstated',
+      summary: 'Individuals save time on familiar tasks, but the workflow, economics, and decision structure may remain unchanged.',
+      looksLike: 'Drafting, summarisation, search, note preparation, coding assistance, and quicker first-pass analysis.',
+      misread: 'Time saved by individuals is often overstated as strategic transformation even when nothing important changes in the operating model.',
+      change: 'Measurement discipline, basic usage rules, and a clear decision about whether this should remain a tool or become a managed workflow capability.',
+      fund: 'Fund cautiously unless the gain can be shown to change a workflow, risk profile, or economic outcome that actually matters.',
+      rule: 'Key idea: personal productivity can be useful, but it is usually the weakest sign of strategic value.'
+    },
+    workflow: {
+      stageLabel: 'Process Gain',
+      title: 'Workflow value appears when work actually moves differently',
+      summary: 'The organisation gains when routing, review, triage, exception handling, or service delivery improves inside a managed process.',
+      looksLike: 'Better case routing, faster review cycles, stronger exception handling, lower rework, improved throughput, or fewer avoidable errors.',
+      misread: 'Leaders sometimes underfund this stage because it looks less exciting than frontier use, even though this is where durable operational value often appears first.',
+      change: 'Process redesign, role clarity, metrics, user adoption, and visible accountability for how the workflow is run.',
+      fund: 'Fund when the workflow matters enough to justify redesign and when the gain can be measured in production.',
+      rule: 'Key idea: workflow value is often the first place where AI becomes economically meaningful.'
+    },
+    strategic: {
+      stageLabel: 'System Gain',
+      title: 'Strategic value changes economics, resilience, or service position',
+      summary: 'This is where AI affects an important system outcome rather than only helping a local team work faster.',
+      looksLike: 'Service models improve, resilience increases, quality becomes harder for competitors to match, or economics change across an important operating area.',
+      misread: 'Teams often label a use case strategic too early, before they can show that the value survives integration, governance, and adoption cost.',
+      change: 'Cross-functional ownership, platform thinking, durable data and sourcing choices, and evidence that the gain matters beyond one team.',
+      fund: 'Fund deeply only when the use case is important enough, measurable enough, and defensible enough to justify long-term commitment.',
+      rule: 'Key idea: strategic value is not a larger pilot. It is a different level of organizational effect.'
+    },
+    false: {
+      stageLabel: 'False Signal',
+      title: 'False value happens when visible activity is mistaken for durable gain',
+      summary: 'Demos, adoption volume, or employee enthusiasm can all look impressive without improving an important workflow or outcome.',
+      looksLike: 'High usage, attractive examples, isolated time savings, or publicity around AI adoption without measurable improvement in economics, quality, or resilience.',
+      misread: 'Leaders may approve more investment because the activity is visible, even though the underlying problem, workflow, or business case is still weak.',
+      change: 'Stronger kill criteria, better baseline measurement, comparison to simpler alternatives, and more skepticism about what the pilot actually proved.',
+      fund: 'Do not scale. Either narrow the use case until the value is real or stop funding it.',
+      rule: 'Key idea: visible AI activity can still be real work and still be the wrong investment.'
+    }
+  };
+
   var globalShiftConfigs = {
     access: {
       eyebrow: 'Access Shift',
@@ -744,6 +787,70 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     activate('access');
+  });
+
+  document.querySelectorAll('[data-interactive-diagram="ai-value"]').forEach(function (diagram) {
+    var tabs = diagram.querySelectorAll('[data-ai-value-tab]');
+    var stageLabelTarget = diagram.querySelector('[data-ai-value-stage-label]');
+    var titleTarget = diagram.querySelector('[data-ai-value-title]');
+    var summaryTarget = diagram.querySelector('[data-ai-value-summary]');
+    var looksLikeTarget = diagram.querySelector('[data-ai-value-looks-like]');
+    var misreadTarget = diagram.querySelector('[data-ai-value-misread]');
+    var changeTarget = diagram.querySelector('[data-ai-value-change]');
+    var fundTarget = diagram.querySelector('[data-ai-value-fund]');
+    var ruleTarget = diagram.querySelector('[data-ai-value-rule]');
+
+    function activate(key) {
+      var config = aiValueConfigs[key];
+      if (!config) {
+        return;
+      }
+
+      tabs.forEach(function (tab) {
+        var isActive = tab.getAttribute('data-ai-value-tab') === key;
+        tab.classList.toggle('is-active', isActive);
+        tab.setAttribute('aria-pressed', isActive ? 'true' : 'false');
+        tab.tabIndex = isActive ? 0 : -1;
+      });
+
+      stageLabelTarget.textContent = config.stageLabel;
+      titleTarget.textContent = config.title;
+      summaryTarget.textContent = config.summary;
+      looksLikeTarget.textContent = config.looksLike;
+      misreadTarget.textContent = config.misread;
+      changeTarget.textContent = config.change;
+      fundTarget.textContent = config.fund;
+      ruleTarget.textContent = config.rule;
+    }
+
+    tabs.forEach(function (tab) {
+      tab.addEventListener('click', function () {
+        activate(tab.getAttribute('data-ai-value-tab'));
+      });
+
+      tab.addEventListener('keydown', function (event) {
+        if (event.key !== 'ArrowRight' && event.key !== 'ArrowLeft') {
+          return;
+        }
+
+        event.preventDefault();
+
+        var index = Array.prototype.indexOf.call(tabs, tab);
+        var nextIndex = event.key === 'ArrowRight' ? index + 1 : index - 1;
+
+        if (nextIndex < 0) {
+          nextIndex = tabs.length - 1;
+        }
+        if (nextIndex >= tabs.length) {
+          nextIndex = 0;
+        }
+
+        tabs[nextIndex].focus();
+        activate(tabs[nextIndex].getAttribute('data-ai-value-tab'));
+      });
+    });
+
+    activate('personal');
   });
 
   document.querySelectorAll('[data-interactive-diagram="global-shift"]').forEach(function (diagram) {

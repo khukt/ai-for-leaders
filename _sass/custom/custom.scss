@@ -255,6 +255,17 @@
   box-shadow: 0 20px 40px rgba(18, 38, 63, 0.08);
 }
 
+.interactive-diagram--ai-value .interactive-diagram__app {
+  border: 1px solid #d7dfeb;
+  border-radius: 22px;
+  padding: 1.5rem;
+  background:
+    radial-gradient(circle at top left, rgba(16, 185, 129, 0.12), transparent 24%),
+    radial-gradient(circle at bottom right, rgba(11, 95, 255, 0.08), transparent 28%),
+    linear-gradient(180deg, #fbfffd 0%, #f3f9f7 100%);
+  box-shadow: 0 20px 40px rgba(18, 38, 63, 0.08);
+}
+
 .interactive-diagram__intro {
   margin-bottom: 1.25rem;
 }
@@ -688,6 +699,141 @@
 }
 
 .legal-exposure-fallback__stage p {
+  margin: 0;
+  color: #42526b;
+}
+
+.ai-value-diagram {
+  display: grid;
+  gap: 1rem;
+  margin: 0 0 1rem;
+}
+
+.ai-value-diagram__controls {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.85rem;
+}
+
+.ai-value-diagram__stage,
+.ai-value-diagram__detail {
+  min-width: 0;
+  border: 1px solid #d7dfeb;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.94);
+}
+
+.ai-value-diagram__stage {
+  padding: 0.95rem 1rem;
+  text-align: left;
+  cursor: pointer;
+  transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+}
+
+.ai-value-diagram__stage:hover,
+.ai-value-diagram__stage:focus-visible {
+  border-color: #0f9f6e;
+  outline: none;
+  transform: translateY(-1px);
+}
+
+.ai-value-diagram__stage.is-active {
+  border-color: #0f9f6e;
+  background: linear-gradient(180deg, #ffffff 0%, #effaf5 100%);
+  box-shadow: 0 14px 28px rgba(15, 159, 110, 0.16);
+}
+
+.ai-value-diagram__stage-label,
+.ai-value-diagram__eyebrow {
+  display: block;
+  margin-bottom: 0.35rem;
+  color: #0f9f6e;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.ai-value-diagram__stage strong {
+  display: block;
+  margin-bottom: 0.35rem;
+  color: #12263f;
+  font-size: 1.02rem;
+}
+
+.ai-value-diagram__stage p,
+.ai-value-diagram__summary {
+  margin: 0;
+  color: #42526b;
+}
+
+.ai-value-diagram__detail {
+  margin-bottom: 0;
+  padding: 1rem 1.1rem;
+  border-radius: 18px;
+  background: linear-gradient(180deg, #ffffff 0%, #eefaf5 100%);
+}
+
+.ai-value-diagram__headline {
+  margin-bottom: 0.35rem;
+}
+
+.ai-value-diagram__eyebrow {
+  margin: 0 0 0.35rem;
+}
+
+.ai-value-diagram__title {
+  margin: 0 0 0.45rem;
+  color: #12263f;
+  font-size: 1.22rem;
+}
+
+.ai-value-diagram__facts {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.85rem;
+}
+
+.ai-value-fallback {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.ai-value-fallback__stage {
+  padding: 1rem 1.05rem;
+  border: 1px solid #d7dfeb;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.92);
+}
+
+.ai-value-fallback__stage--strong {
+  background: linear-gradient(180deg, #ffffff 0%, #eefaf5 100%);
+  border-color: #bce4d2;
+}
+
+.ai-value-fallback__stage--risk {
+  background: linear-gradient(180deg, #ffffff 0%, #fff6ef 100%);
+  border-color: #f0c7ad;
+}
+
+.ai-value-fallback__label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  color: #0f9f6e;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.ai-value-fallback__stage strong {
+  display: block;
+  margin-bottom: 0.35rem;
+  color: #12263f;
+}
+
+.ai-value-fallback__stage p {
   margin: 0;
   color: #42526b;
 }
@@ -1698,6 +1844,12 @@
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .ai-value-diagram__controls,
+  .ai-value-diagram__facts,
+  .ai-value-fallback {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .legal-exposure-diagram__controls,
   .legal-exposure-diagram__facts,
   .legal-exposure-fallback {
@@ -1778,6 +1930,9 @@
   .global-shift-diagram__facts,
   .eu-ai-act-diagram__facts,
   .eu-ai-act-diagram__timeline-row,
+  .ai-value-diagram__controls,
+  .ai-value-diagram__facts,
+  .ai-value-fallback,
   .legal-exposure-diagram__controls,
   .legal-exposure-diagram__facts,
   .legal-exposure-fallback {
