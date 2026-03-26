@@ -879,7 +879,7 @@
 
 .data-roles-diagram__controls {
   display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 0.85rem;
 }
 
@@ -895,6 +895,7 @@
   padding: 0.95rem 1rem;
   text-align: left;
   cursor: pointer;
+  min-height: 8.4rem;
   transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
 }
 
@@ -964,7 +965,7 @@
 
 .data-roles-fallback {
   display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1rem;
 }
 
@@ -1030,6 +1031,7 @@
   padding: 0.95rem 1rem;
   text-align: left;
   cursor: pointer;
+  min-height: 8.2rem;
   transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
 }
 
