@@ -140,7 +140,7 @@ After reading this chapter, a leadership team should be more disciplined in four
 - ask harder questions about rights, provenance, and maintainability before scale
 - fund the data work that makes important workflows dependable, not only the model work that makes demos impressive
 
-The practical change is to treat data stewardship as part of strategy, value realisation, and governance at the same time.
+The practical change is to treat data stewardship as part of strategy, value realisation, and governance at the same time, not as cleanup work delegated to the side.
 
 ## Key Questions for Leaders
 

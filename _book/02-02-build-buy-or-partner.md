@@ -148,7 +148,7 @@ After reading this chapter, a leadership team should be more disciplined in four
 - treat partner and vendor dependency as part of the business case, not as a side issue
 - demand better evidence on operating burden, portability, and exit before approval
 
-The practical change is to stop treating build, buy, and partner as simple delivery options. They are different long-term commitments with different control, cost, and dependency consequences.
+The practical change is to stop treating build, buy, and partner as simple delivery options. They are different long-term commitments, and leaders should approve them with the same seriousness they would apply to any other strategic dependency.
 
 ## Key Questions for Leaders
 

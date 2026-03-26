@@ -181,7 +181,7 @@ After reading this chapter, a leadership team should be more disciplined in four
 - use gates and kill criteria instead of expanding on enthusiasm
 - assign ownership that survives beyond the innovation phase
 
-The practical change is to stop treating the roadmap as a communications artefact and start using it as an investment discipline.
+The practical change is to stop treating the roadmap as a communications artefact and start using it as an investment discipline that forces choices, sequence, and exit.
 
 ## Key Questions For Leaders
 

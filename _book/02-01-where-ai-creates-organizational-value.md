@@ -11,7 +11,7 @@ nav_order: 1
 
 One of the most common AI mistakes is to begin with the tool and only later ask what problem it should improve. Organisations buy platforms, run pilots, and announce transformation programmes, then discover that the use case is weak, the workflow is flawed, or the economics do not survive contact with reality.[2], [65]
 
-Effective AI strategy starts with a harder question: where does AI create value that matters enough to justify redesign, integration, and management attention?
+Effective AI strategy starts with a harder question: where does AI create value that matters enough to justify redesign, integration, and management attention, and where is it simply visible activity?
 
 The most useful way to read this chapter is through six questions:
 
@@ -144,7 +144,7 @@ After reading this chapter, a leadership team should be more disciplined in four
 - choose automation and augmentation deliberately rather than treating them as the same strategy
 - demand a stronger value thesis before approving scale
 
-The practical change is to stop funding AI because it is visible, impressive, or fashionable. Fund it when the workflow matters, the gain can be measured, and the organisation is prepared to change how the work is actually done.
+The practical change is to stop funding AI because it is visible, impressive, or fashionable. Fund it when the workflow matters, the gain can be measured, and leadership is willing to change how the work is actually done.
 
 ## Reliability Notes
 
