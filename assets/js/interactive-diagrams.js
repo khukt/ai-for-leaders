@@ -288,6 +288,59 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   };
 
+  var legalExposureConfigs = {
+    'use-case': {
+      eyebrow: 'Use Case Exposure',
+      title: 'Exposure starts with what the system is being asked to do',
+      summary: 'Legal burden changes sharply when AI affects consequential decisions rather than low-stakes drafting or support work.',
+      trigger: 'Hiring, pricing, access, eligibility, safety, and rights-affecting decisions create much higher legal sensitivity.',
+      miss: 'Teams often treat all AI use as one category and miss how quickly obligations change when the workflow becomes consequential.',
+      check: 'Ask which rights, decisions, or business outcomes the system can influence and whether that use has been formally approved.',
+      move: 'Separate low-stakes assistance from high-impact decision support before governance, procurement, and review all blur together.',
+      rule: 'Key idea: legal exposure often begins with the use case itself, not with the later arrival of a regulator.'
+    },
+    data: {
+      eyebrow: 'Data Exposure',
+      title: 'Exposure accelerates when the system touches sensitive or regulated data',
+      summary: 'Personal data, sensitive data, and cross-border movement can create obligations before model quality is even discussed.',
+      trigger: 'Training, prompts, retrieval, logs, and outputs can all involve personal or regulated data in ways teams under-map.',
+      miss: 'Leaders often focus on the model and overlook where data enters, where it is stored, and what rights attach to it.',
+      check: 'Map what data the system receives, generates, stores, transfers, and exposes to vendors or downstream users.',
+      move: 'Treat data mapping and lawful basis review as an early gate, not as a later compliance clean-up task.',
+      rule: 'Key idea: many AI legal issues start as data-governance issues before they become model-governance issues.'
+    },
+    vendor: {
+      eyebrow: 'Vendor Exposure',
+      title: 'Buying the system does not transfer the legal burden',
+      summary: 'Third-party AI can reduce development effort while leaving the organisation responsible for deployment, supervision, and claims.',
+      trigger: 'Dependence on a model provider, platform, or packaged tool creates accountability questions around selection, use, and oversight.',
+      miss: 'Leaders often mistake vendor capability or contractual language for transferred accountability.',
+      check: 'Review who owns testing, monitoring, incident handling, data terms, and customer-facing claims when the tool fails.',
+      move: 'Run vendor AI through governance and evidence review, not only procurement and contract review.',
+      rule: 'Key idea: vendor convenience can lower build effort without lowering accountability.'
+    },
+    documentation: {
+      eyebrow: 'Documentation Exposure',
+      title: 'Weak records become a legal weakness quickly',
+      summary: 'When the organisation cannot show what was approved, tested, monitored, and escalated, defense becomes much harder.',
+      trigger: 'Missing assessments, unclear ownership, vague approval trails, and poor monitoring records undermine legal and audit response.',
+      miss: 'Teams often assume compliance exists because sensible work happened informally, even when nothing usable was recorded.',
+      check: 'Ask whether you can produce a credible record of purpose, owner, testing, limits, incidents, and review decisions.',
+      move: 'Make documentation part of the operating model before the system scales and the record has to be reconstructed later.',
+      rule: 'Key idea: if you cannot show how the system was governed, it becomes harder to defend how it was used.'
+    },
+    'public-impact': {
+      eyebrow: 'Public Impact Exposure',
+      title: 'Exposure rises when people outside the project team feel the consequences',
+      summary: 'Customer-facing, employee-facing, and high-visibility uses draw more complaints, scrutiny, and escalation than back-office experimentation.',
+      trigger: 'Systems that affect customers, applicants, workers, or public claims create more visible harm pathways and reputational pressure.',
+      miss: 'Leaders often underestimate how quickly a local issue can turn into media, workforce, regulator, or board attention.',
+      check: 'Identify who can be affected, how they can challenge outcomes, and what happens if the issue becomes public quickly.',
+      move: 'Add escalation routes, communications discipline, and human review before high-visibility use creates a broader trust problem.',
+      rule: 'Key idea: public impact turns technical or legal weaknesses into organisational exposure much faster.'
+    }
+  };
+
   var euAiActConfigs = {
     unacceptable: {
       eyebrow: 'Unacceptable Risk',
@@ -755,6 +808,70 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     activate('access');
+  });
+
+  document.querySelectorAll('[data-interactive-diagram="legal-exposure"]').forEach(function (diagram) {
+    var tabs = diagram.querySelectorAll('[data-legal-exposure-tab]');
+    var eyebrowTarget = diagram.querySelector('[data-legal-exposure-eyebrow]');
+    var titleTarget = diagram.querySelector('[data-legal-exposure-title]');
+    var summaryTarget = diagram.querySelector('[data-legal-exposure-summary]');
+    var triggerTarget = diagram.querySelector('[data-legal-exposure-trigger]');
+    var missTarget = diagram.querySelector('[data-legal-exposure-miss]');
+    var checkTarget = diagram.querySelector('[data-legal-exposure-check]');
+    var moveTarget = diagram.querySelector('[data-legal-exposure-move]');
+    var ruleTarget = diagram.querySelector('[data-legal-exposure-rule]');
+
+    function activate(key) {
+      var config = legalExposureConfigs[key];
+      if (!config) {
+        return;
+      }
+
+      tabs.forEach(function (tab) {
+        var isActive = tab.getAttribute('data-legal-exposure-tab') === key;
+        tab.classList.toggle('is-active', isActive);
+        tab.setAttribute('aria-pressed', isActive ? 'true' : 'false');
+        tab.tabIndex = isActive ? 0 : -1;
+      });
+
+      eyebrowTarget.textContent = config.eyebrow;
+      titleTarget.textContent = config.title;
+      summaryTarget.textContent = config.summary;
+      triggerTarget.textContent = config.trigger;
+      missTarget.textContent = config.miss;
+      checkTarget.textContent = config.check;
+      moveTarget.textContent = config.move;
+      ruleTarget.textContent = config.rule;
+    }
+
+    tabs.forEach(function (tab) {
+      tab.addEventListener('click', function () {
+        activate(tab.getAttribute('data-legal-exposure-tab'));
+      });
+
+      tab.addEventListener('keydown', function (event) {
+        if (event.key !== 'ArrowRight' && event.key !== 'ArrowLeft') {
+          return;
+        }
+
+        event.preventDefault();
+
+        var index = Array.prototype.indexOf.call(tabs, tab);
+        var nextIndex = event.key === 'ArrowRight' ? index + 1 : index - 1;
+
+        if (nextIndex < 0) {
+          nextIndex = tabs.length - 1;
+        }
+        if (nextIndex >= tabs.length) {
+          nextIndex = 0;
+        }
+
+        tabs[nextIndex].focus();
+        activate(tabs[nextIndex].getAttribute('data-legal-exposure-tab'));
+      });
+    });
+
+    activate('use-case');
   });
 
   document.querySelectorAll('[data-interactive-diagram="eu-ai-act"]').forEach(function (diagram) {

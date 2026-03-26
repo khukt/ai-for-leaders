@@ -261,6 +261,26 @@ This bibliography consolidates the main external sources referenced across the b
 
 [59] I. M. Cockburn, R. Henderson, and S. Stern, “The Impact of Artificial Intelligence on Innovation,” NBER Working Paper No. 24449, Mar. 2018. [Online]. Available: https://doi.org/10.3386/w24449. [Accessed: Mar. 26, 2026].
 
+### <a id="wachter-right-to-explanation"></a>Why a Right to Explanation Does Not Exist in the GDPR
+
+[60] S. Wachter, B. Mittelstadt, and L. Floridi, “Why a Right to Explanation of Automated Decision-Making Does Not Exist in the General Data Protection Regulation,” *International Data Privacy Law*, vol. 7, no. 2, pp. 76-99, May 2017. [Online]. Available: https://doi.org/10.1093/idpl/ipx005. [Accessed: Mar. 26, 2026].
+
+### <a id="cambridge-handbook-ai-law-policy"></a>The Cambridge Handbook of the Law, Ethics and Policy of Artificial Intelligence
+
+[61] N. A. Smuha, Ed., *The Cambridge Handbook of the Law, Ethics and Policy of Artificial Intelligence*. Cambridge, UK: Cambridge University Press, 2025. [Online]. Available: https://www.cambridge.org/core/books/cambridge-handbook-of-the-law-ethics-and-policy-of-artificial-intelligence/6C5DF593FBED8CBF42F4EF03BD8AC4BF. [Accessed: Mar. 26, 2026].
+
+### <a id="marwala-mpedi-ai-law"></a>Artificial Intelligence and the Law
+
+[62] T. Marwala and L. G. Mpedi, *Artificial Intelligence and the Law*. Singapore: Palgrave Macmillan, 2024. [Online]. Available: https://doi.org/10.1007/978-981-97-2827-5. [Accessed: Mar. 26, 2026].
+
+### <a id="ico-explaining-decisions-ai"></a>ICO Guidance on Explaining Decisions Made with AI
+
+[63] Information Commissioner's Office and The Alan Turing Institute, “Explaining decisions made with AI.” [Online]. Available: https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/explaining-decisions-made-with-artificial-intelligence/. [Accessed: Mar. 26, 2026].
+
+### <a id="ftc-ai-comply"></a>FTC Action on Deceptive AI Claims
+
+[64] Federal Trade Commission, “FTC Announces Crackdown on Deceptive AI Claims and Schemes,” Sep. 25, 2024. [Online]. Available: https://www.ftc.gov/news-events/news/press-releases/2024/09/ftc-announces-crackdown-deceptive-ai-claims-schemes. [Accessed: Mar. 26, 2026].
+
 ## Notes on Use
 
 - This book is written for leadership audiences and uses these materials as interpretive anchors rather than as a substitute for legal advice.
