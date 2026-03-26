@@ -559,13 +559,76 @@
   background: linear-gradient(180deg, #ffffff 0%, #eef4fb 100%);
 }
 
+.readiness-diagram {
+  display: grid;
+  gap: 1rem;
+  margin: 0 0 1rem;
+}
+
+.readiness-diagram__controls {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.85rem;
+}
+
+.readiness-diagram__stage,
+.readiness-diagram__detail {
+  min-width: 0;
+  border: 1px solid #d7dfeb;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.94);
+}
+
+.readiness-diagram__stage {
+  padding: 0.95rem 1rem;
+  text-align: left;
+  cursor: pointer;
+  transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+}
+
+.readiness-diagram__stage:hover,
+.readiness-diagram__stage:focus-visible {
+  border-color: #0b5fff;
+  outline: none;
+  transform: translateY(-1px);
+}
+
+.readiness-diagram__stage.is-active {
+  border-color: #0b5fff;
+  background: linear-gradient(180deg, #ffffff 0%, #edf4ff 100%);
+  box-shadow: 0 14px 28px rgba(11, 95, 255, 0.16);
+}
+
+.readiness-diagram__stage-label,
 .readiness-diagram__eyebrow {
-  margin: 0 0 0.35rem;
+  display: block;
+  margin-bottom: 0.35rem;
   color: #0b5fff;
   font-size: 0.76rem;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+}
+
+.readiness-diagram__stage strong {
+  display: block;
+  margin-bottom: 0.35rem;
+  color: #12263f;
+  font-size: 1.02rem;
+}
+
+.readiness-diagram__stage p,
+.readiness-diagram__summary {
+  margin: 0;
+  color: #42526b;
+}
+
+.readiness-diagram__headline {
+  margin-bottom: 0.35rem;
+}
+
+.readiness-diagram__eyebrow {
+  margin: 0 0 0.35rem;
 }
 
 .readiness-diagram__title {
@@ -574,9 +637,10 @@
   font-size: 1.22rem;
 }
 
-.readiness-diagram__summary {
-  margin: 0;
-  color: #42526b;
+.readiness-diagram__facts {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.85rem;
 }
 
 .readiness-fallback {
@@ -1479,6 +1543,8 @@
     grid-template-columns: 1fr;
   }
 
+  .readiness-diagram__controls,
+  .readiness-diagram__facts,
   .readiness-fallback {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1591,6 +1657,8 @@
     grid-template-columns: 1fr;
   }
 
+  .readiness-diagram__controls,
+  .readiness-diagram__facts,
   .readiness-fallback {
     grid-template-columns: 1fr;
   }

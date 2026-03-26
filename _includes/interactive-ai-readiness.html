@@ -8,31 +8,41 @@
       </p>
     </div>
 
-    <div class="interactive-diagram__controls" aria-label="AI readiness stages">
-      <button class="interactive-diagram__tab is-active" type="button" aria-pressed="true" data-readiness-tab="access">
-        Access
-      </button>
-      <button class="interactive-diagram__tab" type="button" aria-pressed="false" data-readiness-tab="demo">
-        Demo
-      </button>
-      <button class="interactive-diagram__tab" type="button" aria-pressed="false" data-readiness-tab="pilot">
-        Pilot
-      </button>
-      <button class="interactive-diagram__tab" type="button" aria-pressed="false" data-readiness-tab="readiness">
-        Readiness
-      </button>
-    </div>
-
     <div class="readiness-diagram">
+      <div class="readiness-diagram__controls" role="group" aria-label="AI readiness stages">
+        <button class="readiness-diagram__stage is-active" type="button" aria-pressed="true" data-readiness-tab="access">
+          <span class="readiness-diagram__stage-label">Starting Point</span>
+          <strong>Access</strong>
+          <p>A capable tool is available for use.</p>
+        </button>
+        <button class="readiness-diagram__stage" type="button" aria-pressed="false" data-readiness-tab="demo">
+          <span class="readiness-diagram__stage-label">Looks Promising</span>
+          <strong>Demo</strong>
+          <p>It works in curated conditions.</p>
+        </button>
+        <button class="readiness-diagram__stage" type="button" aria-pressed="false" data-readiness-tab="pilot">
+          <span class="readiness-diagram__stage-label">Local Evidence</span>
+          <strong>Pilot</strong>
+          <p>It shows value in a limited workflow.</p>
+        </button>
+        <button class="readiness-diagram__stage" type="button" aria-pressed="false" data-readiness-tab="readiness">
+          <span class="readiness-diagram__stage-label">Approval Standard</span>
+          <strong>Readiness</strong>
+          <p>It can be trusted in context.</p>
+        </button>
+      </div>
+
       <div class="readiness-diagram__detail">
-        <p class="readiness-diagram__eyebrow" data-readiness-stage-label>Access Stage</p>
-        <h3 class="readiness-diagram__title" data-readiness-title>We can use a capable model</h3>
+        <div class="readiness-diagram__headline">
+          <p class="readiness-diagram__eyebrow" data-readiness-stage-label>Access Stage</p>
+          <h3 class="readiness-diagram__title" data-readiness-title>We can use a capable model</h3>
+        </div>
         <p class="readiness-diagram__summary" data-readiness-summary>
           The organisation can reach a model or tool quickly through a vendor, API, or packaged product.
         </p>
       </div>
 
-      <div class="interactive-diagram__facts">
+      <div class="readiness-diagram__facts">
         <div class="interactive-diagram__fact-card">
           <span class="interactive-diagram__fact-label">What It Proves</span>
           <p data-readiness-proves>Capability is available and experimentation can begin quickly.</p>
