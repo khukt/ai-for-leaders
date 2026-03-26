@@ -1,0 +1,122 @@
+<div class="interactive-diagram interactive-diagram--data-roles">
+  <div class="interactive-diagram__app" data-interactive-diagram="data-roles">
+    <div class="interactive-diagram__intro">
+      <p class="interactive-diagram__eyebrow">Interactive Figure</p>
+      <p class="interactive-diagram__title">Which data role is actually weak?</p>
+      <p class="interactive-diagram__summary">
+        Choose a data role to see what it contributes, what fails when it is weak, and what leaders should ask before scaling.
+      </p>
+    </div>
+
+    <div class="data-roles-diagram">
+      <div class="data-roles-diagram__controls" role="group" aria-label="AI data roles">
+        <button class="data-roles-diagram__stage is-active" type="button" aria-pressed="true" data-data-role-tab="operational">
+          <span class="data-roles-diagram__stage-label">Core Records</span>
+          <strong>Operational</strong>
+          <p>The data used to run the organisation.</p>
+        </button>
+        <button class="data-roles-diagram__stage" type="button" aria-pressed="false" data-data-role-tab="training">
+          <span class="data-roles-diagram__stage-label">Model Adaptation</span>
+          <strong>Training Or Tuning</strong>
+          <p>The examples used to train or refine models.</p>
+        </button>
+        <button class="data-roles-diagram__stage" type="button" aria-pressed="false" data-data-role-tab="retrieval">
+          <span class="data-roles-diagram__stage-label">Runtime Grounding</span>
+          <strong>Retrieval</strong>
+          <p>The knowledge sources used at runtime.</p>
+        </button>
+        <button class="data-roles-diagram__stage" type="button" aria-pressed="false" data-data-role-tab="feedback">
+          <span class="data-roles-diagram__stage-label">Live Signals</span>
+          <strong>Feedback</strong>
+          <p>The signals that show how the system behaves in use.</p>
+        </button>
+        <button class="data-roles-diagram__stage" type="button" aria-pressed="false" data-data-role-tab="evidence">
+          <span class="data-roles-diagram__stage-label">Oversight Trail</span>
+          <strong>Evidence</strong>
+          <p>The records needed for audit, review, and defense.</p>
+        </button>
+      </div>
+
+      <div class="data-roles-diagram__detail">
+        <div class="data-roles-diagram__headline">
+          <p class="data-roles-diagram__eyebrow" data-data-role-stage-label>Core Records</p>
+          <h3 class="data-roles-diagram__title" data-data-role-title>Operational data determines whether the workflow reflects reality</h3>
+        </div>
+        <p class="data-roles-diagram__summary" data-data-role-summary>
+          These are the records the organisation already relies on to run work. If they are fragmented or weak, AI inherits the same weakness.
+        </p>
+      </div>
+
+      <div class="data-roles-diagram__facts">
+        <div class="interactive-diagram__fact-card">
+          <span class="interactive-diagram__fact-label">What It Contributes</span>
+          <p data-data-role-contribution>
+            Workflow context, business records, entity histories, and the operational reality the system is supposed to support.
+          </p>
+        </div>
+
+        <div class="interactive-diagram__fact-card">
+          <span class="interactive-diagram__fact-label">What Fails When Weak</span>
+          <p data-data-role-failure>
+            Predictions, summaries, routing, and decisions reflect stale or fragmented records instead of live conditions.
+          </p>
+        </div>
+
+        <div class="interactive-diagram__fact-card">
+          <span class="interactive-diagram__fact-label">What Leaders Usually Miss</span>
+          <p data-data-role-miss>
+            Model access cannot compensate for operational fields that are missing, poorly defined, or disconnected from the real workflow.
+          </p>
+        </div>
+
+        <div class="interactive-diagram__fact-card">
+          <span class="interactive-diagram__fact-label">What To Ask Next</span>
+          <p data-data-role-question>
+            Are the records behind this use case current, complete, and close enough to real work to support dependable outputs?
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <p class="interactive-diagram__rule" data-data-role-rule>
+      Key idea: most AI data failures are not about one missing dataset. They come from confusing different data roles and underinvesting in the weakest one.
+    </p>
+  </div>
+
+  <div class="interactive-diagram__fallback">
+    <div class="html-figure" role="img" aria-label="Diagram comparing operational, training, retrieval, feedback, and evidence data roles for AI systems">
+      <div class="html-figure__canvas">
+        <div class="data-roles-fallback">
+          <section class="data-roles-fallback__stage">
+            <span class="data-roles-fallback__label">Operational</span>
+            <strong>Reflects live work.</strong>
+            <p>If the core records are weak, AI scales weak workflow understanding.</p>
+          </section>
+          <section class="data-roles-fallback__stage">
+            <span class="data-roles-fallback__label">Training Or Tuning</span>
+            <strong>Shapes model behavior.</strong>
+            <p>Poor labels or weak examples create brittle specialization and hidden bias.</p>
+          </section>
+          <section class="data-roles-fallback__stage data-roles-fallback__stage--strong">
+            <span class="data-roles-fallback__label">Retrieval</span>
+            <strong>Grounds outputs at runtime.</strong>
+            <p>Without clean source documents and permissions, generative systems become less dependable.</p>
+          </section>
+          <section class="data-roles-fallback__stage">
+            <span class="data-roles-fallback__label">Feedback</span>
+            <strong>Shows how the system behaves in use.</strong>
+            <p>Without overrides, complaints, and outcome review, drift stays hidden longer.</p>
+          </section>
+          <section class="data-roles-fallback__stage data-roles-fallback__stage--warning">
+            <span class="data-roles-fallback__label">Evidence</span>
+            <strong>Makes governance defensible.</strong>
+            <p>Logs, approvals, and lineage records are what allow the system to be reviewed, challenged, and improved.</p>
+          </section>
+        </div>
+      </div>
+      <p class="interactive-diagram__caption">
+        Figure: different data roles support value, control, and oversight in different ways.
+      </p>
+    </div>
+  </div>
+</div>

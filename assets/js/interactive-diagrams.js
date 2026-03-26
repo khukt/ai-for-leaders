@@ -278,6 +278,102 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   };
 
+  var dataRoleConfigs = {
+    operational: {
+      stageLabel: 'Core Records',
+      title: 'Operational data determines whether the workflow reflects reality',
+      summary: 'These are the records the organisation already relies on to run work. If they are fragmented or weak, AI inherits the same weakness.',
+      contribution: 'Workflow context, business records, entity histories, and the operational reality the system is supposed to support.',
+      failure: 'Predictions, summaries, routing, and decisions reflect stale or fragmented records instead of live conditions.',
+      miss: 'Model access cannot compensate for operational fields that are missing, poorly defined, or disconnected from the real workflow.',
+      question: 'Are the records behind this use case current, complete, and close enough to real work to support dependable outputs?',
+      rule: 'Key idea: operational data is where many AI systems inherit the strengths and weaknesses of the organisation itself.'
+    },
+    training: {
+      stageLabel: 'Model Adaptation',
+      title: 'Training or tuning data shapes what the model learns to do well',
+      summary: 'Examples used for training, fine-tuning, evaluation, or calibration determine how the model specializes and what errors it repeats.',
+      contribution: 'Task-specific examples, labels, calibration signals, and narrower patterns that help a model adapt to a specific job.',
+      failure: 'Weak labels, skewed samples, or narrow examples make specialized performance look better in testing than it behaves in practice.',
+      miss: 'Teams often focus on model choice and underinvest in labels, representativeness, and maintenance of the datasets used to adapt the model.',
+      question: 'Do we trust the examples and labels strongly enough for the model behavior we want to embed in a live workflow?',
+      rule: 'Key idea: when tuning data is weak, the model learns the wrong lesson more efficiently.'
+    },
+    retrieval: {
+      stageLabel: 'Runtime Grounding',
+      title: 'Retrieval data determines what generative systems can ground themselves in',
+      summary: 'Documents, policies, manuals, research outputs, and knowledge bases shape what the system can cite or retrieve at runtime.',
+      contribution: 'Fresh context, source visibility, workflow-specific knowledge, and a path to more trustworthy answers without retraining the base model.',
+      failure: 'Answers become stale, thinly grounded, or permissionally risky when the source corpus is outdated, noisy, or poorly scoped.',
+      miss: 'Leaders often treat retrieval as easy because the base model already exists, even though permissions, source quality, and freshness now matter more.',
+      question: 'Who owns the source corpus, who can change it, and how quickly would we notice if the retrieval base became stale or unreliable?',
+      rule: 'Key idea: in many generative systems, the strategic data asset sits in the retrieval layer rather than in model weights.'
+    },
+    feedback: {
+      stageLabel: 'Live Signals',
+      title: 'Feedback data shows whether the system is still working after launch',
+      summary: 'Overrides, complaints, user behavior, quality checks, and outcome review reveal whether the system performs well enough in real use.',
+      contribution: 'Evidence about drift, misuse, failure patterns, user trust, and whether the workflow is improving or quietly degrading.',
+      failure: 'The system appears stable while errors accumulate because nobody is collecting or reviewing the signals that show deterioration.',
+      miss: 'Teams often budget for launch and not for the data needed to learn from exceptions, corrections, and changing conditions.',
+      question: 'What signals would tell us early that this system is degrading, being misused, or creating rework we did not expect?',
+      rule: 'Key idea: feedback data is what turns a launch into a managed capability instead of a one-time deployment.'
+    },
+    evidence: {
+      stageLabel: 'Oversight Trail',
+      title: 'Evidence data makes the system governable, reviewable, and defensible',
+      summary: 'Logs, approvals, lineage records, test results, and change histories are what allow important AI use to be reviewed and defended later.',
+      contribution: 'Traceability for audit, incident response, legal review, internal oversight, and disciplined improvement over time.',
+      failure: 'Governance becomes slow and defensive because the organisation cannot reconstruct what was used, changed, approved, or monitored.',
+      miss: 'Evidence work is often treated as bureaucracy until the first complaint, audit, or major failure makes the missing record painfully visible.',
+      question: 'If this system were challenged tomorrow, could we produce a credible record of purpose, data, testing, ownership, and change history?',
+      rule: 'Key idea: evidence data is what allows trust claims to survive scrutiny.'
+    }
+  };
+
+  var dataPositionConfigs = {
+    accumulation: {
+      stageLabel: 'Looks Strong',
+      title: 'Accumulation is not the same as advantage',
+      summary: 'Large volumes of records can look impressive while still being fragmented, weakly governed, and difficult to reuse in a live workflow.',
+      looksLike: 'Large stores of records, documents, logs, or reports that exist across systems but are hard to combine, explain, or operationalize.',
+      misread: 'Volume is often mistaken for strength even when rights, quality, and workflow fit are still weak.',
+      means: 'The organisation may have raw material, but not yet a reusable capability.',
+      action: 'Prioritize access, definitions, lineage, and workflow relevance before claiming strategic advantage.',
+      rule: 'Key idea: stored information is not yet a strategic asset if nobody can reuse it with confidence.'
+    },
+    foundation: {
+      stageLabel: 'Usable Base',
+      title: 'A usable foundation exists when access and stewardship start to work together',
+      summary: 'This is the stage where information becomes easier to reach, define, and reuse across real workflows.',
+      looksLike: 'Named ownership, basic metadata, cleaner access paths, better definitions, and use-case-linked quality work.',
+      misread: 'Leaders sometimes underrate this stage because it looks operational, even though this is where scale becomes possible.',
+      means: 'The organisation is building the conditions for governed reuse and more reliable deployment.',
+      action: 'Keep funding the enabling work that reduces fragmentation and improves workflow readiness.',
+      rule: 'Key idea: a usable foundation is often the highest-return investment before larger AI scale.'
+    },
+    advantage: {
+      stageLabel: 'Harder To Copy',
+      title: 'Data advantage appears when the data improves a workflow that matters',
+      summary: 'The data is relevant, governable, maintainable, and specific enough to make the organisation meaningfully better at an important task.',
+      looksLike: 'Workflow-linked data, strong rights clarity, maintainable lineage, and feedback loops that keep the capability improving.',
+      misread: 'Leaders can label something an advantage too early, before showing that it remains valuable after governance and operating costs are counted.',
+      means: 'The organisation has a defensible capability, not only a dataset.',
+      action: 'Protect the operating model around the data, not just the records themselves.',
+      rule: 'Key idea: data advantage is durable only when stewardship, rights, and workflow integration hold together over time.'
+    },
+    debt: {
+      stageLabel: 'Slows Scale',
+      title: 'Data debt is what makes promising AI systems hard to trust later',
+      summary: 'Weak labels, stale records, undocumented changes, and missing provenance compound into slower deployment and weaker confidence.',
+      looksLike: 'Manual workarounds, brittle joins, unexplained fields, noisy labels, and teams arguing over whose data is right.',
+      misread: 'Because the system may still demo well, leaders often underestimate how quickly debt turns into delay, rework, or risk.',
+      means: 'The organisation is carrying hidden cost and hidden fragility inside its information base.',
+      action: 'Fix the narrow debt that blocks high-value workflows first rather than launching broad cleanup programs with weak business ties.',
+      rule: 'Key idea: the first visible AI gain can still conceal deeper data debt underneath it.'
+    }
+  };
+
   var sourcingPathConfigs = {
     build: {
       stageLabel: 'Highest Control',
@@ -884,6 +980,122 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     activate('personal');
+  });
+
+  document.querySelectorAll('[data-interactive-diagram="data-roles"]').forEach(function (diagram) {
+    var tabs = diagram.querySelectorAll('[data-data-role-tab]');
+    var stageLabelTarget = diagram.querySelector('[data-data-role-stage-label]');
+    var titleTarget = diagram.querySelector('[data-data-role-title]');
+    var summaryTarget = diagram.querySelector('[data-data-role-summary]');
+    var contributionTarget = diagram.querySelector('[data-data-role-contribution]');
+    var failureTarget = diagram.querySelector('[data-data-role-failure]');
+    var missTarget = diagram.querySelector('[data-data-role-miss]');
+    var questionTarget = diagram.querySelector('[data-data-role-question]');
+    var ruleTarget = diagram.querySelector('[data-data-role-rule]');
+
+    function activate(key) {
+      var config = dataRoleConfigs[key];
+      if (!config) {
+        return;
+      }
+
+      tabs.forEach(function (tab) {
+        var isActive = tab.getAttribute('data-data-role-tab') === key;
+        tab.classList.toggle('is-active', isActive);
+        tab.setAttribute('aria-pressed', isActive ? 'true' : 'false');
+        tab.tabIndex = isActive ? 0 : -1;
+      });
+
+      stageLabelTarget.textContent = config.stageLabel;
+      titleTarget.textContent = config.title;
+      summaryTarget.textContent = config.summary;
+      contributionTarget.textContent = config.contribution;
+      failureTarget.textContent = config.failure;
+      missTarget.textContent = config.miss;
+      questionTarget.textContent = config.question;
+      ruleTarget.textContent = config.rule;
+    }
+
+    tabs.forEach(function (tab) {
+      tab.addEventListener('click', function () {
+        activate(tab.getAttribute('data-data-role-tab'));
+      });
+
+      tab.addEventListener('keydown', function (event) {
+        if (event.key !== 'ArrowRight' && event.key !== 'ArrowLeft') {
+          return;
+        }
+
+        var currentIndex = Array.prototype.indexOf.call(tabs, tab);
+        var direction = event.key === 'ArrowRight' ? 1 : -1;
+        var nextIndex = (currentIndex + direction + tabs.length) % tabs.length;
+        event.preventDefault();
+        tabs[nextIndex].focus();
+        activate(tabs[nextIndex].getAttribute('data-data-role-tab'));
+      });
+    });
+
+    if (tabs.length) {
+      activate(tabs[0].getAttribute('data-data-role-tab'));
+    }
+  });
+
+  document.querySelectorAll('[data-interactive-diagram="data-position"]').forEach(function (diagram) {
+    var tabs = diagram.querySelectorAll('[data-data-position-tab]');
+    var stageLabelTarget = diagram.querySelector('[data-data-position-stage-label]');
+    var titleTarget = diagram.querySelector('[data-data-position-title]');
+    var summaryTarget = diagram.querySelector('[data-data-position-summary]');
+    var looksLikeTarget = diagram.querySelector('[data-data-position-looks-like]');
+    var misreadTarget = diagram.querySelector('[data-data-position-misread]');
+    var meansTarget = diagram.querySelector('[data-data-position-means]');
+    var actionTarget = diagram.querySelector('[data-data-position-do]');
+    var ruleTarget = diagram.querySelector('[data-data-position-rule]');
+
+    function activate(key) {
+      var config = dataPositionConfigs[key];
+      if (!config) {
+        return;
+      }
+
+      tabs.forEach(function (tab) {
+        var isActive = tab.getAttribute('data-data-position-tab') === key;
+        tab.classList.toggle('is-active', isActive);
+        tab.setAttribute('aria-pressed', isActive ? 'true' : 'false');
+        tab.tabIndex = isActive ? 0 : -1;
+      });
+
+      stageLabelTarget.textContent = config.stageLabel;
+      titleTarget.textContent = config.title;
+      summaryTarget.textContent = config.summary;
+      looksLikeTarget.textContent = config.looksLike;
+      misreadTarget.textContent = config.misread;
+      meansTarget.textContent = config.means;
+      actionTarget.textContent = config.action;
+      ruleTarget.textContent = config.rule;
+    }
+
+    tabs.forEach(function (tab) {
+      tab.addEventListener('click', function () {
+        activate(tab.getAttribute('data-data-position-tab'));
+      });
+
+      tab.addEventListener('keydown', function (event) {
+        if (event.key !== 'ArrowRight' && event.key !== 'ArrowLeft') {
+          return;
+        }
+
+        var currentIndex = Array.prototype.indexOf.call(tabs, tab);
+        var direction = event.key === 'ArrowRight' ? 1 : -1;
+        var nextIndex = (currentIndex + direction + tabs.length) % tabs.length;
+        event.preventDefault();
+        tabs[nextIndex].focus();
+        activate(tabs[nextIndex].getAttribute('data-data-position-tab'));
+      });
+    });
+
+    if (tabs.length) {
+      activate(tabs[0].getAttribute('data-data-position-tab'));
+    }
   });
 
   document.querySelectorAll('[data-interactive-diagram="sourcing-paths"]').forEach(function (diagram) {

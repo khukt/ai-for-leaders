@@ -313,6 +313,26 @@ This bibliography consolidates the main external sources referenced across the b
 
 [72] M. G. Jacobides, C. Cennamo, and A. Gawer, “Towards a theory of ecosystems,” *Strategic Management Journal*, vol. 39, no. 8, pp. 2255-2276, Aug. 2018. [Online]. Available: https://doi.org/10.1002/smj.2904. [Accessed: Mar. 26, 2026].
 
+### <a id="provost-fawcett-data-science-business"></a>Data Science for Business
+
+[73] F. Provost and T. Fawcett, *Data Science for Business: What You Need to Know about Data Mining and Data-Analytic Thinking*. Sebastopol, CA, USA: O'Reilly Media, 2013. [Online]. Available: https://www.oreilly.com/library/view/data-science-for/9781449374273/. [Accessed: Mar. 26, 2026].
+
+### <a id="gebru-datasheets-datasets"></a>Datasheets for Datasets
+
+[74] T. Gebru et al., “Datasheets for Datasets,” *Communications of the ACM*, vol. 64, no. 12, pp. 86-92, Dec. 2021. [Online]. Available: https://arxiv.org/abs/1803.09010. [Accessed: Mar. 26, 2026].
+
+### <a id="sambasivan-data-cascades"></a>Data Cascades in High-Stakes AI
+
+[75] N. Sambasivan, S. Kapania, H. Highfill, D. Akrong, P. Paritosh, and L. M. Aroyo, “Everyone wants to do the model work, not the data work: Data Cascades in High-Stakes AI,” in *Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems*, Yokohama, Japan, May 2021, Art. no. 39. [Online]. Available: https://doi.org/10.1145/3411764.3445518. [Accessed: Mar. 26, 2026].
+
+### <a id="borgman-big-data-little-data-no-data"></a>Big Data, Little Data, No Data
+
+[76] C. L. Borgman, *Big Data, Little Data, No Data: Scholarship in the Networked World*. Cambridge, MA, USA: MIT Press, 2015. [Online]. Available: https://mitpress.mit.edu/9780262529914/big-data-little-data-no-data/. [Accessed: Mar. 26, 2026].
+
+### <a id="zha-data-centric-ai"></a>Data-Centric AI: Perspectives and Challenges
+
+[77] D. Zha, Z. P. Bhat, K.-H. Lai, F. Yang, and X. Hu, “Data-Centric AI: Perspectives and Challenges,” in *Proceedings of the 2023 SIAM International Conference on Data Mining (SDM)*, Minneapolis, MN, USA, Apr. 2023, pp. 945-948. [Online]. Available: https://arxiv.org/abs/2301.04819. [Accessed: Mar. 26, 2026].
+
 ## Notes on Use
 
 - This book is written for leadership audiences and uses these materials as interpretive anchors rather than as a substitute for legal advice.
