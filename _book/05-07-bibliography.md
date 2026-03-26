@@ -203,6 +203,40 @@ This bibliography consolidates the main external sources referenced across the b
 
 [45] P. Lorenz, K. Perset, and J. Berryhill, “Initial policy considerations for generative artificial intelligence,” OECD Artificial Intelligence Papers, No. 1, OECD Publishing, Paris, Sep. 18, 2023. [Online]. Available: https://doi.org/10.1787/fae2d1e6-en. [Accessed: Mar. 18, 2026].
 
+## Foundational Research and Textbooks
+
+### <a id="russell-norvig-aima"></a>Artificial Intelligence: A Modern Approach
+
+[46] S. Russell and P. Norvig, *Artificial Intelligence: A Modern Approach*, 4th ed. Hoboken, NJ, USA: Pearson, 2021. [Online]. Available: https://www.pearson.com/en-us/subject-catalog/p/artificial-intelligence-a-modern-approach/P200000003500/9780134610993. [Accessed: Mar. 26, 2026].
+
+### <a id="mitchell-guide-thinking-humans"></a>Artificial Intelligence: A Guide for Thinking Humans
+
+[47] M. Mitchell, *Artificial Intelligence: A Guide for Thinking Humans*. New York, NY, USA: Farrar, Straus and Giroux, 2019. [Online]. Available: https://us.macmillan.com/books/9781250758040. [Accessed: Mar. 26, 2026].
+
+### <a id="goodfellow-bengio-courville-deep-learning-book"></a>Deep Learning
+
+[48] I. Goodfellow, Y. Bengio, and A. Courville, *Deep Learning*. Cambridge, MA, USA: MIT Press, 2016. [Online]. Available: https://mitpress.mit.edu/9780262035613/deep-learning. [Accessed: Mar. 26, 2026].
+
+### <a id="bender-koller-nlu"></a>Climbing towards NLU
+
+[49] E. M. Bender and A. Koller, “Climbing towards NLU: On Meaning, Form, and Understanding in the Age of Data,” in *Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics*, Online, Jul. 2020, pp. 5185-5198. [Online]. Available: https://aclanthology.org/2020.acl-main.463/. [Accessed: Mar. 26, 2026].
+
+### <a id="sculley-hidden-technical-debt"></a>Hidden Technical Debt in Machine Learning Systems
+
+[50] D. Sculley et al., “Hidden Technical Debt in Machine Learning Systems,” in *Advances in Neural Information Processing Systems 28 (NeurIPS 2015)*, 2015. [Online]. Available: https://papers.nips.cc/paper/5656-hidden-technical-debt-in-machine-learning-systems. [Accessed: Mar. 26, 2026].
+
+### <a id="bommasani-foundation-models"></a>On the Opportunities and Risks of Foundation Models
+
+[51] R. Bommasani et al., “On the Opportunities and Risks of Foundation Models,” Aug. 16, 2021. [Online]. Available: https://crfm.stanford.edu/assets/report.pdf. [Accessed: Mar. 26, 2026].
+
+### <a id="ribeiro-trust-classifier"></a>Why Should I Trust You?
+
+[52] M. Ribeiro, S. Singh, and C. Guestrin, “Why Should I Trust You?: Explaining the Predictions of Any Classifier,” in *Proceedings of the 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Demonstrations*, San Diego, CA, USA, Jun. 2016, pp. 97-101. [Online]. Available: https://aclanthology.org/N16-3020/. [Accessed: Mar. 26, 2026].
+
+### <a id="amodei-concrete-problems-ai-safety"></a>Concrete Problems in AI Safety
+
+[53] D. Amodei, C. Olah, J. Steinhardt, P. Christiano, J. Schulman, and D. Mané, “Concrete Problems in AI Safety,” arXiv:1606.06565, Jun. 21, 2016. [Online]. Available: https://arxiv.org/abs/1606.06565. [Accessed: Mar. 26, 2026].
+
 ## Notes on Use
 
 - This book is written for leadership audiences and uses these materials as interpretive anchors rather than as a substitute for legal advice.
