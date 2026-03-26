@@ -564,103 +564,132 @@
 
 .legal-exposure-diagram {
   display: grid;
-  grid-template-columns: minmax(16rem, 0.88fr) minmax(0, 1.12fr);
   gap: 1rem;
   margin-bottom: 1rem;
-  align-items: start;
 }
 
 .legal-exposure-diagram__controls {
   display: grid;
-  gap: 0.8rem;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 0.85rem;
 }
 
-.legal-exposure-diagram__point,
-.legal-exposure-diagram__fact-card,
+.legal-exposure-diagram__stage,
 .legal-exposure-diagram__detail {
+  min-width: 0;
   border: 1px solid #d7dfeb;
   border-radius: 20px;
-  background: rgba(255, 255, 255, 0.93);
-  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.94);
 }
 
-.legal-exposure-diagram__point {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 0.35rem;
-  width: 100%;
+.legal-exposure-diagram__stage {
   padding: 0.95rem 1rem;
-  color: #23415f;
   text-align: left;
   cursor: pointer;
   transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
-  -webkit-appearance: none;
-  appearance: none;
 }
 
-.legal-exposure-diagram__point:hover,
-.legal-exposure-diagram__point:focus-visible {
+.legal-exposure-diagram__stage:hover,
+.legal-exposure-diagram__stage:focus-visible {
   border-color: #c2410c;
   outline: none;
   transform: translateY(-1px);
 }
 
-.legal-exposure-diagram__point.is-active {
+.legal-exposure-diagram__stage.is-active {
   border-color: #c2410c;
-  background: linear-gradient(180deg, #fff2e8 0%, #fff8ef 100%);
+  background: linear-gradient(180deg, #ffffff 0%, #fff3ea 100%);
   box-shadow: 0 14px 28px rgba(194, 65, 12, 0.16);
 }
 
-.legal-exposure-diagram__point-label,
-.legal-exposure-diagram__fact-label,
+.legal-exposure-diagram__stage-label,
 .legal-exposure-diagram__eyebrow {
-  display: inline-block;
+  display: block;
+  margin-bottom: 0.35rem;
   color: #c2410c;
-  font-size: 0.78rem;
-  font-weight: 800;
+  font-size: 0.76rem;
+  font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
 
-.legal-exposure-diagram__point strong {
+.legal-exposure-diagram__stage strong {
+  display: block;
+  margin-bottom: 0.35rem;
   color: #12263f;
-  font-size: 1rem;
-  line-height: 1.2;
+  font-size: 1.02rem;
 }
 
-.legal-exposure-diagram__point p,
-.legal-exposure-diagram__summary,
-.legal-exposure-diagram__fact-card p,
-.legal-exposure-diagram__title {
+.legal-exposure-diagram__stage p,
+.legal-exposure-diagram__summary {
   margin: 0;
   color: #42526b;
 }
 
 .legal-exposure-diagram__detail {
-  padding: 1rem 1.05rem;
+  margin-bottom: 0;
+  padding: 1rem 1.1rem;
+  border-radius: 18px;
+  background: linear-gradient(180deg, #ffffff 0%, #fff4ec 100%);
 }
 
 .legal-exposure-diagram__headline {
-  margin-bottom: 0.95rem;
+  margin-bottom: 0.35rem;
+}
+
+.legal-exposure-diagram__eyebrow {
+  margin: 0 0 0.35rem;
 }
 
 .legal-exposure-diagram__title {
-  margin: 0.3rem 0 0.45rem;
+  margin: 0 0 0.45rem;
   color: #12263f;
-  font-size: 1.35rem;
-  font-weight: 700;
-  line-height: 1.2;
+  font-size: 1.22rem;
 }
 
 .legal-exposure-diagram__facts {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 0.85rem;
 }
 
-.legal-exposure-diagram__fact-card {
-  padding: 0.9rem 0.95rem;
+.legal-exposure-fallback {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.legal-exposure-fallback__stage {
+  padding: 1rem 1.05rem;
+  border: 1px solid #d7dfeb;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.92);
+}
+
+.legal-exposure-fallback__stage--impact {
+  background: linear-gradient(180deg, #ffffff 0%, #fff6ef 100%);
+  border-color: #f0c7ad;
+}
+
+.legal-exposure-fallback__label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  color: #c2410c;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.legal-exposure-fallback__stage strong {
+  display: block;
+  margin-bottom: 0.35rem;
+  color: #12263f;
+}
+
+.legal-exposure-fallback__stage p {
+  margin: 0;
+  color: #42526b;
 }
 
 .readiness-diagram__detail {
@@ -1655,10 +1684,6 @@
     grid-template-columns: 1fr;
   }
 
-  .legal-exposure-diagram {
-    grid-template-columns: 1fr;
-  }
-
   .readiness-diagram__controls,
   .readiness-diagram__facts,
   .readiness-fallback {
@@ -1673,7 +1698,9 @@
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .legal-exposure-diagram__facts {
+  .legal-exposure-diagram__controls,
+  .legal-exposure-diagram__facts,
+  .legal-exposure-fallback {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -1751,7 +1778,9 @@
   .global-shift-diagram__facts,
   .eu-ai-act-diagram__facts,
   .eu-ai-act-diagram__timeline-row,
-  .legal-exposure-diagram__facts {
+  .legal-exposure-diagram__controls,
+  .legal-exposure-diagram__facts,
+  .legal-exposure-fallback {
     grid-template-columns: 1fr;
   }
 

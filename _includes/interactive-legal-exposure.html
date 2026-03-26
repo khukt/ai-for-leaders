@@ -10,74 +10,70 @@
 
     <div class="legal-exposure-diagram">
       <div class="legal-exposure-diagram__controls" role="group" aria-label="AI legal exposure points">
-        <button class="legal-exposure-diagram__point is-active" type="button" aria-pressed="true" data-legal-exposure-tab="use-case">
-          <span class="legal-exposure-diagram__point-label">Use Case</span>
-          <strong>What The System Is Allowed To Do</strong>
-          <p>Exposure rises quickly when AI affects rights, pricing, eligibility, or safety.</p>
+        <button class="legal-exposure-diagram__stage is-active" type="button" aria-pressed="true" data-legal-exposure-tab="use-case">
+          <span class="legal-exposure-diagram__stage-label">Decision Scope</span>
+          <strong>Use Case</strong>
+          <p>What the system is allowed to influence.</p>
         </button>
-
-        <button class="legal-exposure-diagram__point" type="button" aria-pressed="false" data-legal-exposure-tab="data">
-          <span class="legal-exposure-diagram__point-label">Data</span>
-          <strong>What The System Touches</strong>
-          <p>Personal data, sensitive data, and cross-border flows trigger obligations early.</p>
+        <button class="legal-exposure-diagram__stage" type="button" aria-pressed="false" data-legal-exposure-tab="data">
+          <span class="legal-exposure-diagram__stage-label">Data Burden</span>
+          <strong>Data</strong>
+          <p>What personal or regulated data it touches.</p>
         </button>
-
-        <button class="legal-exposure-diagram__point" type="button" aria-pressed="false" data-legal-exposure-tab="vendor">
-          <span class="legal-exposure-diagram__point-label">Vendor</span>
-          <strong>Who Else You Depend On</strong>
-          <p>Buying the tool may reduce build effort without reducing accountability.</p>
+        <button class="legal-exposure-diagram__stage" type="button" aria-pressed="false" data-legal-exposure-tab="vendor">
+          <span class="legal-exposure-diagram__stage-label">Dependency Risk</span>
+          <strong>Vendor</strong>
+          <p>Who you rely on and what they do not absorb.</p>
         </button>
-
-        <button class="legal-exposure-diagram__point" type="button" aria-pressed="false" data-legal-exposure-tab="documentation">
-          <span class="legal-exposure-diagram__point-label">Documentation</span>
-          <strong>What You Can Prove</strong>
-          <p>Thin records make legal defense and audit response much harder.</p>
+        <button class="legal-exposure-diagram__stage" type="button" aria-pressed="false" data-legal-exposure-tab="documentation">
+          <span class="legal-exposure-diagram__stage-label">Proof Standard</span>
+          <strong>Documentation</strong>
+          <p>What you can actually show under scrutiny.</p>
         </button>
-
-        <button class="legal-exposure-diagram__point" type="button" aria-pressed="false" data-legal-exposure-tab="public-impact">
-          <span class="legal-exposure-diagram__point-label">Public Impact</span>
-          <strong>Who Feels The Consequences</strong>
-          <p>Customer-facing and employee-facing use raises scrutiny, complaints, and escalation risk.</p>
+        <button class="legal-exposure-diagram__stage" type="button" aria-pressed="false" data-legal-exposure-tab="public-impact">
+          <span class="legal-exposure-diagram__stage-label">Scrutiny Risk</span>
+          <strong>Public Impact</strong>
+          <p>Who feels the consequences if things go wrong.</p>
         </button>
       </div>
 
       <div class="legal-exposure-diagram__detail">
         <div class="legal-exposure-diagram__headline">
-          <span class="legal-exposure-diagram__eyebrow" data-legal-exposure-eyebrow>Use Case Exposure</span>
+          <p class="legal-exposure-diagram__eyebrow" data-legal-exposure-eyebrow>Use Case Exposure</p>
           <h3 class="legal-exposure-diagram__title" data-legal-exposure-title>Exposure starts with what the system is being asked to do</h3>
-          <p class="legal-exposure-diagram__summary" data-legal-exposure-summary>
-            Legal burden changes sharply when AI affects consequential decisions rather than low-stakes drafting or support work.
+        </div>
+        <p class="legal-exposure-diagram__summary" data-legal-exposure-summary>
+          Legal burden changes sharply when AI affects consequential decisions rather than low-stakes drafting or support work.
+        </p>
+      </div>
+
+      <div class="legal-exposure-diagram__facts">
+        <div class="interactive-diagram__fact-card">
+          <span class="interactive-diagram__fact-label">What Creates Exposure</span>
+          <p data-legal-exposure-trigger>
+            Hiring, pricing, access, eligibility, safety, and rights-affecting decisions create much higher legal sensitivity.
           </p>
         </div>
 
-        <div class="legal-exposure-diagram__facts">
-          <div class="legal-exposure-diagram__fact-card">
-            <span class="legal-exposure-diagram__fact-label">What Creates Exposure</span>
-            <p data-legal-exposure-trigger>
-              Hiring, pricing, access, eligibility, safety, and rights-affecting decisions create much higher legal sensitivity.
-            </p>
-          </div>
+        <div class="interactive-diagram__fact-card">
+          <span class="interactive-diagram__fact-label">What Leaders Miss</span>
+          <p data-legal-exposure-miss>
+            Teams often treat all AI use as one category and miss how quickly obligations change when the workflow becomes consequential.
+          </p>
+        </div>
 
-          <div class="legal-exposure-diagram__fact-card">
-            <span class="legal-exposure-diagram__fact-label">What Leaders Miss</span>
-            <p data-legal-exposure-miss>
-              Teams often treat all AI use as one category and miss how quickly obligations change when the workflow becomes consequential.
-            </p>
-          </div>
+        <div class="interactive-diagram__fact-card">
+          <span class="interactive-diagram__fact-label">What To Check Now</span>
+          <p data-legal-exposure-check>
+            Ask which rights, decisions, or business outcomes the system can influence and whether that use has been formally approved.
+          </p>
+        </div>
 
-          <div class="legal-exposure-diagram__fact-card">
-            <span class="legal-exposure-diagram__fact-label">What To Check Now</span>
-            <p data-legal-exposure-check>
-              Ask which rights, decisions, or business outcomes the system can influence and whether that use has been formally approved.
-            </p>
-          </div>
-
-          <div class="legal-exposure-diagram__fact-card">
-            <span class="legal-exposure-diagram__fact-label">Leadership Move</span>
-            <p data-legal-exposure-move>
-              Separate low-stakes assistance from high-impact decision support before governance, procurement, and review all blur together.
-            </p>
-          </div>
+        <div class="interactive-diagram__fact-card">
+          <span class="interactive-diagram__fact-label">Leadership Move</span>
+          <p data-legal-exposure-move>
+            Separate low-stakes assistance from high-impact decision support before governance, procurement, and review all blur together.
+          </p>
         </div>
       </div>
     </div>
@@ -85,5 +81,42 @@
     <p class="interactive-diagram__rule" data-legal-exposure-rule>
       Key idea: legal exposure usually starts in the workflow, data, and governance choices around the system before it appears as a formal compliance event.
     </p>
+  </div>
+
+  <div class="interactive-diagram__fallback">
+    <div class="html-figure" role="img" aria-label="Diagram showing five common starting points for AI legal exposure">
+      <div class="html-figure__canvas">
+        <div class="legal-exposure-fallback">
+          <section class="legal-exposure-fallback__stage">
+            <span class="legal-exposure-fallback__label">Use Case</span>
+            <strong>Exposure changes with the decision being supported.</strong>
+            <p>Rights, pricing, eligibility, and safety create a different legal burden from low-stakes drafting support.</p>
+          </section>
+          <section class="legal-exposure-fallback__stage">
+            <span class="legal-exposure-fallback__label">Data</span>
+            <strong>Data obligations arrive early.</strong>
+            <p>Personal data, sensitive data, and cross-border movement can create exposure before model quality is even debated.</p>
+          </section>
+          <section class="legal-exposure-fallback__stage">
+            <span class="legal-exposure-fallback__label">Vendor</span>
+            <strong>Buying the tool does not transfer accountability.</strong>
+            <p>Model providers can reduce build effort without absorbing deployment, oversight, or customer-facing risk.</p>
+          </section>
+          <section class="legal-exposure-fallback__stage">
+            <span class="legal-exposure-fallback__label">Documentation</span>
+            <strong>Weak records become a legal weakness.</strong>
+            <p>If approvals, limits, and monitoring are not visible, the organisation will struggle to defend how the system was used.</p>
+          </section>
+          <section class="legal-exposure-fallback__stage legal-exposure-fallback__stage--impact">
+            <span class="legal-exposure-fallback__label">Public Impact</span>
+            <strong>Scrutiny rises when people feel the consequences.</strong>
+            <p>Customer-facing and employee-facing systems can turn local failures into broader reputational and regulatory problems.</p>
+          </section>
+        </div>
+      </div>
+      <p class="interactive-diagram__caption">
+        Figure: legal exposure often begins before formal enforcement, in the design, data, vendor, documentation, and public-impact choices around the system.
+      </p>
+    </div>
   </div>
 </div>
