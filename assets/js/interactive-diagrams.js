@@ -308,16 +308,6 @@ document.addEventListener('DOMContentLoaded', function () {
       risk: 'Leaders often underestimate governance complexity, slower coordination, blurred accountability, and disputes over data, IP, or value capture.',
       check: 'Agree decision rights, operating roles, data terms, IP boundaries, dispute resolution, and exit conditions before delivery starts.',
       rule: 'Key idea: partnership is not lighter governance. It usually requires more deliberate governance than buying.'
-    },
-    pause: {
-      stageLabel: 'Weak Thesis',
-      title: 'Do not source yet when the value and governance case are still weak',
-      summary: 'Sometimes the best sourcing choice is not build, buy, or partner. It is to stop until the problem, economics, and operating case are clearer.',
-      bestFit: 'Weak use cases, unclear economics, uncertain ownership, or situations where simpler alternatives may solve the problem better.',
-      gain: 'You avoid locking the organization into cost, dependency, and governance burden before the case is mature enough.',
-      risk: 'Leaders often feel pressure to source something anyway because the capability is visible or fashionable.',
-      check: 'Ask whether the problem is important enough, the value measurable enough, and the sourcing path governable enough to justify commitment now.',
-      rule: 'Key idea: not proceeding is a valid strategic choice when the value thesis is still weak.'
     }
   };
 

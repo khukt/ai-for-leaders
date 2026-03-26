@@ -25,11 +25,6 @@
           <strong>Partner</strong>
           <p>You share delivery, assets, or governance with others.</p>
         </button>
-        <button class="sourcing-paths-diagram__stage" type="button" aria-pressed="false" data-sourcing-path-tab="pause">
-          <span class="sourcing-paths-diagram__stage-label">Weak Thesis</span>
-          <strong>Do Not Proceed</strong>
-          <p>The use case is not yet strong enough to source.</p>
-        </button>
       </div>
 
       <div class="sourcing-paths-diagram__detail">
@@ -40,6 +35,11 @@
         <p class="sourcing-paths-diagram__summary" data-sourcing-path-summary>
           Building makes sense when success depends heavily on proprietary context, internal differentiation, or assurance requirements you cannot comfortably externalize.
         </p>
+      </div>
+
+      <div class="sourcing-paths-diagram__warning">
+        <span class="sourcing-paths-diagram__warning-label">Pause Condition</span>
+        <p>If the value thesis, ownership, or governance case is still weak, the right sourcing choice may be not to source yet.</p>
       </div>
 
       <div class="sourcing-paths-diagram__facts">
@@ -79,7 +79,7 @@
   </div>
 
   <div class="interactive-diagram__fallback">
-    <div class="html-figure" role="img" aria-label="Diagram comparing build, buy, partner, and do not proceed as AI sourcing paths">
+    <div class="html-figure" role="img" aria-label="Diagram comparing build, buy, and partner as AI sourcing paths, with a pause condition when the case is still weak">
       <div class="html-figure__canvas">
         <div class="sourcing-paths-fallback">
           <section class="sourcing-paths-fallback__stage">
@@ -97,11 +97,10 @@
             <strong>Use when value sits across boundaries.</strong>
             <p>Best for shared infrastructure or capability, but only when governance, IP, and decision rights are designed up front.</p>
           </section>
-          <section class="sourcing-paths-fallback__stage sourcing-paths-fallback__stage--risk">
-            <span class="sourcing-paths-fallback__label">Do Not Proceed</span>
-            <strong>Use when the value thesis is still weak.</strong>
-            <p>If the problem, economics, or governance case is unclear, the best sourcing choice may be not to source yet.</p>
-          </section>
+        </div>
+        <div class="sourcing-paths-fallback__warning">
+          <span class="sourcing-paths-fallback__label">Pause Condition</span>
+          <p>If the problem, economics, or governance case is unclear, the best sourcing choice may be not to source yet.</p>
         </div>
       </div>
       <p class="interactive-diagram__caption">

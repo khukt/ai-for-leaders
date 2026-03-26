@@ -857,7 +857,7 @@
 
 .sourcing-paths-diagram__controls {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 0.85rem;
 }
 
@@ -940,9 +940,31 @@
   gap: 0.85rem;
 }
 
+.sourcing-paths-diagram__warning {
+  padding: 0.95rem 1rem;
+  border: 1px solid #f0c7ad;
+  border-radius: 16px;
+  background: linear-gradient(180deg, #fffdf9 0%, #fff3ea 100%);
+}
+
+.sourcing-paths-diagram__warning-label {
+  display: inline-block;
+  margin-bottom: 0.35rem;
+  color: #c78313;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.sourcing-paths-diagram__warning p {
+  margin: 0;
+  color: #42526b;
+}
+
 .sourcing-paths-fallback {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1rem;
 }
 
@@ -956,11 +978,6 @@
 .sourcing-paths-fallback__stage--strong {
   background: linear-gradient(180deg, #ffffff 0%, #fff8ef 100%);
   border-color: #f1d6ac;
-}
-
-.sourcing-paths-fallback__stage--risk {
-  background: linear-gradient(180deg, #ffffff 0%, #fff3f0 100%);
-  border-color: #efc1b8;
 }
 
 .sourcing-paths-fallback__label {
@@ -980,6 +997,19 @@
 }
 
 .sourcing-paths-fallback__stage p {
+  margin: 0;
+  color: #42526b;
+}
+
+.sourcing-paths-fallback__warning {
+  margin-top: 1rem;
+  padding: 0.95rem 1rem;
+  border: 1px solid #f0c7ad;
+  border-radius: 16px;
+  background: linear-gradient(180deg, #fffdf9 0%, #fff3ea 100%);
+}
+
+.sourcing-paths-fallback__warning p {
   margin: 0;
   color: #42526b;
 }
