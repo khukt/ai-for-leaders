@@ -237,6 +237,30 @@ This bibliography consolidates the main external sources referenced across the b
 
 [53] D. Amodei, C. Olah, J. Steinhardt, P. Christiano, J. Schulman, and D. Mané, “Concrete Problems in AI Safety,” arXiv:1606.06565, Jun. 21, 2016. [Online]. Available: https://arxiv.org/abs/1606.06565. [Accessed: Mar. 26, 2026].
 
+### <a id="rogers-diffusion-of-innovations"></a>Diffusion of Innovations
+
+[54] E. M. Rogers, *Diffusion of Innovations*, 5th ed. New York, NY, USA: Free Press, 2003. [Online]. Available: https://www.simonandschuster.com/books/Diffusion-of-Innovations-5th-Edition/Everett-M-Rogers/9780743222099. [Accessed: Mar. 26, 2026].
+
+### <a id="economics-of-ai-agenda"></a>The Economics of Artificial Intelligence: An Agenda
+
+[55] A. K. Agrawal, J. S. Gans, and A. Goldfarb, Eds., *The Economics of Artificial Intelligence: An Agenda*. Chicago, IL, USA: University of Chicago Press, 2019. [Online]. Available: https://press.uchicago.edu/ucp/books/book/chicago/E/bo35780726.html. [Accessed: Mar. 26, 2026].
+
+### <a id="bresnahan-trajtenberg-gpt"></a>General Purpose Technologies "Engines of Growth?"
+
+[56] T. F. Bresnahan and M. Trajtenberg, “General Purpose Technologies ‘Engines of Growth?’,” NBER Working Paper No. 4148, Aug. 1992. [Online]. Available: https://doi.org/10.3386/w4148. [Accessed: Mar. 26, 2026].
+
+### <a id="brynjolfsson-rock-syverson-jcurve"></a>The Productivity J-Curve
+
+[57] E. Brynjolfsson, D. Rock, and C. Syverson, “The Productivity J-Curve: How Intangibles Complement General Purpose Technologies,” *American Economic Journal: Macroeconomics*, vol. 13, no. 1, pp. 333-372, Jan. 2021. [Online]. Available: https://www.aeaweb.org/articles?id=10.1257/mac.20180386. [Accessed: Mar. 26, 2026].
+
+### <a id="trajtenberg-ai-next-gpt"></a>AI as the Next GPT
+
+[58] M. Trajtenberg, “AI as the next GPT: a Political-Economy Perspective,” NBER Working Paper No. 24245, Jan. 2018. [Online]. Available: https://doi.org/10.3386/w24245. [Accessed: Mar. 26, 2026].
+
+### <a id="cockburn-henderson-stern-ai-innovation"></a>The Impact of Artificial Intelligence on Innovation
+
+[59] I. M. Cockburn, R. Henderson, and S. Stern, “The Impact of Artificial Intelligence on Innovation,” NBER Working Paper No. 24449, Mar. 2018. [Online]. Available: https://doi.org/10.3386/w24449. [Accessed: Mar. 26, 2026].
+
 ## Notes on Use
 
 - This book is written for leadership audiences and uses these materials as interpretive anchors rather than as a substitute for legal advice.

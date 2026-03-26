@@ -22,7 +22,7 @@ The most useful way to read this chapter is through six questions:
 
 ## 1. What Is AI, Really?
 
-Artificial intelligence is best understood as a family of machine-based systems that infer from inputs and then produce outputs such as predictions, classifications, recommendations, or generated content.[1], [46] In practice, leaders encounter AI through products and workflows: fraud scoring, document extraction, forecasting, search, copilots, and decision support.[46], [47]
+Artificial intelligence is best understood as a broad class of machine-based systems that take inputs, detect patterns or relationships, and produce outputs such as predictions, classifications, recommendations, decisions, or generated material.[1], [46] In practice, leaders encounter AI through products and workflows: fraud scoring, document extraction, forecasting, search, copilots, and decision support.[46], [47]
 
 That sounds simple, but the first leadership mistake is usually to treat all AI as one thing. It is not. A predictive risk model, a document classifier, a recommendation engine, and a generative writing assistant are all “AI,” but they do not create the same operating model or the same oversight burden.[26], [43]
 
@@ -259,7 +259,7 @@ After reading this chapter, a leader should be more demanding in four ways:
 - ask who remains accountable when the output is wrong
 - ask what human override, monitoring, and fallback exist before allowing the system to influence important decisions
 
-The organisations that benefit most from AI will not be those that adopt it fastest, but those that make these questions routine, govern the answers clearly, and understand the limits of AI as well as its capabilities.[2], [23], [34]
+The organisations that gain most from AI are unlikely to be the ones that move first at any cost. They are more likely to be the ones that turn these questions into standard management practice, govern the answers consistently, and stay clear-eyed about both capability and limitation.[2], [23], [34]
 
 ---
 
