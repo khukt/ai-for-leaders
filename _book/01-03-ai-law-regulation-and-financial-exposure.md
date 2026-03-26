@@ -9,7 +9,7 @@ nav_order: 3
 
 # AI Law, Regulation, and Financial Exposure
 
-AI regulation is no longer something leaders can treat as distant. New AI rules are already taking effect in major jurisdictions, while existing privacy and consumer-protection laws are being used against AI-enabled practices today. That makes AI compliance part of current operations, not a topic to monitor passively.[4], [5], [6], [64]
+AI regulation is no longer something leaders can treat as distant. New AI rules are already taking effect in major jurisdictions, while existing privacy and consumer-protection laws are being used against AI-enabled practices today. That makes AI compliance part of current operations, not a topic to watch from the sidelines.[4], [5], [6], [64]
 
 Leaders do not need to master every legal article. They do need to understand where exposure sits: what systems are in scope, which roles carry responsibility, what evidence regulators may expect, and how fines, injunctions, contract disputes, or public scrutiny could affect the organisation.
 
@@ -164,6 +164,8 @@ After reading this chapter, a leadership team should be more disciplined in four
 - distinguish vendor convenience from transferred accountability
 - demand documentation and review processes before relying on high-impact systems
 - treat financial exposure as an operating-model issue, not just a penalty figure
+
+The practical change is not to wait for one obvious legal alarm. It is to identify where exposure starts early, assign ownership before problems scale, and treat defensibility as part of how AI is operated, not as a later legal clean-up exercise.
 
 ## Reliability Notes
 

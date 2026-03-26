@@ -9,7 +9,7 @@ nav_order: 2
 
 # The Global AI Shift
 
-AI is not only a product trend. It is becoming part of how markets compete, how states invest, and how critical sectors modernise. Leaders therefore need to treat AI as a strategic shift in infrastructure, capability, and power.[24], [41]
+AI is not only a product trend. It is becoming part of how markets compete, how states invest, and how critical sectors modernise. Leaders therefore need to read AI as a shift in infrastructure, capability, and power, not merely as another software wave.[24], [41]
 
 This chapter matters because many organisations still misread the environment. They see AI as a software-buying question when it is increasingly also a timing question, a dependency question, a legitimacy question, and in some sectors a state-capacity question.[23], [24], [34]
 
@@ -155,7 +155,7 @@ After reading this chapter, a leadership team should be more disciplined in four
 - examine infrastructure and platform dependency before it hardens into strategic weakness
 - expect scrutiny, incidents, and policy overlap to grow alongside adoption
 
-The central message is not simply that AI is important. It is that the environment around AI is changing faster than many institutions are organised to respond. The leaders who handle this shift best will be those who treat diffusion, dependency, and legitimacy as strategic issues early, not after the external environment forces the point.
+The practical change is not to react to every AI headline. It is to watch where adoption is spreading, where dependency is hardening, and where legitimacy could be lost. The environment around AI is changing faster than many institutions are organised to respond. The leaders who handle this shift best will be those who treat diffusion, dependency, and legitimacy as strategic issues early, not after the external environment forces the point.
 
 ## Key Questions for Leaders
 

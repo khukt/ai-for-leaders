@@ -43,6 +43,8 @@ Another way to read this section is as three executive questions:
 
 The intended outcome is not technical fluency for its own sake. It is better judgment. By the end of Part I, leaders should be less likely to confuse access with readiness, novelty with value, or vendor convenience with transferred accountability.
 
+That is the bridge into Part II. Once leaders can describe what kind of AI they are dealing with, what kind of external shift is underway, and where outside exposure begins, the next question is no longer `what is happening?` It is `where is AI worth using, under what conditions, and with what evidence of value?`
+
 ---
 
 [Next: What AI Means for Leaders →]({{ site.baseurl }}/book/01-01-what-ai-means-for-leaders/)

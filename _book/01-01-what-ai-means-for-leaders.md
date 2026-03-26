@@ -9,7 +9,7 @@ nav_order: 1
 
 # What AI Means for Leaders
 
-Leaders do not need to become AI specialists. They do need a clear enough understanding to separate serious opportunity from noise, ask better questions of teams and vendors, and decide where AI can be trusted, where it cannot, and what controls must sit around it.
+Leaders do not need to become AI specialists. They do need enough clarity to separate serious opportunity from noise, ask better questions of teams and vendors, and decide where AI can be trusted, where it cannot, and what controls must sit around it.
 
 The most useful way to read this chapter is through six questions:
 
@@ -259,7 +259,7 @@ After reading this chapter, a leader should be more demanding in four ways:
 - ask who remains accountable when the output is wrong
 - ask what human override, monitoring, and fallback exist before allowing the system to influence important decisions
 
-The organisations that gain most from AI are unlikely to be the ones that move first at any cost. They are more likely to be the ones that turn these questions into standard management practice, govern the answers consistently, and stay clear-eyed about both capability and limitation.[2], [23], [34]
+The practical change is not to become more enthusiastic about AI. It is to become more disciplined about where trust is earned, what evidence is required, and where human judgment must remain visible. The organisations that gain most are unlikely to be the ones that move first at any cost. They are more likely to be the ones that turn these questions into standard management practice, govern the answers consistently, and stay clear-eyed about both capability and limitation.[2], [23], [34]
 
 ---
 
