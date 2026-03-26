@@ -301,6 +301,18 @@ This bibliography consolidates the main external sources referenced across the b
 
 [69] S. Raisch and S. Krakowski, “Artificial Intelligence and Management: The Automation-Augmentation Paradox,” *Academy of Management Review*, vol. 46, no. 1, pp. 192-210, Jan. 2021. [Online]. Available: https://doi.org/10.5465/amr.2018.0072. [Accessed: Mar. 26, 2026].
 
+### <a id="coase-nature-of-the-firm"></a>The Nature of the Firm
+
+[70] R. H. Coase, “The Nature of the Firm,” *Economica*, vol. 4, no. 16, pp. 386-405, Nov. 1937. [Online]. Available: https://onlinelibrary.wiley.com/doi/10.1111/j.1468-0335.1937.tb00002.x. [Accessed: Mar. 26, 2026].
+
+### <a id="williamson-markets-hierarchies"></a>Markets and Hierarchies
+
+[71] O. E. Williamson, *Markets and Hierarchies: Analysis and Antitrust Implications*. New York, NY, USA: Free Press, 1975. [Online]. Available: https://archive.org/details/marketshierarchi0000will. [Accessed: Mar. 26, 2026].
+
+### <a id="jacobides-cennamo-gawer-ecosystems"></a>Towards a Theory of Ecosystems
+
+[72] M. G. Jacobides, C. Cennamo, and A. Gawer, “Towards a theory of ecosystems,” *Strategic Management Journal*, vol. 39, no. 8, pp. 2255-2276, Aug. 2018. [Online]. Available: https://doi.org/10.1002/smj.2904. [Accessed: Mar. 26, 2026].
+
 ## Notes on Use
 
 - This book is written for leadership audiences and uses these materials as interpretive anchors rather than as a substitute for legal advice.

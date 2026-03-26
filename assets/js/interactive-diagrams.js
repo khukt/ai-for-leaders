@@ -237,17 +237,17 @@ document.addEventListener('DOMContentLoaded', function () {
 
   var aiValueConfigs = {
     personal: {
-      stageLabel: 'Local Gain',
-      title: 'Personal productivity is real, but it is often overstated',
+      stageLabel: 'Often Overread',
+      title: 'Personal productivity is real, but it is usually the weakest value signal',
       summary: 'Individuals save time on familiar tasks, but the workflow, economics, and decision structure may remain unchanged.',
       looksLike: 'Drafting, summarisation, search, note preparation, coding assistance, and quicker first-pass analysis.',
-      misread: 'Time saved by individuals is often overstated as strategic transformation even when nothing important changes in the operating model.',
-      change: 'Measurement discipline, basic usage rules, and a clear decision about whether this should remain a tool or become a managed workflow capability.',
+      misread: 'Leaders often overread local time savings as transformation even when the operating model is still unchanged.',
+      change: 'Baseline measurement, basic usage rules, and a clear choice about whether this remains a tool or becomes a managed workflow.',
       fund: 'Fund cautiously unless the gain can be shown to change a workflow, risk profile, or economic outcome that actually matters.',
       rule: 'Key idea: personal productivity can be useful, but it is usually the weakest sign of strategic value.'
     },
     workflow: {
-      stageLabel: 'Process Gain',
+      stageLabel: 'Operational Gain',
       title: 'Workflow value appears when work actually moves differently',
       summary: 'The organisation gains when routing, review, triage, exception handling, or service delivery improves inside a managed process.',
       looksLike: 'Better case routing, faster review cycles, stronger exception handling, lower rework, improved throughput, or fewer avoidable errors.',
@@ -257,7 +257,7 @@ document.addEventListener('DOMContentLoaded', function () {
       rule: 'Key idea: workflow value is often the first place where AI becomes economically meaningful.'
     },
     strategic: {
-      stageLabel: 'System Gain',
+      stageLabel: 'Highest Payoff',
       title: 'Strategic value changes economics, resilience, or service position',
       summary: 'This is where AI affects an important system outcome rather than only helping a local team work faster.',
       looksLike: 'Service models improve, resilience increases, quality becomes harder for competitors to match, or economics change across an important operating area.',
@@ -267,7 +267,7 @@ document.addEventListener('DOMContentLoaded', function () {
       rule: 'Key idea: strategic value is not a larger pilot. It is a different level of organizational effect.'
     },
     false: {
-      stageLabel: 'False Signal',
+      stageLabel: 'Stop Here',
       title: 'False value happens when visible activity is mistaken for durable gain',
       summary: 'Demos, adoption volume, or employee enthusiasm can all look impressive without improving an important workflow or outcome.',
       looksLike: 'High usage, attractive examples, isolated time savings, or publicity around AI adoption without measurable improvement in economics, quality, or resilience.',
@@ -275,6 +275,49 @@ document.addEventListener('DOMContentLoaded', function () {
       change: 'Stronger kill criteria, better baseline measurement, comparison to simpler alternatives, and more skepticism about what the pilot actually proved.',
       fund: 'Do not scale. Either narrow the use case until the value is real or stop funding it.',
       rule: 'Key idea: visible AI activity can still be real work and still be the wrong investment.'
+    }
+  };
+
+  var sourcingPathConfigs = {
+    build: {
+      stageLabel: 'Highest Control',
+      title: 'Build when control is genuinely strategic and operationally supportable',
+      summary: 'Building makes sense when success depends heavily on proprietary context, internal differentiation, or assurance requirements you cannot comfortably externalize.',
+      bestFit: 'Core capabilities, distinctive workflows, proprietary data advantage, or uses with demanding assurance and control needs.',
+      gain: 'Greater control over adaptation, standards, governance, and long-term capability development.',
+      risk: 'Building is not only software creation. It is an ongoing operating commitment across evaluation, monitoring, incident handling, staffing, and change control.',
+      check: 'Verify that the need for control is real, the use case matters enough, and the organisation can support the capability after launch.',
+      rule: 'Key idea: build is justified when control is strategic and the operating burden is supportable.'
+    },
+    buy: {
+      stageLabel: 'Fastest Adoption',
+      title: 'Buy when speed matters more than deep internal control',
+      summary: 'Buying is usually strongest when the capability is useful, common enough to externalize, and not central to long-term differentiation.',
+      bestFit: 'General-purpose tools, common workflow components, or cases where fast deployment matters more than bespoke adaptation.',
+      gain: 'Faster time to value, lower initial development burden, and access to external capability that can be governed rather than built.',
+      risk: 'Leaders often underestimate vendor dependency, weak transparency, hidden platform constraints, and how hard exit becomes after embedding the tool.',
+      check: 'Check portability, data terms, evaluation evidence, change-notification rights, and whether the tool can remain replaceable over time.',
+      rule: 'Key idea: buying reduces build effort, but it does not remove governance or dependency risk.'
+    },
+    partner: {
+      stageLabel: 'Shared Capability',
+      title: 'Partner when the value sits across organizational boundaries',
+      summary: 'Partnerships make sense when capability, infrastructure, or sector value depends on complementary assets held by more than one party.',
+      bestFit: 'Shared infrastructure, sector-specific tools, research consortia, municipalities, hospitals, cooperatives, or other cross-boundary capability problems.',
+      gain: 'Shared cost, broader capability access, and the ability to solve problems no single organization should or can carry alone.',
+      risk: 'Leaders often underestimate governance complexity, slower coordination, blurred accountability, and disputes over data, IP, or value capture.',
+      check: 'Agree decision rights, operating roles, data terms, IP boundaries, dispute resolution, and exit conditions before delivery starts.',
+      rule: 'Key idea: partnership is not lighter governance. It usually requires more deliberate governance than buying.'
+    },
+    pause: {
+      stageLabel: 'Weak Thesis',
+      title: 'Do not source yet when the value and governance case are still weak',
+      summary: 'Sometimes the best sourcing choice is not build, buy, or partner. It is to stop until the problem, economics, and operating case are clearer.',
+      bestFit: 'Weak use cases, unclear economics, uncertain ownership, or situations where simpler alternatives may solve the problem better.',
+      gain: 'You avoid locking the organization into cost, dependency, and governance burden before the case is mature enough.',
+      risk: 'Leaders often feel pressure to source something anyway because the capability is visible or fashionable.',
+      check: 'Ask whether the problem is important enough, the value measurable enough, and the sourcing path governable enough to justify commitment now.',
+      rule: 'Key idea: not proceeding is a valid strategic choice when the value thesis is still weak.'
     }
   };
 
@@ -851,6 +894,70 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     activate('personal');
+  });
+
+  document.querySelectorAll('[data-interactive-diagram="sourcing-paths"]').forEach(function (diagram) {
+    var tabs = diagram.querySelectorAll('[data-sourcing-path-tab]');
+    var stageLabelTarget = diagram.querySelector('[data-sourcing-path-stage-label]');
+    var titleTarget = diagram.querySelector('[data-sourcing-path-title]');
+    var summaryTarget = diagram.querySelector('[data-sourcing-path-summary]');
+    var bestFitTarget = diagram.querySelector('[data-sourcing-path-best-fit]');
+    var gainTarget = diagram.querySelector('[data-sourcing-path-gain]');
+    var riskTarget = diagram.querySelector('[data-sourcing-path-risk]');
+    var checkTarget = diagram.querySelector('[data-sourcing-path-check]');
+    var ruleTarget = diagram.querySelector('[data-sourcing-path-rule]');
+
+    function activate(key) {
+      var config = sourcingPathConfigs[key];
+      if (!config) {
+        return;
+      }
+
+      tabs.forEach(function (tab) {
+        var isActive = tab.getAttribute('data-sourcing-path-tab') === key;
+        tab.classList.toggle('is-active', isActive);
+        tab.setAttribute('aria-pressed', isActive ? 'true' : 'false');
+        tab.tabIndex = isActive ? 0 : -1;
+      });
+
+      stageLabelTarget.textContent = config.stageLabel;
+      titleTarget.textContent = config.title;
+      summaryTarget.textContent = config.summary;
+      bestFitTarget.textContent = config.bestFit;
+      gainTarget.textContent = config.gain;
+      riskTarget.textContent = config.risk;
+      checkTarget.textContent = config.check;
+      ruleTarget.textContent = config.rule;
+    }
+
+    tabs.forEach(function (tab) {
+      tab.addEventListener('click', function () {
+        activate(tab.getAttribute('data-sourcing-path-tab'));
+      });
+
+      tab.addEventListener('keydown', function (event) {
+        if (event.key !== 'ArrowRight' && event.key !== 'ArrowLeft') {
+          return;
+        }
+
+        event.preventDefault();
+
+        var index = Array.prototype.indexOf.call(tabs, tab);
+        var nextIndex = event.key === 'ArrowRight' ? index + 1 : index - 1;
+
+        if (nextIndex < 0) {
+          nextIndex = tabs.length - 1;
+        }
+        if (nextIndex >= tabs.length) {
+          nextIndex = 0;
+        }
+
+        tabs[nextIndex].focus();
+        activate(tabs[nextIndex].getAttribute('data-sourcing-path-tab'));
+      });
+    });
+
+    activate('build');
   });
 
   document.querySelectorAll('[data-interactive-diagram="global-shift"]').forEach(function (diagram) {

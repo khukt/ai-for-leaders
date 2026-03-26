@@ -266,6 +266,17 @@
   box-shadow: 0 20px 40px rgba(18, 38, 63, 0.08);
 }
 
+.interactive-diagram--sourcing-paths .interactive-diagram__app {
+  border: 1px solid #d7dfeb;
+  border-radius: 22px;
+  padding: 1.5rem;
+  background:
+    radial-gradient(circle at top left, rgba(245, 158, 11, 0.12), transparent 24%),
+    radial-gradient(circle at bottom right, rgba(11, 95, 255, 0.08), transparent 28%),
+    linear-gradient(180deg, #fffefb 0%, #f8f6f2 100%);
+  box-shadow: 0 20px 40px rgba(18, 38, 63, 0.08);
+}
+
 .interactive-diagram__intro {
   margin-bottom: 1.25rem;
 }
@@ -711,7 +722,7 @@
 
 .ai-value-diagram__controls {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0.85rem;
 }
 
@@ -834,6 +845,141 @@
 }
 
 .ai-value-fallback__stage p {
+  margin: 0;
+  color: #42526b;
+}
+
+.sourcing-paths-diagram {
+  display: grid;
+  gap: 1rem;
+  margin: 0 0 1rem;
+}
+
+.sourcing-paths-diagram__controls {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.85rem;
+}
+
+.sourcing-paths-diagram__stage,
+.sourcing-paths-diagram__detail {
+  min-width: 0;
+  border: 1px solid #d7dfeb;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.94);
+}
+
+.sourcing-paths-diagram__stage {
+  padding: 0.95rem 1rem;
+  text-align: left;
+  cursor: pointer;
+  transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+}
+
+.sourcing-paths-diagram__stage:hover,
+.sourcing-paths-diagram__stage:focus-visible {
+  border-color: #c78313;
+  outline: none;
+  transform: translateY(-1px);
+}
+
+.sourcing-paths-diagram__stage.is-active {
+  border-color: #c78313;
+  background: linear-gradient(180deg, #ffffff 0%, #fff7ea 100%);
+  box-shadow: 0 14px 28px rgba(199, 131, 19, 0.16);
+}
+
+.sourcing-paths-diagram__stage-label,
+.sourcing-paths-diagram__eyebrow {
+  display: block;
+  margin-bottom: 0.35rem;
+  color: #c78313;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.sourcing-paths-diagram__stage strong {
+  display: block;
+  margin-bottom: 0.35rem;
+  color: #12263f;
+  font-size: 1.02rem;
+}
+
+.sourcing-paths-diagram__stage p,
+.sourcing-paths-diagram__summary {
+  margin: 0;
+  color: #42526b;
+}
+
+.sourcing-paths-diagram__detail {
+  margin-bottom: 0;
+  padding: 1rem 1.1rem;
+  border-radius: 18px;
+  background: linear-gradient(180deg, #ffffff 0%, #fff8ef 100%);
+}
+
+.sourcing-paths-diagram__headline {
+  margin-bottom: 0.35rem;
+}
+
+.sourcing-paths-diagram__eyebrow {
+  margin: 0 0 0.35rem;
+}
+
+.sourcing-paths-diagram__title {
+  margin: 0 0 0.45rem;
+  color: #12263f;
+  font-size: 1.22rem;
+}
+
+.sourcing-paths-diagram__facts {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.85rem;
+}
+
+.sourcing-paths-fallback {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.sourcing-paths-fallback__stage {
+  padding: 1rem 1.05rem;
+  border: 1px solid #d7dfeb;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.92);
+}
+
+.sourcing-paths-fallback__stage--strong {
+  background: linear-gradient(180deg, #ffffff 0%, #fff8ef 100%);
+  border-color: #f1d6ac;
+}
+
+.sourcing-paths-fallback__stage--risk {
+  background: linear-gradient(180deg, #ffffff 0%, #fff3f0 100%);
+  border-color: #efc1b8;
+}
+
+.sourcing-paths-fallback__label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  color: #c78313;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.sourcing-paths-fallback__stage strong {
+  display: block;
+  margin-bottom: 0.35rem;
+  color: #12263f;
+}
+
+.sourcing-paths-fallback__stage p {
   margin: 0;
   color: #42526b;
 }
@@ -1850,6 +1996,12 @@
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .sourcing-paths-diagram__controls,
+  .sourcing-paths-diagram__facts,
+  .sourcing-paths-fallback {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .legal-exposure-diagram__controls,
   .legal-exposure-diagram__facts,
   .legal-exposure-fallback {
@@ -1933,6 +2085,9 @@
   .ai-value-diagram__controls,
   .ai-value-diagram__facts,
   .ai-value-fallback,
+  .sourcing-paths-diagram__controls,
+  .sourcing-paths-diagram__facts,
+  .sourcing-paths-fallback,
   .legal-exposure-diagram__controls,
   .legal-exposure-diagram__facts,
   .legal-exposure-fallback {
