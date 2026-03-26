@@ -1,0 +1,94 @@
+<div class="interactive-diagram interactive-diagram--readiness">
+  <div class="interactive-diagram__app" data-interactive-diagram="readiness">
+    <div class="interactive-diagram__intro">
+      <p class="interactive-diagram__eyebrow">Interactive Figure</p>
+      <p class="interactive-diagram__title">Access is not the same as readiness</p>
+      <p class="interactive-diagram__summary">
+        Pick a stage to see what it really proves, what it still does not prove, and what a prudent leadership response looks like.
+      </p>
+    </div>
+
+    <div class="interactive-diagram__controls" aria-label="AI readiness stages">
+      <button class="interactive-diagram__tab is-active" type="button" aria-pressed="true" data-readiness-tab="access">
+        Access
+      </button>
+      <button class="interactive-diagram__tab" type="button" aria-pressed="false" data-readiness-tab="demo">
+        Demo
+      </button>
+      <button class="interactive-diagram__tab" type="button" aria-pressed="false" data-readiness-tab="pilot">
+        Pilot
+      </button>
+      <button class="interactive-diagram__tab" type="button" aria-pressed="false" data-readiness-tab="readiness">
+        Readiness
+      </button>
+    </div>
+
+    <div class="readiness-diagram">
+      <div class="readiness-diagram__detail">
+        <p class="readiness-diagram__eyebrow" data-readiness-stage-label>Access Stage</p>
+        <h3 class="readiness-diagram__title" data-readiness-title>We can use a capable model</h3>
+        <p class="readiness-diagram__summary" data-readiness-summary>
+          The organisation can reach a model or tool quickly through a vendor, API, or packaged product.
+        </p>
+      </div>
+
+      <div class="interactive-diagram__facts">
+        <div class="interactive-diagram__fact-card">
+          <span class="interactive-diagram__fact-label">What It Proves</span>
+          <p data-readiness-proves>Capability is available and experimentation can begin quickly.</p>
+        </div>
+
+        <div class="interactive-diagram__fact-card">
+          <span class="interactive-diagram__fact-label">What It Misses</span>
+          <p data-readiness-misses>Nothing yet about workflow fit, controls, reliability, or accountability.</p>
+        </div>
+
+        <div class="interactive-diagram__fact-card">
+          <span class="interactive-diagram__fact-label">Leadership Move</span>
+          <p data-readiness-move>Allow limited exploration, but create visibility over who is using what and for which tasks.</p>
+        </div>
+
+        <div class="interactive-diagram__fact-card">
+          <span class="interactive-diagram__fact-label">Critical Question</span>
+          <p data-readiness-question>Who is using this already, with what data, and under which rules?</p>
+        </div>
+      </div>
+    </div>
+
+    <p class="interactive-diagram__rule" data-readiness-rule>
+      Key idea: access is the starting point. Readiness exists only when evidence, controls, ownership, and fallback are all visible in the real workflow.
+    </p>
+  </div>
+
+  <div class="interactive-diagram__fallback">
+    <div class="html-figure" role="img" aria-label="Diagram showing the difference between access, demo, pilot, and operational readiness for AI">
+      <div class="html-figure__canvas">
+        <div class="readiness-fallback">
+          <section class="readiness-fallback__stage">
+            <span class="readiness-fallback__label">Access</span>
+            <strong>We can use a capable model.</strong>
+            <p>Proves availability. Does not prove workflow fit, safety, or governance.</p>
+          </section>
+          <section class="readiness-fallback__stage">
+            <span class="readiness-fallback__label">Demo</span>
+            <strong>It works in a controlled example.</strong>
+            <p>Proves possibility. Does not prove performance under real data, pressure, or exceptions.</p>
+          </section>
+          <section class="readiness-fallback__stage">
+            <span class="readiness-fallback__label">Pilot</span>
+            <strong>It can work in a limited workflow.</strong>
+            <p>Proves promise. Does not prove scale, resilience, or sustainable operating control.</p>
+          </section>
+          <section class="readiness-fallback__stage readiness-fallback__stage--ready">
+            <span class="readiness-fallback__label">Readiness</span>
+            <strong>We can trust it in this workflow.</strong>
+            <p>Proves task fit, monitoring, clear ownership, escalation, and fallback in live use.</p>
+          </section>
+        </div>
+      </div>
+      <p class="interactive-diagram__caption">
+        Figure: the executive threshold is not access or even a good pilot. It is evidence that the system can be trusted under real operating conditions.
+      </p>
+    </div>
+  </div>
+</div>

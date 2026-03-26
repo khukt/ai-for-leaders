@@ -211,6 +211,17 @@
   box-shadow: 0 20px 40px rgba(18, 38, 63, 0.08);
 }
 
+.interactive-diagram--readiness .interactive-diagram__app {
+  border: 1px solid #d7dfeb;
+  border-radius: 22px;
+  padding: 1.5rem;
+  background:
+    radial-gradient(circle at top left, rgba(11, 95, 255, 0.1), transparent 24%),
+    radial-gradient(circle at bottom right, rgba(14, 165, 140, 0.1), transparent 26%),
+    linear-gradient(180deg, #fbfdff 0%, #f2f7fc 100%);
+  box-shadow: 0 20px 40px rgba(18, 38, 63, 0.08);
+}
+
 .interactive-diagram--global-shift .interactive-diagram__app {
   border: 1px solid #d7dfeb;
   border-radius: 22px;
@@ -538,6 +549,73 @@
   background: #0f1d31;
   color: #f4f7fb;
   font-weight: 500;
+}
+
+.readiness-diagram__detail {
+  margin-bottom: 1rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid #d7dfeb;
+  border-radius: 18px;
+  background: linear-gradient(180deg, #ffffff 0%, #eef4fb 100%);
+}
+
+.readiness-diagram__eyebrow {
+  margin: 0 0 0.35rem;
+  color: #0b5fff;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.readiness-diagram__title {
+  margin: 0 0 0.45rem;
+  color: #12263f;
+  font-size: 1.22rem;
+}
+
+.readiness-diagram__summary {
+  margin: 0;
+  color: #42526b;
+}
+
+.readiness-fallback {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.readiness-fallback__stage {
+  padding: 1rem 1.05rem;
+  border: 1px solid #d7dfeb;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.92);
+}
+
+.readiness-fallback__stage--ready {
+  background: linear-gradient(180deg, #ffffff 0%, #eefaf4 100%);
+  border-color: #b9d8c2;
+}
+
+.readiness-fallback__label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  color: #0b5fff;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.readiness-fallback__stage strong {
+  display: block;
+  margin-bottom: 0.35rem;
+  color: #12263f;
+}
+
+.readiness-fallback__stage p {
+  margin: 0;
+  color: #42526b;
 }
 
 .trust-compass {
@@ -1401,6 +1479,10 @@
     grid-template-columns: 1fr;
   }
 
+  .readiness-fallback {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .eu-ai-act-diagram__facts {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1506,6 +1588,10 @@
 
   .interactive-diagram__adaptation-grid,
   .interactive-diagram__facts {
+    grid-template-columns: 1fr;
+  }
+
+  .readiness-fallback {
     grid-template-columns: 1fr;
   }
 

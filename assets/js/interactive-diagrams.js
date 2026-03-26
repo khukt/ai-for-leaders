@@ -192,6 +192,49 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   };
 
+  var readinessConfigs = {
+    access: {
+      stageLabel: 'Access Stage',
+      title: 'We can use a capable model',
+      summary: 'The organisation can reach a model or tool quickly through a vendor, API, or packaged product.',
+      proves: 'Capability is available and experimentation can begin quickly.',
+      misses: 'Nothing yet about workflow fit, controls, reliability, or accountability.',
+      move: 'Allow limited exploration, but create visibility over who is using what and for which tasks.',
+      question: 'Who is using this already, with what data, and under which rules?',
+      rule: 'Key idea: access is the starting point. Readiness exists only when evidence, controls, ownership, and fallback are all visible in the real workflow.'
+    },
+    demo: {
+      stageLabel: 'Demo Stage',
+      title: 'It works in a controlled example',
+      summary: 'A team or vendor can show the system producing impressive output under chosen conditions.',
+      proves: 'The use case may be technically possible and worth further testing.',
+      misses: 'How the system behaves on your data, your edge cases, and your operational constraints.',
+      move: 'Do not approve scale from a demo. Ask what fails, what was excluded, and what evidence comes next.',
+      question: 'What happens when the input is messy, incomplete, contested, or high-stakes?',
+      rule: 'Key idea: a demo proves possibility, not operational trustworthiness.'
+    },
+    pilot: {
+      stageLabel: 'Pilot Stage',
+      title: 'It can work in a limited workflow',
+      summary: 'The system shows promise in a bounded setting with a smaller user group, narrower scope, or temporary controls.',
+      proves: 'There may be local value and a plausible path to workflow fit.',
+      misses: 'Whether the system remains dependable at scale, under drift, across teams, or after rollout discipline weakens.',
+      move: 'Treat the pilot as evidence gathering. Measure failure modes, override patterns, user behavior, and ownership gaps before expansion.',
+      question: 'What did the pilot reveal about failure, escalation, and human behavior that the demo hid?',
+      rule: 'Key idea: a pilot should reduce uncertainty. If it only proves enthusiasm, it has not done its job.'
+    },
+    readiness: {
+      stageLabel: 'Readiness Stage',
+      title: 'We can trust it in this workflow',
+      summary: 'The organisation has evidence that the system performs well enough in context and is surrounded by clear controls, ownership, and fallback.',
+      proves: 'Task fit, operational control, visible accountability, and a credible plan for when the system is wrong.',
+      misses: 'Nothing essential for launch, though monitoring and adjustment still continue after deployment.',
+      move: 'Approve use only within defined boundaries, with monitoring, escalation rights, and periodic review already in place.',
+      question: 'If this system is wrong tomorrow, how quickly will we know and who can intervene?',
+      rule: 'Key idea: readiness is not confidence in the model. It is confidence in the managed workflow around it.'
+    }
+  };
+
   var globalShiftConfigs = {
     access: {
       eyebrow: 'Access Shift',
@@ -584,6 +627,70 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     activate('supervised');
+  });
+
+  document.querySelectorAll('[data-interactive-diagram="readiness"]').forEach(function (diagram) {
+    var tabs = diagram.querySelectorAll('[data-readiness-tab]');
+    var stageLabelTarget = diagram.querySelector('[data-readiness-stage-label]');
+    var titleTarget = diagram.querySelector('[data-readiness-title]');
+    var summaryTarget = diagram.querySelector('[data-readiness-summary]');
+    var provesTarget = diagram.querySelector('[data-readiness-proves]');
+    var missesTarget = diagram.querySelector('[data-readiness-misses]');
+    var moveTarget = diagram.querySelector('[data-readiness-move]');
+    var questionTarget = diagram.querySelector('[data-readiness-question]');
+    var ruleTarget = diagram.querySelector('[data-readiness-rule]');
+
+    function activate(key) {
+      var config = readinessConfigs[key];
+      if (!config) {
+        return;
+      }
+
+      tabs.forEach(function (tab) {
+        var isActive = tab.getAttribute('data-readiness-tab') === key;
+        tab.classList.toggle('is-active', isActive);
+        tab.setAttribute('aria-pressed', isActive ? 'true' : 'false');
+        tab.tabIndex = isActive ? 0 : -1;
+      });
+
+      stageLabelTarget.textContent = config.stageLabel;
+      titleTarget.textContent = config.title;
+      summaryTarget.textContent = config.summary;
+      provesTarget.textContent = config.proves;
+      missesTarget.textContent = config.misses;
+      moveTarget.textContent = config.move;
+      questionTarget.textContent = config.question;
+      ruleTarget.textContent = config.rule;
+    }
+
+    tabs.forEach(function (tab) {
+      tab.addEventListener('click', function () {
+        activate(tab.getAttribute('data-readiness-tab'));
+      });
+
+      tab.addEventListener('keydown', function (event) {
+        if (event.key !== 'ArrowRight' && event.key !== 'ArrowLeft') {
+          return;
+        }
+
+        event.preventDefault();
+
+        var index = Array.prototype.indexOf.call(tabs, tab);
+        var nextIndex = event.key === 'ArrowRight' ? index + 1 : index - 1;
+
+        if (nextIndex < 0) {
+          nextIndex = tabs.length - 1;
+        }
+        if (nextIndex >= tabs.length) {
+          nextIndex = 0;
+        }
+
+        tabs[nextIndex].focus();
+        activate(tabs[nextIndex].getAttribute('data-readiness-tab'));
+      });
+    });
+
+    activate('access');
   });
 
   document.querySelectorAll('[data-interactive-diagram="global-shift"]').forEach(function (diagram) {

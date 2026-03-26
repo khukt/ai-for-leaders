@@ -83,6 +83,13 @@ In practice:
 - predictive systems are often harder to see, but easier to tie to business outcomes
 - generative systems are often easier to try, but harder to control once widely adopted
 
+For executives, the contrast is often this:
+
+| System Type | Typical Strength | Typical Leadership Risk |
+|---|---|---|
+| **Predictive AI** | Improves decisions inside existing workflows | Hidden bias, weak calibration, silent drift, over-trust in scores |
+| **Generative AI** | Lowers the cost of drafting, search, and interaction | False but fluent output, leakage, misuse, copyright and policy failures |
+
 Despite rapid progress, AI still has important limitations:[47], [49]
 
 - **It does not reliably distinguish truth from plausibility.** Many systems can produce fluent but incorrect output, especially when the task depends on missing context, weak retrieval, or ambiguous instructions.[47], [49]
@@ -135,6 +142,10 @@ A system is closer to readiness when four conditions are met:[2], [32], [50]
 
 These conditions matter more than the underlying technique. Leaders do not need to master machine learning methods. The key question is whether the system can be trusted in context, not how it is built.[2], [32]
 
+In boardroom terms, this changes the approval standard. A convincing AI proposal should not end with a capability demo. It should show evidence, controls, ownership, and a credible response plan for when the system is wrong.
+
+{% include interactive-ai-readiness.html %}
+
 The evidence question is therefore practical:
 
 - does it work on our data?  
@@ -157,8 +168,6 @@ Leaders do not need a machine-learning course, but they should understand that d
 - **Reinforcement learning** improves through feedback from actions and outcomes, typically in environments where systems learn through interaction.[46]  
 
 These differences matter because they influence how much data is required, how performance is validated, and how predictable system behaviour will be in practice.[46], [48]
-
-{% include interactive-machine-learning-types.html %}
 
 For leaders, this matters because the strategic question is usually not whether to train a model from scratch. It is whether to use an existing model, how much to adapt it, and what that choice creates in cost, control, vendor dependence, language support, intellectual property exposure, and governance.[51]
 
@@ -225,6 +234,12 @@ This matters for four reasons:[24], [51]
 - **Dependency risk**: many organisations depend on a small number of cloud and model providers for the hardware and platform layers underneath AI services  
 - **Operational resilience**: if compute access, latency, or infrastructure availability becomes constrained, AI-enabled workflows can degrade even when the model itself is sound  
 
+For leaders, this means three practical shifts:
+
+- AI investment decisions should include infrastructure and usage economics, not just model capability
+- vendor review should examine concentration risk, portability, and fallback options, not just feature quality
+- critical AI use cases should be designed with continuity in mind: what happens if latency spikes, access is restricted, or a provider changes terms?
+
 ## Key Questions for Leaders
 
 - Where will AI create **real economic or operational advantage**, not just experimentation?
@@ -235,9 +250,16 @@ This matters for four reasons:[24], [51]
 
 ## Final Perspective
 
-AI is not primarily a technology decision. It is a decision about where to trust machines, where to retain human judgment, and how to manage the risks that sit between them.[2], [12], [34]
+AI is not primarily a technology decision. It is a management decision about where to trust machines, where to retain human judgment, and how to build controls strong enough for the consequences involved.[2], [12], [34]
 
-The organisations that benefit most from AI will not be those that adopt it fastest, but those that apply it deliberately, govern it clearly, and understand its limits as well as its capabilities.[2], [23], [34]
+After reading this chapter, a leader should be more demanding in four ways:
+
+- ask what kind of system it is before asking how impressive it looks
+- ask what evidence proves readiness before approving wider use
+- ask who remains accountable when the output is wrong
+- ask what human override, monitoring, and fallback exist before allowing the system to influence important decisions
+
+The organisations that benefit most from AI will not be those that adopt it fastest, but those that make these questions routine, govern the answers clearly, and understand the limits of AI as well as its capabilities.[2], [23], [34]
 
 ---
 
