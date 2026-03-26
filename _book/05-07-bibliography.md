@@ -333,6 +333,18 @@ This bibliography consolidates the main external sources referenced across the b
 
 [77] D. Zha, Z. P. Bhat, K.-H. Lai, F. Yang, and X. Hu, “Data-Centric AI: Perspectives and Challenges,” in *Proceedings of the 2023 SIAM International Conference on Data Mining (SDM)*, Minneapolis, MN, USA, Apr. 2023, pp. 945-948. [Online]. Available: https://arxiv.org/abs/2301.04819. [Accessed: Mar. 26, 2026].
 
+### <a id="cooper-edgett-kleinschmidt-portfolio-npd"></a>Portfolio Management for New Product Development
+
+[78] R. G. Cooper, S. J. Edgett, and E. J. Kleinschmidt, “Portfolio management for new product development: results of an industry practices study,” *R&D Management*, vol. 31, no. 4, pp. 361-380, Oct. 2001. [Online]. Available: https://doi.org/10.1111/1467-9310.00225. [Accessed: Mar. 26, 2026].
+
+### <a id="phaal-farrukh-probert-roadmapping"></a>Technology Roadmapping
+
+[79] R. Phaal, C. J. P. Farrukh, and D. R. Probert, “Technology roadmapping: linking technology resources to business objectives,” *International Journal of Technology Management*, vol. 26, nos. 1-2, pp. 2-21, 2004. [Online]. Available: https://www.inderscience.com/info/inarticle.php?artid=5273. [Accessed: Mar. 26, 2026].
+
+### <a id="kotter-leading-change"></a>Leading Change
+
+[80] J. P. Kotter, *Leading Change*. Boston, MA, USA: Harvard Business School Press, 1996. [Online]. Available: https://store.hbr.org/product/leading-change/8847. [Accessed: Mar. 26, 2026].
+
 ## Notes on Use
 
 - This book is written for leadership audiences and uses these materials as interpretive anchors rather than as a substitute for legal advice.
