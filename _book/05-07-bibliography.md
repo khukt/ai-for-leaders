@@ -345,6 +345,34 @@ This bibliography consolidates the main external sources referenced across the b
 
 [80] J. P. Kotter, *Leading Change*. Boston, MA, USA: Harvard Business School Press, 1996. [Online]. Available: https://store.hbr.org/product/leading-change/8847. [Accessed: Mar. 26, 2026].
 
+### <a id="coso-internal-control-framework"></a>Internal Control - Integrated Framework
+
+[81] Committee of Sponsoring Organizations of the Treadway Commission, “Internal Control - Integrated Framework,” 2013, updated guidance page. [Online]. Available: https://www.coso.org/internal-control. [Accessed: Mar. 26, 2026].
+
+### <a id="coso-genai-controls"></a>Achieving Effective Internal Control Over Generative AI
+
+[82] Committee of Sponsoring Organizations of the Treadway Commission, “Achieving Effective Internal Control Over Generative AI,” 2026. [Online]. Available: https://www.coso.org/generative-ai. [Accessed: Mar. 26, 2026].
+
+### <a id="iia-three-lines-model"></a>The IIA's Three Lines Model
+
+[83] The Institute of Internal Auditors, “The IIA’s Three Lines Model: An update of the Three Lines of Defense,” 2020. [Online]. Available: https://www.theiia.org/en/content/position-papers/2020/the-iias-three-lines-model-an-update-of-the-three-lines-of-defense/. [Accessed: Mar. 26, 2026].
+
+### <a id="iia-global-internal-audit-standards"></a>Global Internal Audit Standards
+
+[84] The Institute of Internal Auditors, “Complete Global Internal Audit Standards,” Jan. 9, 2024. [Online]. Available: https://www.theiia.org/en/standards/2024-standards/global-internal-audit-standards/free-documents/complete-global-internal-audit-standards/. [Accessed: Mar. 26, 2026].
+
+### <a id="li-goel-ai-audits-systematic-review"></a>Making It Possible for the Auditing of AI
+
+[85] Y. Li and S. Goel, “Making It Possible for the Auditing of AI: A Systematic Review of AI Audits and AI Auditability,” *Information Systems Frontiers*, vol. 27, no. 3, pp. 1121-1151, Jun. 2025. [Online]. Available: https://doi.org/10.1007/s10796-024-10508-8. [Accessed: Mar. 26, 2026].
+
+### <a id="minkkinen-continuous-auditing-ai"></a>Continuous Auditing of Artificial Intelligence
+
+[86] M. Minkkinen, J. Laine, and M. Mäntymäki, “Continuous Auditing of Artificial Intelligence: a Conceptualization and Assessment of Tools and Frameworks,” *Digital Society*, vol. 1, Art. no. 21, Oct. 2022. [Online]. Available: https://doi.org/10.1007/s44206-022-00022-2. [Accessed: Mar. 26, 2026].
+
+### <a id="anderson-head-ramamoorti-internal-auditing"></a>Internal Auditing: Assurance & Advisory Services
+
+[87] U. L. Anderson, M. J. Head, S. Ramamoorti, C. Riddle, M. Salamasick, and P. J. Sobel, *Internal Auditing: Assurance & Advisory Services*, 4th ed. Altamonte Springs, FL, USA: Institute of Internal Auditors Research Foundation, 2017. [Online]. Available: https://ecommons.udayton.edu/books/32/. [Accessed: Mar. 26, 2026].
+
 ## Notes on Use
 
 - This book is written for leadership audiences and uses these materials as interpretive anchors rather than as a substitute for legal advice.
