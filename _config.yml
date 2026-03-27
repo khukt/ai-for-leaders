@@ -2,9 +2,12 @@ title: "AI for Leaders"
 description: "An open-source executive guide to AI strategy, regulation, governance, and risk"
 
 # IMPORTANT:
-# If your site URL is https://USER.github.io/REPO then set:
+# If the site is published under a repository path such as
+# https://USER.github.io/REPO then set:
 # baseurl: "/REPO"
-baseurl: "/AI-for-Leaders"
+# If the site is published on a custom domain at the domain root,
+# keep baseurl empty.
+baseurl: ""
 url: "https://khukt.github.io"
 
 remote_theme: just-the-docs/just-the-docs
