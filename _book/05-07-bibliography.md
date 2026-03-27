@@ -373,6 +373,14 @@ This bibliography consolidates the main external sources referenced across the b
 
 [87] U. L. Anderson, M. J. Head, S. Ramamoorti, C. Riddle, M. Salamasick, and P. J. Sobel, *Internal Auditing: Assurance & Advisory Services*, 4th ed. Altamonte Springs, FL, USA: Institute of Internal Auditors Research Foundation, 2017. [Online]. Available: https://ecommons.udayton.edu/books/32/. [Accessed: Mar. 26, 2026].
 
+### <a id="kane-technology-fallacy"></a>The Technology Fallacy
+
+[88] G. C. Kane, A. N. Phillips, J. R. Copulsky, and G. R. Andrus, *The Technology Fallacy: How People Are the Real Key to Digital Transformation*. Cambridge, MA, USA: MIT Press, 2019. [Online]. Available: https://mitpress.mit.edu/9780262352314/the-technology-fallacy/. [Accessed: Mar. 27, 2026].
+
+### <a id="jarrahi-algorithms-work-designers"></a>Algorithms as Work Designers
+
+[89] M. H. Jarrahi, S. Newlands, W. Lee, F. Wolf, and G. Kinder, “Algorithms as work designers: How algorithmic management influences the design of jobs,” *Human Resource Management Review*, vol. 32, no. 3, Art. no. 100838, Sep. 2022. [Online]. Available: https://doi.org/10.1016/j.hrmr.2021.100838. [Accessed: Mar. 27, 2026].
+
 ## Notes on Use
 
 - This book is written for leadership audiences and uses these materials as interpretive anchors rather than as a substitute for legal advice.
