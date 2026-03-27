@@ -397,6 +397,14 @@ This bibliography consolidates the main external sources referenced across the b
 
 [93] E. R. Griffor, C. Greer, D. A. Wollman, and M. J. Burns, “Framework for Cyber-Physical Systems: Volume 1, Overview,” National Institute of Standards and Technology, NIST SP 1500-201, Jun. 26, 2017. [Online]. Available: https://doi.org/10.6028/NIST.SP.1500-201. [Accessed: Mar. 27, 2026].
 
+### <a id="glikson-wohl-ai-trust-review"></a>The Road to Trust in AI
+
+[94] E. Glikson and A. W. Woolley, “Human trust in artificial intelligence: Review of empirical research,” *Academy of Management Annals*, vol. 14, no. 2, pp. 627-660, Aug. 2020. [Online]. Available: https://doi.org/10.5465/annals.2018.0057. [Accessed: Mar. 27, 2026].
+
+### <a id="siau-wang-ai-trust-explaining"></a>Building Trust in Artificial Intelligence
+
+[95] K. Siau and W. Wang, “Building trust in artificial intelligence, machine learning, and robotics,” *Cutter Business Technology Journal*, vol. 31, no. 2, pp. 47-53, 2018. [Online]. Available: https://aisel.aisnet.org/cutter_itjournal/31/2/6/. [Accessed: Mar. 27, 2026].
+
 ## Notes on Use
 
 - This book is written for leadership audiences and uses these materials as interpretive anchors rather than as a substitute for legal advice.
