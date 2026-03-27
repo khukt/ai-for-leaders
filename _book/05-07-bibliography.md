@@ -389,6 +389,14 @@ This bibliography consolidates the main external sources referenced across the b
 
 [91] J. D. Lee and K. A. See, “Trust in automation: Designing for appropriate reliance,” *Human Factors*, vol. 46, no. 1, pp. 50-80, Spring 2004. [Online]. Available: https://doi.org/10.1518/hfes.46.1.50_30392. [Accessed: Mar. 27, 2026].
 
+### <a id="nist-ot-security-rev3"></a>Guide to Operational Technology Security
+
+[92] K. Stouffer, V. Pillitteri, S. Lightman, M. Abrams, and A. Hahn, “Guide to Operational Technology (OT) Security,” National Institute of Standards and Technology, NIST SP 800-82 Rev. 3, Sep. 10, 2024. [Online]. Available: https://doi.org/10.6028/NIST.SP.800-82r3. [Accessed: Mar. 27, 2026].
+
+### <a id="nist-cps-framework"></a>Framework for Cyber-Physical Systems: Volume 1
+
+[93] E. R. Griffor, C. Greer, D. A. Wollman, and M. J. Burns, “Framework for Cyber-Physical Systems: Volume 1, Overview,” National Institute of Standards and Technology, NIST SP 1500-201, Jun. 26, 2017. [Online]. Available: https://doi.org/10.6028/NIST.SP.1500-201. [Accessed: Mar. 27, 2026].
+
 ## Notes on Use
 
 - This book is written for leadership audiences and uses these materials as interpretive anchors rather than as a substitute for legal advice.
