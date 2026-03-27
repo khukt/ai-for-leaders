@@ -8,7 +8,7 @@ description: "An open-source executive guide to AI strategy, regulation, governa
 # If the site is published on a custom domain at the domain root,
 # keep baseurl empty.
 baseurl: ""
-url: "https://khukt.github.io"
+url: "https://aileaders.trustworthyai.space"
 
 remote_theme: just-the-docs/just-the-docs
 color_scheme: light
