@@ -381,6 +381,14 @@ This bibliography consolidates the main external sources referenced across the b
 
 [89] M. H. Jarrahi, S. Newlands, W. Lee, F. Wolf, and G. Kinder, “Algorithms as work designers: How algorithmic management influences the design of jobs,” *Human Resource Management Review*, vol. 32, no. 3, Art. no. 100838, Sep. 2022. [Online]. Available: https://doi.org/10.1016/j.hrmr.2021.100838. [Accessed: Mar. 27, 2026].
 
+### <a id="parasuraman-levels-of-automation"></a>A Model for Types and Levels of Human Interaction with Automation
+
+[90] R. Parasuraman, T. B. Sheridan, and C. D. Wickens, “A model for types and levels of human interaction with automation,” *IEEE Transactions on Systems, Man, and Cybernetics - Part A: Systems and Humans*, vol. 30, no. 3, pp. 286-297, May 2000. [Online]. Available: https://doi.org/10.1109/3468.844354. [Accessed: Mar. 27, 2026].
+
+### <a id="lee-see-trust-automation"></a>Trust in Automation
+
+[91] J. D. Lee and K. A. See, “Trust in automation: Designing for appropriate reliance,” *Human Factors*, vol. 46, no. 1, pp. 50-80, Spring 2004. [Online]. Available: https://doi.org/10.1518/hfes.46.1.50_30392. [Accessed: Mar. 27, 2026].
+
 ## Notes on Use
 
 - This book is written for leadership audiences and uses these materials as interpretive anchors rather than as a substitute for legal advice.
