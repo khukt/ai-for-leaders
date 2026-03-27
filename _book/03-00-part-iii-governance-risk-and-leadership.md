@@ -9,22 +9,25 @@ has_children: true
 
 # Part III — AI Governance, Risk, and Leadership
 
-This part focuses on ownership, risk, compliance, evidence, and the organisational changes required to use AI responsibly at scale. The central theme is that responsible AI is not achieved by policy language alone. It depends on operating controls, current documentation, credible escalation, and leadership that can redesign work rather than merely add tools.
+Part III turns from strategy into operating discipline. Its focus is ownership, risk, evidence, assurance, and the organisational changes required to use AI responsibly at scale. The central point is that responsible AI is not achieved by policy language alone. It depends on visible controls, current documentation, credible escalation, and leadership that can redesign work rather than merely add tools.
 
-The most useful way to read this part is through five governance questions:
+The most useful way to read this part is through six governance questions:
 
 1. What is this system being trusted to do?
 2. What happens if it is wrong?
 3. Who remains accountable?
 4. What evidence makes use acceptable?
-5. Where must humans stay in control?
+5. How do we know the controls are actually working?
+6. Where must humans stay in control while work is changing?
 
 ## Chapters
 
-- Establishing an AI Governance Framework
-- Managing AI Risk
-- Compliance and Audit Readiness
-- Leading Organizational Transformation
+- **Establishing an AI Governance Framework** explains how governance becomes a management system rather than a compliance side project.
+- **Managing AI Risk** shows why AI risk travels through workflows, controls, and incident response rather than through model quality alone.
+- **Compliance and Audit Readiness** focuses on the evidence, assurance, and lifecycle records needed to defend one live system under review.
+- **Leading Organizational Transformation** explains why AI adoption changes work design, manager responsibility, and organisational trust.
+
+The purpose of this part is practical. By the end of it, leaders should be able to judge not only whether an AI system seems useful, but whether the organisation can govern it, evidence it, challenge it, and absorb its effects on real work.
 
 ---
 
