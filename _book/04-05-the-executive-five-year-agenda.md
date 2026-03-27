@@ -9,24 +9,23 @@ nav_order: 5
 
 # The Executive Five-Year Agenda
 
-Leadership teams need a forward view that is concrete enough to guide action but flexible enough to survive technical and regulatory change. Over the next five years, the decisive issue will not be whether organisations can access AI tools at all. It will be whether they can turn scattered access into governed capability.
+Leadership teams need a forward view that is concrete enough to guide action but flexible enough to survive technical, regulatory, and market change. Over the next five years, the decisive issue will not be whether organisations can access AI tools at all. It will be whether they can turn scattered access into governed capability.[2], [3], [16], [17], [23], [24], [40]
 
-That is now visible across sectors. NIST's AI RMF and the Generative AI Profile both frame AI as a lifecycle governance issue rather than a one-time procurement decision.[2], [3] OECD's work on SMEs shows that adoption gaps persist and that smaller organisations need a different support model from large firms.[16], [17] OECD's public-sector work shows many governments still struggle to move from pilots to reliable operational use because skills, data, procurement, and legacy systems are weak.[23] At the national level, OECD's compute-capacity work makes the strategic point: ambition without infrastructure and implementation capacity creates a policy blind spot.[24]
-
-The practical consequence is that a serious five-year agenda has to answer two questions at once:
+That is now visible across contexts. NIST frames AI as a lifecycle governance issue rather than a one-time procurement decision.[2], [3] OECD work shows adoption gaps, implementation weakness, and the continuing importance of compute, skills, procurement, and institutional capacity.[16], [17], [23], [24] The practical consequence is that a serious five-year agenda has to answer two questions at once:
 
 - what must we do now to stop unmanaged AI use from creating avoidable exposure?
 - what capabilities must become durable by the end of the period?
 
-## Priority Areas
+The most useful way to read this chapter is through six questions:
 
-- Immediate priorities
-- Regulatory preparedness
-- Investment strategy
-- Building sustainable AI capability
-- Adapting the agenda to institutional context
+1. What should leadership teams do in the next 12 months?
+2. What has to become real in the next 24 months?
+3. How should AI investment be judged over a five-year window?
+4. What capabilities must become durable?
+5. How should the agenda change across leadership contexts?
+6. What should boards and executive teams expect to see if the agenda is working?
 
-## The Next 12 Months
+## 1. What Should Leadership Teams Do In The Next 12 Months?
 
 The immediate objective is not to become an AI leader in every domain. It is to establish visibility, control, and a minimum evidence standard before AI use spreads faster than oversight.
 
@@ -39,11 +38,11 @@ In the next 12 months, most leadership teams should:
 - define minimum evidence requirements before wider rollout, including testing, review, and monitoring
 - set a reporting rhythm for board, executive, or equivalent oversight review
 
-This phase is about visibility, containment, and decision discipline. The point is not to create a perfect governance architecture in year one. It is to stop the organisation from being surprised by its own use of AI.
+This phase is about visibility, containment, and decision discipline. The point is not to create a perfect governance architecture in year one. It is to stop the organisation from being surprised by its own AI use.
 
-## The Next 24 Months
+## 2. What Has To Become Real In The Next 24 Months?
 
-Once the organisation has visibility and basic controls, the next priority is to make AI repeatable as a managed capability rather than a sequence of disconnected pilots. This is where many organisations stall. NIST's governance model implies ongoing lifecycle control, and OECD's public-sector work shows that implementation failure often comes from weak operational capacity rather than lack of strategic intent.[2], [23]
+Once the organisation has visibility and basic controls, the next priority is to make AI repeatable as a managed capability rather than a sequence of disconnected pilots. This is where many organisations stall.[2], [23]
 
 In the next 24 months, management should focus on:
 
@@ -51,12 +50,12 @@ In the next 24 months, management should focus on:
 - stronger vendor governance, contract discipline, and change-notification rights
 - active monitoring for drift, incidents, complaints, overrides, and material context changes
 - clearer data-readiness, traceability, and documentation practices
-- targeted capability building in the business, operations, and oversight functions, not only in technical teams
+- targeted capability building in business, operations, and oversight functions, not only technical teams
 - use-case prioritisation tied to measurable economic, service, research, or institutional value
 
 This phase is about moving from experimentation to governable scale. If the organisation cannot show how it reviews changes, tracks incidents, and pauses weak systems, it is not scaling capability. It is scaling exposure.
 
-## Investment Discipline
+## 3. How Should AI Investment Be Judged Over A Five-Year Window?
 
 AI spending should be judged with the same discipline as other strategic investments, but with a broader cost lens than many teams apply at pilot stage.
 
@@ -67,16 +66,25 @@ Leadership should expect investment cases to include:
 - integration and workflow redesign cost
 - monitoring, review, and governance cost
 - vendor dependency and exit cost
-- obsolescence risk if a frontier or hyperscaler-backed provider closes the capability gap quickly
+- obsolescence risk if providers close capability gaps quickly
 - realistic assumptions about adoption, error reduction, and measurable value creation
 
-This matters because AI can appear inexpensive when only the model or software line item is counted. The real economic question is whether the organisation creates enough value after infrastructure, oversight, and change costs are included. For countries and large systems, the same logic extends to compute, energy, cloud concentration, and trusted-access dependencies.[24]
+This matters because AI can appear inexpensive when only the software line item is counted. The real economic question is whether the organisation creates enough value after infrastructure, oversight, and change costs are included. For countries and large systems, the same logic extends to compute, energy, cloud concentration, and trusted-access dependencies.[24], [55]
 
-## The Next Five Years
+## Agenda View
 
-Over the longer horizon, the competitive question shifts. The issue is no longer whether the organisation can use AI at all. The issue is whether it can build durable capability while maintaining trust, legitimacy, and strategic room to manoeuvre.
+| Time Horizon | Leadership Question | What Good Looks Like |
+|---|---|---|
+| **12 months** | Can we see and control the AI that already matters? | Inventory, ownership, basic restrictions, and evidence rules exist |
+| **24 months** | Can we operate AI as a managed capability rather than a pilot portfolio? | Approval, monitoring, escalation, and vendor discipline are repeatable |
+| **Five years** | Are we building durable institutional strength rather than temporary momentum? | Capability survives staff change, vendor change, and market change |
+| **Investment logic** | Are we counting the full cost of governable AI use? | Spending cases reflect integration, oversight, and dependency cost |
 
-Over five years, leadership teams should aim to build:
+## 4. What Capabilities Must Become Durable?
+
+Over a five-year horizon, the competitive question shifts. The issue is no longer whether the organisation can use AI at all. The issue is whether it can build durable capability while maintaining trust, legitimacy, and strategic room to maneuver.
+
+Leadership teams should aim to build:
 
 - a repeatable governance operating model
 - a credible internal evidence standard for higher-impact systems
@@ -87,68 +95,20 @@ Over five years, leadership teams should aim to build:
 
 This phase is about institution building, not just technology adoption. Over a five-year window, strong organisations become easier to distinguish from weak ones. Strong organisations can explain where AI is used, why it is there, who owns it, how it is monitored, and what dependencies it creates. Weak organisations mostly have pilots, vendors, and slide decks.
 
-## The Agenda Changes by Leadership Level
+## 5. How Should The Agenda Change Across Leadership Contexts?
 
-The five-year agenda should not be identical for every leadership context. The horizon is the same; the governing problem is not.
+The five-year horizon is the same across contexts. The governing problem is not.
 
-### SMEs
-
-OECD's 2025 work suggests the five-year challenge for SMEs is not to mirror enterprise AI programs. It is to close readiness gaps without overbuilding overhead.[16], [17] For SMEs, the agenda should usually be:
-
-- a short list of durable workflow gains
-- safe vendor use and explicit data-handling rules
-- enough internal competence to challenge supplier claims
-- avoidance of brittle dependence on tools the firm cannot supervise or replace
-
-### Cooperatives and Mutuals
-
-For cooperatives, the right agenda is inseparable from legitimacy. The International Cooperative Alliance's principles imply that five-year success cannot be measured only in automation efficiency.[18] Cooperative leaders should focus on:
-
-- member transparency where AI affects service, pricing, lending, or support
-- reviewable use of AI in decisions that affect access or treatment
-- governance that preserves trust in the cooperative model rather than weakening it
-
-### Research Institutions
-
-Research leaders should use the five-year period to normalise AI-assisted research without weakening integrity. NSF guidance on responsible conduct of research and ICMJE publication rules point in the same direction: humans remain accountable for integrity, disclosure, and attribution.[19], [20] Over five years, research institutions should build:
-
-- clear disclosure rules for AI use in writing, analysis, coding, and experimental workflows
-- reproducibility standards for material AI-assisted steps
-- governed protection of confidential, clinical, proprietary, or export-controlled data
-- durable review paths for dual-use and high-consequence research applications
-
-### Large Enterprises
-
-Large enterprises should use the next five years to reduce unmanaged adoption, build reusable governance and platform layers, and concentrate investment where scale or differentiation is real. Their core problem is fragmentation, so their agenda should emphasise:
-
-- portfolio visibility across business units
-- tiered governance rather than one uniform gate
-- stronger vendor leverage and platform standards
-- deeper redesign of work, not just tool distribution
-
-### Public-Sector Institutions
-
-UNESCO and OECD guidance imply that the public-sector five-year agenda has to be capability-oriented, not merely compliance-oriented.[21], [22], [23] Public institutions should prioritise:
-
-- lawful service redesign rather than novelty deployments
-- procurement maturity and stronger implementation capacity
-- citizen-facing uses that preserve reviewability and challenge rights
-- moving useful tools out of pilot limbo and into governable operations
-
-### National Leadership
-
-National leaders should treat the next five years as a capacity-building window. OECD's compute-capacity and policy-observatory work suggest that countries increasingly need joined-up policy across talent, research, infrastructure, public-sector use, and resilience.[24], [25] The national agenda should therefore cover:
-
-- talent and research capability
-- compute, cloud, data, and energy infrastructure
-- secure public-sector adoption
-- industrial competitiveness and firm adoption
-- resilience, security, and democratic legitimacy
-- clear decisions on which external dependencies are acceptable and which are strategically dangerous
+- **SMEs** should focus on a short list of durable workflow gains, safe vendor use, explicit data-handling rules, and enough internal competence to challenge supplier claims.[16], [17]
+- **Cooperatives and mutuals** should build governance that preserves member legitimacy as well as operational efficiency.[18]
+- **Research institutions** should normalize AI-assisted research without weakening disclosure, reproducibility, or data protection.[19], [20]
+- **Large enterprises** should reduce unmanaged adoption, build reusable governance and platform layers, and concentrate investment where scale or differentiation is real.[2], [3]
+- **Public-sector institutions** should prioritize lawful service redesign, procurement maturity, implementation capacity, and movement out of pilot limbo into governable operations.[21], [22], [23]
+- **National leadership** should treat the period as a capacity-building window across talent, research, compute, cloud, public-sector use, resilience, and security.[24], [25]
 
 In each setting, the right five-year plan is the one that strengthens capability without accepting hidden dependency or avoidable loss of control.
 
-## Board Agenda
+## 6. What Should Boards And Executive Teams Expect To See If The Agenda Is Working?
 
 Boards and executive committees should expect recurring attention in four areas:
 
@@ -157,9 +117,7 @@ Boards and executive committees should expect recurring attention in four areas:
 - incidents, complaints, and remediation
 - strategic capability gaps in data, talent, governance, or vendor dependence
 
-The board does not need to manage AI directly. It does need confidence that management can see the real exposure, challenge weak assumptions, and intervene when AI use outpaces control. In other settings, the equivalent question applies to governing boards, trustees, ministers, or cabinet-level leadership: is there credible oversight of the systems that matter most?
-
-## What Good Looks Like
+The board does not need to manage AI directly. It does need confidence that management can see the real exposure, challenge weak assumptions, and intervene when AI use outpaces control.
 
 By the end of a credible five-year agenda, the organisation should be able to say:
 
@@ -172,9 +130,18 @@ By the end of a credible five-year agenda, the organisation should be able to sa
 
 That is the difference between AI ambition and durable AI capability.
 
-## Leadership Lens
+## Final Perspective
 
-The executive agenda should balance urgency with discipline. Waiting too long creates strategic weakness. Moving too fast without evidence, governance, organisational readiness, or infrastructure realism creates avoidable exposure. Over the next five years, the leaders who matter most will not be the ones who sounded most ambitious in year one. They will be the ones who built capability that still works under pressure.
+The executive agenda should balance urgency with discipline. Waiting too long creates strategic weakness. Moving too fast without evidence, governance, organisational readiness, or infrastructure realism creates avoidable exposure.
+
+After reading this chapter, a leadership team should be more disciplined in four ways:
+
+- focus the first year on visibility, control, and minimum evidence
+- use the next two years to make approval, monitoring, and oversight repeatable
+- judge investment through full-system cost, not tool price alone
+- treat the five-year horizon as institution building rather than technology theater
+
+The practical change is to stop asking `what is our AI strategy?` as if it were a slide deck question and start asking `what capabilities will still be visible, governable, and useful five years from now?`
 
 ## Key Questions for Leaders
 
