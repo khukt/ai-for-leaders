@@ -1441,15 +1441,48 @@
 
 .trust-compass {
   display: grid;
-  grid-template-columns: minmax(0, 1.05fr) minmax(18rem, 0.95fr);
-  gap: 1rem;
+  grid-template-columns: minmax(0, 1.08fr) minmax(18rem, 0.92fr);
+  gap: 1.15rem;
   margin: 0 0 1rem;
+}
+
+.trust-compass__board {
+  display: grid;
+  gap: 0.9rem;
+  padding: 1rem;
+  border: 1px solid rgba(215, 223, 235, 0.92);
+  border-radius: 24px;
+  background:
+    radial-gradient(circle at top, rgba(11, 95, 255, 0.06), transparent 40%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.92) 0%, rgba(246, 250, 255, 0.94) 100%);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.85);
+}
+
+.trust-compass__board-header {
+  display: grid;
+  gap: 0.2rem;
+}
+
+.trust-compass__board-kicker {
+  color: #0b5fff;
+  font-size: 0.77rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.trust-compass__board-caption,
+.trust-compass__board-note {
+  margin: 0;
+  color: #52657d;
+  font-size: 0.95rem;
+  line-height: 1.45;
 }
 
 .trust-compass__ring {
   position: relative;
-  min-height: 34rem;
-  padding: 1.25rem;
+  min-height: 31rem;
+  padding: 1rem 1rem 0.5rem;
 }
 
 .trust-compass__ring::before,
@@ -1463,22 +1496,24 @@
 }
 
 .trust-compass__ring::before {
-  width: 70%;
+  width: 74%;
   aspect-ratio: 1 / 1;
   border: 1px solid #d7dfeb;
   border-radius: 999px;
   background:
-    radial-gradient(circle at center, rgba(235, 245, 255, 0.95) 0%, rgba(223, 244, 237, 0.65) 42%, rgba(255, 255, 255, 0) 72%);
-  box-shadow: inset 0 0 0 1px rgba(11, 95, 255, 0.04);
+    radial-gradient(circle at center, rgba(235, 245, 255, 0.96) 0%, rgba(223, 244, 237, 0.58) 46%, rgba(255, 255, 255, 0) 72%);
+  box-shadow:
+    inset 0 0 0 1px rgba(11, 95, 255, 0.04),
+    0 20px 40px rgba(18, 38, 63, 0.05);
 }
 
 .trust-compass__ring::after {
-  width: 62%;
+  width: 66%;
   aspect-ratio: 1 / 1;
   border-radius: 999px;
   background:
-    linear-gradient(180deg, transparent 0%, transparent 49.4%, rgba(11, 95, 255, 0.12) 49.4%, rgba(11, 95, 255, 0.12) 50.6%, transparent 50.6%, transparent 100%),
-    linear-gradient(90deg, transparent 0%, transparent 49.4%, rgba(11, 95, 255, 0.12) 49.4%, rgba(11, 95, 255, 0.12) 50.6%, transparent 50.6%, transparent 100%);
+    linear-gradient(180deg, transparent 0%, transparent 49.5%, rgba(11, 95, 255, 0.12) 49.5%, rgba(11, 95, 255, 0.12) 50.5%, transparent 50.5%, transparent 100%),
+    linear-gradient(90deg, transparent 0%, transparent 49.5%, rgba(11, 95, 255, 0.12) 49.5%, rgba(11, 95, 255, 0.12) 50.5%, transparent 50.5%, transparent 100%);
 }
 
 .trust-compass__point,
@@ -1496,9 +1531,9 @@
   align-items: center;
   gap: 0.45rem;
   min-width: 0;
-  width: 9rem;
-  min-height: 8.5rem;
-  padding: 0.95rem 0.9rem;
+  width: 8.65rem;
+  min-height: 7.6rem;
+  padding: 0.9rem 0.8rem;
   background: rgba(255, 255, 255, 0.92);
   color: #23415f;
   text-align: center;
@@ -1516,36 +1551,36 @@
 .trust-compass__point.is-active {
   border-color: #0b5fff;
   background: linear-gradient(180deg, #eff6ff 0%, #e3f4f2 100%);
-  box-shadow: 0 14px 28px rgba(11, 95, 255, 0.14);
+  box-shadow: 0 16px 30px rgba(11, 95, 255, 0.14);
 }
 
 .trust-compass__point--north {
   left: 50%;
-  top: 1.25rem;
+  top: 0.2rem;
   transform: translateX(-50%);
 }
 
 .trust-compass__point--west {
-  left: 1rem;
+  left: 0.2rem;
   top: 50%;
   transform: translateY(-50%);
 }
 
 .trust-compass__point--east {
-  right: 1rem;
+  right: 0.2rem;
   top: 50%;
   transform: translateY(-50%);
 }
 
 .trust-compass__point--south {
-  left: 24%;
-  bottom: 1rem;
+  left: 26%;
+  bottom: 0.3rem;
   transform: translateX(-50%);
 }
 
 .trust-compass__point--south-east {
-  right: 24%;
-  bottom: 1rem;
+  right: 26%;
+  bottom: 0.3rem;
   transform: translateX(50%);
 }
 
@@ -1594,12 +1629,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 11rem;
-  min-height: 11rem;
-  padding: 1.1rem 1rem;
+  width: 9.6rem;
+  min-height: 9.6rem;
+  padding: 1rem 0.95rem;
   border-radius: 999px;
   background: radial-gradient(circle at top, #ffffff 0%, #ebf5ff 50%, #dff4ed 100%);
-  box-shadow: 0 18px 38px rgba(18, 38, 63, 0.1);
+  box-shadow:
+    0 18px 38px rgba(18, 38, 63, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.75);
   text-align: center;
   z-index: 1;
 }
@@ -1617,26 +1654,40 @@
   display: block;
   margin-bottom: 0.25rem;
   color: #12263f;
-  font-size: 1.15rem;
+  font-size: 1.1rem;
 }
 
 .trust-compass__center p {
   margin: 0;
   color: #42526b;
-  font-size: 0.9rem;
-  line-height: 1.35;
-  max-width: 14ch;
+  font-size: 0.86rem;
+  line-height: 1.32;
+  max-width: 13ch;
 }
 
 .trust-compass__detail {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0.85rem;
+  align-content: start;
 }
 
 .trust-compass__detail-card {
-  padding: 0.95rem 1rem;
+  padding: 0.95rem 1rem 1rem;
   background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 10px 24px rgba(18, 38, 63, 0.05);
+}
+
+.trust-compass__detail-card--primary {
+  grid-column: 1 / -1;
+  background:
+    linear-gradient(180deg, rgba(239, 246, 255, 0.92) 0%, rgba(255, 255, 255, 0.96) 100%);
+  border-color: rgba(11, 95, 255, 0.22);
+}
+
+.trust-compass__detail-card--accent {
+  background:
+    linear-gradient(180deg, rgba(227, 244, 242, 0.9) 0%, rgba(255, 255, 255, 0.96) 100%);
 }
 
 .trust-compass__detail-label {
@@ -1653,6 +1704,7 @@
   margin: 0;
   color: #42526b;
   font-size: 0.95rem;
+  line-height: 1.5;
 }
 
 .taxonomy-diagram {
@@ -2451,6 +2503,10 @@
 }
 
 @media (max-width: 900px) {
+  .trust-compass__board {
+    padding: 0.9rem;
+  }
+
   .interactive-diagram__pretrain-flow {
     grid-template-columns: 1fr;
   }
@@ -2502,6 +2558,10 @@
   .trust-compass__center {
     border-radius: 20px;
     min-height: 9rem;
+  }
+
+  .trust-compass__detail-card--primary {
+    grid-column: auto;
   }
 
   .taxonomy-diagram__detail {

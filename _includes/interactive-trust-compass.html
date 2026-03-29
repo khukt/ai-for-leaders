@@ -9,43 +9,54 @@
     </div>
 
     <div class="trust-compass">
-      <div class="trust-compass__ring" role="group" aria-label="Trust Compass checks">
-        <button class="trust-compass__point trust-compass__point--north is-active" type="button" aria-pressed="true" data-trust-point="reliable">
-          <span class="trust-compass__point-icon" data-trust-point-icon="reliable" aria-hidden="true"></span>
-          <span class="trust-compass__point-label">Reliable</span>
-        </button>
-
-        <button class="trust-compass__point trust-compass__point--west" type="button" aria-pressed="false" data-trust-point="transparent">
-          <span class="trust-compass__point-icon" data-trust-point-icon="transparent" aria-hidden="true"></span>
-          <span class="trust-compass__point-label">Transparent</span>
-        </button>
-
-        <div class="trust-compass__center">
-          <span class="trust-compass__center-label">Ready For Live Use?</span>
-          <strong data-trust-selected-title>Reliable</strong>
-          <p data-trust-selected-summary>
-            The system should behave consistently enough for the real situations where people are expected to rely on it.
-          </p>
+      <div class="trust-compass__board">
+        <div class="trust-compass__board-header">
+          <span class="trust-compass__board-kicker">Executive Screen</span>
+          <span class="trust-compass__board-caption">Test each direction before treating live reliance as earned.</span>
         </div>
 
-        <button class="trust-compass__point trust-compass__point--east" type="button" aria-pressed="false" data-trust-point="safe">
-          <span class="trust-compass__point-icon" data-trust-point-icon="safe" aria-hidden="true"></span>
-          <span class="trust-compass__point-label">Safe</span>
-        </button>
+        <div class="trust-compass__ring" role="group" aria-label="Trust Compass checks">
+          <button class="trust-compass__point trust-compass__point--north is-active" type="button" aria-pressed="true" data-trust-point="reliable">
+            <span class="trust-compass__point-icon" data-trust-point-icon="reliable" aria-hidden="true"></span>
+            <span class="trust-compass__point-label">Reliable</span>
+          </button>
 
-        <button class="trust-compass__point trust-compass__point--south" type="button" aria-pressed="false" data-trust-point="fair">
-          <span class="trust-compass__point-icon" data-trust-point-icon="fair" aria-hidden="true"></span>
-          <span class="trust-compass__point-label">Fair</span>
-        </button>
+          <button class="trust-compass__point trust-compass__point--west" type="button" aria-pressed="false" data-trust-point="transparent">
+            <span class="trust-compass__point-icon" data-trust-point-icon="transparent" aria-hidden="true"></span>
+            <span class="trust-compass__point-label">Transparent</span>
+          </button>
 
-        <button class="trust-compass__point trust-compass__point--south-east" type="button" aria-pressed="false" data-trust-point="accountable">
-          <span class="trust-compass__point-icon" data-trust-point-icon="accountable" aria-hidden="true"></span>
-          <span class="trust-compass__point-label">Accountable</span>
-        </button>
+          <div class="trust-compass__center">
+            <span class="trust-compass__center-label">Ready For Live Use?</span>
+            <strong data-trust-selected-title>Reliable</strong>
+            <p data-trust-selected-summary>
+              The system should behave consistently enough for the real situations where people are expected to rely on it.
+            </p>
+          </div>
+
+          <button class="trust-compass__point trust-compass__point--east" type="button" aria-pressed="false" data-trust-point="safe">
+            <span class="trust-compass__point-icon" data-trust-point-icon="safe" aria-hidden="true"></span>
+            <span class="trust-compass__point-label">Safe</span>
+          </button>
+
+          <button class="trust-compass__point trust-compass__point--south" type="button" aria-pressed="false" data-trust-point="fair">
+            <span class="trust-compass__point-icon" data-trust-point-icon="fair" aria-hidden="true"></span>
+            <span class="trust-compass__point-label">Fair</span>
+          </button>
+
+          <button class="trust-compass__point trust-compass__point--south-east" type="button" aria-pressed="false" data-trust-point="accountable">
+            <span class="trust-compass__point-icon" data-trust-point-icon="accountable" aria-hidden="true"></span>
+            <span class="trust-compass__point-label">Accountable</span>
+          </button>
+        </div>
+
+        <p class="trust-compass__board-note">
+          The compass is strongest when it forces a pause: one weak direction should lower confidence in live reliance.
+        </p>
       </div>
 
       <div class="trust-compass__detail">
-        <div class="trust-compass__detail-card">
+        <div class="trust-compass__detail-card trust-compass__detail-card--primary">
           <span class="trust-compass__detail-label">Leadership Question</span>
           <p data-trust-question>
             Is the system dependable enough across the situations where we expect people to rely on it?
@@ -66,7 +77,7 @@
           </p>
         </div>
 
-        <div class="trust-compass__detail-card">
+        <div class="trust-compass__detail-card trust-compass__detail-card--accent">
           <span class="trust-compass__detail-label">Management Move</span>
           <p data-trust-management-move>
             Narrow the use case, raise the evidence bar, and avoid dependence until reliability is proven in the real workflow.
