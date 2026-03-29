@@ -24,7 +24,9 @@ The most useful way to read this part is through five forward-looking questions:
 ## Chapters
 
 - **Human-AI Collaboration and Autonomous Systems** focuses on authority design, reliance, and where human intervention must remain real.
+- **Managing Agentic Systems and AI Actions** introduces tool use, permissions, action boundaries, and supervision for AI that can actually do things.
 - **AI in Smart Industry and Critical Infrastructure** shows why operational, OT, and infrastructure environments require a different assurance standard.
+- **Sovereignty, Cross-Border Dependence, and Strategic Control** makes jurisdiction, concentration, and strategic dependence a direct leadership topic.
 - **Trust as a Competitive Advantage** explains why credibility, legibility, and accountable use can become strategic advantages.
 - **AI Across Leadership Contexts** shows why the right playbook depends on mandate, capacity, consequence, and dependency.
 - **The Executive Five-Year Agenda** brings these themes together into a practical sequence for capability building, investment discipline, and durable oversight.

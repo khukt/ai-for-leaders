@@ -168,4 +168,4 @@ The practical change is to stop talking about `AI use` as one category and start
 
 ---
 
-[← Leading Organizational Transformation]({{ site.baseurl }}/book/03-04-leading-organizational-transformation/) | [Next: AI in Smart Industry and Critical Infrastructure →]({{ site.baseurl }}/book/04-02-ai-in-smart-industry-and-critical-infrastructure/)
+[← Leading Organizational Transformation]({{ site.baseurl }}/book/03-07-leading-organizational-transformation/) | [Next: Managing Agentic Systems and AI Actions →]({{ site.baseurl }}/book/04-02-managing-agentic-systems-and-ai-actions/)

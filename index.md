@@ -83,25 +83,31 @@ Feedback, suggestions, and contributions are welcome.
 11. [**Establishing an AI Governance Framework**]({{ site.baseurl }}/book/10-establishing-an-ai-governance-framework/)
 12. [**Managing AI Risk**]({{ site.baseurl }}/book/11-managing-ai-risk/)
 13. [**Compliance and Audit Readiness**]({{ site.baseurl }}/book/12-compliance-and-audit-readiness/)
-14. [**Leading Organizational Transformation**]({{ site.baseurl }}/book/13-leading-organizational-transformation/)
+14. [**Information Governance, Privacy, and IP in AI Use**]({{ site.baseurl }}/book/03-04-information-governance-privacy-and-ip-in-ai-use/)
+15. [**AI Security and Operational Resilience**]({{ site.baseurl }}/book/03-05-ai-security-and-operational-resilience/)
+16. [**Crisis Leadership for AI Failures**]({{ site.baseurl }}/book/03-06-crisis-leadership-for-ai-failures/)
+17. [**Leading Organizational Transformation**]({{ site.baseurl }}/book/13-leading-organizational-transformation/)
 
 ## Part IV — The Future of AI-Driven Organizations
 
-15. [**Human-AI Collaboration and Autonomous Systems**]({{ site.baseurl }}/book/14-human-ai-collaboration-and-autonomous-systems/)
-16. [**AI in Smart Industry and Critical Infrastructure**]({{ site.baseurl }}/book/15-ai-in-smart-industry-and-critical-infrastructure/)
-17. [**Trust as a Competitive Advantage**]({{ site.baseurl }}/book/16-trust-as-a-competitive-advantage/)
-18. [**AI Across Leadership Contexts**]({{ site.baseurl }}/book/17-ai-across-leadership-contexts/)
-19. [**The Executive Five-Year Agenda**]({{ site.baseurl }}/book/17-the-executive-five-year-agenda/)
+18. [**Human-AI Collaboration and Autonomous Systems**]({{ site.baseurl }}/book/14-human-ai-collaboration-and-autonomous-systems/)
+19. [**Managing Agentic Systems and AI Actions**]({{ site.baseurl }}/book/04-02-managing-agentic-systems-and-ai-actions/)
+20. [**AI in Smart Industry and Critical Infrastructure**]({{ site.baseurl }}/book/15-ai-in-smart-industry-and-critical-infrastructure/)
+21. [**Sovereignty, Cross-Border Dependence, and Strategic Control**]({{ site.baseurl }}/book/04-04-sovereignty-cross-border-dependence-and-strategic-control/)
+22. [**Trust as a Competitive Advantage**]({{ site.baseurl }}/book/16-trust-as-a-competitive-advantage/)
+23. [**AI Across Leadership Contexts**]({{ site.baseurl }}/book/17-ai-across-leadership-contexts/)
+24. [**The Executive Five-Year Agenda**]({{ site.baseurl }}/book/17-the-executive-five-year-agenda/)
 
 ## Appendices
 
-20. [**Appendix A: AI Governance Checklist for Boards**]({{ site.baseurl }}/book/18-appendix-ai-governance-checklist-for-boards/)
-21. [**Appendix B: AI Risk Assessment Template**]({{ site.baseurl }}/book/19-appendix-ai-risk-assessment-template/)
-22. [**Appendix C: Vendor Evaluation Framework**]({{ site.baseurl }}/book/20-appendix-vendor-evaluation-framework/)
-23. [**Appendix D: Regulatory Comparison Table**]({{ site.baseurl }}/book/21-appendix-regulatory-comparison-table/)
-24. [**Appendix E: Glossary of Key Terms**]({{ site.baseurl }}/book/22-appendix-glossary-of-key-terms/)
-25. [**Appendix F: AI Research Governance Checklist**]({{ site.baseurl }}/book/23-appendix-ai-research-governance-checklist/)
-26. [**Bibliography**]({{ site.baseurl }}/book/23-bibliography/)
+25. [**Appendix A: AI Governance Checklist for Boards**]({{ site.baseurl }}/book/18-appendix-ai-governance-checklist-for-boards/)
+26. [**Appendix B: AI Risk Assessment Template**]({{ site.baseurl }}/book/19-appendix-ai-risk-assessment-template/)
+27. [**Appendix C: Vendor Evaluation Framework**]({{ site.baseurl }}/book/20-appendix-vendor-evaluation-framework/)
+28. [**Appendix D: Regulatory Comparison Table**]({{ site.baseurl }}/book/21-appendix-regulatory-comparison-table/)
+29. [**Appendix E: Glossary of Key Terms**]({{ site.baseurl }}/book/22-appendix-glossary-of-key-terms/)
+30. [**Appendix F: AI Research Governance Checklist**]({{ site.baseurl }}/book/23-appendix-ai-research-governance-checklist/)
+31. [**Appendix G: Executive AI Dashboard and Metrics**]({{ site.baseurl }}/book/05-07-appendix-executive-ai-dashboard-and-metrics/)
+32. [**Bibliography**]({{ site.baseurl }}/book/23-bibliography/)
 
 ---
 

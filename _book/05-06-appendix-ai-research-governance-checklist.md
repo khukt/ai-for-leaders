@@ -101,4 +101,4 @@ That is the difference between AI-enabled research and research that quietly wea
 
 ---
 
-[← Appendix E]({{ site.baseurl }}/book/05-05-appendix-glossary-of-key-terms/) | [Next: Bibliography →]({{ site.baseurl }}/book/05-07-bibliography/)
+[← Appendix E]({{ site.baseurl }}/book/05-05-appendix-glossary-of-key-terms/) | [Next: Appendix G →]({{ site.baseurl }}/book/05-07-appendix-executive-ai-dashboard-and-metrics/)

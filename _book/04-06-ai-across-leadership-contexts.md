@@ -3,8 +3,9 @@ layout: default
 title: "AI Across Leadership Contexts"
 redirect_from:
   - /book/17-ai-across-leadership-contexts/
+  - /book/04-04-ai-across-leadership-contexts/
 parent: "Part IV: Future Organizations"
-nav_order: 4
+nav_order: 6
 ---
 
 # AI Across Leadership Contexts
@@ -166,4 +167,4 @@ The practical change is to stop importing generic AI advice wholesale and start 
 
 ---
 
-[← Trust as a Competitive Advantage]({{ site.baseurl }}/book/04-03-trust-as-a-competitive-advantage/) | [Next: The Executive Five-Year Agenda →]({{ site.baseurl }}/book/04-05-the-executive-five-year-agenda/)
+[← Trust as a Competitive Advantage]({{ site.baseurl }}/book/04-05-trust-as-a-competitive-advantage/) | [Next: The Executive Five-Year Agenda →]({{ site.baseurl }}/book/04-07-the-executive-five-year-agenda/)

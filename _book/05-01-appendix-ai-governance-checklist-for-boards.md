@@ -45,4 +45,4 @@ For material AI use, boards should usually expect:
 
 ---
 
-[← The Executive Five-Year Agenda]({{ site.baseurl }}/book/04-05-the-executive-five-year-agenda/) | [Next: Appendix B →]({{ site.baseurl }}/book/05-02-appendix-ai-risk-assessment-template/)
+[← The Executive Five-Year Agenda]({{ site.baseurl }}/book/04-07-the-executive-five-year-agenda/) | [Next: Appendix B →]({{ site.baseurl }}/book/05-02-appendix-ai-risk-assessment-template/)

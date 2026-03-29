@@ -176,4 +176,4 @@ The practical change is to stop asking `do we have an AI policy?` and start aski
 
 ---
 
-[← Managing AI Risk]({{ site.baseurl }}/book/03-02-managing-ai-risk/) | [Next: Leading Organizational Transformation →]({{ site.baseurl }}/book/03-04-leading-organizational-transformation/)
+[← Managing AI Risk]({{ site.baseurl }}/book/03-02-managing-ai-risk/) | [Next: Information Governance, Privacy, and IP in AI Use →]({{ site.baseurl }}/book/03-04-information-governance-privacy-and-ip-in-ai-use/)

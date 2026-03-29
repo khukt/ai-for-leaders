@@ -3,8 +3,9 @@ layout: default
 title: "The Executive Five-Year Agenda"
 redirect_from:
   - /book/17-the-executive-five-year-agenda/
+  - /book/04-05-the-executive-five-year-agenda/
 parent: "Part IV: Future Organizations"
-nav_order: 5
+nav_order: 7
 ---
 
 # The Executive Five-Year Agenda
@@ -152,4 +153,4 @@ The practical change is to stop asking `what is our AI strategy?` as if it were 
 
 ---
 
-[← AI Across Leadership Contexts]({{ site.baseurl }}/book/04-04-ai-across-leadership-contexts/) | [Next: Appendix A →]({{ site.baseurl }}/book/05-01-appendix-ai-governance-checklist-for-boards/)
+[← AI Across Leadership Contexts]({{ site.baseurl }}/book/04-06-ai-across-leadership-contexts/) | [Next: Appendix A →]({{ site.baseurl }}/book/05-01-appendix-ai-governance-checklist-for-boards/)

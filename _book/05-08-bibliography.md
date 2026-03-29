@@ -3,8 +3,9 @@ layout: default
 title: "Bibliography"
 redirect_from:
   - /book/23-bibliography/
+  - /book/05-07-bibliography/
 parent: "Appendices & References"
-nav_order: 7
+nav_order: 8
 ---
 
 # Bibliography
@@ -405,6 +406,18 @@ This bibliography consolidates the main external sources referenced across the b
 
 [95] K. Siau and W. Wang, “Building trust in artificial intelligence, machine learning, and robotics,” *Cutter Business Technology Journal*, vol. 31, no. 2, pp. 47-53, 2018. [Online]. Available: https://aisel.aisnet.org/cutter_itjournal/31/2/6/. [Accessed: Mar. 27, 2026].
 
+### <a id="nist-privacy-framework"></a>NIST Privacy Framework
+
+[96] K. R. Boeckl and N. B. Lefkovitz, “NIST Privacy Framework: A Tool for Improving Privacy Through Enterprise Risk Management, Version 1.0,” National Institute of Standards and Technology, CSWP 01162020, Jan. 16, 2020. [Online]. Available: https://doi.org/10.6028/NIST.CSWP.01162020. [Accessed: Mar. 29, 2026].
+
+### <a id="us-copyright-office-ai"></a>Copyright and Artificial Intelligence
+
+[97] U.S. Copyright Office, “Copyright and Artificial Intelligence,” 2025. [Online]. Available: https://www.copyright.gov/ai/. [Accessed: Mar. 29, 2026].
+
+### <a id="edpb-opinion-ai-models"></a>EDPB Opinion 28/2024 on AI Models
+
+[98] European Data Protection Board, “Opinion 28/2024 on certain data protection aspects related to the processing of personal data in the context of AI models,” Dec. 18, 2024. [Online]. Available: https://www.edpb.europa.eu/our-work-tools/our-documents/opinion-board-art-64/opinion-282024-certain-data-protection-aspects_en. [Accessed: Mar. 29, 2026].
+
 ## Notes on Use
 
 - This book is written for leadership audiences and uses these materials as interpretive anchors rather than as a substitute for legal advice.
@@ -412,4 +425,4 @@ This bibliography consolidates the main external sources referenced across the b
 
 ---
 
-[← Appendix F]({{ site.baseurl }}/book/05-06-appendix-ai-research-governance-checklist/)
+[← Appendix G]({{ site.baseurl }}/book/05-07-appendix-executive-ai-dashboard-and-metrics/)

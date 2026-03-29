@@ -3,8 +3,9 @@ layout: default
 title: "Trust as a Competitive Advantage"
 redirect_from:
   - /book/16-trust-as-a-competitive-advantage/
+  - /book/04-03-trust-as-a-competitive-advantage/
 parent: "Part IV: Future Organizations"
-nav_order: 3
+nav_order: 5
 ---
 
 # Trust as a Competitive Advantage
@@ -157,4 +158,4 @@ The practical change is to stop asking only `can this system perform?` and start
 
 ---
 
-[← AI in Smart Industry and Critical Infrastructure]({{ site.baseurl }}/book/04-02-ai-in-smart-industry-and-critical-infrastructure/) | [Next: AI Across Leadership Contexts →]({{ site.baseurl }}/book/04-04-ai-across-leadership-contexts/)
+[← Sovereignty, Cross-Border Dependence, and Strategic Control]({{ site.baseurl }}/book/04-04-sovereignty-cross-border-dependence-and-strategic-control/) | [Next: AI Across Leadership Contexts →]({{ site.baseurl }}/book/04-06-ai-across-leadership-contexts/)

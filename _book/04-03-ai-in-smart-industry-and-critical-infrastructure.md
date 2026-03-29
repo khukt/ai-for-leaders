@@ -3,8 +3,9 @@ layout: default
 title: "AI in Smart Industry and Critical Infrastructure"
 redirect_from:
   - /book/15-ai-in-smart-industry-and-critical-infrastructure/
+  - /book/04-02-ai-in-smart-industry-and-critical-infrastructure/
 parent: "Part IV: Future Organizations"
-nav_order: 2
+nav_order: 3
 ---
 
 # AI in Smart Industry and Critical Infrastructure
@@ -178,4 +179,4 @@ The practical change is to stop treating operational AI as ordinary digital tran
 
 ---
 
-[← Human-AI Collaboration and Autonomous Systems]({{ site.baseurl }}/book/04-01-human-ai-collaboration-and-autonomous-systems/) | [Next: Trust as a Competitive Advantage →]({{ site.baseurl }}/book/04-03-trust-as-a-competitive-advantage/)
+[← Managing Agentic Systems and AI Actions]({{ site.baseurl }}/book/04-02-managing-agentic-systems-and-ai-actions/) | [Next: Sovereignty, Cross-Border Dependence, and Strategic Control →]({{ site.baseurl }}/book/04-04-sovereignty-cross-border-dependence-and-strategic-control/)

@@ -18,6 +18,8 @@ This section contains practical board and management tools, reference material, 
 - Appendix C: Vendor Evaluation Framework
 - Appendix D: Regulatory Comparison Table
 - Appendix E: Glossary of Key Terms
+- Appendix F: AI Research Governance Checklist
+- Appendix G: Executive AI Dashboard and Metrics
 - Bibliography
 
 ---

@@ -3,8 +3,9 @@ layout: default
 title: "Leading Organizational Transformation"
 redirect_from:
   - /book/13-leading-organizational-transformation/
+  - /book/03-04-leading-organizational-transformation/
 parent: "Part III: Governance, Risk & Leadership"
-nav_order: 4
+nav_order: 7
 ---
 
 # Leading Organizational Transformation
@@ -171,4 +172,4 @@ The practical change is to stop treating organisational transformation as the si
 
 ---
 
-[← Compliance and Audit Readiness]({{ site.baseurl }}/book/03-03-compliance-and-audit-readiness/) | [Next: Human-AI Collaboration and Autonomous Systems →]({{ site.baseurl }}/book/04-01-human-ai-collaboration-and-autonomous-systems/)
+[← Crisis Leadership for AI Failures]({{ site.baseurl }}/book/03-06-crisis-leadership-for-ai-failures/) | [Next: Human-AI Collaboration and Autonomous Systems →]({{ site.baseurl }}/book/04-01-human-ai-collaboration-and-autonomous-systems/)
