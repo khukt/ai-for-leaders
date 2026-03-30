@@ -244,16 +244,6 @@
   box-shadow: 0 20px 40px rgba(18, 38, 63, 0.08);
 }
 
-.interactive-diagram--ai-act-timeline .interactive-diagram__app {
-  border: 1px solid #d7dfeb;
-  border-radius: 22px;
-  padding: 1.5rem;
-  background:
-    radial-gradient(circle at top left, rgba(11, 95, 255, 0.08), transparent 24%),
-    radial-gradient(circle at bottom right, rgba(14, 165, 140, 0.08), transparent 28%),
-    linear-gradient(180deg, #fcfdff 0%, #f4f7fc 100%);
-  box-shadow: 0 20px 40px rgba(18, 38, 63, 0.08);
-}
 
 .interactive-diagram--legal-exposure .interactive-diagram__app {
   border: 1px solid #d7dfeb;
@@ -2074,131 +2064,6 @@
   font-size: 0.92rem;
 }
 
-.ai-act-timeline {
-  display: grid;
-  gap: 1rem;
-  margin: 0 0 1rem;
-}
-
-.ai-act-timeline__controls {
-  display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
-  gap: 0.8rem;
-  position: relative;
-}
-
-.ai-act-timeline__controls::before {
-  content: "";
-  position: absolute;
-  left: 3.2rem;
-  right: 3.2rem;
-  top: 2.55rem;
-  height: 2px;
-  background: linear-gradient(90deg, rgba(11, 95, 255, 0.14) 0%, rgba(11, 95, 255, 0.28) 50%, rgba(11, 95, 255, 0.14) 100%);
-  pointer-events: none;
-}
-
-.ai-act-timeline__milestone,
-.ai-act-timeline__detail,
-.ai-act-timeline__fact-card {
-  border: 1px solid #d7dfeb;
-  border-radius: 20px;
-  background: rgba(255, 255, 255, 0.92);
-}
-
-.ai-act-timeline__milestone {
-  position: relative;
-  display: grid;
-  gap: 0.35rem;
-  align-content: start;
-  min-height: 10.4rem;
-  padding: 0.95rem 0.95rem 1rem;
-  color: #23415f;
-  text-align: left;
-  cursor: pointer;
-  transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
-  z-index: 1;
-}
-
-.ai-act-timeline__milestone::before {
-  content: "";
-  width: 0.78rem;
-  height: 0.78rem;
-  margin-bottom: 0.3rem;
-  border-radius: 999px;
-  background: #bfd4ff;
-  box-shadow: 0 0 0 4px rgba(11, 95, 255, 0.08);
-}
-
-.ai-act-timeline__milestone:hover,
-.ai-act-timeline__milestone:focus-visible {
-  border-color: #0b5fff;
-  outline: none;
-  transform: translateY(-1px);
-}
-
-.ai-act-timeline__milestone.is-active {
-  border-color: #0b5fff;
-  background: linear-gradient(180deg, #eff5ff 0%, #eef9f4 100%);
-  box-shadow: 0 14px 28px rgba(11, 95, 255, 0.14);
-}
-
-.ai-act-timeline__milestone.is-active::before {
-  background: #0b5fff;
-  box-shadow: 0 0 0 5px rgba(11, 95, 255, 0.14);
-}
-
-.ai-act-timeline__date,
-.ai-act-timeline__eyebrow,
-.ai-act-timeline__fact-label {
-  display: inline-block;
-  color: #0b5fff;
-  font-size: 0.78rem;
-  font-weight: 800;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
-.ai-act-timeline__milestone strong {
-  color: #12263f;
-  font-size: 1rem;
-  line-height: 1.2;
-}
-
-.ai-act-timeline__milestone p,
-.ai-act-timeline__summary,
-.ai-act-timeline__fact-card p {
-  margin: 0;
-  color: #42526b;
-  font-size: 0.95rem;
-  line-height: 1.45;
-}
-
-.ai-act-timeline__detail {
-  padding: 1rem 1.05rem;
-}
-
-.ai-act-timeline__headline {
-  margin-bottom: 0.95rem;
-}
-
-.ai-act-timeline__title {
-  margin: 0.3rem 0 0.45rem;
-  color: #12263f;
-  font-size: 1.35rem;
-  line-height: 1.2;
-}
-
-.ai-act-timeline__facts {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
-  gap: 0.85rem;
-}
-
-.ai-act-timeline__fact-card {
-  padding: 0.9rem 0.95rem;
-}
-
 .learning-diagram {
   margin: 0 0 1rem;
 }
@@ -2544,14 +2409,6 @@
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .ai-act-timeline__controls {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .ai-act-timeline__controls::before {
-    display: none;
-  }
-
   .ai-value-diagram__controls,
   .ai-value-diagram__facts,
   .ai-value-fallback {
@@ -2579,10 +2436,6 @@
   .legal-exposure-diagram__controls,
   .legal-exposure-diagram__facts,
   .legal-exposure-fallback {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .ai-act-timeline__facts {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -2677,8 +2530,6 @@
   .global-shift-diagram__facts,
   .eu-ai-act-diagram__facts,
   .eu-ai-act-diagram__timeline-row,
-  .ai-act-timeline__controls,
-  .ai-act-timeline__facts,
   .ai-value-diagram__controls,
   .ai-value-diagram__facts,
   .ai-value-fallback,
