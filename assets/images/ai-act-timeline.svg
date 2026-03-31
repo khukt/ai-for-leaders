@@ -1,0 +1,216 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 980" role="img" aria-labelledby="title desc">
+  <title id="title">Comprehensive EU AI Act Implementation Timeline</title>
+  <desc id="desc">A static timeline chart styled after a Plotly figure, showing 16 AI Act milestones from January 2024 to August 2031, with colored phase backgrounds for Setup, Implementation, and Enforcement.</desc>
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .plot { fill: #f8f8f8; stroke: #2f2f2f; stroke-width: 2; }
+      .phase-setup { fill: rgba(173,216,230,0.24); }
+      .phase-impl { fill: rgba(144,238,144,0.22); }
+      .phase-enf { fill: rgba(255,160,122,0.22); }
+      .grid { stroke: #bdc3c7; stroke-width: 1.4; stroke-dasharray: 6 6; }
+      .axis { stroke: #2f2f2f; stroke-width: 2; }
+      .line { fill: none; stroke: #27ae60; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+      .point { fill: #2ecc71; stroke: #ffffff; stroke-width: 4; }
+      .legend-label { font: 600 20px Arial, sans-serif; fill: #34495e; }
+      .title { font: 700 30px Arial, sans-serif; fill: #2c3e50; }
+      .axis-label { font: 600 18px Arial, sans-serif; fill: #34495e; }
+      .tick { font: 400 15px Arial, sans-serif; fill: #34495e; }
+      .y-tick { font: 400 18px Arial, sans-serif; fill: #2f2f2f; }
+      .anno-box { fill: rgba(255,255,255,0.92); stroke: #a9a9a9; stroke-width: 1; rx: 6; ry: 6; }
+      .anno-text { font: 400 15px Arial, sans-serif; fill: #36454f; }
+      .legend-dot { stroke: none; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="980" class="bg"/>
+  <text x="800" y="54" text-anchor="middle" class="title">Comprehensive EU AI Act Implementation Timeline</text>
+
+  <circle cx="585" cy="86" r="9" fill="rgba(173,216,230,1)" class="legend-dot"/>
+  <text x="603" y="92" class="legend-label">Setup</text>
+  <circle cx="760" cy="86" r="9" fill="rgba(144,238,144,1)" class="legend-dot"/>
+  <text x="778" y="92" class="legend-label">Implementation</text>
+  <circle cx="1025" cy="86" r="9" fill="rgba(255,160,122,1)" class="legend-dot"/>
+  <text x="1043" y="92" class="legend-label">Enforcement</text>
+
+  <rect x="80" y="120" width="1340" height="760" class="plot"/>
+
+  <rect x="145" y="120" width="210" height="760" class="phase-setup"/>
+  <rect x="390" y="120" width="270" height="760" class="phase-impl"/>
+  <rect x="1165" y="120" width="140" height="760" class="phase-enf"/>
+
+  <g>
+    <line x1="105" y1="120" x2="105" y2="880" class="axis"/>
+    <line x1="80" y1="880" x2="1420" y2="880" class="axis"/>
+  </g>
+
+  <g>
+    <line x1="105" y1="820" x2="1420" y2="820" class="grid"/>
+    <line x1="105" y1="730" x2="1420" y2="730" class="grid"/>
+    <line x1="105" y1="640" x2="1420" y2="640" class="grid"/>
+    <line x1="105" y1="550" x2="1420" y2="550" class="grid"/>
+    <line x1="105" y1="460" x2="1420" y2="460" class="grid"/>
+    <line x1="105" y1="370" x2="1420" y2="370" class="grid"/>
+    <line x1="105" y1="280" x2="1420" y2="280" class="grid"/>
+    <line x1="105" y1="190" x2="1420" y2="190" class="grid"/>
+  </g>
+
+  <g>
+    <text x="64" y="826" class="y-tick">0</text>
+    <text x="64" y="736" class="y-tick">2</text>
+    <text x="64" y="646" class="y-tick">4</text>
+    <text x="64" y="556" class="y-tick">6</text>
+    <text x="64" y="466" class="y-tick">8</text>
+    <text x="56" y="376" class="y-tick">10</text>
+    <text x="56" y="286" class="y-tick">12</text>
+    <text x="56" y="196" class="y-tick">14</text>
+  </g>
+
+  <g>
+    <line x1="105" y1="120" x2="105" y2="880" class="grid"/>
+    <line x1="145" y1="120" x2="145" y2="880" class="grid"/>
+    <line x1="185" y1="120" x2="185" y2="880" class="grid"/>
+    <line x1="225" y1="120" x2="225" y2="880" class="grid"/>
+    <line x1="265" y1="120" x2="265" y2="880" class="grid"/>
+    <line x1="305" y1="120" x2="305" y2="880" class="grid"/>
+    <line x1="345" y1="120" x2="345" y2="880" class="grid"/>
+    <line x1="385" y1="120" x2="385" y2="880" class="grid"/>
+    <line x1="425" y1="120" x2="425" y2="880" class="grid"/>
+    <line x1="465" y1="120" x2="465" y2="880" class="grid"/>
+    <line x1="505" y1="120" x2="505" y2="880" class="grid"/>
+    <line x1="545" y1="120" x2="545" y2="880" class="grid"/>
+    <line x1="585" y1="120" x2="585" y2="880" class="grid"/>
+    <line x1="625" y1="120" x2="625" y2="880" class="grid"/>
+    <line x1="665" y1="120" x2="665" y2="880" class="grid"/>
+    <line x1="705" y1="120" x2="705" y2="880" class="grid"/>
+    <line x1="745" y1="120" x2="745" y2="880" class="grid"/>
+    <line x1="785" y1="120" x2="785" y2="880" class="grid"/>
+    <line x1="825" y1="120" x2="825" y2="880" class="grid"/>
+    <line x1="865" y1="120" x2="865" y2="880" class="grid"/>
+    <line x1="905" y1="120" x2="905" y2="880" class="grid"/>
+    <line x1="945" y1="120" x2="945" y2="880" class="grid"/>
+    <line x1="985" y1="120" x2="985" y2="880" class="grid"/>
+    <line x1="1025" y1="120" x2="1025" y2="880" class="grid"/>
+    <line x1="1065" y1="120" x2="1065" y2="880" class="grid"/>
+    <line x1="1105" y1="120" x2="1105" y2="880" class="grid"/>
+    <line x1="1145" y1="120" x2="1145" y2="880" class="grid"/>
+    <line x1="1185" y1="120" x2="1185" y2="880" class="grid"/>
+    <line x1="1225" y1="120" x2="1225" y2="880" class="grid"/>
+    <line x1="1265" y1="120" x2="1265" y2="880" class="grid"/>
+    <line x1="1305" y1="120" x2="1305" y2="880" class="grid"/>
+    <line x1="1345" y1="120" x2="1345" y2="880" class="grid"/>
+    <line x1="1385" y1="120" x2="1385" y2="880" class="grid"/>
+  </g>
+
+  <polyline class="line" points="145,820 208,775 220,730 230,685 280,640 322,595 365,550 405,505 487,460 568,415 568,370 649,325 649,280 1138,235 1205,190 1300,145"/>
+
+  <g>
+    <circle cx="145" cy="820" r="10" class="point"/>
+    <circle cx="208" cy="775" r="10" class="point"/>
+    <circle cx="220" cy="730" r="10" class="point"/>
+    <circle cx="230" cy="685" r="10" class="point"/>
+    <circle cx="280" cy="640" r="10" class="point"/>
+    <circle cx="322" cy="595" r="10" class="point"/>
+    <circle cx="365" cy="550" r="10" class="point"/>
+    <circle cx="405" cy="505" r="10" class="point"/>
+    <circle cx="487" cy="460" r="10" class="point"/>
+    <circle cx="568" cy="415" r="10" class="point"/>
+    <circle cx="568" cy="370" r="10" class="point"/>
+    <circle cx="649" cy="325" r="10" class="point"/>
+    <circle cx="649" cy="280" r="10" class="point"/>
+    <circle cx="1138" cy="235" r="10" class="point"/>
+    <circle cx="1205" cy="190" r="10" class="point"/>
+    <circle cx="1300" cy="145" r="10" class="point"/>
+  </g>
+
+  <g>
+    <rect x="153" y="804" width="172" height="26" class="anno-box"/>
+    <text x="161" y="822" class="anno-text">AI Office Established</text>
+
+    <rect x="216" y="759" width="123" height="26" class="anno-box"/>
+    <text x="224" y="777" class="anno-text">AI Act Adopted</text>
+
+    <rect x="228" y="714" width="132" height="26" class="anno-box"/>
+    <text x="236" y="732" class="anno-text">AI Act Published</text>
+
+    <rect x="238" y="669" width="210" height="26" class="anno-box"/>
+    <text x="246" y="687" class="anno-text">Delegation of Power Begins</text>
+
+    <rect x="288" y="624" width="232" height="26" class="anno-box"/>
+    <text x="296" y="642" class="anno-text">Member States List Authorities</text>
+
+    <rect x="330" y="579" width="168" height="26" class="anno-box"/>
+    <text x="338" y="597" class="anno-text">Chapters I &amp; II Apply</text>
+
+    <rect x="373" y="534" width="206" height="26" class="anno-box"/>
+    <text x="381" y="552" class="anno-text">AI Office Codes of Practice</text>
+
+    <rect x="413" y="489" width="364" height="26" class="anno-box"/>
+    <text x="421" y="507" class="anno-text">General-Purpose AI Models Compliance Starts</text>
+
+    <rect x="495" y="444" width="278" height="26" class="anno-box"/>
+    <text x="503" y="462" class="anno-text">Guidelines on High-Risk AI Cases</text>
+
+    <rect x="576" y="399" width="306" height="26" class="anno-box"/>
+    <text x="584" y="417" class="anno-text">AI Regulatory Sandbox Operational</text>
+
+    <rect x="576" y="354" width="170" height="26" class="anno-box"/>
+    <text x="584" y="372" class="anno-text">AI Act Fully Applies</text>
+
+    <rect x="657" y="309" width="170" height="26" class="anno-box"/>
+    <text x="665" y="327" class="anno-text">GPAI Full Compliance</text>
+
+    <rect x="657" y="264" width="306" height="26" class="anno-box"/>
+    <text x="665" y="282" class="anno-text">High-Risk AI Systems Compliance</text>
+
+    <rect x="1146" y="219" width="274" height="26" class="anno-box"/>
+    <text x="1154" y="237" class="anno-text">Public Authorities AI Compliance</text>
+
+    <rect x="1213" y="174" width="388" height="26" class="anno-box"/>
+    <text x="1221" y="192" class="anno-text">Final Compliance for Large-Scale IT Systems</text>
+
+    <rect x="1308" y="129" width="292" height="26" class="anno-box"/>
+    <text x="1316" y="147" class="anno-text">Commission AI Regulation Review</text>
+  </g>
+
+  <g>
+    <text x="58" y="533" transform="rotate(-90 58 533)" class="axis-label">Milestone</text>
+    <text x="748" y="943" class="axis-label">Date</text>
+  </g>
+
+  <g>
+    <text x="66" y="925" transform="rotate(-45 66 925)" class="tick">Nov 2023</text>
+    <text x="105" y="925" transform="rotate(-45 105 925)" class="tick">Feb 2024</text>
+    <text x="145" y="925" transform="rotate(-45 145 925)" class="tick">May 2024</text>
+    <text x="185" y="925" transform="rotate(-45 185 925)" class="tick">Aug 2024</text>
+    <text x="225" y="925" transform="rotate(-45 225 925)" class="tick">Nov 2024</text>
+    <text x="265" y="925" transform="rotate(-45 265 925)" class="tick">Feb 2025</text>
+    <text x="305" y="925" transform="rotate(-45 305 925)" class="tick">May 2025</text>
+    <text x="345" y="925" transform="rotate(-45 345 925)" class="tick">Aug 2025</text>
+    <text x="385" y="925" transform="rotate(-45 385 925)" class="tick">Nov 2025</text>
+    <text x="425" y="925" transform="rotate(-45 425 925)" class="tick">Feb 2026</text>
+    <text x="465" y="925" transform="rotate(-45 465 925)" class="tick">May 2026</text>
+    <text x="505" y="925" transform="rotate(-45 505 925)" class="tick">Aug 2026</text>
+    <text x="545" y="925" transform="rotate(-45 545 925)" class="tick">Nov 2026</text>
+    <text x="585" y="925" transform="rotate(-45 585 925)" class="tick">Feb 2027</text>
+    <text x="625" y="925" transform="rotate(-45 625 925)" class="tick">May 2027</text>
+    <text x="665" y="925" transform="rotate(-45 665 925)" class="tick">Aug 2027</text>
+    <text x="705" y="925" transform="rotate(-45 705 925)" class="tick">Nov 2027</text>
+    <text x="745" y="925" transform="rotate(-45 745 925)" class="tick">Feb 2028</text>
+    <text x="785" y="925" transform="rotate(-45 785 925)" class="tick">May 2028</text>
+    <text x="825" y="925" transform="rotate(-45 825 925)" class="tick">Aug 2028</text>
+    <text x="865" y="925" transform="rotate(-45 865 925)" class="tick">Nov 2028</text>
+    <text x="905" y="925" transform="rotate(-45 905 925)" class="tick">Feb 2029</text>
+    <text x="945" y="925" transform="rotate(-45 945 925)" class="tick">May 2029</text>
+    <text x="985" y="925" transform="rotate(-45 985 925)" class="tick">Aug 2029</text>
+    <text x="1025" y="925" transform="rotate(-45 1025 925)" class="tick">Nov 2029</text>
+    <text x="1065" y="925" transform="rotate(-45 1065 925)" class="tick">Feb 2030</text>
+    <text x="1105" y="925" transform="rotate(-45 1105 925)" class="tick">May 2030</text>
+    <text x="1145" y="925" transform="rotate(-45 1145 925)" class="tick">Aug 2030</text>
+    <text x="1185" y="925" transform="rotate(-45 1185 925)" class="tick">Nov 2030</text>
+    <text x="1225" y="925" transform="rotate(-45 1225 925)" class="tick">Feb 2031</text>
+    <text x="1265" y="925" transform="rotate(-45 1265 925)" class="tick">May 2031</text>
+    <text x="1305" y="925" transform="rotate(-45 1305 925)" class="tick">Aug 2031</text>
+    <text x="1345" y="925" transform="rotate(-45 1345 925)" class="tick">Nov 2031</text>
+  </g>
+</svg>

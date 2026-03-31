@@ -63,7 +63,7 @@ The Act categorises AI systems by risk level:
 
 The timetable is phased, and the dates matter. The AI Act entered into force on **August 1, 2024**. Prohibited practices and AI literacy obligations started to apply on **February 2, 2025**. Governance rules and obligations for general-purpose AI models became applicable on **August 2, 2025**. The Act becomes fully applicable on **August 2, 2026**, with some high-risk systems embedded in regulated products following a longer timetable to **August 2, 2027**.[4], [5], [42]
 
-![Detailed AI Act timeline showing the main milestones from 2024 to 2031]({{ site.baseurl }}/assets/images/ai-act-timeline.png)
+![Detailed AI Act timeline showing the main milestones from 2024 to 2031]({{ site.baseurl }}/assets/images/ai-act-timeline.svg)
 
 *Figure: a plotted timeline of major EU AI Act milestones, showing how obligations and reviews are phased over several years rather than arriving all at once.*
 
