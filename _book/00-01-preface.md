@@ -9,6 +9,8 @@ nav_order: 1
 
 # Preface
 
+**Authors:** Kyi Thar, Nishat I Mowla, and Sarder Fakhrul Abedin
+
 ## Why This Book Exists
 
 AI is no longer only a technology topic. It is a leadership topic.

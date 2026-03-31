@@ -100,7 +100,7 @@ def build_combined_markdown() -> str:
     parts: list[str] = [
         "---",
         'title: "AI for Leaders"',
-        'author: "Kyi Thar"',
+        'author: "Kyi Thar, Nishat I Mowla, and Sarder Fakhrul Abedin"',
         'lang: "en-US"',
         "---",
         "",
