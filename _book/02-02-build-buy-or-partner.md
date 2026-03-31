@@ -28,6 +28,8 @@ The real question is rarely `should we build or buy AI?` in the abstract. The re
 
 That means sourcing should follow, not replace, strategy. If the use case is weak, faster procurement does not fix it. If the value depends on unique data, workflow fit, or regulatory assurance, a cheap external tool may become expensive once it has to be adapted, governed, or replaced.
 
+In some contexts, sourcing also determines regulatory pathway. A bought AI-enabled component embedded in a regulated or CE-marked product can pull the organisation into product-compliance, conformity-assessment, cybersecurity, and documentation duties that are very different from ordinary enterprise-tool adoption.[5], [42], [101]
+
 For executives, the sourcing decision is easiest to read through four lenses:
 
 | Lens | What To Ask | Why It Matters |

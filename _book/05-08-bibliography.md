@@ -418,6 +418,22 @@ This bibliography consolidates the main external sources referenced across the b
 
 [98] European Data Protection Board, “Opinion 28/2024 on certain data protection aspects related to the processing of personal data in the context of AI models,” Dec. 18, 2024. [Online]. Available: https://www.edpb.europa.eu/our-work-tools/our-documents/opinion-board-art-64/opinion-282024-certain-data-protection-aspects_en. [Accessed: Mar. 29, 2026].
 
+### <a id="altai-self-assessment"></a>ALTAI for Self-Assessment
+
+[99] European Commission, “Assessment List for Trustworthy Artificial Intelligence (ALTAI) for self-assessment,” Jul. 17, 2020. [Online]. Available: https://digital-strategy.ec.europa.eu/en/library/assessment-list-trustworthy-artificial-intelligence-altai-self-assessment. [Accessed: Mar. 31, 2026].
+
+### <a id="gpai-code-of-practice"></a>General-Purpose AI Code of Practice
+
+[100] European Commission, “General-Purpose AI Code of Practice,” 2025. [Online]. Available: https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai. [Accessed: Mar. 31, 2026].
+
+### <a id="cyber-resilience-act"></a>Cyber Resilience Act
+
+[101] European Commission, “Cyber Resilience Act,” Shaping Europe’s digital future. [Online]. Available: https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act. [Accessed: Mar. 31, 2026].
+
+### <a id="data-act-explained"></a>Data Act Explained
+
+[102] European Commission, “Data Act explained,” Shaping Europe’s digital future. [Online]. Available: https://digital-strategy.ec.europa.eu/en/policies/data-act-explained. [Accessed: Mar. 31, 2026].
+
 ## Notes on Use
 
 - This book is written for leadership audiences and uses these materials as interpretive anchors rather than as a substitute for legal advice.

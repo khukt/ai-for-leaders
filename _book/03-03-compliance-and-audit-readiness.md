@@ -58,6 +58,8 @@ The practical question is not whether documentation exists somewhere. It is whet
 
 This is also where explainability becomes a compliance issue rather than only a technical preference. The organisation may not need full model interpretability, but it does need enough explanation to support review, contestability, and defensible human oversight where the use case requires it.[52], [60], [63]
 
+For product-facing AI, the evidence burden can widen further. If the AI system sits inside a CE-marked or otherwise conformity-assessed product pathway, audit readiness becomes product-readiness too. The organisation may need technical documentation, conformity-assessment records, declaration-of-conformity evidence, post-market monitoring records, and, where applicable, notified-body interaction records in addition to its internal governance pack.[5], [42], [101]
+
 ## 3. How Should Evidence Hold Up Across The System Lifecycle?
 
 One of the most common control failures is to treat evidence as a one-time approval artifact. Real audit readiness is lifecycle readiness. It should survive deployment, change, challenge, and incident review.[2], [3], [5], [32], [82], [86]
@@ -70,6 +72,7 @@ The organisation should usually be able to show:
 - risk classification and rationale
 - testing assumptions, limits, and approval conditions
 - required human review, fallback, and escalation rules
+- for product-facing or CE-marked uses, the conformity route, required technical documentation, and product-compliance responsibilities as well[5], [42], [101]
 
 ### During Live Use
 
@@ -152,6 +155,7 @@ If the answer is no, the organisation may have policy language, but it does not 
 | **Control evidence** | Controls are described, but operating proof is missing | Testing, oversight, and review evidence can be shown quickly |
 | **Lifecycle discipline** | Evidence is refreshed only after problems occur | Change, incident, and periodic review processes update the record |
 | **Third-party assurance** | Supplier claims stand in for internal understanding | Vendor reliance boundaries and compensating controls are explicit |
+| **Product compliance evidence** | Market-access and CE-marking duties are handled outside the AI record | Product-pathway evidence sits alongside governance evidence where required |
 | **Board readiness** | Management needs reconstruction before briefing | A current one-system brief is always available for material uses |
 
 ## Final Perspective
