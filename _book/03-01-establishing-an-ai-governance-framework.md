@@ -41,7 +41,7 @@ Across OECD, NIST, and European governance frameworks, the same practical tests 
 
 The practical point is not to memorize the list. It is to use governance to force management decisions before reliance grows.
 
-Two practical European tools deserve separate mention here. **ALTAI** is a self-assessment instrument derived from the EU trustworthy AI work and is useful for testing whether governance is visible across reliability, oversight, privacy, transparency, fairness, and accountability.[12], [99] It is not binding law, but it is useful when teams need a structured internal challenge tool rather than another principles document. The **General-Purpose AI Code of Practice** is different again: it is a voluntary instrument designed to help providers of general-purpose AI models implement and demonstrate alignment with the AI Act's GPAI obligations.[5], [100]
+Two practical European tools deserve separate mention here. **ALTAI** stands for the **Assessment List for Trustworthy Artificial Intelligence**. It is a structured self-assessment tool derived from the EU trustworthy-AI work and is useful for testing whether governance is visible across reliability, oversight, privacy, transparency, fairness, and accountability.[12], [99] It is not binding law, but it is useful when teams need a structured internal challenge tool rather than another principles document. The **General-Purpose AI (GPAI) Code of Practice** is different again: it is a voluntary instrument designed mainly to help providers of general-purpose AI models implement and demonstrate alignment with the AI Act's GPAI obligations.[5], [100]
 
 ## 2. What Should Governance Decide First?
 
@@ -130,8 +130,8 @@ Leaders often collapse statutes, governance frameworks, and voluntary tools into
 | Instrument | What It Is | Who It Matters To Most | What It Is For |
 |---|---|---|---|
 | **AI Act** | Binding EU law | Providers, deployers, importers, distributors, product and compliance teams | Defines legal obligations, prohibited uses, risk-based duties, GPAI obligations, and enforcement routes |
-| **GPAI Code of Practice** | Voluntary implementation tool linked to the AI Act | Providers of general-purpose AI models and buyers performing vendor diligence | Helps translate GPAI duties into more operational expectations and evidence[100] |
-| **ALTAI** | Voluntary self-assessment tool from the EU trustworthy AI work | Governance leads, review boards, and teams building internal controls | Helps test whether trustworthy-AI criteria are visible in practice, even where the law is less specific[12], [99] |
+| **GPAI Code of Practice** | A voluntary implementation tool for **general-purpose AI** obligations under the AI Act | Providers of general-purpose AI models and buyers performing vendor diligence | Helps translate GPAI duties into more operational expectations and evidence[100] |
+| **ALTAI** | The **Assessment List for Trustworthy Artificial Intelligence**, a voluntary self-assessment tool from the EU trustworthy-AI work | Governance leads, review boards, and teams building internal controls | Helps test whether trustworthy-AI criteria are visible in practice, even where the law is less specific[12], [99] |
 | **NIST AI RMF** | Voluntary risk-management framework | Organisations building or governing AI across sectors | Provides a lifecycle structure for governing risk, controls, monitoring, and accountability[2], [32] |
 
 The management lesson is simple: the law tells the organisation what it must do, but governance tools help it decide how to operationalise that duty before a regulator, customer, or auditor forces the issue.

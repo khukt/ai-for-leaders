@@ -73,7 +73,7 @@ The practical point for leaders is simple: waiting for "full implementation" is 
 
 ### When Does CE Marking Matter?
 
-Not every AI use creates a CE-marking question. An internal drafting tool, decision-support workflow, or employee copilot may create governance, privacy, and documentation obligations without becoming a CE-marked product issue. CE marking enters the picture when AI is part of a product compliance pathway: for example when the AI system is itself regulated as a product, is a safety component of a product, or sits inside a product category governed by Union harmonisation legislation.[5], [42], [101]
+Not every AI use creates a CE-marking question. An internal drafting tool, decision-support workflow, or employee copilot may create governance, privacy, and documentation obligations without becoming a CE-marked product issue. **CE marking** is the symbol used in the European Union to show that a covered product declares conformity with the relevant EU product rules before it is placed on the market. CE marking enters the picture when AI is part of that product compliance pathway: for example when the AI system is itself regulated as a product, is a safety component of a product, or sits inside a product category governed by Union harmonisation legislation.[5], [42], [101]
 
 That distinction matters because the management model changes. Once AI enters a product-facing conformity path, the organisation may need technical documentation, a formal conformity assessment route, an EU declaration of conformity, post-market obligations, and in some cases third-party assessment by a notified body before the product can be placed on the market.[5], [42], [101]
 
@@ -101,7 +101,7 @@ The regulatory picture is also still moving. The European Commission's AI Act FA
 | **AI in higher-impact decisions** | Can we defend the decision path, oversight, and evidence? | AI Act, GDPR, sector rules | Stronger classification, review, documentation, challenge, and explainability needs |
 | **AI embedded in regulated or CE-marked products** | Does this create a product conformity and market-access pathway? | AI Act plus product legislation and, where relevant, CE marking and notified bodies | Technical documentation, conformity assessment, declaration of conformity, product assurance, post-market duties |
 | **AI in connected products or software** | Are cyber and data obligations changing the business case? | AI Act, Cyber Resilience Act, Data Act | Security-by-design, vulnerability handling, data access and switching implications, broader product evidence |
-| **GPAI reliance through vendors** | Are we dependent on providers whose obligations and evidence standards are changing? | AI Act GPAI rules, Code of Practice, contract and vendor governance | Stronger vendor diligence, transparency review, copyright and safety questions, supplier evidence expectations |
+| **GPAI reliance through vendors** | Are we dependent on providers whose obligations and evidence standards are changing? | AI Act rules for **general-purpose AI (GPAI)** models, Code of Practice, contract and vendor governance | Stronger vendor diligence, transparency review, copyright and safety questions, supplier evidence expectations |
 
 ### GDPR and AI
 
