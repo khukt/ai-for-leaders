@@ -33,8 +33,8 @@ nav_order: 1
   </div>
 
   <div style="width:340px; max-width:100%;">
-    <img src="{{ site.baseurl }}/assets/images/book_cover.png"
-         alt="AI for Management Leaders — Book Cover"
+    <img src="{{ site.baseurl }}/assets/images/book_cover.svg"
+         alt="AI for Leaders book cover"
          style="width:100%; border-radius:18px; box-shadow:0 12px 30px rgba(0,0,0,.18);" />
   </div>
 

@@ -1,0 +1,94 @@
+<svg width="1600" height="2560" viewBox="0 0 1600 2560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="156" y1="108" x2="1444" y2="2452" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#13243A"/>
+      <stop offset="0.58" stop-color="#0D1A2B"/>
+      <stop offset="1" stop-color="#09121F"/>
+    </linearGradient>
+    <radialGradient id="glowTop" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1210 424) rotate(130.602) scale(666.326 575.566)">
+      <stop stop-color="#1D3557" stop-opacity="0.52"/>
+      <stop offset="1" stop-color="#1D3557" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowBottom" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(486 2030) rotate(57.8631) scale(716.484 642.353)">
+      <stop stop-color="#10253E" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#10253E" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#D7B36A"/>
+      <stop offset="1" stop-color="#B2873E"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="320" y1="1816" x2="1280" y2="2412" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0E1B2D"/>
+      <stop offset="1" stop-color="#0A1524"/>
+    </linearGradient>
+    <filter id="shadow" x="252" y="1720" width="1096" height="748" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="18"/>
+      <feGaussianBlur stdDeviation="28"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.0117647 0 0 0 0 0.0627451 0 0 0 0 0.129412 0 0 0 0.44 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_1"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_1" result="shape"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="2560" rx="54" fill="url(#bg)"/>
+  <rect width="1600" height="2560" rx="54" fill="url(#glowTop)"/>
+  <rect width="1600" height="2560" rx="54" fill="url(#glowBottom)"/>
+  <rect x="74" y="74" width="1452" height="2412" rx="42" stroke="rgba(215,179,106,0.18)" stroke-width="2"/>
+
+  <rect x="168" y="212" width="12" height="820" rx="6" fill="url(#gold)"/>
+  <rect x="192" y="212" width="4" height="820" rx="2" fill="#E0C284" fill-opacity="0.52"/>
+
+  <text x="222" y="258" fill="#D7B36A" font-family="'Avenir Next', Avenir, Inter, Arial, sans-serif" font-size="42" font-weight="700" letter-spacing="4.2">OPEN EXECUTIVE GUIDE</text>
+
+  <text x="168" y="548" fill="#F7F4EC" font-family="Georgia, 'Times New Roman', serif" font-size="208" font-weight="700">
+    <tspan x="168" dy="0">AI for</tspan>
+    <tspan x="168" dy="212">Leaders</tspan>
+  </text>
+
+  <text x="168" y="858" fill="#A8B5C7" font-family="'Avenir Next', Avenir, Inter, Arial, sans-serif" font-size="76" font-weight="500">
+    <tspan x="168" dy="0">Strategy, Governance,</tspan>
+    <tspan x="168" dy="94">Risk, and Regulation</tspan>
+  </text>
+
+  <text x="168" y="1238" fill="#E6EDF7" font-family="'Avenir Next', Avenir, Inter, Arial, sans-serif" font-size="78" font-weight="700">
+    <tspan x="168" dy="0">An open-source executive guide</tspan>
+    <tspan x="168" dy="96">to AI adoption, accountability,</tspan>
+    <tspan x="168" dy="96">and decision-making in organizations</tspan>
+  </text>
+
+  <g opacity="0.9">
+    <circle cx="1228" cy="612" r="258" stroke="#1D3557" stroke-width="3"/>
+    <circle cx="1228" cy="612" r="184" stroke="#1D3557" stroke-width="2.5"/>
+    <circle cx="1228" cy="612" r="110" stroke="#1D3557" stroke-width="2"/>
+    <circle cx="1228" cy="612" r="38" fill="#10243A" stroke="#284B78" stroke-width="3"/>
+    <path d="M1228 354V870" stroke="#223B5E" stroke-width="2"/>
+    <path d="M970 612H1486" stroke="#223B5E" stroke-width="2"/>
+    <path d="M1046 430L1410 794" stroke="#17304D" stroke-width="1.6"/>
+    <path d="M1046 794L1410 430" stroke="#17304D" stroke-width="1.6"/>
+    <path d="M1228 612L1354 438" stroke="#D7B36A" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="1354" cy="438" r="14" fill="#D7B36A"/>
+  </g>
+
+  <path d="M168 1586C320 1561.33 484 1549 660 1549C885.333 1549 1122 1570 1370 1612" stroke="#1A2D47" stroke-width="3"/>
+  <path d="M168 1638C320 1618.67 484 1609 660 1609C885.333 1609 1122 1627 1370 1663" stroke="#15283F" stroke-width="2.4"/>
+
+  <g filter="url(#shadow)">
+    <rect x="308" y="1792" width="984" height="620" rx="36" fill="url(#panel)"/>
+    <rect x="308" y="1792" width="984" height="620" rx="36" stroke="#1B3150" stroke-width="3"/>
+  </g>
+
+  <text x="378" y="1878" fill="#D7B36A" font-family="'Avenir Next', Avenir, Inter, Arial, sans-serif" font-size="34" font-weight="700" letter-spacing="3.2">AUTHORS</text>
+
+  <line x1="378" y1="1930" x2="1222" y2="1930" stroke="#1E3553" stroke-width="2"/>
+
+  <text x="378" y="2038" fill="#F3F7FC" font-family="'Avenir Next', Avenir, Inter, Arial, sans-serif" font-size="68" font-weight="700">Kyi Thar</text>
+  <text x="378" y="2154" fill="#F3F7FC" font-family="'Avenir Next', Avenir, Inter, Arial, sans-serif" font-size="68" font-weight="700">Nishat I Mowla</text>
+  <text x="378" y="2270" fill="#F3F7FC" font-family="'Avenir Next', Avenir, Inter, Arial, sans-serif" font-size="68" font-weight="700">Sarder Fakhrul Abedin</text>
+
+  <text x="378" y="2362" fill="#8CA0BA" font-family="'Avenir Next', Avenir, Inter, Arial, sans-serif" font-size="36" font-weight="500" letter-spacing="1.2">
+    Leadership • Policy • Trust • Oversight • Strategy • Governance
+  </text>
+</svg>
