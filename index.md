@@ -12,7 +12,7 @@ nav_order: 1
       <strong>An open-source executive guide to AI strategy, regulation, governance, and risk</strong>
     </p>
     <p style="margin-top:6px; color:#52657d;">
-      By <strong>Kyi Thar</strong>, <strong>Nishat I Mowla</strong>, and <strong>Sarder Fakhrul Abedin</strong>
+      By <strong>Kyi Thar</strong>, <strong>Nishat I Mowla</strong>, <strong>Sarder Fakhrul Abedin</strong>, and <strong>Mikael Gidlund</strong>
     </p>
 
     <p><strong>AI is no longer an IT topic. It is a leadership topic.</strong></p>

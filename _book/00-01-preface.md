@@ -9,7 +9,7 @@ nav_order: 1
 
 # Preface
 
-**Authors:** Kyi Thar, Nishat I Mowla, and Sarder Fakhrul Abedin
+**Authors:** Kyi Thar, Nishat I Mowla, Sarder Fakhrul Abedin, and Mikael Gidlund
 
 ## Why This Book Exists
 

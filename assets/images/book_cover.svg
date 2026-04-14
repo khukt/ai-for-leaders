@@ -84,11 +84,12 @@
 
   <line x1="378" y1="1930" x2="1222" y2="1930" stroke="#1E3553" stroke-width="2"/>
 
-  <text x="378" y="2038" fill="#F3F7FC" font-family="'Avenir Next', Avenir, Inter, Arial, sans-serif" font-size="68" font-weight="700">Kyi Thar</text>
-  <text x="378" y="2154" fill="#F3F7FC" font-family="'Avenir Next', Avenir, Inter, Arial, sans-serif" font-size="68" font-weight="700">Nishat I Mowla</text>
-  <text x="378" y="2270" fill="#F3F7FC" font-family="'Avenir Next', Avenir, Inter, Arial, sans-serif" font-size="68" font-weight="700">Sarder Fakhrul Abedin</text>
+  <text x="378" y="2020" fill="#F3F7FC" font-family="'Avenir Next', Avenir, Inter, Arial, sans-serif" font-size="58" font-weight="700">Kyi Thar</text>
+  <text x="378" y="2120" fill="#F3F7FC" font-family="'Avenir Next', Avenir, Inter, Arial, sans-serif" font-size="58" font-weight="700">Nishat I Mowla</text>
+  <text x="378" y="2220" fill="#F3F7FC" font-family="'Avenir Next', Avenir, Inter, Arial, sans-serif" font-size="58" font-weight="700">Sarder Fakhrul Abedin</text>
+  <text x="378" y="2320" fill="#F3F7FC" font-family="'Avenir Next', Avenir, Inter, Arial, sans-serif" font-size="58" font-weight="700">Mikael Gidlund</text>
 
-  <text x="378" y="2362" fill="#8CA0BA" font-family="'Avenir Next', Avenir, Inter, Arial, sans-serif" font-size="36" font-weight="500" letter-spacing="1.2">
+  <text x="378" y="2388" fill="#8CA0BA" font-family="'Avenir Next', Avenir, Inter, Arial, sans-serif" font-size="32" font-weight="500" letter-spacing="1.1">
     Leadership • Policy • Trust • Oversight • Strategy • Governance
   </text>
 </svg>
